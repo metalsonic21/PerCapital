@@ -27,7 +27,7 @@
     <title>Per Capital @yield('title')</title>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="landing-page">
         <disclaimer></disclaimer>
         <navigation></navigation>
         <slider></slider>

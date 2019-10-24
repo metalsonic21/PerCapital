@@ -2,7 +2,7 @@
 <div>
     <div class=swiper-container>
         <div class=swiper-wrapper data-swiper-autoplay=2000>
-            <div class=swiper-slide style=background-image:url(img/content/slide-1.jpg)> <br>
+            <div class=swiper-slide style=background-image:url(img/content/landing/slide-1.jpg)> <br>
                 <h3 data-caption-animate=fadeInUp>Finanzas inteligentes</h3>
                 <h5>El momento es ahora: Invierte, avanza</h5>
                 <div class="container text-center">
@@ -13,7 +13,7 @@
                         Premium para el pequeño y mediano inversionista.</p>
                 </div>
             </div>
-            <div class=swiper-slide style=background-image:url(img/content/slide-3.jpg)> <br>
+            <div class=swiper-slide style=background-image:url(img/content/landing/slide-3.jpg)> <br>
                 <h3 data-caption-animate=fadeInUp>Finalmente, puedes empezar</h3>
                 <div class="container">
                     <h5>PER CAPITAL ofrece fácil acceso a oportunidades de inversión Premium en el<br>
@@ -27,7 +27,7 @@
 
             </div>
 
-            <div class=swiper-slide style=background-image:url(img/content/slide-2.jpg)> <h3 data-caption-animate=fadeInUp>Elige tu perfil de inversionista</h3>
+            <div class=swiper-slide style=background-image:url(img/content/landing/slide-2.jpg)> <h3 data-caption-animate=fadeInUp>Elige tu perfil de inversionista</h3>
                 <b-container>
                     <b-row>
                         <b-col cols="6" md="6" sm="6">
@@ -56,7 +56,7 @@
                 </b-container>
             </div>
 
-            <div class=swiper-slide style=background-image:url(img/content/slide-4.jpg)> <h3 data-caption-animate=fadeInUp>Aviso legal</h3>
+            <div class=swiper-slide style=background-image:url(img/content/landing/slide-4.jpg)> <h3 data-caption-animate=fadeInUp>Aviso legal</h3>
                 <h5>“No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente <br>
                     los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un <br>
                     comportamiento similar a aquel que fundamento la presente recomendación”<br><br>

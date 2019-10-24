@@ -5,8 +5,8 @@
             <div class=row>
                 <div class="col-xs-12 col-md-9">
                     <ul class=top-bar-info>
-                        <li><i class="fa fa-phone"></i> Teléfono: +1-23-456789</li>
-                        <li><i class="fa fa-envelope-o"></i>Email: example@email.com</li>
+                        <li><i class="fa fa-phone"></i> Teléfono: 0800-capital</li>
+                        <li><i class="fa fa-envelope-o"></i>Email: info@percapital.com</li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-3">
@@ -24,7 +24,7 @@
         <b-container>
             <b-navbar toggleable="lg">
                 <b-navbar-brand href="#">
-                    <b-img thumbnail src="/img/logo/Simbolo-Per-Capital-azul.png" width="80" height="30"></b-img>
+                    <b-img thumbnail src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110"></b-img>
                 </b-navbar-brand>
 
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -34,9 +34,13 @@
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item right href="#">Inicio</b-nav-item>
                         <b-nav-item right href="#one">Características</b-nav-item>
+                        <b-nav-item right href="#three">La empresa</b-nav-item>
+                        <b-nav-item right href="#four">Equipo</b-nav-item>
+                        <b-nav-item right href="#five">Fondos</b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar>
+            <br>
         </b-container>
 
     </header>
