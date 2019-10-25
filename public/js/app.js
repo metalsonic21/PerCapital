@@ -11646,6 +11646,60 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -11956,6 +12010,80 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -11969,11 +12097,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
 //
 //
 //
@@ -77173,10 +77296,170 @@ var render = function() {
         ],
         1
       )
-    ])
+    ]),
+    _vm._v(" "),
+    _vm._m(0),
+    _vm._m(1)
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", { staticClass: "footer" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-12 col-sm-6 col-md-3" }, [
+            _c("a", { attrs: { href: "#" } }, [
+              _c("img", {
+                attrs: {
+                  alt: "logo",
+                  src: "/img/logo/Logo-Per-Capital-horizontal-original.png"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-content white-color" }, [
+              _c("h5", [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-12 col-sm-6 col-md-3" }, [
+            _c("div", { staticClass: "footer-heading" }, [
+              _c("h4", [_vm._v("Contact Us")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "footer-contact" }, [
+              _c("ul", [
+                _c("li", [
+                  _c("i", { staticClass: "fa fa-map-marker" }),
+                  _vm._v("West road, London, England Seram 113")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("i", { staticClass: "fa fa-clock-o" }),
+                  _vm._v("Tusday-Monday : 9:00am-6:00pm")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("i", { staticClass: "fa fa-envelope-o" }),
+                  _vm._v("Email: example@email.com")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("i", { staticClass: "fa fa-phone" }),
+                  _vm._v(" Phone: +1-23-456789")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-12 col-sm-6 col-md-3" }, [
+            _c("div", { staticClass: "footer-heading" }, [
+              _c("h4", [_vm._v("Categories")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mt-20 footer-menu" }, [
+              _c("ul", [
+                _c("li", [
+                  _c("a", { attrs: { href: "about-company.html" } }, [
+                    _vm._v("About")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "services.html" } }, [
+                    _vm._v("Services")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "blog-grid.html" } }, [
+                    _vm._v("Blog")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "contact.html" } }, [
+                    _vm._v("Contact")
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-12 col-sm-6 col-md-3" }, [
+            _c("div", { staticClass: "footer-heading" }, [
+              _c("h4", [_vm._v("Newsletter")])
+            ]),
+            _vm._v(" "),
+            _c("form", { staticClass: "footer-form mt-30" }, [
+              _c("input", {
+                attrs: {
+                  name: "email",
+                  placeholder: "E-mail adress",
+                  type: "email"
+                }
+              }),
+              _vm._v(" "),
+              _c("button", { staticClass: "button button-simple full-width" }, [
+                _vm._v("Subscribe")
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "center-holder footer-social-link mt-30" },
+              [
+                _c("ul", [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", { staticClass: "fa fa-facebook" })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", { staticClass: "fa fa-twitter" })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", { staticClass: "fa fa-instagram" })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", { staticClass: "fa fa-pinterest" })
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "scroll-to-top", attrs: { href: "#" } }, [
+      _c("i", {
+        staticClass: "fa fa-angle-up",
+        attrs: { "aria-hidden": "true" }
+      })
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -77201,13 +77484,13 @@ var render = function() {
   return _c("div", { staticClass: "landing-page" }, [
     _vm._m(0),
     _vm._v(" "),
-    _c("div", { attrs: { id: "two" } }, [
+    _c("div", { attrs: { id: "" } }, [
       _c(
         "div",
         {
           staticClass: "parallax-section",
           staticStyle: {
-            "background-image": "url(img/content/landing/section-bg1.jpg)"
+            "background-image": "url(img/content/landing/section-bg2.jpg)"
           }
         },
         [
@@ -77262,7 +77545,7 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("div", { attrs: { id: "three" } }, [
+    _c("div", { attrs: { id: "empresa" } }, [
       _c("div", { staticClass: "block-section grey-section" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
@@ -77292,18 +77575,125 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(4),
+    _c("section", { staticClass: "timeline gray-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(4),
+        _vm._v(" "),
+        _c("div", { staticClass: "row features-block" }, [
+          _c("div", { staticClass: "col-lg-12" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "vertical-container light-timeline center-orientation",
+                attrs: { id: "vertical-timeline" }
+              },
+              [
+                _c("div", { staticClass: "vertical-timeline-block" }, [
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "vertical-timeline-content" },
+                    [
+                      _c("h2", [
+                        _vm._v(
+                          "Escoger entre inversiones diseñadas para fácil salida"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.\r\n\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-img", {
+                        staticClass: "vertical-date",
+                        attrs: {
+                          fluid: "",
+                          src: "/img/content/landing/money-5.png"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "vertical-timeline-block" }, [
+                  _vm._m(6),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "vertical-timeline-content" },
+                    [
+                      _c("h2", [
+                        _vm._v(
+                          "Supervisión, control y transparencia financiera"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n\r\n                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-img", {
+                        staticClass: "vertical-date",
+                        attrs: {
+                          fluid: "",
+                          src: "/img/content/landing/supervision-2.png"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "vertical-timeline-block" }, [
+                  _vm._m(7),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "vertical-timeline-content" },
+                    [
+                      _c("h2", [_vm._v("Experiencia y conocimiento")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-img", {
+                        staticClass: "vertical-date",
+                        attrs: {
+                          fluid: "",
+                          src: "/img/content/landing/money-4.png"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ])
+              ]
+            )
+          ])
+        ])
+      ])
+    ]),
     _vm._v(" "),
-    _c("section", { staticClass: "features", attrs: { id: "four" } }, [
+    _c("section", { staticClass: "features", attrs: { id: "equipo" } }, [
       _c(
         "div",
         { staticClass: "container" },
         [
-          _vm._m(5),
+          _vm._m(8),
           _vm._v(" "),
-          _vm._m(6),
+          _vm._m(9),
           _vm._v(" "),
-          _vm._m(7),
+          _vm._m(10),
           _vm._v(" "),
           _c(
             "b-row",
@@ -77320,7 +77710,9 @@ var render = function() {
                   _vm._v(" "),
                   _c("h2", [_vm._v("Legal")]),
                   _vm._v(" "),
-                  _c("i", { staticClass: "fa fa-users big-icon float-right" }),
+                  _c("i", {
+                    staticClass: "fa fa-balance-scale big-icon float-right"
+                  }),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
@@ -77337,179 +77729,11 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "block-section grey-section", attrs: { id: "five" } },
-      [
-        _c("div", { staticClass: "container" }, [
-          _vm._m(8),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "mt-70" },
-            [
-              _c(
-                "b-row",
-                [
-                  _c(
-                    "b-col",
-                    { attrs: { cols: "12", xs: "12", md: "12", sm: "12" } },
-                    [
-                      _c(
-                        "div",
-                        { staticClass: "pricing-box" },
-                        [
-                          _c("h3", { attrs: { align: "center" } }, [
-                            _vm._v("Información de interés")
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group",
-                            [
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Fecha de inicio")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    xx.xx.xxxx\r\n                                "
-                                  )
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Comprativo")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    Índice general BVC\r\n                                "
-                                  )
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Sector de inversión")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    BVC\r\n                                "
-                                  )
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Fecha cierre")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    xx.xx.xxxx\r\n                                "
-                                  )
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Pricing")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    10 am diario\r\n                                "
-                                  )
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("b-list-group-item", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex w-100 justify-content-between"
-                                  },
-                                  [
-                                    _c("h5", { staticClass: "mb-1" }, [
-                                      _vm._v("Inversión mínima")
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "mb-1" }, [
-                                  _vm._v(
-                                    "\r\n                                    Bs 330.000,00\r\n                                "
-                                  )
-                                ])
-                              ])
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _vm._m(9)
-            ],
-            1
-          )
-        ])
-      ]
-    )
+    _vm._m(11),
+    _vm._v(" "),
+    _vm._m(12),
+    _vm._v(" "),
+    _vm._m(13)
   ])
 }
 var staticRenderFns = [
@@ -77517,7 +77741,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "one" } }, [
+    return _c("div", { attrs: { id: "caracteristicas" } }, [
       _c("div", { staticClass: "block-section" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "center-holder main-heading" }, [
@@ -77649,7 +77873,7 @@ var staticRenderFns = [
           staticClass: "image-shadow",
           attrs: {
             alt: "about-image",
-            src: "img/content/landing/consulting.jpg"
+            src: "img/content/landing/consulting-2.png"
           }
         })
       ]
@@ -77659,84 +77883,36 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "timeline gray-section" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-lg-12 text-center" }, [
-            _c("div", { staticClass: "navy-line" }),
-            _vm._v(" "),
-            _c("h1", [_vm._v("Nuestras características")])
-          ])
-        ]),
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-lg-12 text-center" }, [
+        _c("div", { staticClass: "navy-line" }),
         _vm._v(" "),
-        _c("div", { staticClass: "row features-block" }, [
-          _c("div", { staticClass: "col-lg-12" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "vertical-container light-timeline center-orientation",
-                attrs: { id: "vertical-timeline" }
-              },
-              [
-                _c("div", { staticClass: "vertical-timeline-block" }, [
-                  _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
-                    _c("i", { staticClass: "fa fa-briefcase" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "vertical-timeline-content" }, [
-                    _c("h2", [
-                      _vm._v(
-                        "Escoger entre inversiones diseñadas para fácil salida"
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.\r\n\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n                            "
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "vertical-timeline-block" }, [
-                  _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
-                    _c("i", { staticClass: "fa fa-file-text" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "vertical-timeline-content" }, [
-                    _c("h2", [
-                      _vm._v("Supervisión, control y transparencia financiera")
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n\r\n                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes."
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "vertical-timeline-block" }, [
-                  _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
-                    _c("i", { staticClass: "fa fa-cogs" })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "vertical-timeline-content" }, [
-                    _c("h2", [_vm._v("Experiencia y conocimiento")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes."
-                      )
-                    ])
-                  ])
-                ])
-              ]
-            )
-          ])
-        ])
+        _c("h1", [_vm._v("Nuestras actividades")])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
+      _c("i", { staticClass: "fa fa-briefcase" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
+      _c("i", { staticClass: "fa fa-file-text" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "vertical-timeline-icon navy-bg" }, [
+      _c("i", { staticClass: "fa fa-cogs" })
     ])
   },
   function() {
@@ -77761,7 +77937,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", [_vm._v("Gerente general")]),
         _vm._v(" "),
-        _c("i", { staticClass: "fa fa-bar-chart big-icon float-right" }),
+        _c("i", { staticClass: "fa fa-user big-icon float-right" }),
         _vm._v(" "),
         _c("p", [
           _vm._v(
@@ -77775,7 +77951,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", [_vm._v("Finanzas ")]),
         _vm._v(" "),
-        _c("i", { staticClass: "fa fa-bolt big-icon float-right" }),
+        _c("i", { staticClass: "fa fa-bar-chart big-icon float-right" }),
         _vm._v(" "),
         _c("p", [
           _vm._v(
@@ -77809,7 +77985,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", [_vm._v("Finanzas corporativas ")]),
         _vm._v(" "),
-        _c("i", { staticClass: "fa fa-users big-icon float-right" }),
+        _c("i", { staticClass: "fa fa-money big-icon float-right" }),
         _vm._v(" "),
         _c("p", [
           _vm._v(
@@ -77825,18 +78001,42 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "center-holder main-heading text-justify" },
+      { staticClass: "block-section", attrs: { id: "fondos" } },
       [
-        _c("h3", { attrs: { align: "center" } }, [_vm._v("Fondos")]),
-        _vm._v(" "),
-        _c("h5", { attrs: { align: "center" } }, [
-          _vm._v("PER CAPITAL Fondo Mutual de Inversion de Capital Abierto")
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
-          )
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "div",
+            { staticClass: "center-holder main-heading text-justify" },
+            [
+              _c("div", { staticClass: "navy-line" }),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("h4", { attrs: { align: "center" } }, [_vm._v("Fondos")]),
+              _vm._v(" "),
+              _c("h5", { attrs: { align: "center" } }, [
+                _vm._v(
+                  "PER CAPITAL Fondo Mutual de Inversion de Capital Abierto"
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mt-70" }, [
+            _c("div", { staticClass: "text-center" }, [
+              _c("small", { attrs: { align: "center" } }, [
+                _vm._v(
+                  "ANALIZAMOS TODAS NUESTRAS INVERSIONES BAJO UN CONTEXTO GLOBAL, VIENDONOS COMO PARTE DE UN TODO."
+                )
+              ])
+            ])
+          ])
         ])
       ]
     )
@@ -77845,13 +78045,248 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center" }, [
-      _c("small", { attrs: { align: "center" } }, [
-        _vm._v(
-          "ANALIZAMOS TODAS NUESTRAS INVERSIONES BAJO UN CONTEXTO GLOBAL, VIENDONOS COMO PARTE DE UN TODO."
-        )
-      ])
-    ])
+    return _c(
+      "section",
+      {
+        staticClass: "comments gray-section",
+        staticStyle: { "margin-top": "0" },
+        attrs: { id: "riesgos" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12 text-center" }, [
+              _c("div", { staticClass: "navy-line" }),
+              _vm._v(" "),
+              _c("h1", [_vm._v("Riesgos")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row features-block" }, [
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                    Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera.\r\n                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                            Riesgo general\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                    La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la "
+                ),
+                _c("a", { attrs: { href: "http://www.cajavenezolana.com" } }, [
+                  _vm._v("Caja Venezolana de Valores")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                            Custodia\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                    El fondo está expuesto al riesgo de un único mercado y de una sola moneda.\r\n                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                            País\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row features-block" }, [
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                    El fondo tiene exposición a monedas extranjeras por lo que los cambios en las tasas de cambio pueden producir aumentos o disminución del valor de la inversión y las ganancias obtenidas.\r\n                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                            Moneda/Cambiario\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                    El precio de la Unidad de Inversión del fondo puede variar debido al movimiento de precio de los activos que lo componen.\r\n                "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                            Volatilidad\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "container services", attrs: { id: "invertir" } },
+      [
+        _c("div", { staticClass: "navy-line" }),
+        _vm._v(" "),
+        _c("h1", { attrs: { align: "center" } }, [_vm._v("¿Cómo invertir?")]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm-3" }, [
+            _c("h2", [_vm._v("Perfil de inversionista")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-3" }, [
+            _c("h2", [_vm._v("Plazo de inversión")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Seleccione el plazo deseado para su inversión (corto, mediano o largo)"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-3" }, [
+            _c("h2", [_vm._v("Fondo")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Seleccione el fondo de su preferencia que se ajuste más a sus objetivos"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-3" }, [
+            _c("h2", [_vm._v("Regístrate")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.\r\n            "
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "a",
+                {
+                  staticClass: "navy-link",
+                  attrs: { href: "#", role: "button" }
+                },
+                [_vm._v("Haga click aquí »")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("small", { staticClass: "text-center" }, [
+          _vm._v(
+            "También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada via e-mail en donde encontrará el procedimiento para empezar."
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("small", { staticClass: "text-center" }, [
+          _c("strong", [_vm._v(" Contacto: solicitud@percapital.com")])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -77921,26 +78356,32 @@ var render = function() {
                         _vm._v(" "),
                         _c(
                           "b-nav-item",
-                          { attrs: { right: "", href: "#one" } },
+                          { attrs: { right: "", href: "#caracteristicas" } },
                           [_vm._v("Características")]
                         ),
                         _vm._v(" "),
                         _c(
                           "b-nav-item",
-                          { attrs: { right: "", href: "#three" } },
+                          { attrs: { right: "", href: "#empresa" } },
                           [_vm._v("La empresa")]
                         ),
                         _vm._v(" "),
                         _c(
                           "b-nav-item",
-                          { attrs: { right: "", href: "#four" } },
-                          [_vm._v("Equipo")]
+                          { attrs: { right: "", href: "#fondos" } },
+                          [_vm._v("Fondos")]
                         ),
                         _vm._v(" "),
                         _c(
                           "b-nav-item",
-                          { attrs: { right: "", href: "#five" } },
-                          [_vm._v("Fondos")]
+                          { attrs: { right: "", href: "#riesgos" } },
+                          [_vm._v("Riesgos")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-nav-item",
+                          { attrs: { right: "", href: "#invertir" } },
+                          [_vm._v("Cómo invertir")]
                         )
                       ],
                       1
@@ -77979,28 +78420,6 @@ var staticRenderFns = [
               _c("li", [
                 _c("i", { staticClass: "fa fa-envelope-o" }),
                 _vm._v("Email: info@percapital.com")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-xs-12 col-md-3" }, [
-            _c("ul", { staticClass: "hidden-sm social-icons" }, [
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "fa fa-facebook" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "fa fa-twitter" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "fa fa-instagram" })
-                ])
               ])
             ])
           ])

@@ -7610,60 +7610,6 @@ ol.unstyled {
 }
 
 
-/* FOOTER */
-
-.footer {
-    background: none repeat scroll 0 0 white;
-    border-top: 1px solid #e7eaec;
-    bottom: 0;
-    left: 0;
-    padding: 10px 20px;
-    position: absolute;
-    right: 0;
-}
-
-.footer.fixed_full {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 10px 20px;
-    background: white;
-    border-top: 1px solid #e7eaec;
-}
-
-.footer.fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 10px 20px;
-    background: white;
-    border-top: 1px solid #e7eaec;
-    margin-left: 220px;
-}
-
-body.mini-navbar .footer.fixed,
-body.body-small.mini-navbar .footer.fixed {
-    margin: 0 0 0 70px;
-}
-
-body.mini-navbar.canvas-menu .footer.fixed,
-body.canvas-menu .footer.fixed {
-    margin: 0 !important;
-}
-
-body.fixed-sidebar.body-small.mini-navbar .footer.fixed {
-    margin: 0 0 0 220px;
-}
-
-body.body-small .footer.fixed {
-    margin-left: 0;
-}
-
-
 /* PANELS */
 
 .panel-title>.small,
@@ -12113,13 +12059,12 @@ body.landing-page {
 .landing-page .comments-avatar img {
     width: 42px;
     height: 42px;
-    border-radius: 50%;
     margin-right: 10px;
 }
 
 .landing-page .bubble {
     position: relative;
-    height: 120px;
+    height: 140px;
     padding: 20px;
     background: #FFFFFF;
     -webkit-border-radius: 10px;

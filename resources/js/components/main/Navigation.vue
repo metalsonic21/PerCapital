@@ -9,13 +9,7 @@
                         <li><i class="fa fa-envelope-o"></i>Email: info@percapital.com</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-3">
-                    <ul class="hidden-sm social-icons">
-                        <li><a href=#><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=#><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=#><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </div>
@@ -33,10 +27,11 @@
 
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item right href="#">Inicio</b-nav-item>
-                        <b-nav-item right href="#one">Características</b-nav-item>
-                        <b-nav-item right href="#three">La empresa</b-nav-item>
-                        <b-nav-item right href="#four">Equipo</b-nav-item>
-                        <b-nav-item right href="#five">Fondos</b-nav-item>
+                        <b-nav-item right href="#caracteristicas">Características</b-nav-item>
+                        <b-nav-item right href="#empresa">La empresa</b-nav-item>
+                        <b-nav-item right href="#fondos">Fondos</b-nav-item>
+                        <b-nav-item right href="#riesgos">Riesgos</b-nav-item>
+                        <b-nav-item right href="#invertir">Cómo invertir</b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar>

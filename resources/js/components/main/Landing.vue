@@ -1,6 +1,6 @@
 <template>
 <div class="landing-page">
-    <div id="one">
+    <div id="caracteristicas">
         <div class=block-section>
             <div class=container>
                 <div class="center-holder main-heading">
@@ -45,8 +45,8 @@
     </div>
 
     <!-- INDICATORS -->
-    <div id="two">
-        <div class=parallax-section style=background-image:url(img/content/landing/section-bg1.jpg)> <div class=container>
+    <div id="">
+        <div class=parallax-section style=background-image:url(img/content/landing/section-bg2.jpg)> <div class=container>
             <h3 style="color:white;" align="center">Los números cuentan</h3>
             <h5 style="color:white" align="center">Indicadores:</h5>
             <br>
@@ -72,7 +72,7 @@
 
 <!-- ABOUT -->
 
-<div id="three">
+<div id="empresa">
     <div class="block-section grey-section">
         <div class=container>
             <div class=row>
@@ -86,7 +86,7 @@
                     </div>
                     <b-button class="button button-simple mb-20 mt-20" variant="dark" size="lg">Ver más</b-button>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-1"><img alt=about-image src=img/content/landing/consulting.jpg class=image-shadow></div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-1"><img alt=about-image src=img/content/landing/consulting-2.png class=image-shadow></div>
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>Nuestras características</h1>
+                <h1>Nuestras actividades</h1>
             </div>
         </div>
         <div class="row features-block">
@@ -115,6 +115,9 @@
 
                                 Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.
                             </p>
+
+                            <b-img fluid class="vertical-date" src="/img/content/landing/money-5.png"></b-img>
+
                         </div>
                     </div>
 
@@ -130,6 +133,8 @@
                                 Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.
 
                                 Reportes periódicos son emitidos para mantener informados a nuestros clientes.</p>
+                            <b-img fluid class="vertical-date" src="/img/content/landing/supervision-2.png"></b-img>
+
                         </div>
                     </div>
 
@@ -145,6 +150,8 @@
                                 Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.
 
                                 Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes.</p>
+                            <b-img fluid class="vertical-date" src="/img/content/landing/money-4.png"></b-img>
+
                         </div>
                     </div>
 
@@ -158,7 +165,7 @@
 
 <!-- TEAM -->
 
-<section class="features" id="four">
+<section class="features" id="equipo">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -170,13 +177,13 @@
             <div class="col-lg-5 col-lg-offset-1 features-text">
                 <small>Per Capital</small>
                 <h2>Gerente general</h2>
-                <i class="fa fa-bar-chart big-icon float-right"></i>
+                <i class="fa fa-user big-icon float-right"></i>
                 <p>Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
             </div>
             <div class="col-lg-5 features-text">
                 <small>Per Capital</small>
                 <h2>Finanzas </h2>
-                <i class="fa fa-bolt big-icon float-right"></i>
+                <i class="fa fa-bar-chart big-icon float-right"></i>
                 <p>Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo.</p>
             </div>
         </div>
@@ -190,7 +197,7 @@
             <div class="col-lg-5 features-text">
                 <small>Per Capital</small>
                 <h2>Finanzas corporativas </h2>
-                <i class="fa fa-users big-icon float-right"></i>
+                <i class="fa fa-money big-icon float-right"></i>
                 <p>Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital.</p>
             </div>
         </div>
@@ -199,7 +206,7 @@
             <b-col cols="5" lg="5" class="offset-1 features-text">
                 <small>Per Capital</small>
                 <h2>Legal</h2>
-                <i class="fa fa-users big-icon float-right"></i>
+                <i class="fa fa-balance-scale big-icon float-right"></i>
                 <p>Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos.</p>
             </b-col>
         </b-row>
@@ -207,90 +214,157 @@
 
 </section>
 
-<!-- FONDOS -->
+<!-- FUNDINGS -->
 
-<div class="block-section grey-section" id="five">
+<div class="block-section" id="fondos">
     <div class="container">
         <div class="center-holder main-heading text-justify">
-            <h3 align="center">Fondos</h3>
+            <div class="navy-line"></div>
+            <br>
+            <h4 align="center">Fondos</h4>
             <h5 align="center">PER CAPITAL Fondo Mutual de Inversion de Capital Abierto</h5>
             <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
         </div>
 
         <div class="mt-70">
-            <b-row>
-                <b-col cols="12" xs="12" md="12" sm="12">
-                    <div class="pricing-box">
-                        <h3 align="center">Información de interés</h3>
-                        <b-list-group>
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Fecha de inicio</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    xx.xx.xxxx
-                                </p>
-                            </b-list-group-item>
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Comprativo</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    Índice general BVC
-                                </p>
-                            </b-list-group-item>
-
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Sector de inversión</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    BVC
-                                </p>
-                            </b-list-group-item>
-
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Fecha cierre</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    xx.xx.xxxx
-                                </p>
-                            </b-list-group-item>
-
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Pricing</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    10 am diario
-                                </p>
-                            </b-list-group-item>
-
-                            <b-list-group-item>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">Inversión mínima</h5>
-                                </div>
-
-                                <p class="mb-1">
-                                    Bs 330.000,00
-                                </p>
-                            </b-list-group-item>
-                        </b-list-group>
-                    </div>
-                </b-col>
-            </b-row>
             <div class="text-center">
                 <small align="center">ANALIZAMOS TODAS NUESTRAS INVERSIONES BAJO UN CONTEXTO GLOBAL, VIENDONOS COMO PARTE DE UN TODO.</small>
             </div>
         </div>
     </div>
 </div>
+
+<!-- RISKS -->
+<!-- RISKS ROW 1-->
+
+<section class="comments gray-section" style="margin-top: 0" id="riesgos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Riesgos</h1>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-4">
+                <div class="bubble">
+                    Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/content/landing/warning.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Riesgo general
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la <a href="http://www.cajavenezolana.com">Caja Venezolana de Valores</a>
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/content/landing/warning.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Custodia
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    El fondo está expuesto al riesgo de un único mercado y de una sola moneda.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/content/landing/warning.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            País
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RISKS ROW 2 -->
+        <div class="row features-block">
+            <div class="col-lg-4">
+                <div class="bubble">
+                    El fondo tiene exposición a monedas extranjeras por lo que los cambios en las tasas de cambio pueden producir aumentos o disminución del valor de la inversión y las ganancias obtenidas.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/content/landing/warning.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Moneda/Cambiario
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    El precio de la Unidad de Inversión del fondo puede variar debido al movimiento de precio de los activos que lo componen.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/content/landing/warning.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Volatilidad
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- HOW TO INVEST -->
+<section id="invertir" class="container services">
+    <div class="navy-line"></div>
+    <h1 align="center">¿Cómo invertir?</h1>
+    <br>
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Perfil de inversionista</h2>
+            <p>Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)</p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Plazo de inversión</h2>
+            <p>Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Fondo</h2>
+            <p>Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Regístrate</h2>
+            <p>Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
+            </p>
+            <p><a class="navy-link" href="#" role="button">Haga click aquí &raquo;</a></p>
+        </div>
+    </div>
+
+    <small class="text-center">También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada via e-mail en donde encontrará el procedimiento para empezar.</small>
+    <br>
+    <small class="text-center"> <strong> Contacto: solicitud@percapital.com</strong></small>
+</section>
 
 </div>
 </template>
