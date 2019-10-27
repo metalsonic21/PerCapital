@@ -254,6 +254,10 @@
     color: #fff !important
 }
 
+.black-color {
+    color: #000000 !important
+}
+
 .white-color h1,
 .white-color h2,
 .white-color h3,
@@ -1145,7 +1149,7 @@
 
 .pricing-box strong {
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 43px;
     font-weight: 300;
     color: #343434;
@@ -1473,7 +1477,7 @@
 }
 
 .footer {
-    background-color: #292b33;
+    background-color: #ffffff;
     padding: 60px 0
 }
 
@@ -1486,7 +1490,7 @@
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #fff
+    color: #000000
 }
 
 @media screen and (max-width:991px) {
@@ -1499,18 +1503,18 @@
     display: block;
     font-size: 13px;
     font-weight: 500;
-    color: #fff;
+    color: #000000;
     padding-top: 20px
 }
 
 .footer-contact ul li i {
-    color: #1d9bd4;
+    color: #859da9;
     font-size: 18px;
     margin-right: 15px
 }
 
 .footer-contact ul li a {
-    color: #fff
+    color: #000000
 }
 
 .footer-social-link ul li {
@@ -1519,12 +1523,12 @@
 
 .footer-social-link ul li a {
     font-size: 15px;
-    color: #fff;
+    color: #000000;
     padding: 15px
 }
 
 .footer-social-link ul li a:hover {
-    color: #1d9bd4
+    color: #859da9
 }
 
 .footer-menu ul {
@@ -1539,7 +1543,7 @@
 .footer-menu ul li a {
     font-size: 14px;
     font-weight: 500;
-    color: #fff
+    color: #000000
 }
 
 .footer-menu ul li:before {
@@ -1547,7 +1551,7 @@
     font-family: FontAwesome;
     font-size: 18px;
     margin-right: 10px;
-    color: #1d9bd4
+    color: #859da9
 }
 
 .project-detail {
@@ -1933,17 +1937,10 @@
  *
 */
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons-halflings-regulard41d.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg') format('svg');
-}
-
 .glyphicon {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -6756,7 +6753,7 @@ a.forum-item-title:hover {
     border-radius: 3px;
     background: #292929;
     color: white;
-    font-family: sans-serif, Verdana;
+    font-family: sans-serif, Helvetica;
     font-size: smaller;
     padding: 5px;
 }

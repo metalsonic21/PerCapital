@@ -13,6 +13,8 @@
                         Premium para el pequeño y mediano inversionista.</p>
                 </div>
             </div>
+
+            <!--
             <div class=swiper-slide style=background-image:url(img/content/landing/slide-3.jpg)> <br>
                 <h3 data-caption-animate=fadeInUp>Finalmente, puedes empezar</h3>
                 <div class="container">
@@ -26,7 +28,7 @@
                 </div>
 
             </div>
-
+            -->
             <div class=swiper-slide style=background-image:url(img/content/landing/slide-2.jpg)> <h3 data-caption-animate=fadeInUp>Elige tu perfil de inversionista</h3>
                 <b-container>
                     <b-row>

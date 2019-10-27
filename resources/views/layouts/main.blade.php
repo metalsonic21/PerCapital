@@ -17,9 +17,6 @@
     <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&amp;subset=latin-ext,vietnamese"
-        rel=stylesheet>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel=stylesheet>
 
     <script src="{{ asset('js/app.js') }}" defer></script>
 

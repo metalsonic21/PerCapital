@@ -1,9 +1,8 @@
 <template>
 <div>
-<div class=block-section>
+<div class="block-section gray-section">
     <div class=container>
         <b-col cols="11" md="11">
-            <p class="text-center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</p>
         <div class="owl-carousel owl-theme partners" id=our-partners>
             <div class=item><img alt=partner-image src=img/content/landing/bcv.png> </div>
             <div class=item><img alt=partner-image src=img/content/landing/bdc.png> </div>
@@ -18,51 +17,70 @@
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href=#><img alt=logo src="/img/logo/Logo-Per-Capital-horizontal-original.png"> </a>
-                <div class="text-content white-color">
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                <a href=#><img alt=logo src="/img/logo/PastedGraphic-1-3.jpeg"> </a>
+                <div class="text-content black-color">
+                    <br>
+                    <h5 style="color:black">0800-CAPITAL</h5>
+                    <h5 style="color:black">info@percapital</h5>
+                    <h5 style="color:black">Caracas-Venezuela</h5>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class=footer-heading>
-                    <h4>Contact Us</h4>
+
+            <b-col cols="2" md="2" sm="2" xs="12">
+                <div class="footer-heading">
+                    <h4> <strong> La empresa</strong></h4>
+                    </div>
+
+                    <div class="mt-20 footer-menu">
+                        <ul>
+                            <li>Por qué PER CAPITAL</li>
+                            <li>Equipo</li>
+                            <li>FAQ</li>
+                        </ul>
                 </div>
-                <div class=footer-contact>
-                    <ul>
-                        <li><i class="fa fa-map-marker"></i>West road, London, England Seram 113</li>
-                            <li><i class="fa fa-clock-o"></i>Tusday-Monday : 9:00am-6:00pm</li>
-                                <li><i class="fa fa-envelope-o"></i>Email: example@email.com</li>
-                                    <li><i class="fa fa-phone"></i> Phone: +1-23-456789</li>
-                    </ul>
+            </b-col>
+
+            <b-col cols="2" md="2" sm="2" xs="12">
+                <div class="footer-heading">
+                    <h4> <strong> Fondos </strong></h4>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class=footer-heading>
-                    <h4>Categories</h4>
-                </div>
+
                 <div class="mt-20 footer-menu">
                     <ul>
-                        <li><a href=about-company.html>About</a></li>
-                            <li><a href=services.html>Services</a></li>
-                                <li><a href=blog-grid.html>Blog</a></li>
-                                    <li><a href=contact.html>Contact</a></li>
+                        <li>PER CAPITAL Fondo Mutual</li>
+                        <li>PER CAPITAL Fondo Inmobiliario</li>
+                        <li>PER CAPITAL Capital de Riesgo</li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class=footer-heading>
-                    <h4>Newsletter</h4>
+            </b-col>
+
+            <b-col cols="2" md="2" sm="2" xs="12">
+                <div class="footer-heading">
+                    <h4> <strong> Servicios</strong></h4>
+
+                    <div class="mt-20 footer-menu">
+                        <ul>
+                            <li>Administración E.I.C</li>
+                            <li>Asesoría Financiera</li>
+                            <li>Estructuración</li>
+                            <li>Ingeniería financiera</li>
+                        </ul>
+                    </div>
                 </div>
-                <form class="footer-form mt-30"><input name=email placeholder="E-mail adress" type=email> <button class="button button-simple full-width">Subscribe</button></form>
-                <div class="center-holder footer-social-link mt-30">
-                    <ul>
-                        <li><a href=#><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=#><i class="fa fa-twitter"></i></a></li>
-                                <li><a href=#><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href=#><i class="fa fa-pinterest"></i></a></li>
-                    </ul>
+            </b-col>
+
+            <b-col cols="3" md="3" sm="3" xs="12">
+                <div class="footer-heading">
+                    <h4> <strong> Reportes y Noticias</strong></h4>
+
+                    <div class="mt-20 footer-menu">
+                        <ul>
+                            <li>Trimestral</li>
+                            <li>Anual</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </b-col>
         </div>
     </div>
 </footer><a href=# class=scroll-to-top><i class="fa fa-angle-up" aria-hidden=true></i></a>
