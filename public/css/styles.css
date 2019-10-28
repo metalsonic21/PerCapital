@@ -13671,3 +13671,15 @@ body.md-skin {
 .ibox-title .float-right {
     margin-right: -75px;
 }
+
+.list-group-mine .list-group-item {
+    background-color: transparent;
+    border-top-color: transparent;
+    border-bottom: 1px solid #859da9;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.list-group-mine .list-group-item:hover {
+    background-color: #859da9;
+}

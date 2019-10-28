@@ -54,86 +54,93 @@
             <h5 style="color:white" align="center">Indicadores:</h5>
             <br>
 
-            <div class="counter-section">
-                <b-list-group horizontal>
+            <div class="container counter-section">
+                <div class="col-lg-12 text-center">
+                    <b-list-group horizontal class="list-group-mine justify-content-center">
+                        <b-list-group-item class="flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1" style="color:white">PIB</h5>
+                            </div>
+
+                            <p class="mb-1" style="color:white">
+                                $5,00 </p>
+
+                        </b-list-group-item>
+                        <b-list-group-item class="flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1" style="color:white">Inflación</h5>
+                            </div>
+
+                            <p class="mb-1" style="color:white">100.000%</p>
+                        </b-list-group-item>
+                        <b-list-group-item class="flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1" style="color:white">Reservas</h5>
+                            </div>
+
+                            <p class="mb-1" style="color:white">$8.456,00</p>
+                        </b-list-group-item>
+                        <b-list-group-item class="flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1" style="color:white">Masa monetaria</h5>
+                            </div>
+
+                            <p class="mb-1" style="color:white">Bs 123.456.789,00</p>
+
+                        </b-list-group-item>
+                        <b-list-group-item class="flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1" style="color:white">Tasa de cambio</h5>
+                            </div>
+
+                            <p class="mb-1" style="color:white">21.345,09</p>
+                        </b-list-group-item>
+
+                    </b-list-group>
+                </div>
+
+                <b-list-group horizontal class="list-group-mine justify-content-center">
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">PIB</h5>
+                            <h5 class="mb-1" style="color:white">IBC</h5>
                         </div>
 
-                        <p class="mb-1">
-                            $5,00 </p>
-
+                        <p class="mb-1" style="color:white">45.502</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Inflación</h5>
+                            <h5 class="mb-1" style="color:white">Deuda interna</h5>
                         </div>
 
-                        <p class="mb-1">100.000%</p>
+                        <p class="mb-1" style="color:white">$3.876.000.987</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Reservas</h5>
+                            <h5 class="mb-1" style="color:white">Deuda externa</h5>
                         </div>
 
-                        <p class="mb-1">$8.456,00</p>
+                        <p class="mb-1" style="color:white">$208.765.345.000</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Masa monetaria</h5>
+                            <h5 class="mb-1" style="color:white">Valoración BVC</h5>
                         </div>
 
-                        <p class="mb-1">Bs 123.456.789,00</p>
-
-                    </b-list-group-item>
-                    <b-list-group-item class="flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Tasa de cambio</h5>
-                        </div>
-
-                        <p class="mb-1">21.345,09</p>
-                    </b-list-group-item>
-                    <b-list-group-item class="flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">IBC</h5>
-                        </div>
-
-                        <p class="mb-1">45.502</p>
-                    </b-list-group-item>
-                    <b-list-group-item class="flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Deuda interna</h5>
-                        </div>
-
-                        <p class="mb-1">$3.876.000.987</p>
-                    </b-list-group-item>
-                    <b-list-group-item class="flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Deuda externa</h5>
-                        </div>
-
-                        <p class="mb-1">$208.765.345.000</p>
-                    </b-list-group-item>
-                    <b-list-group-item class="flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Valoración BVC</h5>
-                        </div>
-
-                        <p class="mb-1">+ 4%</p>
+                        <p class="mb-1" style="color:white">+ 4%</p>
                     </b-list-group-item>
                 </b-list-group>
+
             </div>
+            <br>
 
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 offset-md-1">
-                <ul class="myullandingp" style="text-color:white">
-                    <li>*Banco mundial</li>
-                    <li>**FMI</li>
-                    <li>***BCV</li>
-                </ul>
+            <div class="row">
+                <div class="col-xs-12 offset-md-2">
+                    <ul class="myullandingp" style="text-color:white">
+                        <li>*Banco mundial</li>
+                        <li>**FMI</li>
+                        <li>***BCV</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -193,6 +200,7 @@
             </div>
         </div>
     </div>
+
 </div>
 
 <!--
@@ -280,32 +288,39 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-5 col-lg-offset-1 features-text">
+            <div class="col-lg-8 col-lg-offset-1 features-text">
                 <h2>Gerente general</h2>
                 <i class="fa fa-users big-icon float-right"></i>
                 <p>Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
             </div>
-            <div class="col-lg-5 features-text">
+        </div>
+
+        <b-row class="justify-content-center">
+            <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
                 <h2>Finanzas </h2>
                 <i class="fa fa-bar-chart big-icon float-right"></i>
                 <p>Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-5 col-lg-offset-1 features-text">
+            </b-col>
+        </b-row>
+
+        <b-row class="justify-content-center">
+            <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
                 <h2>Administración y control </h2>
                 <i class="fa fa-clock-o big-icon float-right"></i>
                 <p>C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros.</p>
-            </div>
-            <div class="col-lg-5 features-text">
+            </b-col>
+        </b-row>
+
+        <b-row class="justify-content-center">
+            <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
                 <h2>Finanzas corporativas </h2>
                 <i class="fa fa-money big-icon float-right"></i>
                 <p>Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital.</p>
-            </div>
-        </div>
+            </b-col>
+        </b-row>
 
         <b-row class="row justify-content-center">
-            <b-col cols="5" lg="5" class="offset-1 features-text">
+            <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
                 <h2>Legal</h2>
                 <i class="fa fa-balance-scale big-icon float-right"></i>
                 <p>Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos.</p>
@@ -319,50 +334,55 @@
 
 <div class="block-section" id="fondos">
     <div class="container">
-        <div class="center-holder main-heading text-justify">
-            <div class="navy-line"></div>
-            <br>
-            <h4 align="center">Fondos</h4>
-            <h5 align="center">PER CAPITAL Fondo Mutual de Inversion de Capital Abierto</h5>
-            <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
-        </div>
+        <b-row class="justify-content-center">
+            <b-col cols="10" md="10" lg="10" class="col-lg-offset-1 features-text">
+                <div class="center-holder main-heading text-justify">
+                    <div class="navy-line"></div>
+                    <br>
+                    <h4 align="center">Fondos</h4>
+                    <h5 align="center">PER CAPITAL Fondo Mutual de Inversion de Capital Abierto</h5>
+                    <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
+                </div>
 
-        <div class="text-center">
-            <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
-        </div>
-        <br><br>
-        <h4 align="center">Información de interés</h4>
-        <b-list-group>
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                Fecha inicio 
-                <b-badge variant="dark">20 Dic 2019</b-badge>
-            </b-list-group-item>
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                Comparativo
+                <div class="text-center">
+                    <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
+                </div>
+                <br><br>
 
-                <b-badge variant="dark">IBC</b-badge>
-            </b-list-group-item>
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                Sector de inversión
+                <h4 align="center">Información de interés</h4>
+                <b-list-group>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha inicio
+                        <b-badge variant="dark">20 Dic 2019</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Comparativo
 
-                <b-badge variant="dark">BVC</b-badge>
-            </b-list-group-item>
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                Fecha de cierre
+                        <b-badge variant="dark">IBC</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Sector de inversión
 
-                <b-badge variant="dark">20 Ene 2020</b-badge>
-                </b-list-group-item>       
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                V.U.I
+                        <b-badge variant="dark">BVC</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha de cierre
 
-                <b-badge variant="dark">Bs 55.000,00</b-badge>
-            </b-list-group-item>
-            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                Inversión mínima
+                        <b-badge variant="dark">20 Ene 2020</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        V.U.I
 
-                <b-badge variant="dark">10 VUI</b-badge>
-            </b-list-group-item>
-        </b-list-group>
+                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Inversión mínima
+
+                        <b-badge variant="dark">10 VUI</b-badge>
+                    </b-list-group-item>
+                </b-list-group>
+            </b-col>
+        </b-row>
     </div>
 </div>
 
@@ -482,7 +502,7 @@
             <p>Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
         </div>
         <div class="col-sm-3">
-            <h1>Fondo</h1>
+            <h2>Fondo</h2>
             <p>Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
         </div>
         <div class="col-sm-3">
@@ -510,5 +530,19 @@ export default {
 <style>
 .myullandingp li {
     color: #ffffff;
+}
+
+/*INDICATORS*/
+
+.list-group-mine .list-group-item {
+    background-color: transparent;
+    border-top-color: transparent;
+    border-bottom: 1px solid #859da9;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.list-group-mine .list-group-item:hover {
+    background-color: #859da9;
 }
 </style>

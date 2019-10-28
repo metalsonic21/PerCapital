@@ -12234,6 +12234,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -12247,6 +12267,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -12346,6 +12370,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -45179,7 +45212,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n", ""]);
+exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\r\n", ""]);
 
 // exports
 
@@ -77704,11 +77737,200 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "counter-section" },
+              { staticClass: "container counter-section" },
               [
                 _c(
+                  "div",
+                  { staticClass: "col-lg-12 text-center" },
+                  [
+                    _c(
+                      "b-list-group",
+                      {
+                        staticClass: "list-group-mine justify-content-center",
+                        attrs: { horizontal: "" }
+                      },
+                      [
+                        _c(
+                          "b-list-group-item",
+                          { staticClass: "flex-column align-items-start" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-flex w-100 justify-content-between"
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  {
+                                    staticClass: "mb-1",
+                                    staticStyle: { color: "white" }
+                                  },
+                                  [_vm._v("PIB")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                                $5,00 "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          { staticClass: "flex-column align-items-start" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-flex w-100 justify-content-between"
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  {
+                                    staticClass: "mb-1",
+                                    staticStyle: { color: "white" }
+                                  },
+                                  [_vm._v("Inflación")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("100.000%")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          { staticClass: "flex-column align-items-start" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-flex w-100 justify-content-between"
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  {
+                                    staticClass: "mb-1",
+                                    staticStyle: { color: "white" }
+                                  },
+                                  [_vm._v("Reservas")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("$8.456,00")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          { staticClass: "flex-column align-items-start" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-flex w-100 justify-content-between"
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  {
+                                    staticClass: "mb-1",
+                                    staticStyle: { color: "white" }
+                                  },
+                                  [_vm._v("Masa monetaria")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("Bs 123.456.789,00")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          { staticClass: "flex-column align-items-start" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-flex w-100 justify-content-between"
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  {
+                                    staticClass: "mb-1",
+                                    staticStyle: { color: "white" }
+                                  },
+                                  [_vm._v("Tasa de cambio")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("21.345,09")]
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
                   "b-list-group",
-                  { attrs: { horizontal: "" } },
+                  {
+                    staticClass: "list-group-mine justify-content-center",
+                    attrs: { horizontal: "" }
+                  },
                   [
                     _c(
                       "b-list-group-item",
@@ -77719,12 +77941,26 @@ var render = function() {
                           {
                             staticClass: "d-flex w-100 justify-content-between"
                           },
-                          [_c("h5", { staticClass: "mb-1" }, [_vm._v("PIB")])]
+                          [
+                            _c(
+                              "h5",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("IBC")]
+                            )
+                          ]
                         ),
                         _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [
-                          _vm._v("\r\n                            $5,00 ")
-                        ])
+                        _c(
+                          "p",
+                          {
+                            staticClass: "mb-1",
+                            staticStyle: { color: "white" }
+                          },
+                          [_vm._v("45.502")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -77738,13 +77974,25 @@ var render = function() {
                             staticClass: "d-flex w-100 justify-content-between"
                           },
                           [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Inflación")
-                            ])
+                            _c(
+                              "h5",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("Deuda interna")]
+                            )
                           ]
                         ),
                         _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [_vm._v("100.000%")])
+                        _c(
+                          "p",
+                          {
+                            staticClass: "mb-1",
+                            staticStyle: { color: "white" }
+                          },
+                          [_vm._v("$3.876.000.987")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -77758,13 +78006,25 @@ var render = function() {
                             staticClass: "d-flex w-100 justify-content-between"
                           },
                           [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Reservas")
-                            ])
+                            _c(
+                              "h5",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("Deuda externa")]
+                            )
                           ]
                         ),
                         _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [_vm._v("$8.456,00")])
+                        _c(
+                          "p",
+                          {
+                            staticClass: "mb-1",
+                            staticStyle: { color: "white" }
+                          },
+                          [_vm._v("$208.765.345.000")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -77778,115 +78038,25 @@ var render = function() {
                             staticClass: "d-flex w-100 justify-content-between"
                           },
                           [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Masa monetaria")
-                            ])
+                            _c(
+                              "h5",
+                              {
+                                staticClass: "mb-1",
+                                staticStyle: { color: "white" }
+                              },
+                              [_vm._v("Valoración BVC")]
+                            )
                           ]
                         ),
                         _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [
-                          _vm._v("Bs 123.456.789,00")
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group-item",
-                      { staticClass: "flex-column align-items-start" },
-                      [
                         _c(
-                          "div",
+                          "p",
                           {
-                            staticClass: "d-flex w-100 justify-content-between"
+                            staticClass: "mb-1",
+                            staticStyle: { color: "white" }
                           },
-                          [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Tasa de cambio")
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [_vm._v("21.345,09")])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group-item",
-                      { staticClass: "flex-column align-items-start" },
-                      [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "d-flex w-100 justify-content-between"
-                          },
-                          [_c("h5", { staticClass: "mb-1" }, [_vm._v("IBC")])]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [_vm._v("45.502")])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group-item",
-                      { staticClass: "flex-column align-items-start" },
-                      [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "d-flex w-100 justify-content-between"
-                          },
-                          [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Deuda interna")
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [
-                          _vm._v("$3.876.000.987")
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group-item",
-                      { staticClass: "flex-column align-items-start" },
-                      [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "d-flex w-100 justify-content-between"
-                          },
-                          [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Deuda externa")
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [
-                          _vm._v("$208.765.345.000")
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group-item",
-                      { staticClass: "flex-column align-items-start" },
-                      [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "d-flex w-100 justify-content-between"
-                          },
-                          [
-                            _c("h5", { staticClass: "mb-1" }, [
-                              _vm._v("Valoración BVC")
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "mb-1" }, [_vm._v("+ 4%")])
+                          [_vm._v("+ 4%")]
+                        )
                       ]
                     )
                   ],
@@ -77894,10 +78064,12 @@ var render = function() {
                 )
               ],
               1
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(1)
+            ),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _vm._m(1)
+          ])
         ]
       )
     ]),
@@ -77945,7 +78117,87 @@ var render = function() {
           _vm._v(" "),
           _vm._m(8),
           _vm._v(" "),
-          _vm._m(9),
+          _c(
+            "b-row",
+            { staticClass: "justify-content-center" },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "8", lg: "8", md: "8" }
+                },
+                [
+                  _c("h2", [_vm._v("Finanzas ")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "fa fa-bar-chart big-icon float-right"
+                  }),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo."
+                    )
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "justify-content-center" },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "8", lg: "8", md: "8" }
+                },
+                [
+                  _c("h2", [_vm._v("Administración y control ")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "fa fa-clock-o big-icon float-right"
+                  }),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros."
+                    )
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "justify-content-center" },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "8", lg: "8", md: "8" }
+                },
+                [
+                  _c("h2", [_vm._v("Finanzas corporativas ")]),
+                  _vm._v(" "),
+                  _c("i", { staticClass: "fa fa-money big-icon float-right" }),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital."
+                    )
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
             "b-row",
@@ -77954,8 +78206,8 @@ var render = function() {
               _c(
                 "b-col",
                 {
-                  staticClass: "offset-1 features-text",
-                  attrs: { cols: "5", lg: "5" }
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "8", lg: "8", md: "8" }
                 },
                 [
                   _c("h2", [_vm._v("Legal")]),
@@ -77984,112 +78236,165 @@ var render = function() {
         "div",
         { staticClass: "container" },
         [
-          _vm._m(10),
-          _vm._v(" "),
-          _vm._m(11),
-          _vm._v(" "),
-          _c("br"),
-          _c("br"),
-          _vm._v(" "),
-          _c("h4", { attrs: { align: "center" } }, [
-            _vm._v("Información de interés")
-          ]),
-          _vm._v(" "),
           _c(
-            "b-list-group",
+            "b-row",
+            { staticClass: "justify-content-center" },
             [
               _c(
-                "b-list-group-item",
+                "b-col",
                 {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "10", md: "10", lg: "10" }
                 },
                 [
-                  _vm._v(
-                    "\r\n                Fecha inicio \r\n                "
+                  _c(
+                    "div",
+                    { staticClass: "center-holder main-heading text-justify" },
+                    [
+                      _c("div", { staticClass: "navy-line" }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("h4", { attrs: { align: "center" } }, [
+                        _vm._v("Fondos")
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", { attrs: { align: "center" } }, [
+                        _vm._v(
+                          "PER CAPITAL Fondo Mutual de Inversion de Capital Abierto"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
+                        )
+                      ])
+                    ]
                   ),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [
-                    _vm._v("20 Dic 2019")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-list-group-item",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
-                },
-                [
-                  _vm._v(
-                    "\r\n                Comparativo\r\n\r\n                "
-                  ),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [_vm._v("IBC")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-list-group-item",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
-                },
-                [
-                  _vm._v(
-                    "\r\n                Sector de inversión\r\n\r\n                "
-                  ),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [_vm._v("BVC")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-list-group-item",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
-                },
-                [
-                  _vm._v(
-                    "\r\n                Fecha de cierre\r\n\r\n                "
-                  ),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [
-                    _vm._v("20 Ene 2020")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-list-group-item",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
-                },
-                [
-                  _vm._v("\r\n                V.U.I\r\n\r\n                "),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [
-                    _vm._v("Bs 55.000,00")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-list-group-item",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center"
-                },
-                [
-                  _vm._v(
-                    "\r\n                Inversión mínima\r\n\r\n                "
-                  ),
-                  _c("b-badge", { attrs: { variant: "dark" } }, [
-                    _vm._v("10 VUI")
-                  ])
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-center" }, [
+                    _c("small", { attrs: { align: "center" } }, [
+                      _vm._v(
+                        "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("br"),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("h4", { attrs: { align: "center" } }, [
+                    _vm._v("Información de interés")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-list-group",
+                    [
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Fecha inicio\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("20 Dic 2019")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Comparativo\r\n\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("IBC")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Sector de inversión\r\n\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("BVC")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Fecha de cierre\r\n\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("20 Ene 2020")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        V.U.I\r\n\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("Bs 55.000,00")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Inversión mínima\r\n\r\n                        "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("10 VUI")
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
                 ],
                 1
               )
@@ -78101,9 +78406,9 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _vm._m(12),
+    _vm._m(9),
     _vm._v(" "),
-    _vm._m(13)
+    _vm._m(10)
   ])
 }
 var staticRenderFns = [
@@ -78214,7 +78519,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-xs-12 offset-md-1" }, [
+      _c("div", { staticClass: "col-xs-12 offset-md-2" }, [
         _c(
           "ul",
           {
@@ -78321,7 +78626,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-5 col-lg-offset-1 features-text" }, [
+      _c("div", { staticClass: "col-lg-8 col-lg-offset-1 features-text" }, [
         _c("h2", [_vm._v("Gerente general")]),
         _vm._v(" "),
         _c("i", { staticClass: "fa fa-users big-icon float-right" }),
@@ -78331,86 +78636,6 @@ var staticRenderFns = [
             "Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional."
           )
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-5 features-text" }, [
-        _c("h2", [_vm._v("Finanzas ")]),
-        _vm._v(" "),
-        _c("i", { staticClass: "fa fa-bar-chart big-icon float-right" }),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo."
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-5 col-lg-offset-1 features-text" }, [
-        _c("h2", [_vm._v("Administración y control ")]),
-        _vm._v(" "),
-        _c("i", { staticClass: "fa fa-clock-o big-icon float-right" }),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros."
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-5 features-text" }, [
-        _c("h2", [_vm._v("Finanzas corporativas ")]),
-        _vm._v(" "),
-        _c("i", { staticClass: "fa fa-money big-icon float-right" }),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital."
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "center-holder main-heading text-justify" },
-      [
-        _c("div", { staticClass: "navy-line" }),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("h4", { attrs: { align: "center" } }, [_vm._v("Fondos")]),
-        _vm._v(" "),
-        _c("h5", { attrs: { align: "center" } }, [
-          _vm._v("PER CAPITAL Fondo Mutual de Inversion de Capital Abierto")
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
-          )
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center" }, [
-      _c("small", { attrs: { align: "center" } }, [
-        _vm._v(
-          "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
-        )
       ])
     ])
   },
@@ -78616,7 +78841,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-sm-3" }, [
-            _c("h1", [_vm._v("Fondo")]),
+            _c("h2", [_vm._v("Fondo")]),
             _vm._v(" "),
             _c("p", [
               _vm._v(
@@ -78686,51 +78911,69 @@ var render = function() {
   return _c("div", [
     _c("div", { staticClass: "hidden-xs", attrs: { id: "top-bar" } }, [
       _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "col-xs-12 col-md-12" }, [
-          _c("ul", { staticClass: "top-bar-info" }, [
-            _c("li", { style: _vm.dynamicColorR }, [_vm._v("ABC.A 22.500,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("BNC 332,50")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("BOU 7,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("BPV 88.500")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("BVCC 7.230,00")]),
-            _vm._v(" "),
-            _c("li", { style: _vm.dynamicColorG }, [_vm._v("BVL 900,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("CCR 105.000,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("CGQ 12.500,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("CIE 515,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("CRM.A 22.750,00")]),
-            _vm._v(" "),
-            _c("li", [_vm._v("DOM 13.300,00")])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "w-50 mx-auto" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-xs-12 col-md-12" }, [
+        _c(
+          "div",
+          { attrs: { "data-interval": "3150", "data-ride": "carousel" } },
+          [
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c("div", { staticClass: "col-xs-12 col-md-12 col-sm-12" }, [
                 _c("ul", { staticClass: "top-bar-info" }, [
                   _c("li", { style: _vm.dynamicColorR }, [
-                    _vm._v("EFE 1.350,00")
+                    _vm._v("ABC.A 22.500,00")
                   ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("ENV 7.000,00")]),
+                  _c("li", [_vm._v("BNC 332,50")]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("FNC 10.259,50")]),
+                  _c("li", [_vm._v("BOU 7,00")]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("FBV 0,25")])
+                  _c("li", [_vm._v("BPV 88.500")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("BVCC 7.230,00")]),
+                  _vm._v(" "),
+                  _c("li", { style: _vm.dynamicColorG }, [
+                    _vm._v("BVL 900,00")
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("CCR 105.000,00")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("CGQ 12.500,00")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("CIE 515,00")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("CRM.A 22.750,00")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("DOM 13.300,00")])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "w-50" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "div",
+                      { staticClass: "col-xs-12 col-md-12 col-sm-12" },
+                      [
+                        _c("ul", { staticClass: "top-bar-info" }, [
+                          _c("li", { style: _vm.dynamicColorR }, [
+                            _vm._v("EFE 1.350,00")
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("ENV 7.000,00")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("FNC 10.259,50")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("FBV 0,25")])
+                        ])
+                      ]
+                    )
+                  ])
                 ])
               ])
             ])
-          ])
-        ])
+          ]
+        )
       ])
     ]),
     _vm._v(" "),
@@ -78865,7 +79108,108 @@ var render = function() {
           attrs: { "data-swiper-autoplay": "2000" }
         },
         [
-          _vm._m(0),
+          _c(
+            "div",
+            {
+              staticClass: "swiper-slide",
+              staticStyle: {
+                "background-image": "url(img/content/landing/slide-1.jpg)"
+              }
+            },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "container" },
+                [
+                  _c(
+                    "b-col",
+                    {
+                      staticClass: "float-right",
+                      attrs: { cols: "4", md: "4", sm: "3" }
+                    },
+                    [
+                      _c("h4", { attrs: { align: "left" } }, [
+                        _vm._v("Links rápidos")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group",
+                        {
+                          staticClass: "text-light list-group-mine",
+                          staticStyle: { "background-color": "transparent" }
+                        },
+                        [
+                          _c(
+                            "b-list-group-item",
+                            { attrs: { align: "left" } },
+                            [_c("strong", [_vm._v(">")]), _vm._v(" FAQ")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-list-group-item",
+                            { attrs: { align: "left" } },
+                            [_c("strong", [_vm._v(">")]), _vm._v(" Servicios")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "swiper-slide",
+              staticStyle: {
+                "background-image": "url(img/content/landing/slide-3.jpg)"
+              }
+            },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                {
+                  staticClass: "mx-auto my-auto",
+                  attrs: { cols: "7", md: "7" }
+                },
+                [
+                  _c("div", { staticClass: "bg-secondary text-light" }, [
+                    _c("h3", [_vm._v("Finanzas inteligentes")]),
+                    _vm._v(" "),
+                    _c("h5", [
+                      _vm._v(
+                        "Ofrecemos servicios de administración de E.I.C, asesoría y consultoría en finanzas personales, coporativas e institucionales "
+                      ),
+                      _c("br")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                {
+                  staticClass: "mx-auto my-auto",
+                  attrs: { cols: "6", md: "6" }
+                },
+                [
+                  _c("div", { staticClass: "bg-secondary text-light" }, [
+                    _c("h4", [_vm._v("PER CAPITAL Fondo Mutual")])
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
             "div",
@@ -78949,7 +79293,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(1)
+          _vm._m(0)
         ]
       ),
       _vm._v(" "),
@@ -78962,46 +79306,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "swiper-slide",
-        staticStyle: {
-          "background-image": "url(img/content/landing/slide-1.jpg)"
-        }
-      },
-      [
-        _c("br"),
-        _vm._v(" "),
-        _c("h3", { attrs: { "data-caption-animate": "fadeInUp" } }, [
-          _vm._v("Finanzas inteligentes")
-        ]),
-        _vm._v(" "),
-        _c("h5", [_vm._v("El momento es ahora: Invierte, avanza")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container text-center" }, [
-          _c("p", { staticClass: "text-light" }, [
-            _vm._v(
-              "\r\n                        Ofrecemos servicios de administración de E.I.C, asesoría y consultoría en finanzas personales,"
-            ),
-            _c("br"),
-            _vm._v(
-              "\r\n                        corporativas e institucionales."
-            ),
-            _c("br"),
-            _c("br"),
-            _vm._v(
-              "\r\n                        Invierte, Avanza - Acceso a portafolios de inversión\r\n                        Premium para el pequeño y mediano inversionista."
-            )
-          ])
-        ])
-      ]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
