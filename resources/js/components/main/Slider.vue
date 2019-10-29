@@ -10,9 +10,12 @@
                     <b-col cols="4" md="4" sm="3" class="float-right">
                         <h4 align="left">Links rápidos</h4>
                         <b-list-group style="background-color:transparent" class="text-light list-group-mine">
+                            
                             <b-list-group-item align="left"><strong>></strong> FAQ</b-list-group-item>
                             <b-list-group-item align="left"><strong>></strong> Servicios</b-list-group-item>
+
                         </b-list-group>
+
                     </b-col>
                 </div>
 
@@ -86,6 +89,10 @@
 
 <script>
 export default {
-
+    methods:{
+        faq(){
+            this.$router.push('/example');
+        }
+    }
 }
 </script>

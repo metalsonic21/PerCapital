@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main/index');
-});
+Route::get('/{any}', 'mainpage\LandingController@index')->where('any', '.*');
 
 Auth::routes();
 

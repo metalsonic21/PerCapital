@@ -1,6 +1,7 @@
+import App from './views/App.vue';
 import Example from './components/ExampleComponent.vue';
 export const routes = [{
-    path: '/vue/example',
+    path: '/example',
     component: Example,
-    name: 'Example'
-}];
+    name: 'example'
+}, ];
