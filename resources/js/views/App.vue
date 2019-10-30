@@ -1,7 +1,9 @@
 <template>
 <div class="landing-page">
+    <disclaimer></disclaimer>
+    <Values></Values>
     <navigation></navigation>
-    <Home></Home>
+    <router-view></router-view>
 </div>
 </template>
 

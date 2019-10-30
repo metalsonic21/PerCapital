@@ -23,8 +23,13 @@ Vue.component('disclaimer', require('./components/main/Disclaimer.vue').default)
 Vue.component('slider', require('./components/main/Slider.vue').default);
 Vue.component('landing', require('./components/main/Landing.vue').default);
 Vue.component('footeralt', require('./components/main/Footer.vue').default);
+Vue.component('Values', require('./components/main/Values.vue').default);
+
+
+/* Views */
 Vue.component('app', require('./views/App.vue').default);
 Vue.component('Home', require('./views/Home.vue').default);
+
 
 /* Router */
 Vue.use(VueRouter);

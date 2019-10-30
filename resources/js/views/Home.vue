@@ -1,6 +1,5 @@
 <template>
     <div>
-        <disclaimer></disclaimer>
         <slider></slider>
         <landing></landing>
         <footeralt></footeralt>

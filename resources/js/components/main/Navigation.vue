@@ -1,47 +1,5 @@
 <template>
-<div>
-    <div class=hidden-xs id=top-bar>
-        <div class=container>
-            <div data-interval="3150" data-ride="carousel">
-                <div class="carousel-item active">
-                    <div class="col-xs-12 col-md-12 col-sm-12">
-                        <ul class=top-bar-info>
-                            <li v-bind:style="dynamicColorR">ABC.A 22.500,00</li>
-                            <li>BNC 332,50</li>
-                            <li>BOU 7,00</li>
-                            <li>BPV 88.500</li>
-                            <li>BVCC 7.230,00</li>
-                            <li v-bind:style="dynamicColorG">BVL 900,00</li>
-                            <li>CCR 105.000,00</li>
-                            <li>CGQ 12.500,00</li>
-                            <li>CIE 515,00</li>
-                            <li>CRM.A 22.750,00</li>
-                            <li>DOM 13.300,00</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="w-50">
-                            <div class="row">
-                                <div class="col-xs-12 col-md-12 col-sm-12">
-                                    <ul class="top-bar-info">
-                                        <li v-bind:style="dynamicColorR">EFE 1.350,00</li>
-                                        <li>ENV 7.000,00</li>
-                                        <li>FNC 10.259,50</li>
-                                        <li>FBV 0,25</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+<div>   
     <header>
 
         <b-navbar toggleable="lg" fixed sticky class="mx-5">
@@ -54,6 +12,7 @@
             <b-collapse id="nav-collapse" is-nav>
 
                 <b-navbar-nav class="ml-auto">
+                    <b-nav-item :to="{name: 'home'}">Inicio</b-nav-item>
                     <b-nav-item href="#empresa">La empresa</b-nav-item>
                     <b-nav-item href="#fondos">Fondos</b-nav-item>
                     <b-nav-item href="#">Servicios</b-nav-item>
@@ -89,5 +48,7 @@ export default {
             }
         }
     }
+
+    
 }
 </script>

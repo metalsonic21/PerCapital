@@ -4,14 +4,13 @@
         <div class=swiper-wrapper data-swiper-autoplay=2000>
 
             <div class=swiper-slide style=background-image:url(img/content/landing/slide-1.jpg)> <br>
-            <!--
+                <!--
                 <h3 data-caption-animate=fadeInUp>Finalmente, puedes empezar</h3> -->
                 <div class="container">
                     <b-col cols="4" md="4" sm="3" class="float-right">
-                        <h4 align="left">Links rápidos</h4>
                         <b-list-group style="background-color:transparent" class="text-light list-group-mine">
-                            
-                            <b-list-group-item align="left"><strong>></strong> FAQ</b-list-group-item>
+
+                            <b-list-group-item align="left" @click="faq"><strong>></strong> FAQ</b-list-group-item>
                             <b-list-group-item align="left"><strong>></strong> Servicios</b-list-group-item>
 
                         </b-list-group>
@@ -21,10 +20,10 @@
 
             </div>
 
-            <div class=swiper-slide style=background-image:url(img/content/landing/slide-3.jpg)> <br>
+            <div class=swiper-slide style="background-image:url(img/content/landing/slide-3.jpg)"> <br>
                 <b-col cols="7" md="7" class="mx-auto my-auto">
 
-                    <div class="bg-secondary text-light">
+                    <div class="text-light bg-secondary">
                         <h3>Finanzas inteligentes</h3>
                         <h5>Ofrecemos servicios de administración de E.I.C, asesoría y consultoría en finanzas personales, coporativas e institucionales <br>
                         </h5>
@@ -45,26 +44,40 @@
                 <b-container>
                     <b-row>
                         <b-col cols="6" md="6" sm="6">
-                            <b-card>
-                                <h4 style="color:black;">Institucional</h4>
-                                <b-card-text>
-                                    Banco, Casas de Bolsa, Sociedad
-                                    de Corretaje, Asesor de Inversión, Seguro
+                            <div class="card">
+                                <div class="card-block">
+                                    <div class="container">
+                                        <br>
+                                        <h4 style="color:black;">Institucional</h4>
+                                        <b-card-text>
+                                            Banco, Casas de Bolsa, Sociedad
+                                            de Corretaje, Asesor de Inversión, Seguro
 
-                                </b-card-text>
+                                        </b-card-text>
 
-                                <b-button variant="dark">Seleccionar</b-button>
-                            </b-card>
+                                        <b-button variant="dark">Seleccionar</b-button>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
                         </b-col>
                         <b-col cols="6" md="6" sm="6">
-                            <b-card>
-                                <h4 style="color:black;">Privado</h4>
-                                <b-card-text>
-                                    Persona natural o Jurídica en general
-                                </b-card-text>
+                            <div class="card">
+                                <div class="card-block">
+                                    <div class="container">
+                                        <br>
+                                        <h4 style="color:black;">Privado</h4>
 
-                                <b-button variant="dark">Seleccionar</b-button>
-                            </b-card>
+                                        <b-card-text>
+                                            Persona natural o Jurídica en general
+                                            <br> <br>
+                                        </b-card-text>
+
+                                        <b-button variant="dark">Seleccionar</b-button>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
                         </b-col>
                     </b-row>
                 </b-container>
@@ -89,10 +102,25 @@
 
 <script>
 export default {
-    methods:{
-        faq(){
+    methods: {
+        faq() {
             this.$router.push('/example');
         }
     }
 }
 </script>
+
+<style>
+.bg-secondary {
+    background-color: rgba(108, 117, 125, 0.6) !important;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.card-block {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+
+}
+</style>

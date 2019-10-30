@@ -19,13 +19,14 @@
                             <div class="col-md-3">
                                 <article class="hover-shadow article-block"><i class="fa fa-check" aria-hidden=true></i>
                                     <h4>Transparencia</h4>
-                                    <p>Somos una empresa regulada y cumplimos con los mayores estándares de cumplimiento para garantizar la tranquilidad a nuestros clientes.</p>
+                                    <p>Somos una empresa regulada y cumplimos con los mayores estándares de cumplimiento para garantizar la tranquilidad a nuestros clientes. <br> <br> <br> </p>
+                                                                    
                                 </article>
                             </div>
                             <div class="col-md-3">
                                 <article class="hover-shadow article-block"><i class="fa fa-compass" aria-hidden=true></i>
                                     <h4>Análisis riguroso</h4>
-                                    <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos.</p>
+                                    <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> <br> </p>
                                 </article>
                             </div>
                             <div class="col-md-3">
@@ -37,7 +38,7 @@
                             <div class="col-md-3">
                                 <article class="hover-shadow article-block"><i class="fa fa-money" aria-hidden=true></i>
                                     <h4>Comunidad inversionista</h4>
-                                    <p>Construimos una comunidad de inversionistas institucionales y no institucionales que ofrece una alternativa de financiamiento.</p>
+                                    <p>Construimos una comunidad de inversionistas institucionales y no institucionales que ofrece una alternativa de financiamiento. <br> <br> </p>
                                 </article>
                             </div>
                         </div>
@@ -49,7 +50,8 @@
 
     <!-- INDICATORS -->
     <div id="">
-        <div class=parallax-section style=background-image:url(img/content/landing/section-bg2.jpg)> <div class=container>
+        <div class=parallax-section style=background-image:url(img/content/landing/section-bg2.jpg)> 
+        <b-container>
             <h3 style="color:white;" align="center">Los números cuentan</h3>
             <h5 style="color:white" align="center">Indicadores:</h5>
             <br>
@@ -59,10 +61,10 @@
                     <b-list-group horizontal class="list-group-mine justify-content-center">
                         <b-list-group-item class="flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1" style="color:white">PIB</h5>
+                                <h5 class="mb-1" style="color:white">&nbsp;PIB</h5>
                             </div>
 
-                            <p class="mb-1" style="color:white">
+                            <p class="mb-1 text-center" align="center" style="color:white">
                                 $5,00 </p>
 
                         </b-list-group-item>
@@ -71,29 +73,29 @@
                                 <h5 class="mb-1" style="color:white">Inflación</h5>
                             </div>
 
-                            <p class="mb-1" style="color:white">100.000%</p>
+                            <p class="mb-1 text-center" style="color:white">100.000%</p>
                         </b-list-group-item>
                         <b-list-group-item class="flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1" style="color:white">Reservas</h5>
                             </div>
 
-                            <p class="mb-1" style="color:white">$8.456,00</p>
+                            <p class="mb-1 text-center" style="color:white">$8.456,00</p>
                         </b-list-group-item>
                         <b-list-group-item class="flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1" style="color:white">Masa monetaria</h5>
                             </div>
 
-                            <p class="mb-1" style="color:white">Bs 123.456.789,00</p>
+                            <p class="mb-1 text-center" style="color:white">Bs 123.456.789,00</p>
 
                         </b-list-group-item>
                         <b-list-group-item class="flex-column align-items-start">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1" style="color:white">Tasa de cambio</h5>
+                                <h5 class="mb-1 text-center" style="color:white">Tasa de cambio</h5>
                             </div>
 
-                            <p class="mb-1" style="color:white">21.345,09</p>
+                            <p class="mb-1 text-center" style="color:white">21.345,09</p>
                         </b-list-group-item>
 
                     </b-list-group>
@@ -102,31 +104,31 @@
                 <b-list-group horizontal class="list-group-mine justify-content-center">
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1" style="color:white">IBC</h5>
+                            <h5 class="mb-1" align="center" style="color:white">&nbsp;IBC</h5>
                         </div>
 
-                        <p class="mb-1" style="color:white">45.502</p>
+                        <p class="mb-1 text-center" style="color:white">45.502</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1" style="color:white">Deuda interna</h5>
                         </div>
 
-                        <p class="mb-1" style="color:white">$3.876.000.987</p>
+                        <p class="mb-1 text-center" style="color:white">$3.876.000.987</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1" style="color:white">Deuda externa</h5>
                         </div>
 
-                        <p class="mb-1" style="color:white">$208.765.345.000</p>
+                        <p class="mb-1 text-center" style="color:white">$208.765.345.000</p>
                     </b-list-group-item>
                     <b-list-group-item class="flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1" style="color:white">Valoración BVC</h5>
                         </div>
 
-                        <p class="mb-1" style="color:white">+ 4%</p>
+                        <p class="mb-1 text-center" style="color:white">+ 4%</p>
                     </b-list-group-item>
                 </b-list-group>
 
@@ -134,7 +136,7 @@
             <br>
 
             <div class="row">
-                <div class="col-xs-12 offset-md-2">
+                <div class="col-xs-12 offset-md-5">
                     <ul class="myullandingp" style="text-color:white">
                         <li>*Banco mundial</li>
                         <li>**FMI</li>
@@ -142,7 +144,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </b-container>
     </div>
 
 </div>
@@ -155,13 +157,11 @@
             <div class=row>
                 <div class="col-xs-12 col-md-3 col-sm-3 about-section">
                     <div class=main-heading>
-                        <h5>La empresa</h5>
                         <h3>¿Por qué PER CAPITAL?</h3>
                     </div>
                     <div class="mt-20 text-content">
                         <p class="text-justify">Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor </p>
                     </div>
-                    <b-button align="center" class="button button-simple mb-20 mt-20" variant="dark" size="lg">Ver más</b-button>
                 </div>
                 <div class="col-xs-12 col-md-3 col-sm-2">
                     <article class="hover-shadow article-block">
@@ -169,7 +169,7 @@
                         <p>
                             Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.
 
-                            Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.
+                            Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes. <br> <br> <br> <br> <br> <br>
                         </p>
                     </article>
                 </div>
@@ -177,6 +177,7 @@
                 <div class="col-xs-12 col-md-3 col-sm-2">
                     <article class="hover-shadow article-block">
                         <h5>Supervisión, control y transparencia financiera</h5>
+                    
                         <p>Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.
 
                             Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.
@@ -189,11 +190,12 @@
                 <div class="col-xs-12 col-md-3 col-sm-2">
                     <article class="hover-shadow article-block">
                         <h5>Experiencia y conocimiento</h5>
+                        <br><br>
                         <p>Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.
 
                             Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.
 
-                            Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes.
+                            Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. <br><br><br><br><br><br><br>
                         </p>
                     </article>
                 </div>
@@ -288,11 +290,11 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-lg-offset-1 features-text">
+            <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
                 <h2>Gerente general</h2>
                 <i class="fa fa-users big-icon float-right"></i>
                 <p>Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
-            </div>
+            </b-col>
         </div>
 
         <b-row class="justify-content-center">
@@ -420,7 +422,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="float-left">
-                        <img alt="image" src="img/content/landing/warning.png">
+                        <i class="fa fa-lock fa-3x">&nbsp;</i>
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -436,7 +438,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="float-left">
-                        <img alt="image" src="img/content/landing/warning.png">
+                        <img alt="image" src="img/content/landing/globe.png">
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -456,7 +458,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="float-left">
-                        <img alt="image" src="img/content/landing/warning.png">
+                        <i class="fa fa-money fa-3x">&nbsp;</i>
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -472,7 +474,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="float-left">
-                        <img alt="image" src="img/content/landing/warning.png">
+                        <i class="fa fa-bar-chart fa-3x"></i>
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -544,5 +546,17 @@ export default {
 
 .list-group-mine .list-group-item:hover {
     background-color: #859da9;
+}
+
+.fa-lock{
+    color:black;
+}
+
+.fa-money{
+    color:black;
+}
+
+.fa-bar-chart{
+    color:black;
 }
 </style>

@@ -4,92 +4,115 @@
     <div class=container>
         <b-col cols="11" md="11">
         <div class="owl-carousel owl-theme partners" id=our-partners>
-            <div class=item><img alt=partner-image src=img/content/landing/bcv.png> </div>
-            <div class=item><img alt=partner-image src=img/content/landing/bdc.png> </div>
-            <div class=item><img alt=partner-image src=img/content/landing/cvv.jpg> </div>
-            <div class=item><img alt=partner-image src=img/content/landing/unaval.png> </div>
+            <div class="item"><b-img alt=partner-image src=img/content/landing/bcv.png style="width:150px; height:150px;"> </b-img></div>
+            <div class="item"><b-img alt=partner-image src="img/content/landing/bdv.png" style="width:150px; height:150px;"> </b-img></div>
+            <div class="item"><b-img alt=partner-image src=img/content/landing/cvv.png style="width:150px; height:150px;"> </b-img></div>
+            <div class="item"><b-img alt=partner-image src="img/content/landing/sunaval.png" style="width:150px; height:150px;"> </b-img></div>
         </div>
         </b-col>
     </div>
 </div>
 
-<footer class=footer>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href=#><img alt=logo src="/img/logo/PastedGraphic-1-3.jpeg"> </a>
+
+<footer class="footer">
+    <b-container>
+        <b-row>
+            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
+                <b-img alt="logo" src="/img/logo/PastedGraphic-1-3.jpeg"></b-img>
                 <div class="text-content black-color">
                     <br>
-                    <h5 style="color:black">0800-CAPITAL</h5>
-                    <h5 style="color:black">info@percapital</h5>
-                    <h5 style="color:black">Caracas-Venezuela</h5>
-                </div>
-            </div>
-
-            <b-col cols="2" md="2" sm="2" xs="12">
-                <div class="footer-heading">
-                    <h4> <strong> La empresa</strong></h4>
-                    </div>
-
-                    <div class="mt-20 footer-menu">
-                        <ul>
-                            <li>Por qué PER CAPITAL</li>
-                            <li>Equipo</li>
-                            <li>FAQ</li>
-                        </ul>
+                    <h5 class="h5-mine">0800-CAPITAL</h5>
+                    <h5 class="h5-mine">info@percapital</h5>
+                    <h5 class="h5-mine">Caracas-Venezuela</h5>
                 </div>
             </b-col>
 
-            <b-col cols="2" md="2" sm="2" xs="12">
+            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
                 <div class="footer-heading">
-                    <h4> <strong> Fondos </strong></h4>
+                    <h4 class="h4-mine"> <strong>La empresa</strong> </h4>
                 </div>
 
-                <div class="mt-20 footer-menu">
-                    <ul>
-                        <li>PER CAPITAL Fondo Mutual</li>
-                        <li>PER CAPITAL Fondo Inmobiliario</li>
-                        <li>PER CAPITAL Capital de Riesgo</li>
-                    </ul>
+                <div class="footer-contact">
+                    <b-list-group class="list-group-footer">
+                        <b-list-group-item> <strong>></strong> Por qué PER CAPITAL</b-list-group-item>
+                        <b-list-group-item> <strong>></strong> Equipo </b-list-group-item>
+                        <b-list-group-item> <strong>></strong> FAQ</b-list-group-item>
+                    </b-list-group>
                 </div>
             </b-col>
 
-            <b-col cols="2" md="2" sm="2" xs="12">
+            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
                 <div class="footer-heading">
-                    <h4> <strong> Servicios</strong></h4>
+                    <h4 class="h4-mine"> <strong>Fondos</strong> </h4>
+                </div>
 
-                    <div class="mt-20 footer-menu">
-                        <ul>
-                            <li>Administración E.I.C</li>
-                            <li>Asesoría Financiera</li>
-                            <li>Estructuración</li>
-                            <li>Ingeniería financiera</li>
-                        </ul>
-                    </div>
+                <div class="footer-contact">
+                    <b-list-group-class class="list-group-footer">
+                        <b-list-group-item><strong>></strong> Fondo Mutual</b-list-group-item>
+                        <b-list-group-item><strong>></strong> Fondo Inmobiliario</b-list-group-item>
+                        <b-list-group-item><strong>></strong> Capital de Riesgo</b-list-group-item>
+                    </b-list-group-class>
                 </div>
             </b-col>
 
-            <b-col cols="3" md="3" sm="3" xs="12">
+            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
                 <div class="footer-heading">
-                    <h4> <strong> Reportes y Noticias</strong></h4>
+                    <h4 class="h4-mine"> <strong>Servicios</strong></h4>
+                </div>
 
-                    <div class="mt-20 footer-menu">
-                        <ul>
-                            <li>Trimestral</li>
-                            <li>Anual</li>
-                        </ul>
-                    </div>
+                <div class="footer-contact">
+                <b-list-group class="list-group-footer">
+                    <b-list-group-item><strong>></strong> Administración E.I.C</b-list-group-item>
+                    <b-list-group-item><strong>></strong> Asesoría Financiera</b-list-group-item>
+                    <b-list-group-item><strong>></strong> Estructuración</b-list-group-item>
+                    <b-list-group-item><strong>></strong> Ingeniería financiera</b-list-group-item>
+                </b-list-group>
                 </div>
             </b-col>
-        </div>
-    </div>
-</footer><a href=# class=scroll-to-top><i class="fa fa-angle-up" aria-hidden=true></i></a>
+
+            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
+                <div class="footer-heading">
+                    <h4 class="h4-mine"> <strong>Noticias</strong></h4>
+                </div>
+
+                <div class="footer-contact">
+                    <b-list-group class="list-group-footer">
+                        <b-list-group-item><strong>></strong>Trimestral</b-list-group-item>
+                        <b-list-group-item><strong>></strong>Anual</b-list-group-item>
+                    </b-list-group>
+                </div>
+            </b-col>
+        </b-row>
+    </b-container>
+</footer>
+
+<a href=# class=scroll-to-top><i class="fa fa-angle-up" aria-hidden=true></i></a>
 
 </div>
 </template>
 
 <script>
 export default {
-
 }
+
 </script>
+
+<style>
+.list-group-footer .list-group-item {
+    background-color: transparent;
+    border-top-color: transparent;
+    border-bottom: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-size: 78%;
+}
+
+.h4-mine{
+    font-size: 80%;
+}
+
+.h5-mine{
+    font-size: 80%;
+    color:black;
+}
+</style>
