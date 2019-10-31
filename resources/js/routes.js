@@ -1,4 +1,5 @@
 import Home from './views/Home.vue';
+import Faq from './views/Faq.vue';
 import Example from './components/ExampleComponent.vue';
 export const routes = [
     {
@@ -7,7 +8,7 @@ export const routes = [
         name: 'home'
     },    
     {
-    path: '/example',
-    component: Example,
-    name: 'example'
+    path: '/faq',
+    component: Faq,
+    name: 'Faq'
 }, ];

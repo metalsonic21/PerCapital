@@ -104,7 +104,7 @@
 export default {
     methods: {
         faq() {
-            this.$router.push('/example');
+            this.$router.push('/faq');
         }
     }
 }

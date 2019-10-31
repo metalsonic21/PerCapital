@@ -13,12 +13,11 @@
     </div>
 </div>
 
-
 <footer class="footer">
     <b-container>
         <b-row>
             <b-col cols="3" md="3" sm="3" lg="3" xs="12">
-                <b-img alt="logo" src="/img/logo/PastedGraphic-1-3.jpeg"></b-img>
+                <b-img alt="logo" fluid src="/img/logo/PastedGraphic-1-3.jpeg"></b-img>
                 <div class="text-content black-color">
                     <br>
                     <h5 class="h5-mine">0800-CAPITAL</h5>
@@ -27,9 +26,9 @@
                 </div>
             </b-col>
 
-            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
+            <b-col cols="2" md="2" sm="3" lg="2" xs="12">
                 <div class="footer-heading">
-                    <h4 class="h4-mine"> <strong>La empresa</strong> </h4>
+                    <h4 class="h4-mine" align="center"> <strong>La empresa</strong> </h4>
                 </div>
 
                 <div class="footer-contact">
@@ -41,9 +40,9 @@
                 </div>
             </b-col>
 
-            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
+            <b-col cols="2" md="2" sm="3" lg="2" xs="12">
                 <div class="footer-heading">
-                    <h4 class="h4-mine"> <strong>Fondos</strong> </h4>
+                    <h4 class="h4-mine" align="center"> <strong>Fondos</strong> </h4>
                 </div>
 
                 <div class="footer-contact">
@@ -55,9 +54,9 @@
                 </div>
             </b-col>
 
-            <b-col cols="3" md="3" sm="3" lg="3" xs="12">
+            <b-col cols="2" md="2" sm="3" lg="2" xs="12">
                 <div class="footer-heading">
-                    <h4 class="h4-mine"> <strong>Servicios</strong></h4>
+                    <h4 class="h4-mine" align="center"> <strong>Servicios</strong></h4>
                 </div>
 
                 <div class="footer-contact">
@@ -72,7 +71,7 @@
 
             <b-col cols="3" md="3" sm="3" lg="3" xs="12">
                 <div class="footer-heading">
-                    <h4 class="h4-mine"> <strong>Noticias</strong></h4>
+                    <h4 class="h4-mine" align="center"> <strong>Noticias</strong></h4>
                 </div>
 
                 <div class="footer-contact">

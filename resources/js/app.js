@@ -26,9 +26,14 @@ Vue.component('footeralt', require('./components/main/Footer.vue').default);
 Vue.component('Values', require('./components/main/Values.vue').default);
 
 
+/* Faq components */
+Vue.component('Questions', require('./components/faq/Questions.vue').default);
+
+
 /* Views */
 Vue.component('app', require('./views/App.vue').default);
 Vue.component('Home', require('./views/Home.vue').default);
+Vue.component('Faq', require('./views/Faq.vue').default);
 
 
 /* Router */
