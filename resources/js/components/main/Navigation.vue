@@ -27,6 +27,9 @@
                         <b-dropdown-item href="#">Institucional</b-dropdown-item>
                         <b-dropdown-item href="#">Privado</b-dropdown-item>
                     </b-nav-item-dropdown>
+
+                    <b-nav-item right :to="{name: 'Login'}">Login</b-nav-item>
+                    <b-nav-item right :to="{name: 'Register'}">Registro</b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>

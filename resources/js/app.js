@@ -34,6 +34,8 @@ Vue.component('Questions', require('./components/faq/Questions.vue').default);
 Vue.component('app', require('./views/App.vue').default);
 Vue.component('Home', require('./views/Home.vue').default);
 Vue.component('Faq', require('./views/Faq.vue').default);
+Vue.component('Login', require('./views/Login.vue').default);
+Vue.component('Register', require('./views/Register.vue').default);
 
 
 /* Router */

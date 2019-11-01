@@ -46,11 +46,11 @@
                 </div>
 
                 <div class="footer-contact">
-                    <b-list-group-class class="list-group-footer">
+                    <b-list-group class="list-group-footer">
                         <b-list-group-item><strong>></strong> Fondo Mutual</b-list-group-item>
                         <b-list-group-item><strong>></strong> Fondo Inmobiliario</b-list-group-item>
                         <b-list-group-item><strong>></strong> Capital de Riesgo</b-list-group-item>
-                    </b-list-group-class>
+                    </b-list-group>
                 </div>
             </b-col>
 
