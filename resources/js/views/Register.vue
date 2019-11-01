@@ -5,15 +5,25 @@
             <b-col cols="12" md="12" sm="4">
                 <div class="wrapper wrapper-content animated fadeInDown">
 
+                    <!-- Register successful or failed -->
+                    <div class="alert alert-danger" v-if="error && !success">
+                        <p>There was an error, unable to complete registration.</p>
+                    </div>
+                    <div class="alert alert-success" v-if="success">
+                        <p>Registration completed. You can now <router-link :to="{name:'Login'}">sign in.</router-link>
+                        </p>
+                    </div>
+
+
                     <div>
                         <div class="text-center">
                             <h3>Registro en PER CAPITAL</h3>
                             <p>Crea tu cuenta para empezar a invertir</p>
                             <br>
                         </div>
-                        <form class="m-t" role="form" action="http://webapplayers.com/inspinia_admin-v2.8/login.html">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name" required="">
+                        <form class="m-t" autocomplete="off" @submit.prevent="register" v-if="!success" method="post">
+                            <div class="form-group" v-bind:class="{ 'has-error': error && errors.name }">
+                                <input type="text" class="form-control" placeholder="Name" v-model="name" required>
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="Email" required="">
@@ -26,7 +36,7 @@
                             </div>
                             <div class="text-center">
 
-                                <b-button variant="secondary" class="m-b btn-block">Register</b-button>
+                                <b-button variant="secondary" class="m-b btn-block" type="submit">Register</b-button>
                             </div>
                             <p class="text-muted text-center"><small>¿Ya tienes una cuenta? <b-link>Login</b-link></small>
                             </p>

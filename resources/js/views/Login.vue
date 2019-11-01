@@ -3,6 +3,12 @@
     <b-container>
         <div class="wrapper wrapper-content animated fadeInDown">
             <b-row>
+
+    <!-- Wrong credentials -->
+    <div class="alert alert-danger" v-if="error">
+        <p>There was an error, unable to sign in with those credentials.</p>
+    </div>
+
                 <b-col cols="6" md="6" sm="6" lg="6">
                     <h2>Inicio de sesión</h2>
 
@@ -17,17 +23,17 @@ PER CAPITAL pone a tu disposicion herramientas para lograr estos objetivos.
                 </b-col>
 
                 <b-col col="5" md="5" sm="5" lg="5">
-                    <b-form class="m-t">
+                    <b-form class="m-t" autocomplete="off" @submit.prevent="login" method="post">
                         <b-form-group>
-                            <b-form-input placeholder="Email">Email</b-form-input>
+                            <b-form-input placeholder="Email" v-model="email" required>Email</b-form-input>
                         </b-form-group>
                         <b-form-group>
-                            <b-form-input placeholder="Contraseña" type="password">Contraseña</b-form-input>
+                            <b-form-input placeholder="Contraseña" type="password" v-model="password" required>Contraseña</b-form-input>
                         </b-form-group>
                         <b-container>
 
                             <b-row>
-                                <b-button variant="secondary" class="text-right">Inicio sesión</b-button>
+                                <b-button variant="secondary" class="text-right" type="submit">Inicio sesión</b-button>
                             </b-row>
 
                             <p class="text-muted text-center">

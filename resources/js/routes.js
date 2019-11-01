@@ -2,6 +2,7 @@ import Home from './views/Home.vue';
 import Faq from './views/Faq.vue';
 import Login from './views/Login.vue';
 import Register from './views/Register.vue';
+import Dashboard from './views/Dashboard.vue';
 import Example from './components/ExampleComponent.vue';
 export const routes = [
     {
@@ -17,11 +18,25 @@ export const routes = [
     {
         path: '/login',
         component: Login,
-        name: 'Login'
+        name: 'Login',
+        meta:{
+            auth: false
+        }
     }, 
     {
         path: '/register',
         component: Register,
-        name: 'Register'
+        name: 'Register',
+        meta: {
+            auth:false
+        }
+    },
+    {
+        path: '/dashboard',
+        component: Dashboard,
+        name: 'Dashboard',
+        meta: {
+            auth: true
+        }
     }
 ];
