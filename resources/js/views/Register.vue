@@ -14,8 +14,9 @@
                         </p>
                     </div>
 
-
                     <div>
+                        <div class="navy-line"></div>
+                        <br>
                         <div class="text-center">
                             <h3>Registro en PER CAPITAL</h3>
                             <p>Crea tu cuenta para empezar a invertir</p>

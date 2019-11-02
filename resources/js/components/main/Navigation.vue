@@ -15,7 +15,7 @@
                     <b-nav-item :to="{name: 'home'}">Inicio</b-nav-item>
                     <b-nav-item href="#empresa">La empresa</b-nav-item>
                     <b-nav-item href="#fondos">Fondos</b-nav-item>
-                    <b-nav-item href="#">Servicios</b-nav-item>
+                    <b-nav-item :to="{name: 'Services'}">Servicios</b-nav-item>
                     <b-nav-item href="#">Reportes y noticias</b-nav-item>
                     <b-nav-item href="#">Contacto</b-nav-item>
                     <b-nav-item-dropdown text="Idioma" right>

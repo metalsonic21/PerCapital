@@ -36,6 +36,7 @@ Vue.component('Home', require('./views/Home.vue').default);
 Vue.component('Faq', require('./views/Faq.vue').default);
 Vue.component('Login', require('./views/Login.vue').default);
 Vue.component('Register', require('./views/Register.vue').default);
+Vue.component('Services', require('./views/Services.vue').default);
 
 
 /* Router */

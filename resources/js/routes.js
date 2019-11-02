@@ -3,6 +3,7 @@ import Faq from './views/Faq.vue';
 import Login from './views/Login.vue';
 import Register from './views/Register.vue';
 import Dashboard from './views/Dashboard.vue';
+import Services from './views/Services.vue'
 import Example from './components/ExampleComponent.vue';
 export const routes = [
     {
@@ -38,5 +39,10 @@ export const routes = [
         meta: {
             auth: true
         }
+    },
+    {
+        path: '/services',
+        component: Services,
+        name: 'Services'
     }
 ];
