@@ -104,10 +104,18 @@
 export default {
     methods: {
         faq() {
-            this.$router.push('/faq');
+        axios.get('/faq')
+
+            .then(res => {
+                window.location = "/faq";
+            })
         },
         services(){
-            this.$router.push('/services');
+        axios.get('/services')
+
+            .then(res => {
+                window.location = "/services";
+            })
         }
     }
 }

@@ -1,73 +1,85 @@
-@extends('layouts.app')
+@extends('layouts.basic')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
+<b-container>
+    <div class="wrapper wrapper-content animated fadeInDown">
+    <b-row>
 
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+    <b-col cols="6" md="6" sm="6" lg="6">
+        <h2>Inicio de sesión</h2>
+            <p class="text-justify">
+            En cualquier economia es importante tomar acciones para proteger el patrimonio, preservar el capital y aprovechar las oportunidades que brinda el mercado.
+            </p>
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+            <p class="text-justify">
+            PER CAPITAL pone a tu disposicion herramientas para lograr estos objetivos.
+            </p>
+    </b-col>
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+        <b-col col="5" md="5" sm="5" lg="5">
+            <b-form class="m-t" autocomplete="off" method="POST" action="{{ route('login') }}">
+                @csrf
+                <b-form-group>
+                    <label for="email">Correo electrónico</label>
+                    <b-form-input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>Email</b-form-input>
+                
+                    @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                </b-form-group>
+                
+                <b-form-group>
+                    <label for="password">Contraseña</label>
+                    <b-form-input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">Contraseña</b-form-input>
+                
+                    @error('password')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+                </b-form-group>
+
+                <div class="form-group row">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                <label class="form-check-label" for="remember">
+                                    {{ __('Recordarme') }}
+                                </label>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+    <b-container>
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+    <b-row>
+        <b-button variant="secondary" class="text-right" type="submit">Inicio sesión</b-button>
 
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+    </b-row>
 
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+    <p class="text-muted text-center">
+    <b-link href="{{ route('password.request') }}">
+        <small>¿Olvidó contraseña?</small>
+    </b-link>
+    </p>
 
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+    </b-container>
+        <p class="text-muted text-center">
+            <small>
+            ¿No tienes una cuenta?
+        <b-link href="{{ route('register') }}">
+        Regístrate
+        </b-link>
+        </small>
+        </p>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    </b-form>
+</b-col>
+</b-row>
 </div>
+</b-container>
 @endsection

@@ -138,13 +138,7 @@
         <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
 
         <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/wow.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.counterup.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/tabs.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
     </div>

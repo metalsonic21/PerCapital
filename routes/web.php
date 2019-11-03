@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/{any}', 'mainpage\LandingController@index')->where('any', '.*');
+Route::get('/', function () {
+    return view('main.landing');
+});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/faq', 'FAQController@index')->name('faq');
+Route::get('/services', 'ServicesController@index')->name('services');
