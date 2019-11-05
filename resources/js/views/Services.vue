@@ -1,6 +1,6 @@
 <template>
 <div>
-    <section class="timeline animated fadeInDown">
+    <section class="timeline animated fadeIn" id="servicios">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -66,7 +66,7 @@
                                     Ayudamos a nuestros clientes a lograr sus metas financiera
 
                                 </p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/supervision-2.png"></b-img>
+                                <b-img fluid class="vertical-date" src="/img/content/landing/services-1.jpg"></b-img>
 
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                                 </p>
 
                                 <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/money-4.png"></b-img>
+                                <b-img fluid class="vertical-date" src="/img/content/landing/services-2.jpg"></b-img>
 
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                 </p>
 
                                 <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/consulting.png"></b-img>
+                                <b-img fluid class="vertical-date" src="/img/content/landing/services-8.png"></b-img>
 
                             </div>
                         </div>

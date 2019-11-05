@@ -30,106 +30,65 @@
     <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+
 </head>
-<body>
+<body class="landing-page">
     <div id="app">
         <Values></Values>
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="/img/logo/PastedGraphic-1-3.jpeg" width="220" height="110" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">La empresa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Fondos</a>
-                        </li> 
-
-                        <li class="nav-item">
-                            <a href="{{ url('/services') }}" class="nav-link">Servicios</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Reportes y noticias</a>
-                        </li>
-
-                        <li>
-                            <a href="" class="nav-link">Contacto</a>
-                        </li>
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                            <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#languages" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Idioma
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="languages">
-                                      <a class="dropdown-item" href="#">Inglés</a>
-                                      <a class="dropdown-item" href="#">Español</a>
-
-                                    </div>
-                                  </li>
-
-                            
-                                  <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#inversionist" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Inversionista
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="inversionist">
-                                          <a class="dropdown-item" href="#">Institucional</a>
-                                          <a class="dropdown-item" href="#">Privado</a>
+        <header>
+            <b-navbar toggleable="lg" fixed sticky class="mx-5">
+                <b-navbar-brand href="#" class="ml-5">
+                    <b-img fluid src="/img/logo/PastedGraphic-1-3.jpeg" href="{{ url('/') }}" width="220" height="110"></b-img>
+                </b-navbar-brand>
     
-                                        </div>
-                                      </li>
+                <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    
+                <b-collapse id="nav-collapse" is-nav>
+    
+                    <b-navbar-nav class="ml-auto">
+                        <b-nav-item href="{{ url('/') }}">Inicio</b-nav-item>
+                        <b-nav-item href="#empresa">La empresa</b-nav-item>
+                        <b-nav-item href="#fondos">Fondos</b-nav-item>
+                        <b-nav-item href="#servicios">Servicios</b-nav-item>
+                        <b-nav-item href="#">Noticias</b-nav-item>
+                        <b-nav-item href="#">Contacto</b-nav-item>
+                        <b-nav-item-dropdown text="Idioma" right>
+                            <b-dropdown-item href="#">Español</b-dropdown-item>
+                            <b-dropdown-item href="#">Inglés</b-dropdown-item>
+                        </b-nav-item-dropdown>
+    
+                        <b-nav-item-dropdown text="Inversionista" right>
+                            <b-dropdown-item href="#">Institucional</b-dropdown-item>
+                            <b-dropdown-item href="#">Privado</b-dropdown-item>
+                        </b-nav-item-dropdown>
+
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
+                        <b-nav-item right href="{{ route('login') }}">Login</b-nav-item>
+                        @if (Route::has('register'))
+                        <b-nav-item right href="{{ route('register') }}">Registro</b-nav-item>
+                        @endif
                         @else
-                        
-                        
-                        <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#userinfo" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        {{ Auth::user()->name }}
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="userinfo">
 
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                            document.getElementById('logout-form').submit();">
-                                                {{ __('Logout') }}
-                                            </a>
-        
+                        <b-nav-item-dropdown right text="{{ Auth::user()->name }}">
+                            <b-dropdown-item href="{{ route('logout') }}" 
+                                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}</b-dropdown-item>
+
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
+                                            @csrf
                                     </form>
-                                </div>
-                              </li>
-                              @endguest
+                        </b-nav-item-dropdown>
+                        @endguest
+                    </b-navbar-nav>
+                </b-collapse>
+            </b-navbar>
+            <br>
+    
+        </header>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+        
         <main class="py-4">
             @yield('content')
         </main>

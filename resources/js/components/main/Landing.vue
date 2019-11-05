@@ -50,16 +50,16 @@
 
     <!-- INDICATORS -->
     <div>
-        <div class=parallax-section style="background-image:url(img/content/landing/section-bg2.jpg)"> 
+        <div class="parallax-section" style="background-image:url(img/content/landing/section-bg2.jpg)"> 
         <b-container>
             <h3 style="color:white;" align="center">Los números cuentan</h3>
             <h5 style="color:white" align="center">Indicadores:</h5>
             <br>
 
             <div class="container counter-section">
-                <b-row>
+                <div class="row">
                     <div class="col-lg-12 text-center">
-                        <b-list-group horizontal class="list-group-mine justify-content-center">
+                        <b-list-group class="list-group-horizontal list-group-mine justify-content-center">
                             <b-list-group-item class="flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
                                     <h5 class="mb-1" style="color:white">&nbsp;PIB</h5>
@@ -101,11 +101,11 @@
 
                         </b-list-group>
                     </div>
-                </b-row>
+                </div>
 
-                <b-row>
-                    <b-col cols="12" lg="12" class="text-center">
-                        <b-list-group horizontal class="list-group-mine justify-content-center">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <b-list-group class="list-group-mine list-group-horizontal justify-content-center">
                             <b-list-group-item class="flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
                                     <h5 class="mb-1" align="center" style="color:white">&nbsp;IBC</h5>
@@ -135,8 +135,8 @@
                                 <p class="mb-1 text-center" style="color:white">+ 4%</p>
                             </b-list-group-item>
                         </b-list-group>
-                    </b-col>
-                </b-row>
+                    </div>
+                </div>
             </div>
             <br>
 
@@ -210,79 +210,7 @@
 
     </div>
 
-    <!--
-<section class="timeline gray-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Nuestras actividades</h1>
-            </div>
-        </div>
-        <div class="row features-block">
-
-            <div class="col-lg-12">
-                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-briefcase"></i>
-                        </div>
-
-                        <div class="vertical-timeline-content">
-                            <h2>Escoger entre inversiones diseñadas para fácil salida</h2>
-                            <p>Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.
-
-                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.
-                            </p>
-
-                            <b-img fluid class="vertical-date" src="/img/content/landing/money-5.png"></b-img>
-
-                        </div>
-                    </div>
-
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-file-text"></i>
-                        </div>
-
-                        <div class="vertical-timeline-content">
-                            <h2>Supervisión, control y transparencia financiera</h2>
-                            <p>Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.
-
-                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.
-
-                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.</p>
-                            <b-img fluid class="vertical-date" src="/img/content/landing/supervision-2.png"></b-img>
-
-                        </div>
-                    </div>
-
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-cogs"></i>
-                        </div>
-
-                        <div class="vertical-timeline-content">
-                            <h2>Experiencia y conocimiento</h2>
-                            <p>Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.
-
-                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.
-
-                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes.</p>
-                            <b-img fluid class="vertical-date" src="/img/content/landing/money-4.png"></b-img>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-</section>
-
--->
+    <Services></Services>
 
     <!-- TEAM -->
 
@@ -516,7 +444,7 @@
                 <h2>Regístrate</h2>
                 <p>Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
                 </p>
-                <p><a class="navy-link" href="#" role="button">Haga click aquí &raquo;</a></p>
+                <p><b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link></p>
             </div>
         </div>
 
@@ -530,7 +458,11 @@
 
 <script>
 export default {
-
+    methods: {
+        register(){
+            window.location = "/register"
+        },
+    }
 }
 </script>
 

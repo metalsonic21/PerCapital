@@ -29,7 +29,7 @@
     <link href="{{ asset('/css/swiper-slider.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/styleinsp.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">

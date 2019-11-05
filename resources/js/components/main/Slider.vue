@@ -1,9 +1,9 @@
 <template>
 <div>
-    <div class=swiper-container>
-        <div class=swiper-wrapper data-swiper-autoplay=2000>
+    <div class="swiper-container">
+        <div class="swiper-wrapper" data-swiper-autoplay="2000">
 
-            <div class=swiper-slide style=background-image:url(img/content/landing/slide-1.jpg)> <br>
+            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-1.jpg)"> <br>
                 <!--
                 <h3 data-caption-animate=fadeInUp>Finalmente, puedes empezar</h3> -->
                 <div class="container">
@@ -11,7 +11,7 @@
                         <b-list-group style="background-color:transparent" class="text-light list-group-mine">
 
                             <b-list-group-item align="left" @click="faq"><strong>></strong> FAQ</b-list-group-item>
-                            <b-list-group-item align="left" @click="services"><strong>></strong> Servicios</b-list-group-item>
+                            <b-list-group-item align="left" style="text-align:left;color:white;" href="#servicios"><strong>></strong> Servicios</b-list-group-item>
 
                         </b-list-group>
 
@@ -20,7 +20,7 @@
 
             </div>
 
-            <div class=swiper-slide style="background-image:url(img/content/landing/slide-3.jpg)"> <br>
+            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-3.jpg)"> <br>
                 <b-col cols="7" md="7" class="mx-auto my-auto">
 
                     <div class="text-light bg-secondary">
@@ -40,10 +40,10 @@
 
             </div>
 
-            <div class=swiper-slide style=background-image:url(img/content/landing/slide-2.jpg)> <h3 data-caption-animate=fadeInUp>Elige tu perfil de inversionista</h3>
+            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-2.jpg)"> <h3 data-caption-animate="fadeInUp">Elige tu perfil de inversionista</h3>
                 <b-container>
                     <b-row>
-                        <b-col cols="6" md="6" sm="6">
+                        <b-col cols="6" md="6" sm="6" xs="6" class="col-xs-6 h-50-inline-block">
                             <div class="card">
                                 <div class="card-block">
                                     <div class="container">
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                         </b-col>
-                        <b-col cols="6" md="6" sm="6">
+                        <b-col cols="6" md="6" sm="6" xs="6" class="col-xs-6">
                             <div class="card">
                                 <div class="card-block">
                                     <div class="container">
@@ -83,7 +83,7 @@
                 </b-container>
             </div>
 
-            <div class=swiper-slide style=background-image:url(img/content/landing/slide-4.jpg)> <h3 data-caption-animate=fadeInUp>Aviso legal</h3>
+            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-4.jpg)"> <h3 data-caption-animate="fadeInUp">Aviso legal</h3>
                 <h5>“No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente <br>
                     los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un <br>
                     comportamiento similar a aquel que fundamento la presente recomendación”<br><br>
@@ -93,9 +93,9 @@
             </div>
 
         </div>
-        <div class=swiper-pagination></div>
-        <div class=swiper-button-next></div>
-        <div class=swiper-button-prev></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 </div>
 </template>
