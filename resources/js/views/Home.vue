@@ -2,6 +2,7 @@
     <div>
         <slider></slider>
         <landing></landing>
+        <footeralt></footeralt>
     </div>
 </template>
 

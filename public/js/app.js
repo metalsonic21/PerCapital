@@ -2418,7 +2418,42 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    faq: function faq() {
+      window.location = "/faq";
+    }
+  }
+});
 
 /***/ }),
 
@@ -2790,105 +2825,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     register: function register() {
@@ -2896,6 +2832,140 @@ __webpack_require__.r(__webpack_exports__);
     }
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Numbers.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Numbers.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -3191,6 +3261,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -36103,7 +36174,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine{\r\n    font-size: 80%;\n}\n.h5-mine{\r\n    font-size: 80%;\r\n    color:black;\n}\r\n", ""]);
+exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n", ""]);
 
 // exports
 
@@ -69288,6 +69359,90 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "contacto" } }, [
+      _c("div", { staticClass: "block-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "navy-line" }),
+          _vm._v(" "),
+          _c("h1", { attrs: { align: "center" } }, [_vm._v("Contacto")]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+              _c("div", { staticClass: "contact-box" }, [
+                _c("i", { staticClass: "fa fa-map-marker" }),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Ubicación")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Av. Circunvalación del Sol, Torre Santa Paula Plaza II, Ofic. 104"
+                  ),
+                  _c("br"),
+                  _vm._v("Caracas, Venezuela")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+              _c("div", { staticClass: "contact-box" }, [
+                _c("i", { staticClass: "fa fa-phone" }),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Teléfono")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("0800-CAPITAL")]),
+                _vm._v(" "),
+                _c("br"),
+                _c("br")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+              _c("div", { staticClass: "contact-box" }, [
+                _c("i", { staticClass: "fa fa-envelope" }),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Correo electrónico")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("info@percapital.com"), _c("br"), _c("br")]),
+                _vm._v(" "),
+                _c("br")
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=template&id=3fa31854&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Disclaimer.vue?vue&type=template&id=3fa31854& ***!
@@ -69418,312 +69573,203 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "block-section gray-section" }, [
-      _c(
-        "div",
-        { staticClass: "container" },
-        [
-          _c("b-col", { attrs: { cols: "11", md: "11" } }, [
-            _c(
-              "div",
-              {
-                staticClass: "owl-carousel owl-theme partners",
-                attrs: { id: "our-partners" }
-              },
-              [
-                _c(
-                  "div",
-                  { staticClass: "item" },
-                  [
-                    _c("b-img", {
-                      staticStyle: { width: "150px", height: "150px" },
-                      attrs: {
-                        alt: "partner-image",
-                        src: "img/content/landing/bcv.png"
-                      }
-                    })
-                  ],
-                  1
-                ),
+    _c("div", { staticClass: "container" }, [
+      _c("footer", { staticClass: "page-footer font-small indigo" }, [
+        _c("div", { staticClass: "container text-center text-md-left" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-3 mx-auto" }, [
+              _c(
+                "h5",
+                {
+                  staticClass:
+                    "font-weight-bold text-uppercase mt-3 mb-4 text-center",
+                  staticStyle: { color: "black" }
+                },
+                [_vm._v("La empresa")]
+              ),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-unstyled text-center" }, [
+                _vm._m(0),
                 _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "item" },
-                  [
-                    _c("b-img", {
-                      staticStyle: { width: "150px", height: "150px" },
-                      attrs: {
-                        alt: "partner-image",
-                        src: "img/content/landing/bdv.png"
-                      }
-                    })
-                  ],
-                  1
-                ),
+                _vm._m(1),
                 _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "item" },
-                  [
-                    _c("b-img", {
-                      staticStyle: { width: "150px", height: "150px" },
-                      attrs: {
-                        alt: "partner-image",
-                        src: "img/content/landing/cvv.png"
-                      }
-                    })
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "item" },
-                  [
-                    _c("b-img", {
-                      staticStyle: { width: "150px", height: "150px" },
-                      attrs: {
-                        alt: "partner-image",
-                        src: "img/content/landing/sunaval.png"
-                      }
-                    })
-                  ],
-                  1
-                )
-              ]
-            )
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticStyle: { color: "black" }, on: { click: _vm.faq } },
+                    [_vm._v("FAQ")]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+            _vm._v(" "),
+            _vm._m(4)
           ])
-        ],
-        1
-      )
-    ]),
-    _vm._v(" "),
-    _c(
-      "footer",
-      { staticClass: "footer" },
-      [
-        _c(
-          "b-container",
-          [
-            _c(
-              "b-row",
-              [
-                _c(
-                  "b-col",
-                  { attrs: { cols: "3", md: "3", sm: "3", lg: "3", xs: "12" } },
-                  [
-                    _c("b-img", {
-                      attrs: {
-                        alt: "logo",
-                        fluid: "",
-                        src: "/img/logo/PastedGraphic-1-3.jpeg"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-content black-color" }, [
-                      _c("br"),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "h5-mine" }, [
-                        _vm._v("0800-CAPITAL")
-                      ]),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "h5-mine" }, [
-                        _vm._v("info@percapital")
-                      ]),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "h5-mine" }, [
-                        _vm._v("Caracas-Venezuela")
-                      ])
-                    ])
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-col",
-                  { attrs: { cols: "2", md: "2", sm: "3", lg: "2", xs: "12" } },
-                  [
-                    _c("div", { staticClass: "footer-heading" }, [
-                      _c(
-                        "h4",
-                        { staticClass: "h4-mine", attrs: { align: "center" } },
-                        [_c("strong", [_vm._v("La empresa")])]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "footer-contact" },
-                      [
-                        _c(
-                          "b-list-group",
-                          { staticClass: "list-group-footer" },
-                          [
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Por qué PER CAPITAL")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Equipo ")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" FAQ")
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-col",
-                  { attrs: { cols: "2", md: "2", sm: "3", lg: "2", xs: "12" } },
-                  [
-                    _c("div", { staticClass: "footer-heading" }, [
-                      _c(
-                        "h4",
-                        { staticClass: "h4-mine", attrs: { align: "center" } },
-                        [_c("strong", [_vm._v("Fondos")])]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "footer-contact" },
-                      [
-                        _c(
-                          "b-list-group",
-                          { staticClass: "list-group-footer" },
-                          [
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Fondo Mutual")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Fondo Inmobiliario")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Capital de Riesgo")
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-col",
-                  { attrs: { cols: "2", md: "2", sm: "3", lg: "2", xs: "12" } },
-                  [
-                    _c("div", { staticClass: "footer-heading" }, [
-                      _c(
-                        "h4",
-                        { staticClass: "h4-mine", attrs: { align: "center" } },
-                        [_c("strong", [_vm._v("Servicios")])]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "footer-contact" },
-                      [
-                        _c(
-                          "b-list-group",
-                          { staticClass: "list-group-footer" },
-                          [
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Administración E.I.C")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Asesoría Financiera")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Estructuración")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v(" Ingeniería financiera")
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-col",
-                  { attrs: { cols: "3", md: "3", sm: "3", lg: "3", xs: "12" } },
-                  [
-                    _c("div", { staticClass: "footer-heading" }, [
-                      _c(
-                        "h4",
-                        { staticClass: "h4-mine", attrs: { align: "center" } },
-                        [_c("strong", [_vm._v("Noticias")])]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "footer-contact" },
-                      [
-                        _c(
-                          "b-list-group",
-                          { staticClass: "list-group-footer" },
-                          [
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v("Trimestral")
-                            ]),
-                            _vm._v(" "),
-                            _c("b-list-group-item", [
-                              _c("strong", [_vm._v(">")]),
-                              _vm._v("Anual")
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _vm._m(0)
+        ]),
+        _vm._v(" "),
+        _vm._m(5)
+      ]),
+      _vm._v(" "),
+      _vm._m(6)
+    ])
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "a",
+        { staticStyle: { color: "black" }, attrs: { href: "#empresa" } },
+        [_vm._v("Por qué PER CAPITAL")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { staticStyle: { color: "black" }, attrs: { href: "#equipo" } }, [
+        _vm._v("Equipo")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
+      _c(
+        "h5",
+        {
+          staticClass: "font-weight-bold text-uppercase mt-3 mb-4 text-center",
+          staticStyle: { color: "black" }
+        },
+        [_vm._v("Fondos")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-unstyled text-center" }, [
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Fondo Mutual")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Fondo Inmobiliario")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Capital de Riesgo")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
+      _c(
+        "h5",
+        {
+          staticClass: "font-weight-bold text-uppercase mt-3 mb-4 text-center",
+          staticStyle: { color: "black" }
+        },
+        [_vm._v("Servicios")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-unstyled text-center" }, [
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Administración E.I.C")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Asesoría Financiera")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Estructuración")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Ingeniería financiera")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
+      _c(
+        "h5",
+        {
+          staticClass: "font-weight-bold text-uppercase mt-3 mb-4 text-center",
+          staticStyle: { color: "black" }
+        },
+        [_vm._v("Noticias")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-unstyled text-center" }, [
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Trimestral")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
+            _vm._v("Anual")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "footer-copyright text-center py-3",
+        staticStyle: { color: "black" }
+      },
+      [
+        _vm._v(
+          "0800-CAPITAL\r\n                info@percapital.com\r\n                "
+        ),
+        _c("p", [_vm._v("Caracas-Venezuela")])
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -69763,399 +69809,7 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _c("div", [
-        _c(
-          "div",
-          {
-            staticClass: "parallax-section",
-            staticStyle: {
-              "background-image": "url(img/content/landing/section-bg2.jpg)"
-            }
-          },
-          [
-            _c("b-container", [
-              _c(
-                "h3",
-                { staticStyle: { color: "white" }, attrs: { align: "center" } },
-                [_vm._v("Los números cuentan")]
-              ),
-              _vm._v(" "),
-              _c(
-                "h5",
-                { staticStyle: { color: "white" }, attrs: { align: "center" } },
-                [_vm._v("Indicadores:")]
-              ),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("div", { staticClass: "container counter-section" }, [
-                _c("div", { staticClass: "row" }, [
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-12 text-center" },
-                    [
-                      _c(
-                        "b-list-group",
-                        {
-                          staticClass:
-                            "list-group-horizontal list-group-mine justify-content-center"
-                        },
-                        [
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v(" PIB")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" },
-                                  attrs: { align: "center" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\r\n                                    $5,00 "
-                                  )
-                                ]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Inflación")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("100.000%")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Reservas")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("$8.456,00")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Masa monetaria")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("Bs 123.456.789,00")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1 text-center",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Tasa de cambio")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("21.345,09")]
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "row" }, [
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-12 text-center" },
-                    [
-                      _c(
-                        "b-list-group",
-                        {
-                          staticClass:
-                            "list-group-mine list-group-horizontal justify-content-center"
-                        },
-                        [
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" },
-                                      attrs: { align: "center" }
-                                    },
-                                    [_vm._v(" IBC")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("45.502")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Deuda interna")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("$3.876.000.987")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Deuda externa")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("$208.765.345.000")]
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            { staticClass: "flex-column align-items-start" },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex w-100 justify-content-between"
-                                },
-                                [
-                                  _c(
-                                    "h5",
-                                    {
-                                      staticClass: "mb-1",
-                                      staticStyle: { color: "white" }
-                                    },
-                                    [_vm._v("Valoración BVC")]
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "p",
-                                {
-                                  staticClass: "mb-1 text-center",
-                                  staticStyle: { color: "white" }
-                                },
-                                [_vm._v("+ 4%")]
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-xs-12 offset-md-5" }, [
-                  _c(
-                    "ul",
-                    {
-                      staticClass: "myullandingp",
-                      staticStyle: { "text-color": "white" }
-                    },
-                    [
-                      _c("li", [_vm._v("*Banco mundial")]),
-                      _vm._v(" "),
-                      _c("li", [_vm._v("**FMI")]),
-                      _vm._v(" "),
-                      _c("li", [_vm._v("***BCV")])
-                    ]
-                  )
-                ])
-              ])
-            ])
-          ],
-          1
-        )
-      ]),
+      _c("Numbers"),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
@@ -70545,7 +70199,11 @@ var render = function() {
           _vm._v(" "),
           _vm._m(7)
         ]
-      )
+      ),
+      _vm._v(" "),
+      _c("section", { staticClass: "grey-section" }, [_c("Contact")], 1),
+      _vm._v(" "),
+      _c("br")
     ],
     1
   )
@@ -70614,8 +70272,6 @@ var staticRenderFns = [
                       _vm._v(
                         "Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. "
                       ),
-                      _c("br"),
-                      _vm._v(" "),
                       _c("br"),
                       _vm._v(" "),
                       _c("br"),
@@ -70746,7 +70402,6 @@ var staticRenderFns = [
                   _vm._v(
                     "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. "
                   ),
-                  _c("br"),
                   _c("br"),
                   _c("br"),
                   _c("br"),
@@ -70972,6 +70627,189 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("small", { staticClass: "text-center" }, [
       _c("strong", [_vm._v(" Contacto: solicitud@percapital.com")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "navy-line" }),
+        _vm._v(" "),
+        _c("h1", { attrs: { align: "center" } }, [
+          _vm._v("Los números cuentan")
+        ]),
+        _vm._v(" "),
+        _c("h6", { attrs: { align: "center" } }, [_vm._v("Indicadores:")]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [_vm._v("PIB")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("$ 5.00")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [_vm._v("Inflación")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("100.000%")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [_vm._v("Reservas")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("$8.456,00")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [
+                  _vm._v("Masa monetaria")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("Bs 123.456.789,00")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [
+                  _vm._v("Tasa de cambio")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("21.345,09")
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [_vm._v("IBC")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("45.502")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [
+                  _vm._v("Deuda interna")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("$3.876.000.987")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [
+                  _vm._v("Deuda externa")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("$208.765.345.000")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-2" }, [
+            _c("div", { staticClass: "ibox " }, [
+              _c("div", { staticClass: "ibox-title" }, [
+                _c("h5", { staticClass: "text-center" }, [
+                  _vm._v("Valoración BVC")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "ibox-content" }, [
+                _c("h1", { staticClass: "no-margins text-center" }, [
+                  _vm._v("+ 4 %")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -71483,7 +71321,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("slider"), _vm._v(" "), _c("landing")], 1)
+  return _c(
+    "div",
+    [_c("slider"), _vm._v(" "), _c("landing"), _vm._v(" "), _c("footeralt")],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -83976,6 +83818,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('slider', __webpack_require
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('landing', __webpack_require__(/*! ./components/main/Landing.vue */ "./resources/js/components/main/Landing.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footeralt', __webpack_require__(/*! ./components/main/Footer.vue */ "./resources/js/components/main/Footer.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Values', __webpack_require__(/*! ./components/main/Values.vue */ "./resources/js/components/main/Values.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Contact', __webpack_require__(/*! ./components/main/Contact.vue */ "./resources/js/components/main/Contact.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Numbers', __webpack_require__(/*! ./components/main/Numbers.vue */ "./resources/js/components/main/Numbers.vue")["default"]);
 /* Faq components */
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Questions', __webpack_require__(/*! ./components/faq/Questions.vue */ "./resources/js/components/faq/Questions.vue")["default"]);
@@ -84168,6 +84012,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Questions_vue_vue_type_template_id_92a7618e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Questions_vue_vue_type_template_id_92a7618e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Contact.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/main/Contact.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contact.vue?vue&type=template&id=b7fcff16& */ "./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/main/Contact.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Contact.vue?vue&type=template&id=b7fcff16& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Contact.vue?vue&type=template&id=b7fcff16&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contact_vue_vue_type_template_id_b7fcff16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -84411,6 +84308,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_81967a28___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_81967a28___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Numbers.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/main/Numbers.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Numbers.vue?vue&type=template&id=62d074c2& */ "./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2&");
+/* harmony import */ var _Numbers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Numbers.vue?vue&type=script&lang=js& */ "./resources/js/components/main/Numbers.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Numbers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/main/Numbers.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Numbers.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/main/Numbers.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Numbers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Numbers.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Numbers.vue?vue&type=template&id=62d074c2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Numbers.vue?vue&type=template&id=62d074c2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

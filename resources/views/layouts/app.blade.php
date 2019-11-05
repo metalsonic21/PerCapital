@@ -51,7 +51,7 @@
                         <b-nav-item href="#fondos">Fondos</b-nav-item>
                         <b-nav-item href="#servicios">Servicios</b-nav-item>
                         <b-nav-item href="#">Noticias</b-nav-item>
-                        <b-nav-item href="#">Contacto</b-nav-item>
+                        <b-nav-item href="#contacto">Contacto</b-nav-item>
                         <b-nav-item-dropdown text="Idioma" right>
                             <b-dropdown-item href="#">Español</b-dropdown-item>
                             <b-dropdown-item href="#">Inglés</b-dropdown-item>

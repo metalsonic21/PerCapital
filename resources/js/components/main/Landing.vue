@@ -26,7 +26,7 @@
                             <div class="col-md-3">
                                 <article class="hover-shadow article-block"><i class="fa fa-compass" aria-hidden=true></i>
                                     <h4>Análisis riguroso</h4>
-                                    <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> <br> </p>
+                                    <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> </p>
                                 </article>
                             </div>
                             <div class="col-md-3">
@@ -48,111 +48,7 @@
         </div>
     </div>
 
-    <!-- INDICATORS -->
-    <div>
-        <div class="parallax-section" style="background-image:url(img/content/landing/section-bg2.jpg)"> 
-        <b-container>
-            <h3 style="color:white;" align="center">Los números cuentan</h3>
-            <h5 style="color:white" align="center">Indicadores:</h5>
-            <br>
-
-            <div class="container counter-section">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <b-list-group class="list-group-horizontal list-group-mine justify-content-center">
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">&nbsp;PIB</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" align="center" style="color:white">
-                                    $5,00 </p>
-
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Inflación</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">100.000%</p>
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Reservas</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">$8.456,00</p>
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Masa monetaria</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">Bs 123.456.789,00</p>
-
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1 text-center" style="color:white">Tasa de cambio</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">21.345,09</p>
-                            </b-list-group-item>
-
-                        </b-list-group>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <b-list-group class="list-group-mine list-group-horizontal justify-content-center">
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" align="center" style="color:white">&nbsp;IBC</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">45.502</p>
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Deuda interna</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">$3.876.000.987</p>
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Deuda externa</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">$208.765.345.000</p>
-                            </b-list-group-item>
-                            <b-list-group-item class="flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color:white">Valoración BVC</h5>
-                                </div>
-
-                                <p class="mb-1 text-center" style="color:white">+ 4%</p>
-                            </b-list-group-item>
-                        </b-list-group>
-                    </div>
-                </div>
-            </div>
-            <br>
-
-            <div class="row">
-                <div class="col-xs-12 offset-md-5">
-                    <ul class="myullandingp" style="text-color:white">
-                        <li>*Banco mundial</li>
-                        <li>**FMI</li>
-                        <li>***BCV</li>
-                    </ul>
-                </div>
-            </div>
-            </b-container>
-        </div>
-
-    </div>
+    <Numbers></Numbers>
 
     <!-- ABOUT -->
 
@@ -200,7 +96,7 @@
 
                                 Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.
 
-                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. <br><br><br><br><br><br><br>
+                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. <br><br><br><br><br><br>
                             </p>
                         </article>
                     </div>
@@ -453,6 +349,11 @@
         <small class="text-center"> <strong> Contacto: solicitud@percapital.com</strong></small>
     </section>
 
+    <section class="grey-section">
+    <Contact></Contact>
+    </section>
+
+    <br>
 </div>
 </template>
 
