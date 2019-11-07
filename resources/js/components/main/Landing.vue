@@ -1,10 +1,11 @@
 <template>
 <div class="landing-page">
+
     <div id="caracteristicas">
         <div class=block-section>
             <div class=container>
                 <div class="center-holder main-heading">
-                    <h3>Finalmente puedes empezar</h3>
+                    <h3 class="title-mine">Finalmente puedes empezar</h3>
                     <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de
                         inversión Premium
                         <br>
@@ -52,13 +53,13 @@
 
     <!-- ABOUT -->
 
-    <div id="empresa">
+    <div id="empresa" class="about-mine">
         <div class="block-section grey-section">
             <div class=container>
-                <div class=row>
+                <div class="row">
                     <div class="col-xs-12 col-md-3 col-sm-3 about-section">
                         <div class=main-heading>
-                            <h3>¿Por qué PER CAPITAL?</h3>
+                            <h3 class="title-mine">¿Por qué PER CAPITAL?</h3>
                         </div>
                         <div class="mt-20 text-content">
                             <p class="text-justify">Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor </p>
@@ -66,7 +67,7 @@
                     </div>
                     <div class="col-xs-12 col-md-3 col-sm-2">
                         <article class="hover-shadow article-block">
-                            <h5>Escoge entre inversiones diseñadas para fácil salida</h5>
+                            <h5 class="title-mine">Escoge entre inversiones diseñadas para fácil salida</h5>
                             <p>
                                 Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.
 
@@ -77,7 +78,7 @@
 
                     <div class="col-xs-12 col-md-3 col-sm-2">
                         <article class="hover-shadow article-block">
-                            <h5>Supervisión, control y transparencia financiera</h5>
+                            <h5 class="title-mine">Supervisión, control y transparencia financiera</h5>
 
                             <p>Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.
 
@@ -90,7 +91,7 @@
 
                     <div class="col-xs-12 col-md-3 col-sm-2">
                         <article class="hover-shadow article-block">
-                            <h5>Experiencia y conocimiento</h5>
+                            <h5 class="title-mine">Experiencia y conocimiento</h5>
                             <br><br>
                             <p>Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.
 
@@ -110,41 +111,41 @@
 
     <!-- TEAM -->
 
-    <section class="features" id="equipo">
+    <section class="features features-mine" id="equipo">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1>Equipo</h1>
+                    <h1 class="title-mine">Equipo</h1>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center row-team">
                 <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
-                    <h2>Gerente general</h2>
+                    <h2 class="title-mine">Gerente general</h2>
                     <i class="fa fa-users big-icon float-right"></i>
                     <p>Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
                 </b-col>
             </div>
 
-            <b-row class="justify-content-center">
+            <b-row class="justify-content-center row-team">
                 <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
-                    <h2>Finanzas </h2>
+                    <h2 class="title-mine">Finanzas </h2>
                     <i class="fa fa-bar-chart big-icon float-right"></i>
                     <p>Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo.</p>
                 </b-col>
             </b-row>
 
-            <b-row class="justify-content-center">
+            <b-row class="justify-content-center row-team">
                 <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
-                    <h2>Administración y control </h2>
+                    <h2 class="title-mine">Administración y control </h2>
                     <i class="fa fa-clock-o big-icon float-right"></i>
                     <p>C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros.</p>
                 </b-col>
             </b-row>
 
-            <b-row class="justify-content-center">
+            <b-row class="justify-content-center row-team">
                 <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
-                    <h2>Finanzas corporativas </h2>
+                    <h2 class="title-mine">Finanzas corporativas </h2>
                     <i class="fa fa-money big-icon float-right"></i>
                     <p>Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital.</p>
                 </b-col>
@@ -152,7 +153,7 @@
 
             <b-row class="row justify-content-center">
                 <b-col cols="8" lg="8" md="8" class="col-lg-offset-1 features-text">
-                    <h2>Legal</h2>
+                    <h2 class="title-mine">Legal</h2>
                     <i class="fa fa-balance-scale big-icon float-right"></i>
                     <p>Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos.</p>
                 </b-col>
@@ -163,14 +164,14 @@
 
     <!-- FUNDINGS -->
 
-    <div class="block-section" id="fondos">
+    <div class="block-section fondos-mine" id="fondos">
         <div class="container">
             <b-row class="justify-content-center">
                 <b-col cols="10" md="10" lg="10" class="col-lg-offset-1 features-text">
                     <div class="center-holder main-heading text-justify">
                         <div class="navy-line"></div>
                         <br>
-                        <h4 align="center">Fondos</h4>
+                        <h4 align="center" class="title-mine">Fondos</h4>
                         <h5 align="center">PER CAPITAL Fondo Mutual de Inversion de Capital Abierto</h5>
                         <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
                     </div>
@@ -180,7 +181,7 @@
                     </div>
                     <br><br>
 
-                    <h4 align="center">Información de interés</h4>
+                    <h4 align="center" class="title-mine">Información de interés</h4>
                     <b-list-group>
                         <b-list-group-item class="d-flex justify-content-between align-items-center">
                             Fecha inicio
@@ -222,13 +223,13 @@
 
     <section class="comments gray-section" style="margin-top: 0" id="riesgos">
         <div class="container">
-            <div class="row">
+            <div class="row comments-mine">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1>Riesgos</h1>
+                    <h1 class="title-mine">Riesgos</h1>
                 </div>
             </div>
-            <div class="row features-block">
+            <div class="row">
                 <div class="col-lg-4">
                     <div class="bubble">
                         Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera.
@@ -321,24 +322,24 @@
     <!-- HOW TO INVEST -->
     <section id="invertir" class="container services">
         <div class="navy-line"></div>
-        <h1 align="center">¿Cómo invertir?</h1>
+        <h1 align="center" class="title-mine">¿Cómo invertir?</h1>
         <br>
         <div class="row">
             <div class="col-sm-3">
-                <h2>Perfil de inversionista</h2>
-                <p>Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)</p>
+                <h2 class="title-mine text-center">Perfil de inversionista</h2>
+                <p class="text-justify">Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)</p>
             </div>
             <div class="col-sm-3">
-                <h2>Plazo de inversión</h2>
-                <p>Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
+                <h2 class="title-mine text-center">Plazo de inversión</h2>
+                <p class="text-center">Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
             </div>
             <div class="col-sm-3">
-                <h2>Fondo</h2>
-                <p>Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
+                <h2 class="title-mine text-center">Fondo</h2>
+                <p class="text-center">Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
             </div>
             <div class="col-sm-3">
-                <h2>Regístrate</h2>
-                <p>Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
+                <h2 class="title-mine text-center">Regístrate</h2>
+                <p class="text-center">Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
                 </p>
                 <p><b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link></p>
             </div>
@@ -349,7 +350,7 @@
         <small class="text-center"> <strong> Contacto: solicitud@percapital.com</strong></small>
     </section>
 
-    <section class="grey-section">
+    <section class="grey-section-mine">
     <Contact></Contact>
     </section>
 
@@ -396,5 +397,33 @@ export default {
 
 .fa-bar-chart {
     color: black;
+}
+.about-mine{
+    margin-top: -1%;
+    margin-bottom: -2%;
+}
+
+.grey-section-mine{
+    margin-top: -175px;
+}
+
+.features-mine{
+    margin-top: -5%;
+}
+
+.row-team{
+    margin-top: -3%;
+}
+
+.fondos-mine{
+    margin-top: -9%
+}
+
+.comments-mine{
+    margin-top: -3%;
+}
+
+.row-team{
+    margin-bottom: -3%;
 }
 </style>

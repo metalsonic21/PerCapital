@@ -83,6 +83,7 @@
                 </b-container>
             </div>
 
+<!--
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-4.jpg)"> <h3 data-caption-animate="fadeInUp">Aviso legal</h3>
                 <h5>“No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente <br>
                     los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un <br>
@@ -91,6 +92,8 @@
                         de Valores y Asesores de Inversión. Sección V, Articulo 28.
                     </i></h5>
             </div>
+
+-->
 
         </div>
         <div class="swiper-pagination"></div>

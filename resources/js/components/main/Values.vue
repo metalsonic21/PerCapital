@@ -7,7 +7,7 @@
                     <div class="block">
                         <div class="animation">
                             <div class="first">
-                                <li v-bind:style="dynamicColorR">ABC.A 22.500,00</li>
+                                <li>ABC.A <em class="em-mine" v-bind:style="dynamicColorR">22.500,00</em></li>
                             </div>
                             <div>
                                 <li>BNC 332,50</li>
@@ -22,7 +22,7 @@
                             <li>BVCC 7.230,00</li>
                             </div>
                             <div>
-                            <li v-bind:style="dynamicColorG">BVL 900,00</li>
+                            <li>BVL <em class="em-mine" v-bind:style="dynamicColorG">900,00</em></li>
                             </div>
                             <div>
                                 <li>CCR 105.000,00</li>
@@ -40,7 +40,7 @@
                                 <li>DOM 13.300,00</li>
                             </div>
                             <div>
-                                <li v-bind:style="dynamicColorR">EFE 1.350,00</li>
+                                <li>EFE <em class="em-mine" v-bind:style="dynamicColorR">1.350,00</em></li>
                             </div>
 
                             <div>
@@ -68,7 +68,7 @@ export default {
     data() {
         return {
             dynamicColorR: {
-                color: 'red'
+                color: 'red',
             },
             dynamicColorG: {
                 color: '#16bb05'
@@ -148,5 +148,9 @@ $(window).on('load', function () {
   width: auto;
   float: none;
   padding: 0 10px;
+}
+
+.em-mine{
+    font-style: normal;
 }
 </style>

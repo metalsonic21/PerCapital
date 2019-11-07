@@ -30,6 +30,7 @@
     <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
 
 </head>
 <body class="landing-page">
@@ -38,7 +39,7 @@
         <header>
             <b-navbar toggleable="lg" fixed sticky class="mx-5">
                 <b-navbar-brand href="#" class="ml-5">
-                    <b-img fluid src="/img/logo/PastedGraphic-1-3.jpeg" href="{{ url('/') }}" width="220" height="110"></b-img>
+                    <b-link href="{{ url('/') }}"><b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4"></b-img></b-link>
                 </b-navbar-brand>
     
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -46,15 +47,30 @@
                 <b-collapse id="nav-collapse" is-nav>
     
                     <b-navbar-nav class="ml-auto">
-                        <b-nav-item href="{{ url('/') }}">Inicio</b-nav-item>
-                        <b-nav-item href="#empresa">La empresa</b-nav-item>
-                        <b-nav-item href="#fondos">Fondos</b-nav-item>
-                        <b-nav-item href="#servicios">Servicios</b-nav-item>
-                        <b-nav-item href="#">Noticias</b-nav-item>
+                    <b-nav-item-dropdown text="La empresa" right>
+                            <b-dropdown-item href="#">¿Por qué PER CAPITAL?</b-dropdown-item>
+                            <b-dropdown-item href="#">Equipo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/faq') }}">FAQ</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Fondos" right>
+                            <b-dropdown-item href="#">Fondo Mutual</b-dropdown-item>
+                            <b-dropdown-item href="#">Fondo Inmobiliario</b-dropdown-item>
+                            <b-dropdown-item href="#">Capital de riesgo</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Servicios" right>
+                            <b-dropdown-item href="#">Administración E.I.C</b-dropdown-item>
+                            <b-dropdown-item href="#">Asesoría Financiera</b-dropdown-item>
+                            <b-dropdown-item href="#">Estructuración</b-dropdown-item>
+                            <b-dropdown-item href="#">Ingeniería Financiera</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Reportes" right>
+                            <b-dropdown-item href="#">Trimestral</b-dropdown-item>
+                            <b-dropdown-item href="#">Anual</b-dropdown-item>
+                    </b-nav-item-dropdown>
                         <b-nav-item href="#contacto">Contacto</b-nav-item>
                         <b-nav-item-dropdown text="Idioma" right>
-                            <b-dropdown-item href="#">Español</b-dropdown-item>
-                            <b-dropdown-item href="#">Inglés</b-dropdown-item>
+                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-es"></span>&nbsp;Español</b-dropdown-item>
+                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;Inglés</b-dropdown-item>
                         </b-nav-item-dropdown>
     
                         <b-nav-item-dropdown text="Inversionista" right>
@@ -62,7 +78,7 @@
                             <b-dropdown-item href="#">Privado</b-dropdown-item>
                         </b-nav-item-dropdown>
 
-                        <!-- Authentication Links -->
+                        <!-- Authentication Links 
                         @guest
                         <b-nav-item right href="{{ route('login') }}">Login</b-nav-item>
                         @if (Route::has('register'))
@@ -81,7 +97,7 @@
                                     </form>
                         </b-nav-item-dropdown>
                         @endguest
-                    </b-navbar-nav>
+                    </b-navbar-nav>-->
                 </b-collapse>
             </b-navbar>
             <br>

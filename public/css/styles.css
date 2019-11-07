@@ -34,7 +34,7 @@
 }
 
 .block-section {
-    padding: 90px 0
+    padding: 90px 0;
 }
 
 .grey-section {
@@ -10523,6 +10523,8 @@ body.landing-page {
 
 .landing-page .services {
     padding-top: 60px;
+    margin-top: -80px;
+    margin-bottom: 70px;
 }
 
 .landing-page .services h2 {
@@ -10571,7 +10573,7 @@ body.landing-page {
 
 .landing-page .gray-section {
     background: #f4f4f4;
-    margin-top: 60px;
+    margin-top: 5px;
 }
 
 .landing-page .team-member {
@@ -12309,3 +12311,12 @@ body.md-skin {
 .list-group-mine .list-group-item:hover {
     background-color: #859da9;
 }
+
+@font-face {
+    font-family: Gotham;
+    src: url("../fonts/GothaProReg.otf");
+  }
+
+  .title-mine{
+      font-family: Gotham
+  }

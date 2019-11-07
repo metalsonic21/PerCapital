@@ -1,6 +1,25 @@
 <template>
 <div>
+    
     <div class="container">
+        <div class="row">
+            <div class="column">
+                <a href="http://www.bcv.org.ve"><img src="/img/content/landing/bcv.png" alt="BCV" style="width:75%"></a>
+            </div>
+            <div class="column">
+                <a href="http://www.bolsadecaracas.com/esp/indexF.jsp"><img src="/img/content/landing/bdv.png" alt="BDV"></a>
+            </div>
+            <div class="column">
+                <a href="http://www.sunaval.gob.ve"><img src="/img/content/landing/sunaval.png" alt="Sunaval"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.cajavenezolana.com/cvv/indexs.asp"><img src="/img/content/landing/cvv.png" alt="CVV"></a>
+            </div>
+        </div>
+        </div>
+    <br><br>
+
+    <div class="container container-mine">
         <!-- Footer -->
         <footer class="page-footer font-small indigo">
 
@@ -14,7 +33,7 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center" style="color:black">La empresa</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">La empresa</h5>
                         <ul class="list-unstyled text-center">
                             <li>
                                 <a href="#empresa" style="color:black">Por qué PER CAPITAL</a>
@@ -36,7 +55,7 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center" style="color:black">Fondos</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Fondos</h5>
                         <ul class="list-unstyled text-center">
                             <li>
                                 <a href="#!" style="color:black">Fondo Mutual</a>
@@ -58,7 +77,7 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center" style="color:black">Servicios</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Servicios</h5>
                         <ul class="list-unstyled text-center">
                             <li>
                                 <a href="#!" style="color:black">Administración E.I.C</a>
@@ -83,7 +102,7 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center" style="color:black">Noticias</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Reportes</h5>
 
                         <ul class="list-unstyled text-center">
 
@@ -109,6 +128,27 @@
                 info@percapital.com
                 <p>Caracas-Venezuela</p>
             </div>
+
+
+            <div class="footer-copyright text-center py-3" style="color:black">
+                <div class="text-justify">
+                    <small>
+                    <p>PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.
+                    Si usted es un inversionista Privado (No Institucional) no debe tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.
+                    Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.
+                    El contenido de este sitio web ha sido preparado por PER CAPITAL basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.
+                    PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.
+                    Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.
+                    <p><b>Asesoría:</b>
+                    Nada en este sitio web debe ser considerado como asesoría financiera personal.</p>
+                    <p><b>Desempeño:</b>
+                    El desempeño histórico no determina el desempeño a futuro.</p>
+                    <p><b>Fluctuaciones:</b>
+                    El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.</p>
+                    <p><b>Riesgos:</b> 
+                    Existen riesgos asociados a las inversiones y la perdida de capital es posible. </p></small>
+                </div>
+            </div>
             <!-- Copyright -->
 
         </footer>
@@ -121,8 +161,8 @@
 
 <script>
 export default {
-    methods:{
-        faq(){
+    methods: {
+        faq() {
             window.location = "/faq";
         }
     }
@@ -147,4 +187,23 @@ export default {
     font-size: 80%;
     color: black;
 }
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: -100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.page-footer{
+    background-color: #859da9;
+}
+
 </style>
