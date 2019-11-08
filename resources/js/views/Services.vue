@@ -1,11 +1,11 @@
 <template>
 <div>
-    <section class="timeline animated fadeIn" id="servicios">
+    <section class="timeline animated fadeInRight timeline-mine" id="servicios">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1 class="title-mine">Servicios</h1>
+                    <h1 class="title-mine title-placed">Servicios</h1>
                 </div>
             </div>
             <div class="row features-block">
@@ -37,7 +37,7 @@
                                     Estructuramos, administramos y colocamos E.I.C., cubriendo riesgos, velando por la custodia y titularidad de los activos relacionados, generando valor para nuestros clientes.
                                 </p>
 
-                                <b-img fluid class="vertical-date" src="/img/content/landing/money-5.png"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/money-5.png"></b-img>
 
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                     Ayudamos a nuestros clientes a lograr sus metas financiera
 
                                 </p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/services-1.jpg"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/services-1.jpg"></b-img>
 
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                                 </p>
 
                                 <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/services-2.jpg"></b-img>
+                                <b-img fluid class="vertical-date img-mine-2" src="/img/content/landing/services-2.jpg"></b-img>
 
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                 </p>
 
                                 <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
-                                <b-img fluid class="vertical-date" src="/img/content/landing/services-8.png"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/services-8.png"></b-img>
 
                             </div>
                         </div>
@@ -141,4 +141,19 @@ export default {
 </script>
 
 <style>
+    .timeline-mine{
+        margin-top: -3%;
+    }
+
+    .img-mine{
+        margin-top: 8%;
+    }
+
+    .img-mine-2{
+        margin-top: 6%
+    }
+
+    .title-placed{
+        margin-bottom: -5%;
+    }
 </style>

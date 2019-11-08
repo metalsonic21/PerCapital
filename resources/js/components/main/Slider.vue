@@ -11,7 +11,7 @@
                         <b-list-group style="background-color:transparent" class="text-light list-group-mine">
 
                             <b-list-group-item align="left" @click="faq"><strong>></strong> FAQ</b-list-group-item>
-                            <b-list-group-item align="left" style="text-align:left;color:white;" href="#servicios"><strong>></strong> Servicios</b-list-group-item>
+                            <b-list-group-item align="left" style="text-align:left;color:white;" @click="services"><strong>></strong> Servicios</b-list-group-item>
 
                         </b-list-group>
 

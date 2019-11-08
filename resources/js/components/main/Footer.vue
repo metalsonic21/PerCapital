@@ -202,8 +202,8 @@ export default {
   display: table;
 } 
 
-.page-footer{
+/*.page-footer{
     background-color: #859da9;
-}
+}*/
 
 </style>

@@ -29,6 +29,9 @@ Vue.component('Questions', require('./components/faq/Questions.vue').default);
 Vue.component('Home', require('./views/Home.vue').default);
 Vue.component('Faq', require('./views/Faq.vue').default);
 Vue.component('Services', require('./views/Services.vue').default);
+Vue.component('Team', require('./views/Team.vue').default);
+Vue.component('Mutual', require('./views/Mutual.vue').default);
+Vue.component('About', require('./views/About.vue').default);
 
 
 const app = new Vue({

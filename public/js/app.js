@@ -2562,310 +2562,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     register: function register() {
@@ -3277,6 +2973,80 @@ function initSmoothScrolling(container, animation) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/About.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Faq.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Faq.vue?vue&type=script&lang=js& ***!
@@ -3305,6 +3075,216 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Mutual.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3405,6 +3385,76 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Team.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -36237,7 +36287,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n /* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n  float: left;\r\n  width: 25%;\r\n  padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n  content: \"\";\r\n  clear: both;\r\n  display: table;\n}\n.page-footer{\r\n    background-color: #859da9;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n /* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n  float: left;\r\n  width: 25%;\r\n  padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n  content: \"\";\r\n  clear: both;\r\n  display: table;\n} \r\n\r\n/*.page-footer{\r\n    background-color: #859da9;\r\n}*/\r\n\r\n", ""]);
 
 // exports
 
@@ -36256,7 +36306,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\n.fa-lock {\r\n    color: black;\n}\n.fa-money {\r\n    color: black;\n}\n.fa-bar-chart {\r\n    color: black;\n}\n.about-mine{\r\n    margin-top: -1%;\r\n    margin-bottom: -2%;\n}\n.grey-section-mine{\r\n    margin-top: -175px;\n}\n.features-mine{\r\n    margin-top: -5%;\n}\n.row-team{\r\n    margin-top: -3%;\n}\n.fondos-mine{\r\n    margin-top: -9%\n}\n.comments-mine{\r\n    margin-top: -3%;\n}\n.row-team{\r\n    margin-bottom: -3%;\n}\r\n", ""]);
+exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\n.fa-lock {\r\n    color: black;\n}\n.fa-money {\r\n    color: black;\n}\n.fa-bar-chart {\r\n    color: black;\n}\n.grey-section-mine{\r\n    margin-top: -175px;\n}\n.features-mine{\r\n    margin-top: -5%;\n}\n.row-team{\r\n    margin-top: -3%;\n}\n.comments-mine{\r\n    margin-top: -3%;\n}\n.row-team{\r\n    margin-bottom: -3%;\n}\r\n", ""]);
 
 // exports
 
@@ -36314,6 +36364,63 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* idk what is this, do not change */\n.animation {\r\n  width: auto;\r\n  height: 100px;\r\n  font-size: 0px;\n}\n.animation div {\r\n  display: inline-block;\r\n  width: auto;\r\n  float: none;\r\n  padding: 0 10px;\n}\n.em-mine{\r\n    font-style: normal;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/About.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.about-mine{\r\n    margin-top: -5%;\r\n    margin-bottom: -2%;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -12%;\r\n    margin-bottom: -3%;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.timeline-mine{\n    margin-top: -3%;\n}\n.img-mine{\n    margin-top: 8%;\n}\n.img-mine-2{\n    margin-top: 6%\n}\n.title-placed{\n    margin-bottom: -5%;\n}\n", ""]);
 
 // exports
 
@@ -67986,6 +68093,96 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/About.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Mutual.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Services.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -70068,437 +70265,7 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "landing-page" },
-    [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("Numbers"),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _c("Services"),
-      _vm._v(" "),
-      _c(
-        "section",
-        { staticClass: "features features-mine", attrs: { id: "equipo" } },
-        [
-          _c(
-            "div",
-            { staticClass: "container" },
-            [
-              _vm._m(2),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "row justify-content-center row-team" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "8", lg: "8", md: "8" }
-                    },
-                    [
-                      _c("h2", { staticClass: "title-mine" }, [
-                        _vm._v("Gerente general")
-                      ]),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "fa fa-users big-icon float-right"
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional."
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-row",
-                { staticClass: "justify-content-center row-team" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "8", lg: "8", md: "8" }
-                    },
-                    [
-                      _c("h2", { staticClass: "title-mine" }, [
-                        _vm._v("Finanzas ")
-                      ]),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "fa fa-bar-chart big-icon float-right"
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo."
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-row",
-                { staticClass: "justify-content-center row-team" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "8", lg: "8", md: "8" }
-                    },
-                    [
-                      _c("h2", { staticClass: "title-mine" }, [
-                        _vm._v("Administración y control ")
-                      ]),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "fa fa-clock-o big-icon float-right"
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros."
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-row",
-                { staticClass: "justify-content-center row-team" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "8", lg: "8", md: "8" }
-                    },
-                    [
-                      _c("h2", { staticClass: "title-mine" }, [
-                        _vm._v("Finanzas corporativas ")
-                      ]),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "fa fa-money big-icon float-right"
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital."
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-row",
-                { staticClass: "row justify-content-center" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "8", lg: "8", md: "8" }
-                    },
-                    [
-                      _c("h2", { staticClass: "title-mine" }, [
-                        _vm._v("Legal")
-                      ]),
-                      _vm._v(" "),
-                      _c("i", {
-                        staticClass: "fa fa-balance-scale big-icon float-right"
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos."
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "block-section fondos-mine", attrs: { id: "fondos" } },
-        [
-          _c(
-            "div",
-            { staticClass: "container" },
-            [
-              _c(
-                "b-row",
-                { staticClass: "justify-content-center" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "col-lg-offset-1 features-text",
-                      attrs: { cols: "10", md: "10", lg: "10" }
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "center-holder main-heading text-justify"
-                        },
-                        [
-                          _c("div", { staticClass: "navy-line" }),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c(
-                            "h4",
-                            {
-                              staticClass: "title-mine",
-                              attrs: { align: "center" }
-                            },
-                            [_vm._v("Fondos")]
-                          ),
-                          _vm._v(" "),
-                          _c("h5", { attrs: { align: "center" } }, [
-                            _vm._v(
-                              "PER CAPITAL Fondo Mutual de Inversion de Capital Abierto"
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("p", [
-                            _vm._v(
-                              "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
-                            )
-                          ])
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "text-center" }, [
-                        _c("small", { attrs: { align: "center" } }, [
-                          _vm._v(
-                            "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("br"),
-                      _c("br"),
-                      _vm._v(" "),
-                      _c(
-                        "h4",
-                        {
-                          staticClass: "title-mine",
-                          attrs: { align: "center" }
-                        },
-                        [_vm._v("Información de interés")]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group",
-                        [
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            Fecha inicio\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("20 Dic 2019")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            Comparativo\r\n\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("IBC")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            Sector de inversión\r\n\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("BVC")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            Fecha de cierre\r\n\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("20 Ene 2020")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            V.U.I\r\n\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("Bs 55.000,00")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between align-items-center"
-                            },
-                            [
-                              _vm._v(
-                                "\r\n                            Inversión mínima\r\n\r\n                            "
-                              ),
-                              _c("b-badge", { attrs: { variant: "dark" } }, [
-                                _vm._v("10 VUI")
-                              ])
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _vm._m(3),
-      _vm._v(" "),
-      _c(
-        "section",
-        { staticClass: "container services", attrs: { id: "invertir" } },
-        [
-          _c("div", { staticClass: "navy-line" }),
-          _vm._v(" "),
-          _c("h1", { staticClass: "title-mine", attrs: { align: "center" } }, [
-            _vm._v("¿Cómo invertir?")
-          ]),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _vm._m(4),
-            _vm._v(" "),
-            _vm._m(5),
-            _vm._v(" "),
-            _vm._m(6),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-3" }, [
-              _c("h2", { staticClass: "title-mine text-center" }, [
-                _vm._v("Regístrate")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "text-center" }, [
-                _vm._v(
-                  "Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.\r\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "p",
-                [
-                  _c(
-                    "b-link",
-                    {
-                      staticClass: "navy-link",
-                      attrs: { role: "button" },
-                      on: { click: _vm.register }
-                    },
-                    [_vm._v("Haga click aquí »")]
-                  )
-                ],
-                1
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("small", { staticClass: "text-center" }, [
-            _vm._v(
-              "También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada via e-mail en donde encontrará el procedimiento para empezar."
-            )
-          ]),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _vm._m(7)
-        ]
-      ),
-      _vm._v(" "),
-      _c("section", { staticClass: "grey-section-mine" }, [_c("Contact")], 1),
-      _vm._v(" "),
-      _c("br")
-    ],
+    [_vm._m(0), _vm._v(" "), _c("Numbers"), _vm._v(" "), _c("br")],
     1
   )
 }
@@ -70620,317 +70387,6 @@ var staticRenderFns = [
           ])
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "about-mine", attrs: { id: "empresa" } }, [
-      _c("div", { staticClass: "block-section grey-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c(
-              "div",
-              { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
-              [
-                _c("div", { staticClass: "main-heading" }, [
-                  _c("h3", { staticClass: "title-mine" }, [
-                    _vm._v("¿Por qué PER CAPITAL?")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "mt-20 text-content" }, [
-                  _c("p", { staticClass: "text-justify" }, [
-                    _vm._v(
-                      "Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor "
-                    )
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-              _c("article", { staticClass: "hover-shadow article-block" }, [
-                _c("h5", { staticClass: "title-mine" }, [
-                  _vm._v("Escoge entre inversiones diseñadas para fácil salida")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\r\n                                Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.\r\n\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes. "
-                  ),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br")
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-              _c("article", { staticClass: "hover-shadow article-block" }, [
-                _c("h5", { staticClass: "title-mine" }, [
-                  _vm._v("Supervisión, control y transparencia financiera")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n\r\n                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                            "
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-              _c("article", { staticClass: "hover-shadow article-block" }, [
-                _c("h5", { staticClass: "title-mine" }, [
-                  _vm._v("Experiencia y conocimiento")
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _c("br"),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. "
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _c("br"),
-                  _c("br"),
-                  _c("br"),
-                  _c("br")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-lg-12 text-center" }, [
-        _c("div", { staticClass: "navy-line" }),
-        _vm._v(" "),
-        _c("h1", { staticClass: "title-mine" }, [_vm._v("Equipo")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      {
-        staticClass: "comments gray-section",
-        staticStyle: { "margin-top": "0" },
-        attrs: { id: "riesgos" }
-      },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row comments-mine" }, [
-            _c("div", { staticClass: "col-lg-12 text-center" }, [
-              _c("div", { staticClass: "navy-line" }),
-              _vm._v(" "),
-              _c("h1", { staticClass: "title-mine" }, [_vm._v("Riesgos")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "bubble" }, [
-                _vm._v(
-                  "\r\n                        Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera.\r\n                    "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "comments-avatar" }, [
-                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
-                  _c("img", {
-                    attrs: {
-                      alt: "image",
-                      src: "img/content/landing/warning.png"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "media-body" }, [
-                  _c("div", { staticClass: "commens-name" }, [
-                    _vm._v(
-                      "\r\n                                Riesgo general\r\n                            "
-                    )
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "bubble" }, [
-                _vm._v(
-                  "\r\n                        La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la "
-                ),
-                _c("a", { attrs: { href: "http://www.cajavenezolana.com" } }, [
-                  _vm._v("Caja Venezolana de Valores")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "comments-avatar" }, [
-                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
-                  _c("i", { staticClass: "fa fa-lock fa-3x" }, [_vm._v(" ")])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "media-body" }, [
-                  _c("div", { staticClass: "commens-name" }, [
-                    _vm._v(
-                      "\r\n                                Custodia\r\n                            "
-                    )
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "bubble" }, [
-                _vm._v(
-                  "\r\n                        El fondo está expuesto al riesgo de un único mercado y de una sola moneda.\r\n                    "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "comments-avatar" }, [
-                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
-                  _c("img", {
-                    attrs: {
-                      alt: "image",
-                      src: "img/content/landing/globe.png"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "media-body" }, [
-                  _c("div", { staticClass: "commens-name" }, [
-                    _vm._v(
-                      "\r\n                                País\r\n                            "
-                    )
-                  ])
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row features-block" }, [
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "bubble" }, [
-                _vm._v(
-                  "\r\n                        El fondo tiene exposición a monedas extranjeras por lo que los cambios en las tasas de cambio pueden producir aumentos o disminución del valor de la inversión y las ganancias obtenidas.\r\n                    "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "comments-avatar" }, [
-                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
-                  _c("i", { staticClass: "fa fa-money fa-3x" }, [_vm._v(" ")])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "media-body" }, [
-                  _c("div", { staticClass: "commens-name" }, [
-                    _vm._v(
-                      "\r\n                                Moneda/Cambiario\r\n                            "
-                    )
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "bubble" }, [
-                _vm._v(
-                  "\r\n                        El precio de la Unidad de Inversión del fondo puede variar debido al movimiento de precio de los activos que lo componen.\r\n                    "
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "comments-avatar" }, [
-                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
-                  _c("i", { staticClass: "fa fa-bar-chart fa-3x" })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "media-body" }, [
-                  _c("div", { staticClass: "commens-name" }, [
-                    _vm._v(
-                      "\r\n                                Volatilidad\r\n                            "
-                    )
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-3" }, [
-      _c("h2", { staticClass: "title-mine text-center" }, [
-        _vm._v("Perfil de inversionista")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-justify" }, [
-        _vm._v(
-          "Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)"
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-3" }, [
-      _c("h2", { staticClass: "title-mine text-center" }, [
-        _vm._v("Plazo de inversión")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-center" }, [
-        _vm._v(
-          "Seleccione el plazo deseado para su inversión (corto, mediano o largo)"
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-3" }, [
-      _c("h2", { staticClass: "title-mine text-center" }, [_vm._v("Fondo")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-center" }, [
-        _vm._v(
-          "Seleccione el fondo de su preferencia que se ajuste más a sus objetivos"
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("small", { staticClass: "text-center" }, [
-      _c("strong", [_vm._v(" Contacto: solicitud@percapital.com")])
     ])
   }
 ]
@@ -71200,7 +70656,8 @@ var render = function() {
                                 "text-align": "left",
                                 color: "white"
                               },
-                              attrs: { align: "left", href: "#servicios" }
+                              attrs: { align: "left" },
+                              on: { click: _vm.services }
                             },
                             [_c("strong", [_vm._v(">")]), _vm._v(" Servicios")]
                           )
@@ -71563,6 +71020,136 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=template&id=2995bb7e&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/About.vue?vue&type=template&id=2995bb7e& ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "about-mine animated fadeInRight",
+          attrs: { id: "empresa" }
+        },
+        [
+          _c("div", { staticClass: "block-section" }, [
+            _c("div", { staticClass: "container" }, [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
+                  [
+                    _c("div", { staticClass: "main-heading" }, [
+                      _c("h3", { staticClass: "title-mine" }, [
+                        _vm._v("¿Por qué PER CAPITAL?")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mt-20 text-content" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor "
+                        )
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+                  _c("article", { staticClass: "hover-shadow article-block" }, [
+                    _c("h5", { staticClass: "title-mine" }, [
+                      _vm._v(
+                        "Escoge entre inversiones diseñadas para fácil salida"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\r\n                                Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.\r\n\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes. "
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+                  _c("article", { staticClass: "hover-shadow article-block" }, [
+                    _c("h5", { staticClass: "title-mine" }, [
+                      _vm._v("Supervisión, control y transparencia financiera")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n\r\n                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                            "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+                  _c("article", { staticClass: "hover-shadow article-block" }, [
+                    _c("h5", { staticClass: "title-mine" }, [
+                      _vm._v("Experiencia y conocimiento")
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. "
+                      ),
+                      _c("br"),
+                      _c("br"),
+                      _c("br"),
+                      _c("br"),
+                      _c("br"),
+                      _c("br")
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Faq.vue?vue&type=template&id=b3c34e72&":
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Faq.vue?vue&type=template&id=b3c34e72& ***!
@@ -71615,6 +71202,486 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3&":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3& ***!
+  \****************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "animated fadeInRight" }, [
+    _c(
+      "div",
+      { staticClass: "block-section fondos-mine", attrs: { id: "fondos" } },
+      [
+        _c(
+          "div",
+          { staticClass: "container" },
+          [
+            _c(
+              "b-row",
+              { staticClass: "justify-content-center" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "10", md: "10", lg: "10" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "center-holder main-heading text-justify"
+                      },
+                      [
+                        _c("div", { staticClass: "navy-line" }),
+                        _vm._v(" "),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c(
+                          "h4",
+                          {
+                            staticClass: "title-mine",
+                            attrs: { align: "center" }
+                          },
+                          [
+                            _vm._v(
+                              "PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO"
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
+                          )
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "text-center" }, [
+                      _c("small", { attrs: { align: "center" } }, [
+                        _vm._v(
+                          "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c(
+                      "h4",
+                      { staticClass: "title-mine", attrs: { align: "center" } },
+                      [_vm._v("Información de interés")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "b-list-group",
+                      [
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            Fecha inicio\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("20 Dic 2019")
+                            ])
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            Comparativo\r\n\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("IBC")
+                            ])
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            Sector de inversión\r\n\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("BVC")
+                            ])
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            Fecha de cierre\r\n\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("20 Ene 2020")
+                            ])
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            V.U.I\r\n\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("Bs 55.000,00")
+                            ])
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\r\n                            Inversión mínima\r\n\r\n                            "
+                            ),
+                            _c("b-badge", { attrs: { variant: "dark" } }, [
+                              _vm._v("10 VUI")
+                            ])
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "container services", attrs: { id: "invertir" } },
+      [
+        _c("div", { staticClass: "navy-line" }),
+        _vm._v(" "),
+        _c("h1", { staticClass: "title-mine", attrs: { align: "center" } }, [
+          _vm._v("¿Cómo invertir?")
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-3" }, [
+            _c("h2", { staticClass: "title-mine text-center" }, [
+              _vm._v("Regístrate")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-center" }, [
+              _vm._v(
+                "Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.\r\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "b-link",
+                  {
+                    staticClass: "navy-link",
+                    attrs: { role: "button" },
+                    on: { click: _vm.register }
+                  },
+                  [_vm._v("Haga click aquí »")]
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("small", { staticClass: "text-center" }, [
+          _vm._v(
+            "También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada via e-mail en donde encontrará el procedimiento para empezar."
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _vm._m(4)
+      ]
+    ),
+    _vm._v(" "),
+    _c("section", { staticClass: "grey-section-mine" }, [_c("Contact")], 1)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "comments",
+        staticStyle: { "margin-top": "0", "margin-bottom": "-10%" },
+        attrs: { id: "riesgos" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row comments-mine" }, [
+            _c("div", { staticClass: "col-lg-12 text-center" }, [
+              _c("div", { staticClass: "navy-line" }),
+              _vm._v(" "),
+              _c("h1", { staticClass: "title-mine" }, [_vm._v("Riesgos")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                        Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera.\r\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/warning.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                                Riesgo general\r\n                            "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                        La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la "
+                ),
+                _c("a", { attrs: { href: "http://www.cajavenezolana.com" } }, [
+                  _vm._v("Caja Venezolana de Valores")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("i", { staticClass: "fa fa-lock fa-3x" }, [_vm._v(" ")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                                Custodia\r\n                            "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                        El fondo está expuesto al riesgo de un único mercado y de una sola moneda.\r\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("img", {
+                    attrs: {
+                      alt: "image",
+                      src: "img/content/landing/globe.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                                País\r\n                            "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row features-block" }, [
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                        El fondo tiene exposición a monedas extranjeras por lo que los cambios en las tasas de cambio pueden producir aumentos o disminución del valor de la inversión y las ganancias obtenidas.\r\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("i", { staticClass: "fa fa-money fa-3x" }, [_vm._v(" ")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                                Moneda/Cambiario\r\n                            "
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "bubble" }, [
+                _vm._v(
+                  "\r\n                        El precio de la Unidad de Inversión del fondo puede variar debido al movimiento de precio de los activos que lo componen.\r\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "comments-avatar" }, [
+                _c("a", { staticClass: "float-left", attrs: { href: "" } }, [
+                  _c("i", { staticClass: "fa fa-bar-chart fa-3x" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "commens-name" }, [
+                    _vm._v(
+                      "\r\n                                Volatilidad\r\n                            "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-3" }, [
+      _c("h2", { staticClass: "title-mine text-center" }, [
+        _vm._v("Perfil de inversionista")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-justify" }, [
+        _vm._v(
+          "Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-3" }, [
+      _c("h2", { staticClass: "title-mine text-center" }, [
+        _vm._v("Plazo de inversión")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-center" }, [
+        _vm._v(
+          "Seleccione el plazo deseado para su inversión (corto, mediano o largo)"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-3" }, [
+      _c("h2", { staticClass: "title-mine text-center" }, [_vm._v("Fondo")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-center" }, [
+        _vm._v(
+          "Seleccione el fondo de su preferencia que se ajuste más a sus objetivos"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", { staticClass: "text-center" }, [
+      _c("strong", [_vm._v(" Contacto: solicitud@percapital.com")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=template&id=6199b57d&":
 /*!******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Services.vue?vue&type=template&id=6199b57d& ***!
@@ -71633,7 +71700,10 @@ var render = function() {
   return _c("div", [
     _c(
       "section",
-      { staticClass: "timeline animated fadeIn", attrs: { id: "servicios" } },
+      {
+        staticClass: "timeline animated fadeInRight timeline-mine",
+        attrs: { id: "servicios" }
+      },
       [
         _c("div", { staticClass: "container" }, [
           _vm._m(0),
@@ -71680,7 +71750,7 @@ var render = function() {
                         ]),
                         _vm._v(" "),
                         _c("b-img", {
-                          staticClass: "vertical-date",
+                          staticClass: "vertical-date img-mine",
                           attrs: {
                             fluid: "",
                             src: "/img/content/landing/money-5.png"
@@ -71717,7 +71787,7 @@ var render = function() {
                         ]),
                         _vm._v(" "),
                         _c("b-img", {
-                          staticClass: "vertical-date",
+                          staticClass: "vertical-date img-mine",
                           attrs: {
                             fluid: "",
                             src: "/img/content/landing/services-1.jpg"
@@ -71750,7 +71820,7 @@ var render = function() {
                         ]),
                         _vm._v(" "),
                         _c("b-img", {
-                          staticClass: "vertical-date",
+                          staticClass: "vertical-date img-mine-2",
                           attrs: {
                             fluid: "",
                             src: "/img/content/landing/services-2.jpg"
@@ -71781,7 +71851,7 @@ var render = function() {
                         ]),
                         _vm._v(" "),
                         _c("b-img", {
-                          staticClass: "vertical-date",
+                          staticClass: "vertical-date img-mine",
                           attrs: {
                             fluid: "",
                             src: "/img/content/landing/services-8.png"
@@ -71809,7 +71879,9 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-lg-12 text-center" }, [
         _c("div", { staticClass: "navy-line" }),
         _vm._v(" "),
-        _c("h1", { staticClass: "title-mine" }, [_vm._v("Servicios")])
+        _c("h1", { staticClass: "title-mine title-placed" }, [
+          _vm._v("Servicios")
+        ])
       ])
     ])
   },
@@ -71928,6 +72000,209 @@ var staticRenderFns = [
         _c("li", [_vm._v("Diseño y colocación de productos estructurados")]),
         _vm._v(" "),
         _c("li", [_vm._v("(Re) Estructuración corporativa")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=template&id=f0c0a908&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Team.vue?vue&type=template&id=f0c0a908& ***!
+  \**************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "section",
+      {
+        staticClass: "features features-mine animated fadeInRight",
+        attrs: { id: "equipo" }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "container" },
+          [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "row justify-content-center row-team" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "8", lg: "8", md: "8" }
+                  },
+                  [
+                    _c("h2", { staticClass: "title-mine" }, [
+                      _vm._v("Gerente general")
+                    ]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-users big-icon float-right"
+                    }),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional."
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "justify-content-center row-team" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "8", lg: "8", md: "8" }
+                  },
+                  [
+                    _c("h2", { staticClass: "title-mine" }, [
+                      _vm._v("Finanzas ")
+                    ]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-bar-chart big-icon float-right"
+                    }),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo."
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "justify-content-center row-team" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "8", lg: "8", md: "8" }
+                  },
+                  [
+                    _c("h2", { staticClass: "title-mine" }, [
+                      _vm._v("Administración y control ")
+                    ]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-clock-o big-icon float-right"
+                    }),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros."
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "justify-content-center row-team" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "8", lg: "8", md: "8" }
+                  },
+                  [
+                    _c("h2", { staticClass: "title-mine" }, [
+                      _vm._v("Finanzas corporativas ")
+                    ]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-money big-icon float-right"
+                    }),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital."
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "row justify-content-center" },
+              [
+                _c(
+                  "b-col",
+                  {
+                    staticClass: "col-lg-offset-1 features-text",
+                    attrs: { cols: "8", lg: "8", md: "8" }
+                  },
+                  [
+                    _c("h2", { staticClass: "title-mine" }, [_vm._v("Legal")]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-balance-scale big-icon float-right"
+                    }),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos."
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-lg-12 text-center" }, [
+        _c("div", { staticClass: "navy-line" }),
+        _vm._v(" "),
+        _c("h1", { staticClass: "title-mine" }, [_vm._v("Equipo")])
       ])
     ])
   }
@@ -84117,6 +84392,9 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Questions', __webpack_requ
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Home', __webpack_require__(/*! ./views/Home.vue */ "./resources/js/views/Home.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Faq', __webpack_require__(/*! ./views/Faq.vue */ "./resources/js/views/Faq.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Services', __webpack_require__(/*! ./views/Services.vue */ "./resources/js/views/Services.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Team', __webpack_require__(/*! ./views/Team.vue */ "./resources/js/views/Team.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Mutual', __webpack_require__(/*! ./views/Mutual.vue */ "./resources/js/views/Mutual.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('About', __webpack_require__(/*! ./views/About.vue */ "./resources/js/views/About.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'
 });
@@ -84881,6 +85159,93 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/views/About.vue":
+/*!**************************************!*\
+  !*** ./resources/js/views/About.vue ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About.vue?vue&type=template&id=2995bb7e& */ "./resources/js/views/About.vue?vue&type=template&id=2995bb7e&");
+/* harmony import */ var _About_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.vue?vue&type=script&lang=js& */ "./resources/js/views/About.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/About.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _About_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/About.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/About.vue?vue&type=script&lang=js&":
+/*!***************************************************************!*\
+  !*** ./resources/js/views/About.vue?vue&type=script&lang=js& ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/About.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/views/About.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/About.vue?vue&type=template&id=2995bb7e&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/views/About.vue?vue&type=template&id=2995bb7e& ***!
+  \*********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=template&id=2995bb7e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=template&id=2995bb7e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/views/Faq.vue":
 /*!************************************!*\
   !*** ./resources/js/views/Faq.vue ***!
@@ -85019,6 +85384,93 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/views/Mutual.vue":
+/*!***************************************!*\
+  !*** ./resources/js/views/Mutual.vue ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Mutual.vue?vue&type=template&id=67ea07f3& */ "./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3&");
+/* harmony import */ var _Mutual_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mutual.vue?vue&type=script&lang=js& */ "./resources/js/views/Mutual.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Mutual.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Mutual_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/Mutual.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/Mutual.vue?vue&type=script&lang=js&":
+/*!****************************************************************!*\
+  !*** ./resources/js/views/Mutual.vue?vue&type=script&lang=js& ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Mutual.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************!*\
+  !*** ./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Mutual.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3& ***!
+  \**********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Mutual.vue?vue&type=template&id=67ea07f3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Mutual.vue?vue&type=template&id=67ea07f3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mutual_vue_vue_type_template_id_67ea07f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/views/Services.vue":
 /*!*****************************************!*\
   !*** ./resources/js/views/Services.vue ***!
@@ -85030,7 +85482,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Services_vue_vue_type_template_id_6199b57d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.vue?vue&type=template&id=6199b57d& */ "./resources/js/views/Services.vue?vue&type=template&id=6199b57d&");
 /* harmony import */ var _Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.vue?vue&type=script&lang=js& */ "./resources/js/views/Services.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Services.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -85038,7 +85492,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Services_vue_vue_type_template_id_6199b57d___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Services_vue_vue_type_template_id_6199b57d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -85070,6 +85524,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/views/Services.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Services.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "./resources/js/views/Services.vue?vue&type=template&id=6199b57d&":
 /*!************************************************************************!*\
   !*** ./resources/js/views/Services.vue?vue&type=template&id=6199b57d& ***!
@@ -85083,6 +85553,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_template_id_6199b57d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_template_id_6199b57d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/Team.vue":
+/*!*************************************!*\
+  !*** ./resources/js/views/Team.vue ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Team.vue?vue&type=template&id=f0c0a908& */ "./resources/js/views/Team.vue?vue&type=template&id=f0c0a908&");
+/* harmony import */ var _Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Team.vue?vue&type=script&lang=js& */ "./resources/js/views/Team.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/Team.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/Team.vue?vue&type=script&lang=js&":
+/*!**************************************************************!*\
+  !*** ./resources/js/views/Team.vue?vue&type=script&lang=js& ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Team.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Team.vue?vue&type=template&id=f0c0a908&":
+/*!********************************************************************!*\
+  !*** ./resources/js/views/Team.vue?vue&type=template&id=f0c0a908& ***!
+  \********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Team.vue?vue&type=template&id=f0c0a908& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=template&id=f0c0a908&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

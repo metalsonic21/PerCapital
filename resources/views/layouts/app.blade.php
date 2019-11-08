@@ -48,21 +48,16 @@
     
                     <b-navbar-nav class="ml-auto">
                     <b-nav-item-dropdown text="La empresa" right>
-                            <b-dropdown-item href="#">¿Por qué PER CAPITAL?</b-dropdown-item>
-                            <b-dropdown-item href="#">Equipo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/about') }}">¿Por qué PER CAPITAL?</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/team') }}">Equipo</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/faq') }}">FAQ</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Fondos" right>
-                            <b-dropdown-item href="#">Fondo Mutual</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/mutual') }}">Fondo Mutual</b-dropdown-item>
                             <b-dropdown-item href="#">Fondo Inmobiliario</b-dropdown-item>
                             <b-dropdown-item href="#">Capital de riesgo</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Servicios" right>
-                            <b-dropdown-item href="#">Administración E.I.C</b-dropdown-item>
-                            <b-dropdown-item href="#">Asesoría Financiera</b-dropdown-item>
-                            <b-dropdown-item href="#">Estructuración</b-dropdown-item>
-                            <b-dropdown-item href="#">Ingeniería Financiera</b-dropdown-item>
-                    </b-nav-item-dropdown>
+                    <b-nav-item href="{{ url('/services') }}">Servicios</b-nav-item>
                     <b-nav-item-dropdown text="Reportes" right>
                             <b-dropdown-item href="#">Trimestral</b-dropdown-item>
                             <b-dropdown-item href="#">Anual</b-dropdown-item>
