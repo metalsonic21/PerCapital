@@ -37,7 +37,7 @@
     <div id="app">
         <Values></Values>
         <header>
-            <b-navbar toggleable="lg" fixed sticky class="mx-5">
+            <b-navbar toggleable="lg" fixed sticky class="mx-5 navbar-mine">
                 <b-navbar-brand href="#" class="ml-5">
                     <b-link href="{{ url('/') }}"><b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4"></b-img></b-link>
                 </b-navbar-brand>

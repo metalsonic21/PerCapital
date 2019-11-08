@@ -1,6 +1,6 @@
 <template>
 <div>
-    
+
     <div class="container">
         <div class="row">
             <div class="column">
@@ -16,7 +16,7 @@
                 <a href="https://www.cajavenezolana.com/cvv/indexs.asp"><img src="/img/content/landing/cvv.png" alt="CVV"></a>
             </div>
         </div>
-        </div>
+    </div>
     <br><br>
 
     <div class="container container-mine">
@@ -25,6 +25,11 @@
 
             <!-- Footer Links -->
             <div class="container text-center text-md-left">
+
+                <div class="text-center">
+                    <img src="/img/logo/PastedGraphic-1-3.jpeg" alt="LOGO">
+                    <br><br>
+                </div>
 
                 <!-- Grid row -->
                 <div class="row">
@@ -129,24 +134,47 @@
                 <p>Caracas-Venezuela</p>
             </div>
 
-
             <div class="footer-copyright text-center py-3" style="color:black">
                 <div class="text-justify">
                     <small>
-                    <p>PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.
-                    Si usted es un inversionista Privado (No Institucional) no debe tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.
-                    Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.
-                    El contenido de este sitio web ha sido preparado por PER CAPITAL basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.
-                    PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.
-                    Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.
-                    <p><b>Asesoría:</b>
-                    Nada en este sitio web debe ser considerado como asesoría financiera personal.</p>
-                    <p><b>Desempeño:</b>
-                    El desempeño histórico no determina el desempeño a futuro.</p>
-                    <p><b>Fluctuaciones:</b>
-                    El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.</p>
-                    <p><b>Riesgos:</b> 
-                    Existen riesgos asociados a las inversiones y la perdida de capital es posible. </p></small>
+                        <p>
+                            <strong>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.</strong>
+                            <br>
+                            <strong>PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX</strong>
+                            <br>
+                            <strong>PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXXX</strong>
+                            
+                            <br><br><strong>IMPORTANTE:</strong>
+                            
+                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.
+                            <br>
+                            Si usted es un inversionista Privado <strong>no debe</strong> tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.
+                            <br>
+                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.
+                            <br>
+                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.
+                            <br>
+                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.
+                            <br>
+                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.
+                            <br>
+
+                            <strong>Asesoría:</strong>
+                            Nada en este sitio web debe ser considerado como asesoría financiera personal.
+                            <br>
+                            <strong>Desempeño:</strong>
+                            El desempeño histórico no determina el desempeño a futuro.
+                            <br>
+                            <strong>Fluctuaciones:</strong>
+                            El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.
+                            <br><br>
+
+                            <strong>AVISO LEGAL</strong>
+                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”
+                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28
+
+                        </p>
+                    </small>
                 </div>
             </div>
             <!-- Copyright -->
@@ -188,22 +216,21 @@ export default {
     color: black;
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
-  width: 25%;
-  padding: -100px;
+    float: left;
+    width: 25%;
+    padding: -100px;
 }
 
 /* Clear floats after image containers */
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
-} 
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /*.page-footer{
     background-color: #859da9;
 }*/
-
 </style>

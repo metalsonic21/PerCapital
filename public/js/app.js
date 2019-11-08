@@ -2300,6 +2300,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     showModal: function showModal() {
@@ -2326,6 +2329,34 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2581,6 +2612,59 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2982,6 +3066,16 @@ function initSmoothScrolling(container, animation) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -36287,7 +36381,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n /* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n  float: left;\r\n  width: 25%;\r\n  padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n  content: \"\";\r\n  clear: both;\r\n  display: table;\n} \r\n\r\n/*.page-footer{\r\n    background-color: #859da9;\r\n}*/\r\n\r\n", ""]);
+exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\r\n\r\n/*.page-footer{\r\n    background-color: #859da9;\r\n}*/\r\n", ""]);
 
 // exports
 
@@ -69816,8 +69910,15 @@ var render = function() {
           attrs: {
             title: "INFORMACIÓN IMPORTANTE",
             "ok-only": "",
-            "ok-variant": "dark",
-            size: "lg"
+            "ok-variant": "light",
+            size: "lg",
+            "body-bg-variant": "dark",
+            "header-bg-variant": "dark",
+            "header-text-variant": "light",
+            "body-text-variant": "light",
+            "footer-bg-variant": "dark",
+            "footer-text-variant": "light",
+            "title-class": "text-light"
           }
         },
         [
@@ -69929,6 +70030,8 @@ var render = function() {
     _c("div", { staticClass: "container container-mine" }, [
       _c("footer", { staticClass: "page-footer font-small indigo" }, [
         _c("div", { staticClass: "container text-center text-md-left" }, [
+          _vm._m(1),
+          _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-md-3 mx-auto" }, [
               _c(
@@ -69942,9 +70045,9 @@ var render = function() {
               ),
               _vm._v(" "),
               _c("ul", { staticClass: "list-unstyled text-center" }, [
-                _vm._m(1),
-                _vm._v(" "),
                 _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
                 _vm._v(" "),
                 _c("li", [
                   _c(
@@ -69958,24 +70061,24 @@ var render = function() {
             _vm._v(" "),
             _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
             _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
-            _vm._v(" "),
             _vm._m(4),
             _vm._v(" "),
             _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
             _vm._v(" "),
-            _vm._m(5)
+            _vm._m(5),
+            _vm._v(" "),
+            _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+            _vm._v(" "),
+            _vm._m(6)
           ])
         ]),
         _vm._v(" "),
-        _vm._m(6),
+        _vm._m(7),
         _vm._v(" "),
-        _vm._m(7)
+        _vm._m(8)
       ]),
       _vm._v(" "),
-      _vm._m(8)
+      _vm._m(9)
     ])
   ])
 }
@@ -70029,6 +70132,19 @@ var staticRenderFns = [
           )
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center" }, [
+      _c("img", {
+        attrs: { src: "/img/logo/PastedGraphic-1-3.jpeg", alt: "LOGO" }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _c("br")
     ])
   },
   function() {
@@ -70193,35 +70309,82 @@ var staticRenderFns = [
         _c("div", { staticClass: "text-justify" }, [
           _c("small", [
             _c("p", [
+              _c("strong", [
+                _vm._v(
+                  "PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [
+                _vm._v(
+                  "PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX"
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [
+                _vm._v(
+                  "PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXXX"
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _c("br"),
+              _c("strong", [_vm._v("IMPORTANTE:")]),
               _vm._v(
-                "PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n                    Si usted es un inversionista Privado (No Institucional) no debe tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n                    Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n                    El contenido de este sitio web ha sido preparado por PER CAPITAL basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n                    PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n                    Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n                    "
-              )
-            ]),
-            _c("p", [
-              _c("b", [_vm._v("Asesoría:")]),
+                "\r\n                            \r\n                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n                            "
+              ),
+              _c("br"),
               _vm._v(
-                "\r\n                    Nada en este sitio web debe ser considerado como asesoría financiera personal."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _c("b", [_vm._v("Desempeño:")]),
+                "\r\n                            Si usted es un inversionista Privado "
+              ),
+              _c("strong", [_vm._v("no debe")]),
               _vm._v(
-                "\r\n                    El desempeño histórico no determina el desempeño a futuro."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _c("b", [_vm._v("Fluctuaciones:")]),
+                " tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n                            "
+              ),
+              _c("br"),
               _vm._v(
-                "\r\n                    El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _c("b", [_vm._v("Riesgos:")]),
+                "\r\n                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n                            "
+              ),
+              _c("br"),
               _vm._v(
-                " \r\n                    Existen riesgos asociados a las inversiones y la perdida de capital es posible. "
+                "\r\n                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n                            "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n                            "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n                            "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [_vm._v("Asesoría:")]),
+              _vm._v(
+                "\r\n                            Nada en este sitio web debe ser considerado como asesoría financiera personal.\r\n                            "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [_vm._v("Desempeño:")]),
+              _vm._v(
+                "\r\n                            El desempeño histórico no determina el desempeño a futuro.\r\n                            "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [_vm._v("Fluctuaciones:")]),
+              _vm._v(
+                "\r\n                            El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.\r\n                            "
+              ),
+              _c("br"),
+              _c("br"),
+              _vm._v(" "),
+              _c("strong", [_vm._v("AVISO LEGAL")]),
+              _vm._v(
+                "\r\n                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”\r\n                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28\r\n\r\n                        "
               )
             ])
           ])
@@ -70411,173 +70574,362 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "numbers-mine" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "navy-line" }),
+      _vm._v(" "),
+      _c("h1", { staticClass: "title-mine", attrs: { align: "center" } }, [
+        _vm._v("Los números cuentan")
+      ]),
+      _vm._v(" "),
+      _c("h6", { attrs: { align: "center" } }, [_vm._v("Indicadores:")]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-lg-2" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c(
+              "div",
+              { staticClass: "ibox-title" },
+              [
+                _c(
+                  "b-link",
+                  {
+                    attrs: {
+                      href:
+                        "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/VEN?year=2019"
+                    }
+                  },
+                  [
+                    _c("h5", { staticClass: "text-center" }, [
+                      _c("strong", [_vm._v(" PIB (%)")])
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(0)
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-2" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c(
+              "div",
+              { staticClass: "ibox-title" },
+              [
+                _c("b-link", { attrs: { href: "http://www.bcv.org.ve" } }, [
+                  _c("h5", { staticClass: "text-center" }, [
+                    _c("strong", [_vm._v(" Tasa de cambio")])
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(4)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-lg-2" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c(
+              "div",
+              { staticClass: "ibox-title" },
+              [
+                _c(
+                  "b-link",
+                  { attrs: { href: "https://www.imf.org/en/Countries/VEN" } },
+                  [
+                    _c("h5", { staticClass: "text-center" }, [
+                      _c("strong", [_vm._v(" Población")])
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(6)
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-2" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c(
+              "div",
+              { staticClass: "ibox-title" },
+              [
+                _c(
+                  "b-link",
+                  { attrs: { href: "https://www.imf.org/en/Countries/VEN" } },
+                  [
+                    _c("h5", { staticClass: "text-center" }, [
+                      _c("strong", [_vm._v(" INPC")])
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(7)
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-3" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c(
+              "div",
+              { staticClass: "ibox-title" },
+              [
+                _c("b-link", { attrs: { href: "http://www.bcv.org.ve" } }, [
+                  _c("h5", { staticClass: "text-center" }, [
+                    _c("strong", [_vm._v(" Reservas internacionales")])
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(8)
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-5" }, [
+          _c("div", { staticClass: "ibox " }, [
+            _c("div", { staticClass: "ibox-title" }, [
+              _c(
+                "h5",
+                { staticClass: "text-center" },
+                [
+                  _c(
+                    "b-link",
+                    {
+                      staticStyle: { color: "#2d2a2a" },
+                      attrs: {
+                        href: "http://www.bolsadecaracas.com/esp/indexF.jsp"
+                      }
+                    },
+                    [_c("strong", [_vm._v("Servicio de la bolsa de valores")])]
+                  ),
+                  _vm._v(" "),
+                  _c("strong", [_vm._v("o ")]),
+                  _vm._v(" "),
+                  _c(
+                    "b-link",
+                    {
+                      staticStyle: { color: "#2d2a2a" },
+                      attrs: {
+                        href: "http://www.bolsadecaracas.com/esp/indexF.jsp"
+                      }
+                    },
+                    [_c("strong", [_vm._v("Variación IBC")])]
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(9)
+          ])
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "numbers-mine" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "navy-line" }),
-        _vm._v(" "),
-        _c("h1", { staticClass: "title-mine", attrs: { align: "center" } }, [
-          _vm._v("Los números cuentan")
-        ]),
-        _vm._v(" "),
-        _c("h6", { attrs: { align: "center" } }, [_vm._v("Indicadores:")]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" PIB")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("$ 5.00")
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Inflación")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("100.000%")
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Reservas")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("$8.456,00")
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Masa monetaria")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("Bs 123.456.789,00")
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Tasa de cambio")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("21.345,09")
-                ])
-              ])
-            ])
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("-35")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-2" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" Inflación")])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" IBC")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("45.502")
-                ])
-              ])
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("100.000%")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-2" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" Reservas")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("$8.456,00")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-4" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" Masa monetaria")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("Bs 123.456.789,00")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("21.345,09")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-lg-2" }, [
+        _c("div", { staticClass: "ibox " }, [
+          _c("div", { staticClass: "ibox-title" }, [
+            _c("h5", { staticClass: "text-center" }, [
+              _c("strong", [_vm._v(" IBC")])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Deuda interna")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("$3.876.000.987")
-                ])
-              ])
+          _c("div", { staticClass: "ibox-content" }, [
+            _c("h5", { staticClass: "no-margins text-center" }, [
+              _vm._v("45.502")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-4" }, [
+        _c("div", { staticClass: "ibox " }, [
+          _c("div", { staticClass: "ibox-title" }, [
+            _c("h5", { staticClass: "text-center" }, [
+              _c("strong", [_vm._v(" Deuda interna")])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Deuda externa")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("$208.765.345.000")
-                ])
-              ])
+          _c("div", { staticClass: "ibox-content" }, [
+            _c("h5", { staticClass: "no-margins text-center" }, [
+              _vm._v("$3.876.000.987")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-4" }, [
+        _c("div", { staticClass: "ibox " }, [
+          _c("div", { staticClass: "ibox-title" }, [
+            _c("h5", { staticClass: "text-center" }, [
+              _c("strong", [_vm._v(" Deuda externa")])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-lg-2" }, [
-            _c("div", { staticClass: "ibox " }, [
-              _c("div", { staticClass: "ibox-title" }, [
-                _c("h5", { staticClass: "text-center" }, [
-                  _c("strong", [_vm._v(" Valoración BVC")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ibox-content" }, [
-                _c("h5", { staticClass: "no-margins text-center" }, [
-                  _vm._v("+ 4 %")
-                ])
-              ])
+          _c("div", { staticClass: "ibox-content" }, [
+            _c("h5", { staticClass: "no-margins text-center" }, [
+              _vm._v("$208.765.345.000")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-2" }, [
+        _c("div", { staticClass: "ibox " }, [
+          _c("div", { staticClass: "ibox-title" }, [
+            _c("h5", { staticClass: "text-center" }, [
+              _c("strong", [_vm._v(" Valoración BVC")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "ibox-content" }, [
+            _c("h5", { staticClass: "no-margins text-center" }, [
+              _vm._v("+ 4 %")
             ])
           ])
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" }, [
+        _vm._v("28.067.000")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("4.679,5%")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("7.975 mm")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ibox-content" }, [
+      _c("h5", { staticClass: "no-margins text-center" })
     ])
   }
 ]
@@ -71066,7 +71418,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "mt-20 text-content" }, [
                       _c("p", { staticClass: "text-justify" }, [
                         _vm._v(
-                          "Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor "
+                          "\r\n                                Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor.\r\n                            "
                         )
                       ])
                     ])
@@ -71082,19 +71434,18 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("p", [
+                      _c("br"),
                       _vm._v(
-                        "\r\n                                Desde Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para que nuestro comité de inversiones pueda aprobar su presentación al público.\r\n\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes. "
+                        "\r\n                                Nuestro equipo de expertos revisa a profundidad cada detalle, cada oportunidad de inversión y hace la debida diligencia para su presentación al público\r\n                                "
                       ),
                       _c("br"),
-                      _vm._v(" "),
+                      _vm._v(
+                        "\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n                                "
+                      ),
                       _c("br"),
-                      _vm._v(" "),
                       _c("br"),
-                      _vm._v(" "),
                       _c("br"),
-                      _vm._v(" "),
                       _c("br"),
-                      _vm._v(" "),
                       _c("br")
                     ])
                   ])
@@ -71107,8 +71458,17 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("p", [
+                      _c("br"),
                       _vm._v(
-                        "Nuestro trabajo no termina con el levantamiento de fondos, mantenemos evaluación continua de los valores representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n\r\n                                Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                            "
+                        "\r\n                                Mantenemos evaluación contínua de los activos representados en la cartera de inversiones, para asegurar que estén apegados al plan de negocio\r\n                                "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Los fondos mutuales son monitoreados diariamente para tomar las decisiones necesarias.\r\n                                "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                                \r\n                            "
                       )
                     ])
                   ])
@@ -71116,6 +71476,8 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
                   _c("article", { staticClass: "hover-shadow article-block" }, [
+                    _c("br"),
+                    _vm._v(" "),
                     _c("h5", { staticClass: "title-mine" }, [
                       _vm._v("Experiencia y conocimiento")
                     ]),
@@ -71125,12 +71487,16 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "Nuestro equipo tiene una amplia y exitosa experiencia comprobada en inversiones.\r\n\r\n                                Hemos sabido superar y protegernos de crisis financieras, políticas y naturales.\r\n\r\n                                Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando disminuciones abruptas de capital y pérdidas para nuestros clientes. "
+                        "\r\n                                Nuestro equipo tiene una amplia y exitosa experiencia en inversiones.\r\n                                "
                       ),
                       _c("br"),
+                      _vm._v(
+                        "\r\n                                Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.\r\n                                "
+                      ),
                       _c("br"),
-                      _c("br"),
-                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Sabemos dónde invertir y cómo minimizar los riesgos, evitando disminuciones abruptas de capital.\r\n                                "
+                      ),
                       _c("br"),
                       _c("br")
                     ])

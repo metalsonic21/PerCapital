@@ -1,7 +1,10 @@
 <template>
 <div>
     <b-modal ref="disc" title="INFORMACIÓN IMPORTANTE" ok-only 
-    ok-variant="dark" size="lg">
+    ok-variant="light" size="lg" body-bg-variant="dark"
+    header-bg-variant="dark" header-text-variant="light"
+    body-text-variant="light" footer-bg-variant="dark"
+    footer-text-variant="light" title-class="text-light">
         <div class="text-justify">
         <p>Por favor lea cuidadosamente esta información antes de entrar a la página web. Contiene información legal y regulatoria relevante en cuanto a la información contenida en esta página web.</p>
         <p>PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.</p>
