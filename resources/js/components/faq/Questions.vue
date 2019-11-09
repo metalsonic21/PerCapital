@@ -5,10 +5,11 @@
             <div class="col-lg-12">
                 <div class="wrapper wrapper-content animated fadeInRight">
 
-                    <div class="ibox-content m-b-sm border-bottom">
-                        <div class="text-center p-lg">
-                            <h2>Preguntas frecuentes</h2>
-                            <small>Haga clic sobre la pregunta para visualizar la respuesta</small>
+                    <div class="row faq-item-mine">
+                        <div class="col-lg-12 text-center">
+                            <div class="navy-line"></div>
+                            <h1 align="center" class="title-mine">Preguntas frecuentes</h1>
+                            <small align="center">Haga click sobre una pregunta para visualizar respuesta</small>
                         </div>
                     </div>
 
@@ -266,7 +267,6 @@
                         </div>
                     </div>
 
-
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
@@ -291,7 +291,6 @@
                         </div>
                     </div>
 
-
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
@@ -315,7 +314,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     <div class="faq-item">
                         <div class="row">
@@ -354,8 +352,6 @@
                         </div>
                     </div>
 
-                
-
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
@@ -380,7 +376,6 @@
                         </div>
                     </div>
 
-
                 </div>
             </div>
         </div>
@@ -393,3 +388,9 @@ export default {
 
 }
 </script>
+
+<style>
+    .faq-item-mine{
+        margin-top: -7%;
+    }
+</style>
