@@ -2256,6 +2256,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2324,23 +2325,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -2588,6 +2572,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     register: function register() {
@@ -2595,6 +2581,41 @@ __webpack_require__.r(__webpack_exports__);
     }
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Logos.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -3171,7 +3192,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -3185,7 +3205,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -3544,7 +3563,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -36395,7 +36413,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\r\n\r\n/*.page-footer{\r\n    background-color: #859da9;\r\n}*/\r\n", ""]);
+exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\n.page-footer{\r\n    background-color: #000030;\n}\n.list-footer{\r\n    color: white;\n}\r\n", ""]);
 
 // exports
 
@@ -36433,7 +36451,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.numbers-mine{\r\n    margin-top: -6%;\n}\r\n", ""]);
+exports.push([module.i, "\n.numbers-mine{\r\n    margin-top: -6%;\r\n    margin-bottom: -8%;\n}\r\n", ""]);
 
 // exports
 
@@ -70067,16 +70085,30 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("br"),
-    _c("br"),
-    _vm._v(" "),
-    _c("div", { staticClass: "container container-mine" }, [
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
       _c("footer", { staticClass: "page-footer font-small indigo" }, [
         _c("div", { staticClass: "container text-center text-md-left" }, [
-          _vm._m(1),
+          _c("div", { staticClass: "text-center" }, [
+            _c("img", {
+              attrs: {
+                src: "/img/logo/Logo-Per-Capital-horizontal-original.png",
+                alt: "LOGO"
+              }
+            }),
+            _vm._v(" "),
+            _c("br"),
+            _c("br")
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-md-3 mx-auto" }, [
@@ -70084,21 +70116,32 @@ var render = function() {
                 "h5",
                 {
                   staticClass:
-                    "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine",
-                  staticStyle: { color: "black" }
+                    "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer"
                 },
                 [_vm._v("La empresa")]
               ),
               _vm._v(" "),
               _c("ul", { staticClass: "list-unstyled text-center" }, [
-                _vm._m(2),
-                _vm._v(" "),
-                _vm._m(3),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#empresa" } },
+                    [_vm._v("Por qué PER CAPITAL")]
+                  )
+                ]),
                 _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { staticStyle: { color: "black" }, on: { click: _vm.faq } },
+                    { staticClass: "list-footer", attrs: { href: "#equipo" } },
+                    [_vm._v("Equipo")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "/faq" } },
                     [_vm._v("FAQ")]
                   )
                 ])
@@ -70107,346 +70150,239 @@ var render = function() {
             _vm._v(" "),
             _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
             _vm._v(" "),
-            _vm._m(4),
+            _c("div", { staticClass: "col-md-3 mx-auto" }, [
+              _c(
+                "h5",
+                {
+                  staticClass:
+                    "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer"
+                },
+                [_vm._v("Fondos")]
+              ),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-unstyled text-center" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Fondo Mutual")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Fondo Inmobiliario")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Capital de Riesgo")]
+                  )
+                ])
+              ])
+            ]),
             _vm._v(" "),
             _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
             _vm._v(" "),
-            _vm._m(5),
+            _c("div", { staticClass: "col-md-3 mx-auto" }, [
+              _c(
+                "h5",
+                {
+                  staticClass:
+                    "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer"
+                },
+                [_vm._v("Servicios")]
+              ),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-unstyled text-center" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Administración E.I.C")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Asesoría Financiera")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Estructuración")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Ingeniería financiera")]
+                  )
+                ])
+              ])
+            ]),
             _vm._v(" "),
             _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
             _vm._v(" "),
-            _vm._m(6)
-          ])
-        ]),
-        _vm._v(" "),
-        _vm._m(7),
-        _vm._v(" "),
-        _vm._m(8)
-      ]),
-      _vm._v(" "),
-      _vm._m(9)
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "column" }, [
-          _c("a", { attrs: { href: "http://www.bcv.org.ve" } }, [
-            _c("img", {
-              staticStyle: { width: "75%" },
-              attrs: { src: "/img/content/landing/bcv.png", alt: "BCV" }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "column" }, [
-          _c(
-            "a",
-            { attrs: { href: "http://www.bolsadecaracas.com/esp/indexF.jsp" } },
-            [
-              _c("img", {
-                attrs: { src: "/img/content/landing/bdv.png", alt: "BDV" }
-              })
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "column" }, [
-          _c("a", { attrs: { href: "http://www.sunaval.gob.ve" } }, [
-            _c("img", {
-              attrs: { src: "/img/content/landing/sunaval.png", alt: "Sunaval" }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "column" }, [
-          _c(
-            "a",
-            {
-              attrs: { href: "https://www.cajavenezolana.com/cvv/indexs.asp" }
-            },
-            [
-              _c("img", {
-                attrs: { src: "/img/content/landing/cvv.png", alt: "CVV" }
-              })
-            ]
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center" }, [
-      _c("img", {
-        attrs: { src: "/img/logo/PastedGraphic-1-3.jpeg", alt: "LOGO" }
-      }),
-      _vm._v(" "),
-      _c("br"),
-      _c("br")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c(
-        "a",
-        { staticStyle: { color: "black" }, attrs: { href: "#empresa" } },
-        [_vm._v("Por qué PER CAPITAL")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { staticStyle: { color: "black" }, attrs: { href: "#equipo" } }, [
-        _vm._v("Equipo")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
-      _c(
-        "h5",
-        {
-          staticClass:
-            "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine",
-          staticStyle: { color: "black" }
-        },
-        [_vm._v("Fondos")]
-      ),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled text-center" }, [
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Fondo Mutual")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Fondo Inmobiliario")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Capital de Riesgo")
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
-      _c(
-        "h5",
-        {
-          staticClass:
-            "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine",
-          staticStyle: { color: "black" }
-        },
-        [_vm._v("Servicios")]
-      ),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled text-center" }, [
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Administración E.I.C")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Asesoría Financiera")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Estructuración")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Ingeniería financiera")
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-3 mx-auto" }, [
-      _c(
-        "h5",
-        {
-          staticClass:
-            "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine",
-          staticStyle: { color: "black" }
-        },
-        [_vm._v("Reportes")]
-      ),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled text-center" }, [
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Trimestral")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { staticStyle: { color: "black" }, attrs: { href: "#!" } }, [
-            _vm._v("Anual")
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "footer-copyright text-center py-3",
-        staticStyle: { color: "black" }
-      },
-      [
-        _vm._v(
-          "0800-CAPITAL\r\n                info@percapital.com\r\n                "
-        ),
-        _c("p", [_vm._v("Caracas-Venezuela")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "footer-copyright text-center py-3",
-        staticStyle: { color: "black" }
-      },
-      [
-        _c("div", { staticClass: "text-justify" }, [
-          _c("small", [
-            _c("p", [
-              _c("strong", [
-                _vm._v(
-                  "PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX."
-                )
-              ]),
+            _c("div", { staticClass: "col-md-3 mx-auto" }, [
+              _c(
+                "h5",
+                {
+                  staticClass:
+                    "font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer"
+                },
+                [_vm._v("Reportes")]
+              ),
               _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [
-                _vm._v(
-                  "PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX"
-                )
-              ]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [
-                _vm._v(
-                  "PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXXX"
-                )
-              ]),
-              _vm._v(" "),
-              _c("br"),
-              _c("br"),
-              _c("strong", [_vm._v("IMPORTANTE:")]),
-              _vm._v(
-                "\r\n                            \r\n                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(
-                "\r\n                            Si usted es un inversionista Privado "
-              ),
-              _c("strong", [_vm._v("no debe")]),
-              _vm._v(
-                " tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(
-                "\r\n                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(
-                "\r\n                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(
-                "\r\n                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(
-                "\r\n                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [_vm._v("Asesoría:")]),
-              _vm._v(
-                "\r\n                            Nada en este sitio web debe ser considerado como asesoría financiera personal.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [_vm._v("Desempeño:")]),
-              _vm._v(
-                "\r\n                            El desempeño histórico no determina el desempeño a futuro.\r\n                            "
-              ),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [_vm._v("Fluctuaciones:")]),
-              _vm._v(
-                "\r\n                            El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.\r\n                            "
-              ),
-              _c("br"),
-              _c("br"),
-              _vm._v(" "),
-              _c("strong", [_vm._v("AVISO LEGAL")]),
-              _vm._v(
-                "\r\n                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”\r\n                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28\r\n\r\n                        "
-              )
+              _c("ul", { staticClass: "list-unstyled text-center" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Trimestral")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    [_vm._v("Anual")]
+                  )
+                ])
+              ])
             ])
           ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "footer-copyright text-center py-3",
+            staticStyle: { color: "white" }
+          },
+          [
+            _vm._v(
+              "0800-CAPITAL\r\n                info@percapital.com\r\n                "
+            ),
+            _c("p", [_vm._v("Caracas-Venezuela")])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "div",
+            {
+              staticClass: "footer-copyright text-center py-3",
+              staticStyle: { color: "white" }
+            },
+            [
+              _c("div", { staticClass: "text-justify" }, [
+                _c("small", [
+                  _c("p", [
+                    _c("strong", [
+                      _vm._v(
+                        "PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [
+                      _vm._v(
+                        "PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [
+                      _vm._v(
+                        "PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXXX"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _c("br"),
+                    _c("strong", [_vm._v("IMPORTANTE:")]),
+                    _vm._v(
+                      "\r\n                            \r\n                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Si usted es un inversionista Privado "
+                    ),
+                    _c("strong", [_vm._v("no debe")]),
+                    _vm._v(
+                      " tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [_vm._v("Asesoría:")]),
+                    _vm._v(
+                      "\r\n                            Nada en este sitio web debe ser considerado como asesoría financiera personal.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [_vm._v("Desempeño:")]),
+                    _vm._v(
+                      "\r\n                            El desempeño histórico no determina el desempeño a futuro.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [_vm._v("Fluctuaciones:")]),
+                    _vm._v(
+                      "\r\n                            El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.\r\n                            "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("strong", [_vm._v("AVISO LEGAL")]),
+                    _vm._v(
+                      "\r\n                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”\r\n                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28\r\n\r\n                        "
+                    )
+                  ])
+                ])
+              ])
+            ]
+          )
         ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "scroll-to-top", attrs: { href: "#" } }, [
-      _c("i", {
-        staticClass: "fa fa-angle-up",
-        attrs: { "aria-hidden": "true" }
-      })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "scroll-to-top", attrs: { href: "#" } }, [
+        _c("i", {
+          staticClass: "fa fa-angle-up",
+          attrs: { "aria-hidden": "true" }
+        })
+      ])
     ])
   }
 ]
@@ -70474,7 +70410,17 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "landing-page" },
-    [_vm._m(0), _vm._v(" "), _c("Numbers"), _vm._v(" "), _c("br")],
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("Numbers"),
+      _vm._v(" "),
+      _c("Contact"),
+      _vm._v(" "),
+      _c("Logos"),
+      _vm._v(" "),
+      _c("br")
+    ],
     1
   )
 }
@@ -70593,6 +70539,89 @@ var staticRenderFns = [
                 ])
               ])
             ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "column" }, [
+            _c("a", { attrs: { href: "http://www.bcv.org.ve" } }, [
+              _c("img", {
+                staticStyle: { width: "75%" },
+                attrs: { src: "/img/content/landing/bcv.png", alt: "BCV" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column" }, [
+            _c(
+              "a",
+              {
+                attrs: { href: "http://www.bolsadecaracas.com/esp/indexF.jsp" }
+              },
+              [
+                _c("img", {
+                  attrs: { src: "/img/content/landing/bdv.png", alt: "BDV" }
+                })
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column" }, [
+            _c("a", { attrs: { href: "http://www.sunaval.gob.ve" } }, [
+              _c("img", {
+                attrs: {
+                  src: "/img/content/landing/sunaval.png",
+                  alt: "Sunaval"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column" }, [
+            _c(
+              "a",
+              {
+                attrs: { href: "https://www.cajavenezolana.com/cvv/indexs.asp" }
+              },
+              [
+                _c("img", {
+                  attrs: { src: "/img/content/landing/cvv.png", alt: "CVV" }
+                })
+              ]
+            )
           ])
         ])
       ])
@@ -71601,11 +71630,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [_c("slider"), _vm._v(" "), _c("landing"), _vm._v(" "), _c("footeralt")],
-    1
-  )
+  return _c("div", [_c("slider"), _vm._v(" "), _c("landing")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -71878,7 +71903,11 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _c("section", { staticClass: "grey-section-mine" }, [_c("Contact")], 1)
+    _c("section", { staticClass: "grey-section-mine" }),
+    _vm._v(" "),
+    _c("br"),
+    _c("br"),
+    _c("br")
   ])
 }
 var staticRenderFns = [
@@ -84796,6 +84825,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footeralt', __webpack_requ
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Values', __webpack_require__(/*! ./components/main/Values.vue */ "./resources/js/components/main/Values.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Contact', __webpack_require__(/*! ./components/main/Contact.vue */ "./resources/js/components/main/Contact.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Numbers', __webpack_require__(/*! ./components/main/Numbers.vue */ "./resources/js/components/main/Numbers.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Logos', __webpack_require__(/*! ./components/main/Logos.vue */ "./resources/js/components/main/Logos.vue")["default"]);
 /* Faq components */
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Questions', __webpack_require__(/*! ./components/faq/Questions.vue */ "./resources/js/components/faq/Questions.vue")["default"]);
@@ -85323,6 +85353,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_81967a28___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_81967a28___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Logos.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/main/Logos.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Logos.vue?vue&type=template&id=698853bd& */ "./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd&");
+/* harmony import */ var _Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Logos.vue?vue&type=script&lang=js& */ "./resources/js/components/main/Logos.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/main/Logos.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Logos.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/main/Logos.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Logos.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Logos.vue?vue&type=template&id=698853bd& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

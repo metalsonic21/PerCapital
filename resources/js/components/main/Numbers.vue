@@ -181,5 +181,6 @@ export default {
 <style>
 .numbers-mine{
     margin-top: -6%;
+    margin-bottom: -8%;
 }
 </style>

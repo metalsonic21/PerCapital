@@ -365,7 +365,7 @@
 #top-bar {
     background: #fff;
     border-bottom: 1px solid #eee;
-    min-height: 50px
+    min-height: 35px
 }
 
 .top-bar-info {
@@ -379,7 +379,9 @@
     list-style-type: none;
     float: left;
     margin: 0;
-    padding: 16px 0 0 0
+    padding: 16px 0 0 0;
+    margin-top: -5px;
+    margin-bottom: -15px;
 }
 
 .top-bar-info li i {

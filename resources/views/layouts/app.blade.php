@@ -32,22 +32,48 @@
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
 
+    
+    <style>
+        .navbar-toggler {
+        align-self: inherit;
+        position: initial;
+        }
+
+        .navbar-mine{
+            /*margin-top: -20px;*/
+            margin-bottom: -20px;
+        }
+        .my-bg{
+            background-color: #000032;
+            min-height: 100px;
+        }
+
+        .navbar .navbar-nav .nav-link{
+            color:white!important;
+        }
+        
+    </style>
+
 </head>
 <body class="landing-page">
     <div id="app">
+    <header id="header-mine">
         <Values></Values>
-        <header>
-            <b-navbar toggleable="lg" fixed sticky class="mx-5 navbar-mine">
-                <b-navbar-brand href="#" class="ml-5">
-                    <b-link href="{{ url('/') }}"><b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4"></b-img></b-link>
+            <div class="my-bg">
+            <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
+                <div class="d-flex align-items-center justify-content-between">
+                    <b-navbar-toggle target="nav-collapse" class="navbar-toggler navbar-toggler-left"></b-navbar-toggle>
+
+                    <b-navbar-brand href="{{ url('/') }}" class="ml-5">
+                    <b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4"></b-img>
                 </b-navbar-brand>
-    
-                <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-    
+                    </div>
+
+                
                 <b-collapse id="nav-collapse" is-nav>
     
-                    <b-navbar-nav class="ml-auto">
-                    <b-nav-item-dropdown text="La empresa" right>
+                    <b-navbar-nav class="ml-auto my-nav-color">
+                    <b-nav-item-dropdown text="La empresa" class="my-nav-color" right>
                             <b-dropdown-item href="{{ url('/about') }}">¿Por qué PER CAPITAL?</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/team') }}">Equipo</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/faq') }}">FAQ</b-dropdown-item>
@@ -62,7 +88,7 @@
                             <b-dropdown-item href="#">Trimestral</b-dropdown-item>
                             <b-dropdown-item href="#">Anual</b-dropdown-item>
                     </b-nav-item-dropdown>
-                        <b-nav-item href="#contacto">Contacto</b-nav-item>
+                        <b-nav-item href="#contacto"  class="my-nav-link">Contacto</b-nav-item>
                         <b-nav-item-dropdown text="Idioma" right>
                             <b-dropdown-item href="#"><span class="flag-icon flag-icon-es"></span>&nbsp;Español</b-dropdown-item>
                             <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;Inglés</b-dropdown-item>
@@ -96,13 +122,17 @@
                 </b-collapse>
             </b-navbar>
             <br>
-    
+            </div>
         </header>
 
         
-        <main class="py-4">
+        <main class="py-4" id="content">
             @yield('content')
         </main>
+
+        <div class="footer-mine">
+            <footeralt></footeralt>
+        </div>
 
         <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
         <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>

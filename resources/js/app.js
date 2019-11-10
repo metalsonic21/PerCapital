@@ -19,6 +19,7 @@ Vue.component('footeralt', require('./components/main/Footer.vue').default);
 Vue.component('Values', require('./components/main/Values.vue').default);
 Vue.component('Contact', require('./components/main/Contact.vue').default);
 Vue.component('Numbers', require('./components/main/Numbers.vue').default);
+Vue.component('Logos', require('./components/main/Logos.vue').default);
 
 
 /* Faq components */

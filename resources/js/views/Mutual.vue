@@ -188,9 +188,8 @@
     </section>
 
     <section class="grey-section-mine">
-    <Contact></Contact>
     </section>
-
+    <br><br><br>
 
 </div>
 </template>

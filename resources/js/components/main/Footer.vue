@@ -1,25 +1,7 @@
 <template>
 <div>
-
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <a href="http://www.bcv.org.ve"><img src="/img/content/landing/bcv.png" alt="BCV" style="width:75%"></a>
-            </div>
-            <div class="column">
-                <a href="http://www.bolsadecaracas.com/esp/indexF.jsp"><img src="/img/content/landing/bdv.png" alt="BDV"></a>
-            </div>
-            <div class="column">
-                <a href="http://www.sunaval.gob.ve"><img src="/img/content/landing/sunaval.png" alt="Sunaval"></a>
-            </div>
-            <div class="column">
-                <a href="https://www.cajavenezolana.com/cvv/indexs.asp"><img src="/img/content/landing/cvv.png" alt="CVV"></a>
-            </div>
-        </div>
-    </div>
     <br><br>
 
-    <div class="container container-mine">
         <!-- Footer -->
         <footer class="page-footer font-small indigo">
 
@@ -27,7 +9,7 @@
             <div class="container text-center text-md-left">
 
                 <div class="text-center">
-                    <img src="/img/logo/PastedGraphic-1-3.jpeg" alt="LOGO">
+                    <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" alt="LOGO">
                     <br><br>
                 </div>
 
@@ -38,16 +20,16 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">La empresa</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">La empresa</h5>
                         <ul class="list-unstyled text-center">
                             <li>
-                                <a href="#empresa" style="color:black">Por qué PER CAPITAL</a>
+                                <a href="#empresa" class="list-footer">Por qué PER CAPITAL</a>
                             </li>
                             <li>
-                                <a href="#equipo" style="color:black">Equipo</a>
+                                <a href="#equipo" class="list-footer">Equipo</a>
                             </li>
                             <li>
-                                <a @click="faq" style="color:black">FAQ</a>
+                                <a href="/faq" class="list-footer">FAQ</a>
                             </li>
                         </ul>
 
@@ -60,16 +42,16 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Fondos</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer" >Fondos</h5>
                         <ul class="list-unstyled text-center">
                             <li>
-                                <a href="#!" style="color:black">Fondo Mutual</a>
+                                <a href="#!" class="list-footer">Fondo Mutual</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Fondo Inmobiliario</a>
+                                <a href="#!" class="list-footer">Fondo Inmobiliario</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Capital de Riesgo</a>
+                                <a href="#!" class="list-footer">Capital de Riesgo</a>
                             </li>
                         </ul>
 
@@ -82,19 +64,19 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Servicios</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer" >Servicios</h5>
                         <ul class="list-unstyled text-center">
                             <li>
-                                <a href="#!" style="color:black">Administración E.I.C</a>
+                                <a href="#!" class="list-footer">Administración E.I.C</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Asesoría Financiera</a>
+                                <a href="#!" class="list-footer">Asesoría Financiera</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Estructuración</a>
+                                <a href="#!" class="list-footer">Estructuración</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Ingeniería financiera</a>
+                                <a href="#!" class="list-footer">Ingeniería financiera</a>
                             </li>
                         </ul>
 
@@ -107,15 +89,15 @@
                     <div class="col-md-3 mx-auto">
 
                         <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine" style="color:black">Reportes</h5>
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Reportes</h5>
 
                         <ul class="list-unstyled text-center">
 
                             <li>
-                                <a href="#!" style="color:black">Trimestral</a>
+                                <a href="#!" class="list-footer">Trimestral</a>
                             </li>
                             <li>
-                                <a href="#!" style="color:black">Anual</a>
+                                <a href="#!" class="list-footer">Anual</a>
                             </li>
                         </ul>
 
@@ -129,12 +111,13 @@
             <!-- Footer Links -->
 
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3" style="color:black">0800-CAPITAL
+            <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
                 info@percapital.com
                 <p>Caracas-Venezuela</p>
             </div>
 
-            <div class="footer-copyright text-center py-3" style="color:black">
+            <div class="container">
+            <div class="footer-copyright text-center py-3" style="color:white">
                 <div class="text-justify">
                     <small>
                         <p>
@@ -176,6 +159,7 @@
                         </p>
                     </small>
                 </div>
+                </div>
             </div>
             <!-- Copyright -->
 
@@ -184,7 +168,6 @@
         <a href=# class=scroll-to-top><i class="fa fa-angle-up" aria-hidden=true></i></a>
 
     </div>
-</div>
 </template>
 
 <script>
@@ -230,7 +213,11 @@ export default {
     display: table;
 }
 
-/*.page-footer{
-    background-color: #859da9;
-}*/
+.page-footer{
+    background-color: #000030;
+}
+
+.list-footer{
+    color: white;
+}
 </style>
