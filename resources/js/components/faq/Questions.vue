@@ -392,6 +392,6 @@ export default {
 
 <style>
     .faq-item-mine{
-        margin-top: -7%;
+        margin-top: -2%;
     }
 </style>

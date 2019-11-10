@@ -77,7 +77,7 @@ export default {
 
 <style>
 .about-mine{
-    margin-top: -5%;
+    margin-top: -2%;
     margin-bottom: -2%;
 }
 </style>

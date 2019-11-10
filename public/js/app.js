@@ -36375,7 +36375,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.faq-item-mine{\n    margin-top: -7%;\n}\n", ""]);
+exports.push([module.i, "\n.faq-item-mine{\n    margin-top: -2%;\n}\n", ""]);
 
 // exports
 
@@ -36508,7 +36508,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.about-mine{\r\n    margin-top: -5%;\r\n    margin-bottom: -2%;\n}\r\n", ""]);
+exports.push([module.i, "\n.about-mine{\r\n    margin-top: -2%;\r\n    margin-bottom: -2%;\n}\r\n", ""]);
 
 // exports
 
@@ -36527,7 +36527,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -12%;\r\n    margin-bottom: -3%;\n}\r\n", ""]);
+exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\r\n", ""]);
 
 // exports
 
@@ -71655,191 +71655,185 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "animated fadeInRight" }, [
-    _c(
-      "div",
-      { staticClass: "block-section fondos-mine", attrs: { id: "fondos" } },
-      [
-        _c(
-          "div",
-          { staticClass: "container" },
-          [
-            _c(
-              "b-row",
-              { staticClass: "justify-content-center" },
-              [
-                _c(
-                  "b-col",
-                  {
-                    staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "10", md: "10", lg: "10" }
-                  },
-                  [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "center-holder main-heading text-justify"
-                      },
-                      [
-                        _c("div", { staticClass: "navy-line" }),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c(
-                          "h4",
-                          {
-                            staticClass: "title-mine",
-                            attrs: { align: "center" }
-                          },
-                          [
-                            _vm._v(
-                              "PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO"
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("p", [
+    _c("div", { staticClass: "fondos-mine", attrs: { id: "fondos" } }, [
+      _c(
+        "div",
+        { staticClass: "container" },
+        [
+          _c(
+            "b-row",
+            { staticClass: "justify-content-center" },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "col-lg-offset-1 features-text",
+                  attrs: { cols: "10", md: "10", lg: "10" }
+                },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "center-holder main-heading text-justify" },
+                    [
+                      _c("div", { staticClass: "navy-line" }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c(
+                        "h4",
+                        {
+                          staticClass: "title-mine",
+                          attrs: { align: "center" }
+                        },
+                        [
                           _vm._v(
-                            "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
+                            "PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO"
                           )
-                        ])
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "text-center" }, [
-                      _c("small", { attrs: { align: "center" } }, [
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
                         _vm._v(
-                          "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
+                          "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
                         )
                       ])
-                    ]),
-                    _vm._v(" "),
-                    _c("br"),
-                    _c("br"),
-                    _vm._v(" "),
-                    _c(
-                      "h4",
-                      { staticClass: "title-mine", attrs: { align: "center" } },
-                      [_vm._v("Información de interés")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-list-group",
-                      [
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            Fecha inicio\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("20 Dic 2019")
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            Comparativo\r\n\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("IBC")
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            Sector de inversión\r\n\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("BVC")
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            Fecha de cierre\r\n\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("20 Ene 2020")
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            V.U.I\r\n\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("Bs 55.000,00")
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-list-group-item",
-                          {
-                            staticClass:
-                              "d-flex justify-content-between align-items-center"
-                          },
-                          [
-                            _vm._v(
-                              "\r\n                            Inversión mínima\r\n\r\n                            "
-                            ),
-                            _c("b-badge", { attrs: { variant: "dark" } }, [
-                              _vm._v("10 VUI")
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ]
-    ),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "text-center" }, [
+                    _c("small", { attrs: { align: "center" } }, [
+                      _vm._v(
+                        "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("br"),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "h4",
+                    { staticClass: "title-mine", attrs: { align: "center" } },
+                    [_vm._v("Información de interés")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-list-group",
+                    [
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            Fecha inicio\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("20 Dic 2019")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            Comparativo\r\n\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("IBC")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            Sector de inversión\r\n\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("BVC")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            Fecha de cierre\r\n\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("20 Ene 2020")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            V.U.I\r\n\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("Bs 55.000,00")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-list-group-item",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between align-items-center"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                            Inversión mínima\r\n\r\n                            "
+                          ),
+                          _c("b-badge", { attrs: { variant: "dark" } }, [
+                            _vm._v("10 VUI")
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ]),
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
@@ -72469,10 +72463,7 @@ var render = function() {
   return _c("div", [
     _c(
       "section",
-      {
-        staticClass: "features features-mine animated fadeInRight",
-        attrs: { id: "equipo" }
-      },
+      { staticClass: "features animated fadeInRight", attrs: { id: "equipo" } },
       [
         _c(
           "div",

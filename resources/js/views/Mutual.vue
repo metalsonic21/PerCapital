@@ -2,7 +2,7 @@
 <div class="animated fadeInRight">
     <!-- FUNDINGS -->
 
-    <div class="block-section fondos-mine" id="fondos">
+    <div class="fondos-mine" id="fondos">
         <div class="container">
             <b-row class="justify-content-center">
                 <b-col cols="10" md="10" lg="10" class="col-lg-offset-1 features-text">
@@ -202,7 +202,7 @@ export default {
 
 <style>   
 .fondos-mine{
-    margin-top: -12%;
+    margin-top: -3%;
     margin-bottom: -3%;
 }
 </style>

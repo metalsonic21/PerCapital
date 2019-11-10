@@ -1,7 +1,7 @@
 <!-- TEAM -->
 <template>
 <div>
-    <section class="features features-mine animated fadeInRight" id="equipo">
+    <section class="features animated fadeInRight" id="equipo">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

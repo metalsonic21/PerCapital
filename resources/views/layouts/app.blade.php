@@ -35,23 +35,44 @@
     
     <style>
         .navbar-toggler {
-        align-self: inherit;
-        position: initial;
+            align-self: inherit;
+            position: initial;
         }
 
-        .navbar-mine{
-            /*margin-top: -20px;*/
-            margin-bottom: -20px;
-        }
+        /* Media query for collapse button */
+        @media (max-width: 990px) {
         .my-bg{
             background-color: #000032;
-            min-height: 100px;
         }
-
+        
+        .navbar .navbar-brand{
+            min-height:100px;
+        }
+        }
+        
+        @media (min-width: 991px) {
+        .my-bg{
+            background-color: #000032;
+            min-height: 50px;
+            max-height: 60px;
+        }    
+        }
+        
         .navbar .navbar-nav .nav-link{
             color:white!important;
         }
-        
+
+        .navbar .navbar-nav{
+            margin-top: -20px;
+        }
+
+        .navbar .navbar-brand{
+            margin-top: -25px;
+        }
+
+        .navbar .navbar-toggle {
+   background-color:#FF0000 !important;
+}
     </style>
 
 </head>
@@ -60,19 +81,19 @@
     <header id="header-mine">
         <Values></Values>
             <div class="my-bg">
-            <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
+            <b-navbar toggleable="lg" fixed class="mx-5">
                 <div class="d-flex align-items-center justify-content-between">
-                    <b-navbar-toggle target="nav-collapse" class="navbar-toggler navbar-toggler-left"></b-navbar-toggle>
+                    <b-navbar-toggle target="nav-collapse" class="navbar-toggler navbar-toggler-left" style="background-color:white"></b-navbar-toggle>
 
                     <b-navbar-brand href="{{ url('/') }}" class="ml-5">
-                    <b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4"></b-img>
-                </b-navbar-brand>
-                    </div>
+                    <b-img fluid src="/img/logo/Logo-Per-Capital-horizontal-original.png" width="220" height="110" class="mt-4 logo-mine"></b-img>
+                    </b-navbar-brand>
+                </div>
 
                 
                 <b-collapse id="nav-collapse" is-nav>
     
-                    <b-navbar-nav class="ml-auto my-nav-color">
+                    <b-navbar-nav class="ml-auto nav-items-mine">
                     <b-nav-item-dropdown text="La empresa" class="my-nav-color" right>
                             <b-dropdown-item href="{{ url('/about') }}">¿Por qué PER CAPITAL?</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/team') }}">Equipo</b-dropdown-item>
