@@ -36527,7 +36527,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -3%;\n}\r\n", ""]);
+exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -3%;\r\n    margin-bottom: 3%;\n}\n.invest{\r\n    margin-top: 40%;\n}\r\n", ""]);
 
 // exports
 
@@ -71839,7 +71839,7 @@ var render = function() {
     _vm._v(" "),
     _c(
       "section",
-      { staticClass: "container services", attrs: { id: "invertir" } },
+      { staticClass: "container services invest", attrs: { id: "invertir" } },
       [
         _c("div", { staticClass: "navy-line" }),
         _vm._v(" "),
@@ -71912,8 +71912,8 @@ var staticRenderFns = [
     return _c(
       "section",
       {
-        staticClass: "comments",
-        staticStyle: { "margin-top": "0", "margin-bottom": "-10%" },
+        staticClass: "comments gray-section",
+        staticStyle: { "margin-top": "0%", "margin-bottom": "-5%" },
         attrs: { id: "riesgos" }
       },
       [

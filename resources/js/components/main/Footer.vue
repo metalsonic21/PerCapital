@@ -23,10 +23,10 @@
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">La empresa</h5>
                         <ul class="list-unstyled text-center">
                             <li>
-                                <a href="#empresa" class="list-footer">Por qué PER CAPITAL</a>
+                                <a href="/about" class="list-footer">Por qué PER CAPITAL</a>
                             </li>
                             <li>
-                                <a href="#equipo" class="list-footer">Equipo</a>
+                                <a href="/team" class="list-footer">Equipo</a>
                             </li>
                             <li>
                                 <a href="/faq" class="list-footer">FAQ</a>
@@ -45,7 +45,7 @@
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer" >Fondos</h5>
                         <ul class="list-unstyled text-center">
                             <li>
-                                <a href="#!" class="list-footer">Fondo Mutual</a>
+                                <a href="/mutual" class="list-footer">Fondo Mutual</a>
                             </li>
                             <li>
                                 <a href="#!" class="list-footer">Fondo Inmobiliario</a>

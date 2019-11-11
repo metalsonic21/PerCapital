@@ -58,7 +58,7 @@
     <!-- RISKS -->
     <!-- RISKS ROW 1-->
 
-    <section class="comments" style="margin-top: 0; margin-bottom: -10%" id="riesgos">
+    <section class="comments gray-section" style="margin-top: 0%; margin-bottom:-5%" id="riesgos">
         <div class="container">
             <div class="row comments-mine">
                 <div class="col-lg-12 text-center">
@@ -157,7 +157,7 @@
     </section>
 
         <!-- HOW TO INVEST -->
-    <section id="invertir" class="container services">
+    <section id="invertir" class="container services invest">
         <div class="navy-line"></div>
         <h1 align="center" class="title-mine">¿Cómo invertir?</h1>
         <br>
@@ -203,5 +203,10 @@ export default {
 <style>   
 .fondos-mine{
     margin-top: -3%;
+    margin-bottom: 3%;
+}
+
+.invest{
+    margin-top: 40%;
 }
 </style>
