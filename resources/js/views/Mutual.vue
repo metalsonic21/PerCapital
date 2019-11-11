@@ -203,6 +203,5 @@ export default {
 <style>   
 .fondos-mine{
     margin-top: -3%;
-    margin-bottom: -3%;
 }
 </style>

@@ -36527,7 +36527,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\r\n", ""]);
+exports.push([module.i, "\n.fondos-mine{\r\n    margin-top: -3%;\n}\r\n", ""]);
 
 // exports
 
