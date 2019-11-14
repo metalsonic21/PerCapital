@@ -7,7 +7,7 @@
                     <div class="block">
                         <div class="animation">
                             <div class="first">
-                                <li>ABC.A <em class="em-mine" v-bind:style="dynamicColorR">22.500,00</em></li>
+                                <li>ABC.A <em class="em-mine" v-bind:style="dynamicColorR">22.500,00</em> <i class="fa fa-caret-down" style="color:red"></i></li>
                             </div>
                             <div>
                                 <li>BNC 332,50</li>
@@ -22,7 +22,7 @@
                             <li>BVCC 7.230,00</li>
                             </div>
                             <div>
-                            <li>BVL <em class="em-mine" v-bind:style="dynamicColorG">900,00</em></li>
+                            <li>BVL <em class="em-mine" v-bind:style="dynamicColorG">900,00</em> <i class="fa fa-caret-up" style="color:green"></i></li>
                             </div>
                             <div>
                                 <li>CCR 105.000,00</li>
@@ -40,7 +40,7 @@
                                 <li>DOM 13.300,00</li>
                             </div>
                             <div>
-                                <li>EFE <em class="em-mine" v-bind:style="dynamicColorR">1.350,00</em></li>
+                                <li>EFE <em class="em-mine" v-bind:style="dynamicColorR">1.350,00</em> <i class="fa fa-caret-down" style="color:red"></i> </li>
                             </div>
 
                             <div>

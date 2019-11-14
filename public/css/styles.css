@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Gotham;
+    src: url("../fonts/GothaProReg.otf");
+  }
+
+  .title-mine{
+      font-family: Gotham
+  }
+
 .main-heading h2,
 .main-heading h3 {
     font-weight: 400;
@@ -8239,7 +8248,7 @@ dd.project-people {
 }
 
 .faq-question:hover {
-    color: #179d82;
+    color: #859da9;
 }
 
 .faq-answer {
@@ -10681,6 +10690,8 @@ body.landing-page {
 .landing-page .comments-avatar .commens-name {
     font-weight: 600;
     font-size: 14px;
+    font-family:Gotham;
+    color:black;
 }
 
 .landing-page .comments-avatar img {
@@ -10691,7 +10702,7 @@ body.landing-page {
 
 .landing-page .bubble {
     position: relative;
-    height: 140px;
+    height: 200px;
     padding: 20px;
     background: #FFFFFF;
     -webkit-border-radius: 10px;
@@ -12314,11 +12325,3 @@ body.md-skin {
     background-color: #859da9;
 }
 
-@font-face {
-    font-family: Gotham;
-    src: url("../fonts/GothaProReg.otf");
-  }
-
-  .title-mine{
-      font-family: Gotham
-  }

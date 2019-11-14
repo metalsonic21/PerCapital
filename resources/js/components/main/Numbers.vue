@@ -3,7 +3,7 @@
     <div class="container">
 
         <div class="navy-line"></div>
-        <h1 align="center" class="title-mine">Los números cuentan</h1>
+        <h1 align="center" class="title-mine">LOS NÚMEROS CUENTAN</h1>
         <h6 align="center">Indicadores:</h6>
         <br>
         <div class="row">

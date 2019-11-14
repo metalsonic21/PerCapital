@@ -8,7 +8,7 @@
                     <div class="row faq-item-mine">
                         <div class="col-lg-12 text-center">
                             <div class="navy-line"></div>
-                            <h1 align="center" class="title-mine">Preguntas frecuentes</h1>
+                            <h1 align="center" class="title-mine">PREGUNTAS FRECUENTES</h1>
                             <small align="center">Haga click sobre una pregunta para visualizar respuesta</small>
                         </div>
                     </div>

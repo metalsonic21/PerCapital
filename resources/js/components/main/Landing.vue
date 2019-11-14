@@ -5,7 +5,7 @@
         <div class=block-section>
             <div class=container>
                 <div class="center-holder main-heading">
-                    <h3 class="title-mine">Finalmente puedes empezar</h3>
+                    <h3 class="title-mine">FINALMENTE PUEDES EMPEZAR</h3>
                     <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de
                         inversión Premium
                         <br>
@@ -18,27 +18,27 @@
                         <div class=row>
 
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block"><i class="fa fa-check" aria-hidden=true></i>
-                                    <h4>Transparencia</h4>
+                                <article class="hover-shadow article-block article-landing"><i class="fa fa-check" aria-hidden=true></i>
+                                    <h4>TRANSPARENCIA</h4>
                                     <p>Somos una empresa regulada y cumplimos con los mayores estándares de cumplimiento para garantizar la tranquilidad a nuestros clientes. <br> <br> <br> </p>
 
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block"><i class="fa fa-compass" aria-hidden=true></i>
-                                    <h4>Análisis riguroso</h4>
+                                <article class="hover-shadow article-block article-landing"><i class="fa fa-compass" aria-hidden=true></i>
+                                    <h4>ANÁLISIS RIGUROSO</h4>
                                     <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> </p>
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block"><i class="fa fa-bank" aria-hidden=true></i>
-                                    <h4>Finanzas inteligentes</h4>
+                                <article class="hover-shadow article-block article-landing"><i class="fa fa-bank" aria-hidden=true></i>
+                                    <h4>FINANZAS INTELIGENTES</h4>
                                     <p>Estudiamos a fondo los proyectos y mercados buscando solvencia financiera, reputacional y excelencia en gestión empresarial con el objetivo de generar valor. </p>
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block"><i class="fa fa-money" aria-hidden=true></i>
-                                    <h4>Comunidad inversionista</h4>
+                                <article class="hover-shadow article-block article-landing"><i class="fa fa-money" aria-hidden=true></i>
+                                    <h4>COMUNIDAD INVERSIONISTA</h4>
                                     <p>Construimos una comunidad de inversionistas institucionales y no institucionales que ofrece una alternativa de financiamiento. <br> <br> </p>
                                 </article>
                             </div>
@@ -115,5 +115,9 @@ export default {
 
 .row-team{
     margin-bottom: -3%;
+}
+
+.article-landing{
+    height:450px;
 }
 </style>

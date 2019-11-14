@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1 class="title-mine title-placed">Servicios</h1>
+                    <h1 class="title-mine title-placed">SERVICIOS</h1>
                 </div>
             </div>
             <div class="row features-block">
@@ -18,7 +18,7 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">Administración de E.I.C</h2>
+                                <h2 class="title-mine">ADMINISTRACIÓN DE E.I.C</h2>
                                 <p>Las Entidades de Inversión Colectiva (E.I.C) o Fondos son una manera de canalizar el capital de inversionistas como un patrimonio común para el desarrollo de distintos proyectos con el objetivo de obtener rendimiento.
                                 </p>
 
@@ -48,7 +48,7 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">Asesoría financiera</h2>
+                                <h2 class="title-mine">ASESORÍA FINANCIERA</h2>
                                 <p>Somos una institución regulada y autorizada para prestar servicios de Asesoría; contamos con profesionales de comprobada experiencia, certificados como Asesores de Inversión y dispuestos a brindar el mejor servicio.</p>
                                 <p>
                                     Nuestro equipo se enfoca en ser guía en el proceso de evaluación y asesoramiento para el manejo patrimonial a nivel:
@@ -77,7 +77,7 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">Estructuración</h2>
+                                <h2 class="title-mine">ESTRUCTURACIÓN</h2>
                                 <p>Realizamos proyectos de (re) estructuración, emisión y colocación de:
                                     <ul>
                                         <li>Renta fija</li>
@@ -107,7 +107,7 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">Ingeniería financiera</h2>
+                                <h2 class="title-mine">INGENIERÍA FINANCIERA</h2>
                                 <p>
                                     Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como:
 
@@ -130,6 +130,15 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary btn-lg btn-title" style="margin-top:1px;">Prospecto</button>
+                    <button type="button" class="btn btn-secondary btn-lg ml-2 btn-title">Reportes</button>
+                    <button type="button" class="btn btn-secondary btn-lg ml-2 btn-title">Suscribirse</button>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 </template>
@@ -141,19 +150,26 @@ export default {
 </script>
 
 <style>
-    .timeline-mine{
-        margin-top: -3%;
-    }
+.timeline-mine {
+    margin-top: 5px;
+    margin-bottom: -3%;
+}
 
-    .img-mine{
-        margin-top: 8%;
-    }
+.img-mine {
+    margin-top: 8%;
+}
 
-    .img-mine-2{
-        margin-top: 6%
-    }
+.img-mine-2 {
+    margin-top: 6%
+}
 
-    .title-placed{
-        margin-bottom: -5%;
-    }
+.title-placed {
+    margin-bottom: -5%;
+}
+
+.btn-title{
+    font-family:Gotham;
+    background-color:#859da9;
+    border-color:#859da9;
+}
 </style>

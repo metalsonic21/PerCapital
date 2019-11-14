@@ -71,8 +71,12 @@
         }
 
         .navbar .navbar-toggle {
-   background-color:#FF0000 !important;
-}
+        background-color:#FF0000 !important;
+        }
+
+        .navbar-mine{
+            font-family:Gotham;
+        }
     </style>
 
 </head>
@@ -81,7 +85,7 @@
     <header id="header-mine">
         <Values></Values>
             <div class="my-bg">
-            <b-navbar toggleable="lg" fixed class="mx-5">
+            <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
                 <div class="d-flex align-items-center justify-content-between">
                     <b-navbar-toggle target="nav-collapse" class="navbar-toggler navbar-toggler-left" style="background-color:white"></b-navbar-toggle>
 
@@ -94,28 +98,31 @@
                 <b-collapse id="nav-collapse" is-nav>
     
                     <b-navbar-nav class="ml-auto nav-items-mine">
-                    <b-nav-item-dropdown text="La empresa" class="my-nav-color" right>
+                    <b-nav-item-dropdown text="LA EMPRESA" class="my-nav-color" right>
                             <b-dropdown-item href="{{ url('/about') }}">¿Por qué PER CAPITAL?</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/team') }}">Equipo</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/faq') }}">FAQ</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Fondos" right>
+                    <b-nav-item-dropdown text="FONDOS" right>
                             <b-dropdown-item href="{{ url('/mutual') }}">Fondo Mutual</b-dropdown-item>
                             <b-dropdown-item href="#">Fondo Inmobiliario</b-dropdown-item>
                             <b-dropdown-item href="#">Capital de riesgo</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item href="{{ url('/services') }}">Servicios</b-nav-item>
-                    <b-nav-item-dropdown text="Reportes" right>
+                    <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
+                    <b-nav-item-dropdown text="REPORTES" right>
                             <b-dropdown-item href="#">Trimestral</b-dropdown-item>
                             <b-dropdown-item href="#">Anual</b-dropdown-item>
                     </b-nav-item-dropdown>
-                        <b-nav-item href="#contacto"  class="my-nav-link">Contacto</b-nav-item>
-                        <b-nav-item-dropdown text="Idioma" right>
-                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-es"></span>&nbsp;Español</b-dropdown-item>
-                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;Inglés</b-dropdown-item>
+                        <b-nav-item href="#contacto"  class="my-nav-link">CONTACTO</b-nav-item>
+                        <b-nav-item-dropdown text="IDIOMA" right>
+                            <b-dropdown-item href="#"> <span class="flag-icon flag-icon-es align-middle"></span>&nbsp;Español</b-dropdown-item>
+                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;English</b-dropdown-item>
                         </b-nav-item-dropdown>
     
-                        <b-nav-item-dropdown text="Inversionista" right>
+                        <b-nav-item-dropdown right>
+                        <template slot="button-content">
+                            <i class="fa fa-user"></i>
+                        </template>
                             <b-dropdown-item href="#">Institucional</b-dropdown-item>
                             <b-dropdown-item href="#">Privado</b-dropdown-item>
                         </b-nav-item-dropdown>
@@ -169,5 +176,6 @@
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
     </div>
+
 </body>
 </html>
