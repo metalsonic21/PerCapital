@@ -2,8 +2,8 @@
 <div class="landing-page">
 
     <div id="caracteristicas">
-        <div class=block-section>
-            <div class=container>
+        <div class="block-section">
+            <div class="container">
                 <div class="center-holder main-heading">
                     <h3 class="title-mine">FINALMENTE PUEDES EMPEZAR</h3>
                     <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de
@@ -13,9 +13,9 @@
                         de Capital de Riesgo, previamente <br>
                         evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.</p>
                 </div>
-                <div class="container-fluid">
-                    <div class=mt-70>
-                        <div class=row>
+                <div class="container-fluid feature-cards">
+                    <div class="mt-70">
+                        <div class="row">
 
                             <div class="col-md-3">
                                 <article class="hover-shadow article-block article-landing"><i class="fa fa-check" aria-hidden=true></i>
@@ -119,5 +119,32 @@ export default {
 
 .article-landing{
     height:450px;
+}
+
+.h4-mine {
+    font-size: 80%;
+}
+
+.h5-mine {
+    font-size: 80%;
+    color: black;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: -100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.feature-cards{
+    margin-top: -7%;
 }
 </style>

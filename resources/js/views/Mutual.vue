@@ -1,67 +1,67 @@
 <template>
 <div class="animated fadeInRight">
-    <!-- FUNDINGS -->
 
-    <div class="fondos-mine" id="fondos">
-        <div class="container">
-            <b-row class="justify-content-center">
-                <b-col cols="10" md="10" lg="10" class="col-lg-offset-1 features-text">
-                    <div class="center-holder main-heading text-justify">
-                        <div class="navy-line"></div>
-                        <br>
-                        <h4 align="center" class="title-mine">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
-                        <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="center-holder main-heading text-justify">
+                    <div class="navy-line-2"></div>
+                    <br>
+                    <h4 align="center" class="title-mine">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
+                    <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
+                </div>
+                <div class="text-center">
+                    <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
+                </div>
 
-                    <div class="text-center">
-                        <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
-                    </div>
-                    <br><br>
+            </div>
+            <div class="col-lg-6">
+                <div class="navy-line-2"></div>
+                <br>
+                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
 
-                    <h4 align="center" class="title-mine">Información de interés</h4>
-                    <b-list-group>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            Fecha inicio
-                            <b-badge variant="dark">20 Dic 2019</b-badge>
-                        </b-list-group-item>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            Comparativo
+                <b-list-group>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha inicio
+                        <b-badge variant="dark">20 Dic 2019</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Comparativo
 
-                            <b-badge variant="dark">IBC</b-badge>
-                        </b-list-group-item>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            Sector de inversión
+                        <b-badge variant="dark">IBC</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Sector de inversión
 
-                            <b-badge variant="dark">BVC</b-badge>
-                        </b-list-group-item>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            Fecha de cierre
+                        <b-badge variant="dark">BVC</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha de cierre
 
-                            <b-badge variant="dark">20 Ene 2020</b-badge>
-                        </b-list-group-item>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            V.U.I
+                        <b-badge variant="dark">20 Ene 2020</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        V.U.I
 
-                            <b-badge variant="dark">Bs 55.000,00</b-badge>
-                        </b-list-group-item>
-                        <b-list-group-item class="d-flex justify-content-between align-items-center">
-                            Inversión mínima
+                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Inversión mínima
 
-                            <b-badge variant="dark">10 VUI</b-badge>
-                        </b-list-group-item>
-                    </b-list-group>
-                </b-col>
-            </b-row>
+                        <b-badge variant="dark">10 VUI</b-badge>
+                    </b-list-group-item>
+                </b-list-group>
+            </div>
         </div>
     </div>
 
     <!-- RISKS -->
-    <section class="comments gray-section" style="margin-top: 0%; margin-bottom:-9%">
+    <section class="gray-section" style="margin-top: 1%; margin-bottom:-6%">
         <div class="container">
             <div class="row" id="big-row">
                 <div class="col-lg-6" id="risks-col">
                     <div class="text-center">
-                        <div class="navy-line"></div>
+                        <div class="navy-line-3"></div>
                         <h1 class="title-mine">RIESGOS</h1>
                     </div>
 
@@ -156,44 +156,44 @@
                 <!-- HOW TO INVEST -->
                 <div class="col-lg-6" id="invest-col">
                     <div class="text-center">
-                        <div class="navy-line"></div>
+                        <div class="navy-line-3"></div>
                         <h1 class="title-mine">¿CÓMO INVERTIR?</h1>
                     </div>
 
                     <div class="invest-items-bg">
 
-                    <div class="row" style="margin-top:1px;">
-                        <div class="col-lg-12">
-                            <h6 class="text-center invest-title"> <b> Perfil de inversionista</b></h6>
-                            <p class="text-justify invest-last invest-p text-dark">Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)</p>
+                        <div class="row" style="margin-top:1px;">
+                            <div class="col-lg-12">
+                                <h6 class="text-center invest-title"> <b> Perfil de inversionista</b></h6>
+                                <p class="text-justify invest-last invest-p text-dark">Determine su perfil de inversionista tomando en cuenta si es Persona Natural o Jurídica, edad, profesional, no profesional y su aversión al riesgo (bajo, mediano, alto)</p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h6 class="text-center invest-title"> <b> Plazo de inversión</b></h6>
-                            <p class="text-justify invest-last invest-p text-secondary text-dark">Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
-                            <br>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h6 class="text-center invest-title"> <b> Plazo de inversión</b></h6>
+                                <p class="text-justify invest-last invest-p text-secondary text-dark">Seleccione el plazo deseado para su inversión (corto, mediano o largo)</p>
+                                <br>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h6 class="text-center invest-title"> <b> Fondo</b></h6>
-                            <p class="text-justify invest-last invest-p text-secondary text-dark">Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
-                        <br>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h6 class="text-center invest-title"> <b> Fondo</b></h6>
+                                <p class="text-justify invest-last invest-p text-secondary text-dark">Seleccione el fondo de su preferencia que se ajuste más a sus objetivos</p>
+                                <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h6 class="text-center invest-title"> <b> Regístrate</b></h6>
-                            <p class="text-justify invest-last invest-p text-secondary text-dark">Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
-                            </p>
-                            <p class="text-center">
-                                <b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link>
-                            </p>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h6 class="text-center invest-title"> <b> Regístrate</b></h6>
+                                <p class="text-justify invest-last invest-p text-secondary text-dark">Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
+                                </p>
+                                <p class="text-center">
+                                    <b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link>
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
                     </div>
 
@@ -201,7 +201,7 @@
             </div>
         </div>
     </section>
-    
+
     <br><br><br>
 
 </div>
@@ -223,11 +223,11 @@ export default {
     margin-top: 40%;
 }
 
-.invest-title{
-    color:black;
+.invest-title {
+    color: black;
 }
 
-.invest-items-bg{
+.invest-items-bg {
     position: relative;
     padding: 20px;
     background: #FFFFFF;
@@ -235,15 +235,30 @@ export default {
     -moz-border-radius: 10px;
     border-radius: 10px;
     font-size: 14px;
-    height:475px;
+    height: 475px;
 }
 
-.invest-p{
-    font-style:italic;
+.invest-p {
+    font-style: italic;
 }
 
-.invest-last{
-    margin-left:20px;
-    margin-right:20px;
+.invest-last {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navy-line-2 {
+    width: 60px;
+    height: 1px;
+    margin: 9px auto 0;
+    border-bottom: 2px solid#859da9;
+}
+
+
+.navy-line-3 {
+    width: 60px;
+    height: 1px;
+    margin: 7px auto 0;
+    border-bottom: 2px solid#859da9;
 }
 </style>

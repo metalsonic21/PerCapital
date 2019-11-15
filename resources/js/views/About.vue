@@ -3,12 +3,11 @@
     <!-- ABOUT -->
 
     <div id="empresa" class="about-mine animated fadeInRight">
-        <div class="block-section">
             <div class=container>
                 <div class="row">
                     <div class="col-xs-12 col-md-3 col-sm-3 about-section">
                         <div class=main-heading>
-                            <h3 class="title-mine">¿POR QUÉ PER CAPITAL?</h3>
+                            <h3 class="title-mine" style="margin-top:20px;">¿POR QUÉ PER CAPITAL?</h3>
                         </div>
                         <div class="mt-20 text-content">
                             <p class="text-justify">
@@ -20,7 +19,6 @@
                         <article class="hover-shadow article-block article-mine">
                             <h5 class="title-mine">ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA</h5>
                             <p>
-                                <br>
                                 Nuestro equipo de expertos revisa a profundidad cada detalle, cada oportunidad de inversión y hace la debida diligencia para su presentación al público
                                 <br>
                                 Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.
@@ -48,8 +46,8 @@
                     <div class="col-xs-12 col-md-3 col-sm-2">
                         <article class="hover-shadow article-block article-mine">
                             <br>
-                            <h5 class="title-mine">EXPERIENCIA Y CONOCIMIENTO</h5>
-                            <br><br>
+                            <h5 class="title-mine" style="margin-bottom:25px;">EXPERIENCIA Y CONOCIMIENTO</h5>
+                            <br>
                             <p>
                                 Nuestro equipo tiene una amplia y exitosa experiencia en inversiones.
                                 <br>
@@ -65,7 +63,6 @@
 
     </div>
 
-</div>
 </template>
 
 <script>
@@ -76,8 +73,8 @@ export default {
 
 <style>
 .about-mine{
-    margin-top: -2%;
-    margin-bottom: -5%;
+    margin-bottom: -1%;
+    margin-top: 5px;
 }
 
 .article-mine{

@@ -1,6 +1,10 @@
 <!-- TEAM -->
 <template>
 <div>
+<div>
+    <h6 style="opacity:1;font-size:1px;">hi</h6>
+</div>
+
     <section class="features animated fadeInRight" id="equipo">
         <div class="container">
             <div class="row">
@@ -59,3 +63,9 @@ export default {
     
 }
 </script>
+
+<style>
+    .features{
+        margin-top:-4%;
+    }
+</style>

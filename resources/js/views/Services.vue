@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
+                    <div class="navy-line-2"></div>
                     <h1 class="title-mine title-placed">SERVICIOS</h1>
                 </div>
             </div>
@@ -171,5 +171,12 @@ export default {
     font-family:Gotham;
     background-color:#859da9;
     border-color:#859da9;
+}
+
+.navy-line-2 {
+    width: 60px;
+    height: 1px;
+    margin: 9px auto 0;
+    border-bottom: 2px solid#859da9;
 }
 </style>

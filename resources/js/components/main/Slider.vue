@@ -19,7 +19,7 @@
                 </div>
 
             </div>
-
+<!--
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-3.jpg)"> <br>
                 <b-col cols="7" md="7" class="mx-auto my-auto">
 
@@ -82,6 +82,7 @@
                     </b-row>
                 </b-container>
             </div>
+-->
 
 <!--
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-4.jpg)"> <h3 data-caption-animate="fadeInUp">Aviso legal</h3>

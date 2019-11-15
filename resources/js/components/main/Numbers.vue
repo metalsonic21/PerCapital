@@ -180,7 +180,7 @@ export default {
 
 <style>
 .numbers-mine{
-    margin-top: -6%;
+    margin-top: -8%;
     margin-bottom: -8%;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-<div>
+<div>    
     <b-container>
         <div class="row">
             <div class="col-lg-12">
-                <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="animated fadeInRight">
 
                     <div class="row faq-item-mine">
                         <div class="col-lg-12 text-center">
@@ -392,6 +392,6 @@ export default {
 
 <style>
     .faq-item-mine{
-        margin-top: -2%;
+        margin-top: -50px;
     }
 </style>

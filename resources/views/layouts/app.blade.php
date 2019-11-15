@@ -76,7 +76,23 @@
 
         .navbar-mine{
             font-family:Gotham;
+            font-size:12px;
         }
+
+        .dropdown-mine{
+            font-family:Gotham;
+            font-size:14px;
+        }
+
+        .navbar .navbar-nav .navbar-nav-item-dropdown .lang-box{
+            width:50px;
+        }
+
+        
+.mydropdown:hover .mydropdown-dropdown-item {
+  display: block;
+}
+
     </style>
 
 </head>
@@ -98,33 +114,33 @@
                 <b-collapse id="nav-collapse" is-nav>
     
                     <b-navbar-nav class="ml-auto nav-items-mine">
-                    <b-nav-item-dropdown text="LA EMPRESA" class="my-nav-color" right>
-                            <b-dropdown-item href="{{ url('/about') }}">¿Por qué PER CAPITAL?</b-dropdown-item>
-                            <b-dropdown-item href="{{ url('/team') }}">Equipo</b-dropdown-item>
-                            <b-dropdown-item href="{{ url('/faq') }}">FAQ</b-dropdown-item>
+                    <b-nav-item-dropdown text="LA EMPRESA" class="hoverli" right>
+                            <b-dropdown-item href="{{ url('/about') }}" class="dropdown-mine">¿Por qué PER CAPITAL?</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/team') }}" class="dropdown-mine">Equipo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/faq') }}" class="dropdown-mine">FAQ</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="FONDOS" right>
-                            <b-dropdown-item href="{{ url('/mutual') }}">Fondo Mutual</b-dropdown-item>
-                            <b-dropdown-item href="#">Fondo Inmobiliario</b-dropdown-item>
-                            <b-dropdown-item href="#">Capital de riesgo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
                     <b-nav-item-dropdown text="REPORTES" right>
-                            <b-dropdown-item href="#">Trimestral</b-dropdown-item>
-                            <b-dropdown-item href="#">Anual</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Trimestral</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
                     </b-nav-item-dropdown>
                         <b-nav-item href="#contacto"  class="my-nav-link">CONTACTO</b-nav-item>
-                        <b-nav-item-dropdown text="IDIOMA" right>
+                        <b-nav-item-dropdown text="IDIOMA" class="lang-box" right>
                             <b-dropdown-item href="#"> <span class="flag-icon flag-icon-es align-middle"></span>&nbsp;Español</b-dropdown-item>
                             <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;English</b-dropdown-item>
                         </b-nav-item-dropdown>
     
-                        <b-nav-item-dropdown right>
+                        <b-nav-item-dropdown id="mydropdown" right>
                         <template slot="button-content">
                             <i class="fa fa-user"></i>
                         </template>
-                            <b-dropdown-item href="#">Institucional</b-dropdown-item>
-                            <b-dropdown-item href="#">Privado</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Institucional</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Privado</b-dropdown-item>
                         </b-nav-item-dropdown>
 
                         <!-- Authentication Links 
@@ -170,6 +186,8 @@
         <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/wow.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/jquery.counterup.min.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/jquery.metisMenu.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/tabs.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>

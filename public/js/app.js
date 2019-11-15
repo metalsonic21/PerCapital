@@ -2497,13 +2497,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({
-  methods: {
-    faq: function faq() {
-      window.location = "/faq";
-    }
-  }
-});
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -2920,6 +2922,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     faq: function faq() {
@@ -3082,9 +3085,6 @@ function initSmoothScrolling(container, animation) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
 //
 //
 //
@@ -3584,6 +3584,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -36396,7 +36400,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.faq-item-mine{\n    margin-top: -2%;\n}\n", ""]);
+exports.push([module.i, "\n.faq-item-mine{\n    margin-top: -50px;\n}\n", ""]);
 
 // exports
 
@@ -36415,7 +36419,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.contact-title{\n    margin-top: -500px;\n}\n", ""]);
+exports.push([module.i, "\n.contact-mine{\n    margin-top:-10%;\n    margin-bottom: -5%;\n}\n.contact-title{\n    margin-top:-12px !important;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.modal-text{\n    font-size:12px;\n}\n", ""]);
 
 // exports
 
@@ -36434,7 +36457,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.list-group-footer .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\r\n    font-size: 78%;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\n.page-footer{\r\n    background-color: #000030;\n}\n.list-footer{\r\n    color: white;\n}\r\n", ""]);
+exports.push([module.i, "\n.page-footer {\r\n    background-color: #000030;\r\n    font-size: 14px;\n}\n.list-footer {\r\n    color: white;\n}\n.footer-social{\r\n    margin-top:5px;\r\n    margin: auto;\r\n    width: 50%;\n}\n.social-link{\r\n    color: #859da9;\r\n    text-decoration: none; \r\n    background-color: none;\n}\n.footer-copyright {\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\n@media screen and (max-width: 1200px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 16px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\n}\n@media screen and (max-width: 780px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 11px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\nfooter .float-left {\r\n        float: none !important;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -36453,7 +36476,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\n.fa-lock {\r\n    color: black;\n}\n.fa-money {\r\n    color: black;\n}\n.fa-bar-chart {\r\n    color: black;\n}\n.grey-section-mine{\r\n    margin-top: -175px;\n}\n.features-mine{\r\n    margin-top: -5%;\n}\n.row-team{\r\n    margin-top: -3%;\n}\n.comments-mine{\r\n    margin-top: -3%;\n}\n.row-team{\r\n    margin-bottom: -3%;\n}\n.article-landing{\r\n    height:450px;\n}\r\n", ""]);
+exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\n.fa-lock {\r\n    color: black;\n}\n.fa-money {\r\n    color: black;\n}\n.fa-bar-chart {\r\n    color: black;\n}\n.grey-section-mine{\r\n    margin-top: -175px;\n}\n.features-mine{\r\n    margin-top: -5%;\n}\n.row-team{\r\n    margin-top: -3%;\n}\n.comments-mine{\r\n    margin-top: -3%;\n}\n.row-team{\r\n    margin-bottom: -3%;\n}\n.article-landing{\r\n    height:450px;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\n.feature-cards{\r\n    margin-top: -7%;\n}\r\n", ""]);
 
 // exports
 
@@ -36472,7 +36495,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.numbers-mine{\r\n    margin-top: -6%;\r\n    margin-bottom: -8%;\n}\r\n", ""]);
+exports.push([module.i, "\n.numbers-mine{\r\n    margin-top: -8%;\r\n    margin-bottom: -8%;\n}\r\n", ""]);
 
 // exports
 
@@ -36529,7 +36552,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.about-mine{\r\n    margin-top: -2%;\r\n    margin-bottom: -5%;\n}\n.article-mine{\r\n    height:600px;\n}\r\n", ""]);
+exports.push([module.i, "\n.about-mine{\r\n    margin-bottom: -1%;\r\n    margin-top: 5px;\n}\n.article-mine{\r\n    height:600px;\n}\r\n", ""]);
 
 // exports
 
@@ -36548,7 +36571,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.fondos-mine {\r\n    margin-top: -3%;\r\n    margin-bottom: 3%;\n}\n.invest {\r\n    margin-top: 40%;\n}\n.invest-title{\r\n    color:black;\n}\n.invest-items-bg{\r\n    position: relative;\r\n    padding: 20px;\r\n    background: #FFFFFF;\r\n    border-radius: 10px;\r\n    font-size: 14px;\r\n    height:475px;\n}\n.invest-p{\r\n    font-style:italic;\n}\n.invest-last{\r\n    margin-left:20px;\r\n    margin-right:20px;\n}\r\n", ""]);
+exports.push([module.i, "\n.fondos-mine {\r\n    margin-top: -3%;\r\n    margin-bottom: 3%;\n}\n.invest {\r\n    margin-top: 40%;\n}\n.invest-title {\r\n    color: black;\n}\n.invest-items-bg {\r\n    position: relative;\r\n    padding: 20px;\r\n    background: #FFFFFF;\r\n    border-radius: 10px;\r\n    font-size: 14px;\r\n    height: 475px;\n}\n.invest-p {\r\n    font-style: italic;\n}\n.invest-last {\r\n    margin-left: 20px;\r\n    margin-right: 20px;\n}\n.navy-line-2 {\r\n    width: 60px;\r\n    height: 1px;\r\n    margin: 9px auto 0;\r\n    border-bottom: 2px solid#859da9;\n}\n.navy-line-3 {\r\n    width: 60px;\r\n    height: 1px;\r\n    margin: 7px auto 0;\r\n    border-bottom: 2px solid#859da9;\n}\r\n", ""]);
 
 // exports
 
@@ -36567,7 +36590,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.timeline-mine {\r\n    margin-top: 5px;\r\n    margin-bottom: -3%;\n}\n.img-mine {\r\n    margin-top: 8%;\n}\n.img-mine-2 {\r\n    margin-top: 6%\n}\n.title-placed {\r\n    margin-bottom: -5%;\n}\n.btn-title{\r\n    font-family:Gotham;\r\n    background-color:#859da9;\r\n    border-color:#859da9;\n}\r\n", ""]);
+exports.push([module.i, "\n.timeline-mine {\r\n    margin-top: 5px;\r\n    margin-bottom: -3%;\n}\n.img-mine {\r\n    margin-top: 8%;\n}\n.img-mine-2 {\r\n    margin-top: 6%\n}\n.title-placed {\r\n    margin-bottom: -5%;\n}\n.btn-title{\r\n    font-family:Gotham;\r\n    background-color:#859da9;\r\n    border-color:#859da9;\n}\n.navy-line-2 {\r\n    width: 60px;\r\n    height: 1px;\r\n    margin: 9px auto 0;\r\n    border-bottom: 2px solid#859da9;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.features{\n    margin-top:-4%;\n}\n", ""]);
 
 // exports
 
@@ -68120,6 +68162,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Disclaimer.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Footer.vue?vue&type=style&index=0&lang=css&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Footer.vue?vue&type=style&index=0&lang=css& ***!
@@ -68339,6 +68411,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Services.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Services.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Team.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -69028,841 +69130,825 @@ var render = function() {
       _c("b-container", [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-lg-12" }, [
-            _c(
-              "div",
-              { staticClass: "wrapper wrapper-content animated fadeInRight" },
-              [
-                _c("div", { staticClass: "row faq-item-mine" }, [
-                  _c("div", { staticClass: "col-lg-12 text-center" }, [
-                    _c("div", { staticClass: "navy-line" }),
-                    _vm._v(" "),
+            _c("div", { staticClass: "animated fadeInRight" }, [
+              _c("div", { staticClass: "row faq-item-mine" }, [
+                _c("div", { staticClass: "col-lg-12 text-center" }, [
+                  _c("div", { staticClass: "navy-line" }),
+                  _vm._v(" "),
+                  _c(
+                    "h1",
+                    { staticClass: "title-mine", attrs: { align: "center" } },
+                    [_vm._v("PREGUNTAS FRECUENTES")]
+                  ),
+                  _vm._v(" "),
+                  _c("small", { attrs: { align: "center" } }, [
+                    _vm._v(
+                      "Haga click sobre una pregunta para visualizar respuesta"
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
                     _c(
-                      "h1",
-                      { staticClass: "title-mine", attrs: { align: "center" } },
-                      [_vm._v("PREGUNTAS FRECUENTES")]
-                    ),
-                    _vm._v(" "),
-                    _c("small", { attrs: { align: "center" } }, [
-                      _vm._v(
-                        "Haga click sobre una pregunta para visualizar respuesta"
-                      )
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq1" }
+                      },
+                      [_vm._v("¿Qué es una Sociedad Administradora de E.I.C?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("Servicios")
+                      ])
                     ])
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq1" }
-                        },
-                        [
-                          _vm._v(
-                            "¿Qué es una Sociedad Administradora de E.I.C?"
-                          )
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("Servicios")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse ",
-                          attrs: { id: "faq1" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n\r\n                                            Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("strong", [_vm._v("Características")])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "No pueden administrar a dos E.I.C. iguales"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Invierten recursos en nombre y por cuenta de las E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Cobran comisiones por servicios prestados y son fijadas por mutuo acuerdo con E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Llevan contabilidad separada de las E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v("Llevan contabilidad de las E.I.C.")
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Informar trimestralmente a inversionistas de las E.I.C. (estado y comportamiento de mercado)"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Reflejar en la rentabilidad de las E.I.C. que administren rentabilidad menos gastos y remuneraciones/comisiones"
-                                  )
-                                ])
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse ",
+                        attrs: { id: "faq1" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n\r\n                                            Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("Características")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "No pueden administrar a dos E.I.C. iguales"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Invierten recursos en nombre y por cuenta de las E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Cobran comisiones por servicios prestados y son fijadas por mutuo acuerdo con E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Llevan contabilidad separada de las E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v("Llevan contabilidad de las E.I.C.")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Informar trimestralmente a inversionistas de las E.I.C. (estado y comportamiento de mercado)"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Reflejar en la rentabilidad de las E.I.C. que administren rentabilidad menos gastos y remuneraciones/comisiones"
+                                )
                               ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [_c("strong", [_vm._v("No pueden")])]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "Garantizar resultados o rendimientos específicos"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Dar o tomar dinero prestado de las E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Mantener custodia títulos valores al portador de las E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Otorgar garantías personales o reales para asegurar obligaciones a terceros"
-                                  )
-                                ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("No pueden")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "Garantizar resultados o rendimientos específicos"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Dar o tomar dinero prestado de las E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Mantener custodia títulos valores al portador de las E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Otorgar garantías personales o reales para asegurar obligaciones a terceros"
+                                )
                               ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [_c("strong", [_vm._v("Deben")])]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v("Distribuir UDI de las E.I.C. ")
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Invertir recursos a nombre y cuenta de la E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Mantener evaluación continua de los valores de la E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Asegurar que la E.I.C. tenga flujo de caja para responder obligaciones y gastos"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Coordinar servicios legales, contables y de distribución de las E.I.C."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Prepara prospectos, reportes e informes relacionados para inversionistas y SUNAVAL"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Controlar servicio de agente de traspaso y suministrar información a agente custodio para transferencia de valores o efectivo."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v("Representar legalmente a las E.I.C.")
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [_vm._v("Recomprar UDI")]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Calcular diariamente el valor del cativo neto de los fondos mutuales y de su UDI"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Llevar registro de inversionistas y sus operaciones"
-                                  )
-                                ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("Deben")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v("Distribuir UDI de las E.I.C. ")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Invertir recursos a nombre y cuenta de la E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Mantener evaluación continua de los valores de la E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Asegurar que la E.I.C. tenga flujo de caja para responder obligaciones y gastos"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Coordinar servicios legales, contables y de distribución de las E.I.C."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Prepara prospectos, reportes e informes relacionados para inversionistas y SUNAVAL"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Controlar servicio de agente de traspaso y suministrar información a agente custodio para transferencia de valores o efectivo."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v("Representar legalmente a las E.I.C.")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Recomprar UDI")]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Calcular diariamente el valor del cativo neto de los fondos mutuales y de su UDI"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Llevar registro de inversionistas y sus operaciones"
+                                )
                               ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [_c("strong", [_vm._v("Pueden")])]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "Retirar fondos de la E.I.C. y su Sociedad Administradora para pagar gastos, recompra y pago de dividendos"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Actuar como Asesores de Inversión, Agentes de Traspaso"
-                                  )
-                                ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("Pueden")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "Retirar fondos de la E.I.C. y su Sociedad Administradora para pagar gastos, recompra y pago de dividendos"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Actuar como Asesores de Inversión, Agentes de Traspaso"
+                                )
                               ])
                             ])
                           ])
-                        ]
-                      )
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq2" }
+                      },
+                      [_vm._v("¿Qué es una E.I.C?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("Servicios")
+                      ])
                     ])
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq2" }
-                        },
-                        [_vm._v("¿Qué es una E.I.C?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("Servicios")
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq2" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n\r\n                                            Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.\r\n\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Pueden constituir patrimonio mediante fideicomiso.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(
+                            "\r\n                                        Inversionistas son personas naturales o jurídicas con unidades de inversión.\r\n                                        "
+                          ),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Unidades de Inversión son acciones, cuotas, participaciones u otro instrumento que emite la E.I.C.\r\n\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("Características")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v("Establecer Política de Inversión")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Definir Política de Distribución de Utilidades (capitalizar o pagar)"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Tener comité de inversión designado por la entidad o por la sociedad administradora"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Comité de inversión toma decisiones de inversión"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Miembros de Comité de Inversión puede ser designados por E.I.C. o por Sociedad Administradora "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Deben celebrar asamblea de inversionistas"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Inversionistas pueden ser representados mediante carta poder expresando facultades otorgadas"
+                                )
+                              ])
+                            ])
+                          ])
                         ])
-                      ])
-                    ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq3" }
+                      },
+                      [_vm._v("¿Qué es un Fondo Mutual de Capital Abierto?")]
+                    )
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq2" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("Fondos")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq3" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Es una E.I.C. que tiene por objeto la inversión en títulos valores, con arreglo al principio de distribución de riesgos.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_c("strong", [_vm._v("Características")])]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "UDI no transferibles ni se inscriben en Bolsa (puede emitir fracciones de UDI)"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Puede aumentar capital o patrimonio por aporte de inversionistas o puede disminuir patrimonio o capital por retiro de inversionistas, sin necesidad de asamblea de inversionistas."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Debe distribuir en su totalidad los rendimientos netos a inversionistas (en efectivo o capitalizando)"
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("strong", [
+                              _vm._v("Pueden invertir en títulos ")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "Cuya oferta pública haya sido autorizada por la Comisión Nacional de Valores"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v("Los inscritos en las bolsas de valores")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Los que hayan sido emitidos o avalados por la República u otras instituciones de derecho público"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Que hayan sido emitidos de conformidad con la Ley del Banco Central de Venezuela"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Los que hayan sido emitidos por instituciones regidas por la Ley General de Bancos y otras Instituciones Financieras"
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Quedan "
+                            ),
+                            _c("strong", [
                               _vm._v(
-                                "\r\n\r\n                                            Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.\r\n\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Pueden constituir patrimonio mediante fideicomiso.\r\n                                        "
+                                "exentos del impuesto sobre la renta los enriquecimientos netos obtenidos por las entidades de inversión colectiva y del impuesto causado"
                               )
                             ]),
                             _vm._v(
-                              "\r\n                                        Inversionistas son personas naturales o jurídicas con unidades de inversión.\r\n                                        "
-                            ),
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Unidades de Inversión son acciones, cuotas, participaciones u otro instrumento que emite la E.I.C.\r\n\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("strong", [_vm._v("Características")])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v("Establecer Política de Inversión")
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Definir Política de Distribución de Utilidades (capitalizar o pagar)"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Tener comité de inversión designado por la entidad o por la sociedad administradora"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Comité de inversión toma decisiones de inversión"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Miembros de Comité de Inversión puede ser designados por E.I.C. o por Sociedad Administradora "
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Deben celebrar asamblea de inversionistas"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Inversionistas pueden ser representados mediante carta poder expresando facultades otorgadas"
-                                  )
-                                ])
-                              ])
-                            ])
+                              " de acuerdo a lo previsto en la Ley del Impuesto al Activo Empresarial.\r\n                                        "
+                            )
                           ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq3" }
-                        },
-                        [_vm._v("¿Qué es un Fondo Mutual de Capital Abierto?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("Fondos")
                         ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq3" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Es una E.I.C. que tiene por objeto la inversión en títulos valores, con arreglo al principio de distribución de riesgos.\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("strong", [_vm._v("Características")])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "UDI no transferibles ni se inscriben en Bolsa (puede emitir fracciones de UDI)"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Puede aumentar capital o patrimonio por aporte de inversionistas o puede disminuir patrimonio o capital por retiro de inversionistas, sin necesidad de asamblea de inversionistas."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Debe distribuir en su totalidad los rendimientos netos a inversionistas (en efectivo o capitalizando)"
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("strong", [
-                                _vm._v("Pueden invertir en títulos ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "Cuya oferta pública haya sido autorizada por la Comisión Nacional de Valores"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Los inscritos en las bolsas de valores"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Los que hayan sido emitidos o avalados por la República u otras instituciones de derecho público"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Que hayan sido emitidos de conformidad con la Ley del Banco Central de Venezuela"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Los que hayan sido emitidos por instituciones regidas por la Ley General de Bancos y otras Instituciones Financieras"
-                                  )
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Quedan "
-                              ),
-                              _c("strong", [
-                                _vm._v(
-                                  "exentos del impuesto sobre la renta los enriquecimientos netos obtenidos por las entidades de inversión colectiva y del impuesto causado"
-                                )
-                              ]),
-                              _vm._v(
-                                " de acuerdo a lo previsto en la Ley del Impuesto al Activo Empresarial.\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq4" }
-                        },
-                        [_vm._v("¿Qué es un Fondo Inmobiliario?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("Fondos")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq4" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Son aquellos cuyo objeto sea la canalización de recursos hacia proyectos del sector inmobiliario y de bienes raíces.\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq5" }
-                        },
-                        [_vm._v("¿Por que debería invertir en PER CAPITAL?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ]),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("Servicios")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq5" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "Acceso a oportunidades de inversión que antes eran solo para inversionistas calificados de alto patrimonio."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Beneficio de la experiencia y conocimiento de nuestros analistas y equipo de expertos."
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Puedes empezar tu inversión con el mínimo requerido."
-                                  )
-                                ])
-                              ])
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq6" }
-                        },
-                        [_vm._v("¿Cuáles son los riesgos?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq6" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Cualquier inversión conlleva riesgos asociados al mercado en el que se desarrolla. Esto se debe a fluctuaciones en el mercado, variables que no pueden ser controladas o faltas en el cumplimiento de planes de negocio.\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            PER CAPITAL evalúa con anticipación los posibles escenarios para tratar de mitigar la mayor cantidad de riesgos posibles y así evitar pérdidas.\r\n                                        "
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.\r\n\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq7" }
-                        },
-                        [_vm._v(" ¿Cuál es la inversión ideal para mi? ")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq7" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            Los inversionistas pueden elegir de la cartera de productos de PER CAPITAL el fondo o inversión que más se ajuste a sus metas financieras. Además, PER CAPITAL cuenta con el servicio de sus expertos para orientarte en el producto que más se adecue a tus objetivos de inversión.\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq8" }
-                        },
-                        [_vm._v("¿Cuál es la inversión mínima?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq8" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            La inversión mínima dependerá del Fondo que el cliente escoja.\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq9" }
-                        },
-                        [_vm._v("¿Cuáles son las comisiones?")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq9" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _c("strong", [_vm._v("Inversionistas:")]),
-                              _vm._v(" "),
-                              _c("ul", [
-                                _c("li", [_vm._v("Comisión: 8%")]),
-                                _vm._v(" "),
-                                _c("li", [_vm._v("Comisión de salida: 0%")])
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("p", [
-                              _c("strong", [_vm._v("E.I.C.")]),
-                              _vm._v(" "),
-                              _c("ul", [
-                                _c("li", [
-                                  _vm._v(
-                                    "Comisión de Administración Fondo Mutual: 5% del valor promedio del activo neto al cierre"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Comisión Administración E.I.C. Inmobiliario: 5% del valor promedio del activo neto al cierre"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _vm._v(
-                                    "Comisión Administración E.I.C. Capital de Riesgo: 10% del valor promedio del activo neto al cierre"
-                                  )
-                                ])
-                              ])
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "faq-item" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-7" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "faq-question",
-                          attrs: { "data-toggle": "collapse", href: "#faq10" }
-                        },
-                        [
-                          _vm._v(
-                            "¿Una vez colocada mi inversión como puedo verla?"
-                          )
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-3 offset-md-2" }, [
-                      _c("div", { staticClass: "tag-list" }, [
-                        _c("span", { staticClass: "tag-item" }, [
-                          _vm._v("General")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "panel-collapse collapse",
-                          attrs: { id: "faq10" }
-                        },
-                        [
-                          _c("div", { staticClass: "faq-answer" }, [
-                            _c("p", [
-                              _vm._v(
-                                "\r\n                                            El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.\r\n                                        "
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
+                      ]
+                    )
                   ])
                 ])
-              ]
-            )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq4" }
+                      },
+                      [_vm._v("¿Qué es un Fondo Inmobiliario?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("Fondos")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq4" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Son aquellos cuyo objeto sea la canalización de recursos hacia proyectos del sector inmobiliario y de bienes raíces.\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq5" }
+                      },
+                      [_vm._v("¿Por que debería invertir en PER CAPITAL?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("Servicios")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq5" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "Acceso a oportunidades de inversión que antes eran solo para inversionistas calificados de alto patrimonio."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Beneficio de la experiencia y conocimiento de nuestros analistas y equipo de expertos."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Puedes empezar tu inversión con el mínimo requerido."
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq6" }
+                      },
+                      [_vm._v("¿Cuáles son los riesgos?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq6" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Cualquier inversión conlleva riesgos asociados al mercado en el que se desarrolla. Esto se debe a fluctuaciones en el mercado, variables que no pueden ser controladas o faltas en el cumplimiento de planes de negocio.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            PER CAPITAL evalúa con anticipación los posibles escenarios para tratar de mitigar la mayor cantidad de riesgos posibles y así evitar pérdidas.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.\r\n\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq7" }
+                      },
+                      [_vm._v(" ¿Cuál es la inversión ideal para mi? ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq7" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Los inversionistas pueden elegir de la cartera de productos de PER CAPITAL el fondo o inversión que más se ajuste a sus metas financieras. Además, PER CAPITAL cuenta con el servicio de sus expertos para orientarte en el producto que más se adecue a tus objetivos de inversión.\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq8" }
+                      },
+                      [_vm._v("¿Cuál es la inversión mínima?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq8" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            La inversión mínima dependerá del Fondo que el cliente escoja.\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq9" }
+                      },
+                      [_vm._v("¿Cuáles son las comisiones?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq9" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _c("strong", [_vm._v("Inversionistas:")]),
+                            _vm._v(" "),
+                            _c("ul", [
+                              _c("li", [_vm._v("Comisión: 8%")]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Comisión de salida: 0%")])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("strong", [_vm._v("E.I.C.")]),
+                            _vm._v(" "),
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "Comisión de Administración Fondo Mutual: 5% del valor promedio del activo neto al cierre"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Comisión Administración E.I.C. Inmobiliario: 5% del valor promedio del activo neto al cierre"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Comisión Administración E.I.C. Capital de Riesgo: 10% del valor promedio del activo neto al cierre"
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq10" }
+                      },
+                      [
+                        _vm._v(
+                          "¿Una vez colocada mi inversión como puedo verla?"
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq10" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
           ])
         ])
       ])
@@ -69899,69 +69985,74 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "contacto" } }, [
-      _c("div", { staticClass: "block-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "navy-line" }),
-          _vm._v(" "),
-          _c(
-            "h1",
-            {
-              staticClass: "title-mine contact-title",
-              attrs: { align: "center" }
-            },
-            [_vm._v("CONTACTO")]
-          ),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
-              _c("div", { staticClass: "contact-box" }, [
-                _c("i", { staticClass: "fa fa-map-marker" }),
-                _vm._v(" "),
-                _c("h4", { staticClass: "title-mine" }, [_vm._v("UBICACIÓN")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Av. Circunvalación del Sol, Torre Santa Paula Plaza II, Ofic. 104"
-                  ),
-                  _c("br"),
-                  _vm._v("Caracas, Venezuela")
+    return _c(
+      "div",
+      { staticClass: "contact-mine", attrs: { id: "contacto" } },
+      [
+        _c("div", { staticClass: "block-section" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "navy-line" }),
+            _vm._v(" "),
+            _c(
+              "h1",
+              { staticClass: "title-mine", attrs: { align: "center" } },
+              [_vm._v("CONTACTO")]
+            ),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+                _c("div", { staticClass: "contact-box" }, [
+                  _c("i", { staticClass: "fa fa-map-marker" }),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "title-mine contact-title" }, [
+                    _vm._v("UBICACIÓN")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Av. Circunvalación del Sol, Torre Santa Paula Plaza II, Ofic. 104"
+                    ),
+                    _c("br"),
+                    _vm._v("Caracas, Venezuela")
+                  ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
-              _c("div", { staticClass: "contact-box" }, [
-                _c("i", { staticClass: "fa fa-phone" }),
-                _vm._v(" "),
-                _c("h4", { staticClass: "title-mine" }, [_vm._v("TELÉFONO")]),
-                _vm._v(" "),
-                _c("p", [_vm._v("0800-CAPITAL")]),
-                _vm._v(" "),
-                _c("br"),
-                _c("br")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
-              _c("div", { staticClass: "contact-box" }, [
-                _c("i", { staticClass: "fa fa-envelope" }),
-                _vm._v(" "),
-                _c("h4", { staticClass: "title-mine" }, [
-                  _vm._v("CORREO ELECTRÓNICO")
-                ]),
-                _vm._v(" "),
-                _c("p", [_vm._v("info@percapital.com"), _c("br"), _c("br")]),
-                _vm._v(" "),
-                _c("br")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+                _c("div", { staticClass: "contact-box" }, [
+                  _c("i", { staticClass: "fa fa-phone" }),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "contact-title" }, [
+                    _vm._v("TELÉFONO")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("0800-CAPITAL")]),
+                  _vm._v(" "),
+                  _c("br"),
+                  _c("br")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-12 col-md-4 col-sx-4" }, [
+                _c("div", { staticClass: "contact-box" }, [
+                  _c("i", { staticClass: "fa fa-envelope" }),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "contact-title" }, [
+                    _vm._v("CORREO ELECTRÓNICO")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("info@percapital.com"), _c("br"), _c("br")]),
+                  _vm._v(" "),
+                  _c("br")
+                ])
               ])
             ])
           ])
         ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -70007,7 +70098,7 @@ var render = function() {
           }
         },
         [
-          _c("div", { staticClass: "text-justify" }, [
+          _c("div", { staticClass: "text-justify modal-text" }, [
             _c("p", [
               _vm._v(
                 "Por favor lea cuidadosamente esta información antes de entrar a la página web. Contiene información legal y regulatoria relevante en cuanto a la información contenida en esta página web."
@@ -70114,13 +70205,11 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("br"),
-      _c("br"),
-      _vm._v(" "),
       _c("footer", { staticClass: "page-footer font-small indigo" }, [
         _c("div", { staticClass: "container text-center text-md-left" }, [
-          _c("div", { staticClass: "text-center" }, [
+          _c("div", { staticClass: "float-left" }, [
             _c("img", {
+              staticStyle: { width: "200px", height: "50px" },
               attrs: {
                 src: "/img/logo/Logo-Per-Capital-horizontal-original.png",
                 alt: "LOGO"
@@ -70128,7 +70217,48 @@ var staticRenderFns = [
             }),
             _vm._v(" "),
             _c("br"),
-            _c("br")
+            _vm._v(" "),
+            _c("div", { staticClass: "container footer-social" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-1" }, [
+                  _c(
+                    "a",
+                    { staticClass: "social-link", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fa fa-facebook" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-1" }, [
+                  _c(
+                    "a",
+                    { staticClass: "social-link", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fa fa-twitter" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-1" }, [
+                  _c(
+                    "a",
+                    { staticClass: "social-link", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fa fa-instagram" })]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "footer-copyright text-center py-3",
+                staticStyle: { color: "white" }
+              },
+              [
+                _vm._v(
+                  "0800-CAPITAL\r\n                    info@percapital.com\r\n                    "
+                ),
+                _c("p", [_vm._v("Caracas-Venezuela")])
+              ]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
@@ -70272,7 +70402,7 @@ var staticRenderFns = [
                   _c(
                     "a",
                     { staticClass: "list-footer", attrs: { href: "#!" } },
-                    [_vm._v("Trimestral")]
+                    [_vm._v("Trismestral")]
                   )
                 ]),
                 _vm._v(" "),
@@ -70288,25 +70418,11 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "footer-copyright text-center py-3",
-            staticStyle: { color: "white" }
-          },
-          [
-            _vm._v(
-              "0800-CAPITAL\r\n                info@percapital.com\r\n                "
-            ),
-            _c("p", [_vm._v("Caracas-Venezuela")])
-          ]
-        ),
-        _vm._v(" "),
         _c("div", { staticClass: "container" }, [
           _c(
             "div",
             {
-              staticClass: "footer-copyright text-center py-3",
+              staticClass: "text-center py-3",
               staticStyle: { color: "white" }
             },
             [
@@ -70319,15 +70435,11 @@ var staticRenderFns = [
                       )
                     ]),
                     _vm._v(" "),
-                    _c("br"),
-                    _vm._v(" "),
                     _c("strong", [
                       _vm._v(
                         "PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX"
                       )
                     ]),
-                    _vm._v(" "),
-                    _c("br"),
                     _vm._v(" "),
                     _c("strong", [
                       _vm._v(
@@ -70335,50 +70447,22 @@ var staticRenderFns = [
                       )
                     ]),
                     _vm._v(" "),
-                    _c("br"),
-                    _c("br"),
                     _c("strong", [_vm._v("IMPORTANTE:")]),
                     _vm._v(
-                      "\r\n                            \r\n                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v(
-                      "\r\n                            Si usted es un inversionista Privado "
+                      "\r\n\r\n                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.\r\n\r\n                            Si usted es un inversionista Privado "
                     ),
                     _c("strong", [_vm._v("no debe")]),
                     _vm._v(
-                      " tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n                            "
+                      " tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.\r\n\r\n                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n\r\n                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n\r\n                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n\r\n                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n\r\n                            "
                     ),
-                    _c("br"),
-                    _vm._v(
-                      "\r\n                            Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.\r\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v(
-                      "\r\n                            El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.\r\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v(
-                      "\r\n                            PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.\r\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v(
-                      "\r\n                            Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.\r\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v(" "),
                     _c("strong", [_vm._v("Asesoría:")]),
                     _vm._v(
-                      "\r\n                            Nada en este sitio web debe ser considerado como asesoría financiera personal.\r\n                            "
+                      "\r\n                            Nada en este sitio web debe ser considerado como asesoría financiera personal.\r\n\r\n                            "
                     ),
-                    _c("br"),
-                    _vm._v(" "),
                     _c("strong", [_vm._v("Desempeño:")]),
                     _vm._v(
-                      "\r\n                            El desempeño histórico no determina el desempeño a futuro.\r\n                            "
+                      "\r\n                            El desempeño histórico no determina el desempeño a futuro.\r\n\r\n                            "
                     ),
-                    _c("br"),
-                    _vm._v(" "),
                     _c("strong", [_vm._v("Fluctuaciones:")]),
                     _vm._v(
                       "\r\n                            El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.\r\n                            "
@@ -70388,8 +70472,11 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("strong", [_vm._v("AVISO LEGAL")]),
                     _vm._v(
-                      "\r\n                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”\r\n                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28\r\n\r\n                        "
-                    )
+                      "\r\n                            “No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación”\r\n                            Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28\r\n                            "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _c("br")
                   ])
                 ])
               ])
@@ -70473,7 +70560,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "container-fluid" }, [
+          _c("div", { staticClass: "container-fluid feature-cards" }, [
             _c("div", { staticClass: "mt-70" }, [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-md-3" }, [
@@ -71143,170 +71230,6 @@ var render = function() {
                 1
               )
             ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "swiper-slide",
-              staticStyle: {
-                "background-image": "url(img/content/landing/slide-3.jpg)"
-              }
-            },
-            [
-              _c("br"),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                {
-                  staticClass: "mx-auto my-auto",
-                  attrs: { cols: "7", md: "7" }
-                },
-                [
-                  _c("div", { staticClass: "text-light bg-secondary" }, [
-                    _c("h3", [_vm._v("Finanzas inteligentes")]),
-                    _vm._v(" "),
-                    _c("h5", [
-                      _vm._v(
-                        "Ofrecemos servicios de administración de E.I.C, asesoría y consultoría en finanzas personales, coporativas e institucionales "
-                      ),
-                      _c("br")
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                {
-                  staticClass: "mx-auto my-auto",
-                  attrs: { cols: "6", md: "6" }
-                },
-                [
-                  _c("div", { staticClass: "bg-secondary text-light" }, [
-                    _c("h4", [_vm._v("PER CAPITAL Fondo Mutual")])
-                  ])
-                ]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "swiper-slide",
-              staticStyle: {
-                "background-image": "url(img/content/landing/slide-2.jpg)"
-              }
-            },
-            [
-              _c("h3", { attrs: { "data-caption-animate": "fadeInUp" } }, [
-                _vm._v("Elige tu perfil de inversionista")
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-container",
-                [
-                  _c(
-                    "b-row",
-                    [
-                      _c(
-                        "b-col",
-                        {
-                          staticClass: "col-xs-6 h-50-inline-block",
-                          attrs: { cols: "6", md: "6", sm: "6", xs: "6" }
-                        },
-                        [
-                          _c("div", { staticClass: "card" }, [
-                            _c("div", { staticClass: "card-block" }, [
-                              _c(
-                                "div",
-                                { staticClass: "container" },
-                                [
-                                  _c("br"),
-                                  _vm._v(" "),
-                                  _c(
-                                    "h4",
-                                    { staticStyle: { color: "black" } },
-                                    [_vm._v("Institucional")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("b-card-text", [
-                                    _vm._v(
-                                      "\r\n                                            Banco, Casas de Bolsa, Sociedad\r\n                                            de Corretaje, Asesor de Inversión, Seguro\r\n\r\n                                        "
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-button",
-                                    { attrs: { variant: "dark" } },
-                                    [_vm._v("Seleccionar")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("br"),
-                                  _c("br")
-                                ],
-                                1
-                              )
-                            ])
-                          ])
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-col",
-                        {
-                          staticClass: "col-xs-6",
-                          attrs: { cols: "6", md: "6", sm: "6", xs: "6" }
-                        },
-                        [
-                          _c("div", { staticClass: "card" }, [
-                            _c("div", { staticClass: "card-block" }, [
-                              _c(
-                                "div",
-                                { staticClass: "container" },
-                                [
-                                  _c("br"),
-                                  _vm._v(" "),
-                                  _c(
-                                    "h4",
-                                    { staticStyle: { color: "black" } },
-                                    [_vm._v("Privado")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("b-card-text", [
-                                    _vm._v(
-                                      "\r\n                                            Persona natural o Jurídica en general\r\n                                            "
-                                    ),
-                                    _c("br"),
-                                    _vm._v(" "),
-                                    _c("br")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-button",
-                                    { attrs: { variant: "dark" } },
-                                    [_vm._v("Seleccionar")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("br"),
-                                  _c("br")
-                                ],
-                                1
-                              )
-                            ])
-                          ])
-                        ]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
           )
         ]
       ),
@@ -71537,113 +71460,117 @@ var staticRenderFns = [
           attrs: { id: "empresa" }
         },
         [
-          _c("div", { staticClass: "block-section" }, [
-            _c("div", { staticClass: "container" }, [
-              _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c(
+                "div",
+                { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
+                [
+                  _c("div", { staticClass: "main-heading" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass: "title-mine",
+                        staticStyle: { "margin-top": "20px" }
+                      },
+                      [_vm._v("¿POR QUÉ PER CAPITAL?")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "mt-20 text-content" }, [
+                    _c("p", { staticClass: "text-justify" }, [
+                      _vm._v(
+                        "\r\n                                Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor.\r\n                            "
+                      )
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
                 _c(
-                  "div",
-                  { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
+                  "article",
+                  { staticClass: "hover-shadow article-block article-mine" },
                   [
-                    _c("div", { staticClass: "main-heading" }, [
-                      _c("h3", { staticClass: "title-mine" }, [
-                        _vm._v("¿POR QUÉ PER CAPITAL?")
-                      ])
+                    _c("h5", { staticClass: "title-mine" }, [
+                      _vm._v(
+                        "ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA"
+                      )
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "mt-20 text-content" }, [
-                      _c("p", { staticClass: "text-justify" }, [
-                        _vm._v(
-                          "\r\n                                Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor.\r\n                            "
-                        )
-                      ])
+                    _c("p", [
+                      _vm._v(
+                        "\r\n                                Nuestro equipo de expertos revisa a profundidad cada detalle, cada oportunidad de inversión y hace la debida diligencia para su presentación al público\r\n                                "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n\r\n                            "
+                      )
                     ])
                   ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                  _c(
-                    "article",
-                    { staticClass: "hover-shadow article-block article-mine" },
-                    [
-                      _c("h5", { staticClass: "title-mine" }, [
-                        _vm._v(
-                          "ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA"
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Nuestro equipo de expertos revisa a profundidad cada detalle, cada oportunidad de inversión y hace la debida diligencia para su presentación al público\r\n                                "
-                        ),
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n\r\n                            "
-                        )
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                  _c(
-                    "article",
-                    { staticClass: "hover-shadow article-block article-mine" },
-                    [
-                      _c("h5", { staticClass: "title-mine" }, [
-                        _vm._v(
-                          "SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA"
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Mantenemos evaluación contínua de los activos representados en la cartera de inversiones, para asegurar que estén apegados al plan de negocio\r\n                                "
-                        ),
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Los fondos mutuales son monitoreados diariamente para tomar las decisiones necesarias.\r\n                                "
-                        ),
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                                \r\n                            "
-                        )
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                  _c(
-                    "article",
-                    { staticClass: "hover-shadow article-block article-mine" },
-                    [
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+                _c(
+                  "article",
+                  { staticClass: "hover-shadow article-block article-mine" },
+                  [
+                    _c("h5", { staticClass: "title-mine" }, [
+                      _vm._v("SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
                       _c("br"),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "title-mine" }, [
-                        _vm._v("EXPERIENCIA Y CONOCIMIENTO")
-                      ]),
-                      _vm._v(" "),
+                      _vm._v(
+                        "\r\n                                Mantenemos evaluación contínua de los activos representados en la cartera de inversiones, para asegurar que estén apegados al plan de negocio\r\n                                "
+                      ),
                       _c("br"),
+                      _vm._v(
+                        "\r\n                                Los fondos mutuales son monitoreados diariamente para tomar las decisiones necesarias.\r\n                                "
+                      ),
                       _c("br"),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "\r\n                                Nuestro equipo tiene una amplia y exitosa experiencia en inversiones.\r\n                                "
-                        ),
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.\r\n                                "
-                        ),
-                        _c("br"),
-                        _vm._v(
-                          "\r\n                                Sabemos dónde invertir y cómo minimizar los riesgos, evitando disminuciones abruptas de capital.\r\n                            "
-                        )
-                      ])
-                    ]
-                  )
-                ])
+                      _vm._v(
+                        "\r\n                                Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n                                \r\n                            "
+                      )
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+                _c(
+                  "article",
+                  { staticClass: "hover-shadow article-block article-mine" },
+                  [
+                    _c("br"),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      {
+                        staticClass: "title-mine",
+                        staticStyle: { "margin-bottom": "25px" }
+                      },
+                      [_vm._v("EXPERIENCIA Y CONOCIMIENTO")]
+                    ),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\r\n                                Nuestro equipo tiene una amplia y exitosa experiencia en inversiones.\r\n                                "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.\r\n                                "
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\r\n                                Sabemos dónde invertir y cómo minimizar los riesgos, evitando disminuciones abruptas de capital.\r\n                            "
+                      )
+                    ])
+                  ]
+                )
               ])
             ])
           ])
@@ -71722,213 +71649,164 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "animated fadeInRight" }, [
-    _c("div", { staticClass: "fondos-mine", attrs: { id: "fondos" } }, [
-      _c(
-        "div",
-        { staticClass: "container" },
-        [
-          _c(
-            "b-row",
-            { staticClass: "justify-content-center" },
-            [
-              _c(
-                "b-col",
-                {
-                  staticClass: "col-lg-offset-1 features-text",
-                  attrs: { cols: "10", md: "10", lg: "10" }
-                },
-                [
-                  _c(
-                    "div",
-                    { staticClass: "center-holder main-heading text-justify" },
-                    [
-                      _c("div", { staticClass: "navy-line" }),
-                      _vm._v(" "),
-                      _c("br"),
-                      _vm._v(" "),
-                      _c(
-                        "h4",
-                        {
-                          staticClass: "title-mine",
-                          attrs: { align: "center" }
-                        },
-                        [
-                          _vm._v(
-                            "PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO"
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
-                        )
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "text-center" }, [
-                    _c("small", { attrs: { align: "center" } }, [
-                      _vm._v(
-                        "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
-                      )
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c("div", { staticClass: "navy-line-2" }),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title-mine", attrs: { align: "center" } },
+              [_vm._v("INFORMACIÓN DE INTERÉS")]
+            ),
+            _vm._v(" "),
+            _c(
+              "b-list-group",
+              [
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        Fecha inicio\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("20 Dic 2019")
                     ])
-                  ]),
-                  _vm._v(" "),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c(
-                    "h4",
-                    { staticClass: "title-mine", attrs: { align: "center" } },
-                    [_vm._v("Información de interés")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-list-group",
-                    [
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            Fecha inicio\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("20 Dic 2019")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            Comparativo\r\n\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("IBC")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            Sector de inversión\r\n\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("BVC")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            Fecha de cierre\r\n\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("20 Ene 2020")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            V.U.I\r\n\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("Bs 55.000,00")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-list-group-item",
-                        {
-                          staticClass:
-                            "d-flex justify-content-between align-items-center"
-                        },
-                        [
-                          _vm._v(
-                            "\r\n                            Inversión mínima\r\n\r\n                            "
-                          ),
-                          _c("b-badge", { attrs: { variant: "dark" } }, [
-                            _vm._v("10 VUI")
-                          ])
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        Comparativo\r\n\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("IBC")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        Sector de inversión\r\n\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("BVC")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        Fecha de cierre\r\n\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("20 Ene 2020")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        V.U.I\r\n\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("Bs 55.000,00")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-list-group-item",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center"
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                        Inversión mínima\r\n\r\n                        "
+                    ),
+                    _c("b-badge", { attrs: { variant: "dark" } }, [
+                      _vm._v("10 VUI")
+                    ])
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ])
     ]),
     _vm._v(" "),
     _c(
       "section",
       {
-        staticClass: "comments gray-section",
-        staticStyle: { "margin-top": "0%", "margin-bottom": "-9%" }
+        staticClass: "gray-section",
+        staticStyle: { "margin-top": "1%", "margin-bottom": "-6%" }
       },
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row", attrs: { id: "big-row" } }, [
-            _vm._m(0),
+            _vm._m(1),
             _vm._v(" "),
             _c(
               "div",
               { staticClass: "col-lg-6", attrs: { id: "invest-col" } },
               [
-                _vm._m(1),
+                _vm._m(2),
                 _vm._v(" "),
                 _c("div", { staticClass: "invest-items-bg" }, [
-                  _vm._m(2),
-                  _vm._v(" "),
                   _vm._m(3),
                   _vm._v(" "),
                   _vm._m(4),
                   _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-lg-12" }, [
-                      _vm._m(5),
+                      _vm._m(6),
                       _vm._v(" "),
                       _c(
                         "p",
@@ -71938,7 +71816,7 @@ var render = function() {
                         },
                         [
                           _vm._v(
-                            "Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.\r\n                            "
+                            "Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.\r\n                                "
                           )
                         ]
                       ),
@@ -71979,9 +71857,39 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-6" }, [
+      _c("div", { staticClass: "center-holder main-heading text-justify" }, [
+        _c("div", { staticClass: "navy-line-2" }),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("h4", { staticClass: "title-mine", attrs: { align: "center" } }, [
+          _vm._v("PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO")
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio."
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-center" }, [
+        _c("small", { attrs: { align: "center" } }, [
+          _vm._v(
+            "Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-6", attrs: { id: "risks-col" } }, [
       _c("div", { staticClass: "text-center" }, [
-        _c("div", { staticClass: "navy-line" }),
+        _c("div", { staticClass: "navy-line-3" }),
         _vm._v(" "),
         _c("h1", { staticClass: "title-mine" }, [_vm._v("RIESGOS")])
       ]),
@@ -72115,7 +72023,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "text-center" }, [
-      _c("div", { staticClass: "navy-line" }),
+      _c("div", { staticClass: "navy-line-3" }),
       _vm._v(" "),
       _c("h1", { staticClass: "title-mine" }, [_vm._v("¿CÓMO INVERTIR?")])
     ])
@@ -72412,7 +72320,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-lg-12 text-center" }, [
-        _c("div", { staticClass: "navy-line" }),
+        _c("div", { staticClass: "navy-line-2" }),
         _vm._v(" "),
         _c("h1", { staticClass: "title-mine title-placed" }, [
           _vm._v("SERVICIOS")
@@ -72606,6 +72514,8 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
     _c(
       "section",
       { staticClass: "features animated fadeInRight", attrs: { id: "equipo" } },
@@ -72614,7 +72524,7 @@ var render = function() {
           "div",
           { staticClass: "container" },
           [
-            _vm._m(0),
+            _vm._m(1),
             _vm._v(" "),
             _c(
               "div",
@@ -72771,6 +72681,16 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h6", { staticStyle: { opacity: "1", "font-size": "1px" } }, [
+        _vm._v("hi")
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -85262,7 +85182,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Disclaimer_vue_vue_type_template_id_3fa31854___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Disclaimer.vue?vue&type=template&id=3fa31854& */ "./resources/js/components/main/Disclaimer.vue?vue&type=template&id=3fa31854&");
 /* harmony import */ var _Disclaimer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Disclaimer.vue?vue&type=script&lang=js& */ "./resources/js/components/main/Disclaimer.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Disclaimer.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -85270,7 +85192,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Disclaimer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Disclaimer_vue_vue_type_template_id_3fa31854___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Disclaimer_vue_vue_type_template_id_3fa31854___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -85299,6 +85221,22 @@ component.options.__file = "resources/js/components/main/Disclaimer.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Disclaimer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Disclaimer.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Disclaimer.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -86234,7 +86172,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Team.vue?vue&type=template&id=f0c0a908& */ "./resources/js/views/Team.vue?vue&type=template&id=f0c0a908&");
 /* harmony import */ var _Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Team.vue?vue&type=script&lang=js& */ "./resources/js/views/Team.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Team.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -86242,7 +86182,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Team_vue_vue_type_template_id_f0c0a908___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -86271,6 +86211,22 @@ component.options.__file = "resources/js/views/Team.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Team.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/views/Team.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Team.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Team.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Team_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
