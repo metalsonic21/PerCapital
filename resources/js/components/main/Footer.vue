@@ -66,10 +66,10 @@
                             <a href="/mutual" class="list-footer">Fondo Mutual</a>
                         </li>
                         <li>
-                            <a href="#!" class="list-footer">Fondo Inmobiliario</a>
+                            <a href="/FI" class="list-footer">Fondo Inmobiliario</a>
                         </li>
                         <li>
-                            <a href="#!" class="list-footer">Capital de Riesgo</a>
+                            <a href="/riskcapital" class="list-footer">Capital de Riesgo</a>
                         </li>
                     </ul>
 
@@ -239,4 +239,6 @@ export default {
         float: none !important;
     }
 }
+
+.row:before, .row:after {display: none !important;}
 </style>

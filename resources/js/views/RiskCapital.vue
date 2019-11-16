@@ -3,55 +3,105 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="center-holder main-heading text-justify">
                     <div class="navy-line-2"></div>
                     <br>
-                    <h4 align="center" class="title-mine">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
-                    <p> <strong>Objetivo:</strong> El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
-                </div>
+                    <h4 align="center" class="title-mine">PER CAPITAL CAPITAL DE RIESGO VE</h4>
+                    <p> <strong>Objetivo:</strong> 
+                        El fondo PER CAPITAL Capital de Riesgo VE tiene como objetivo producir un crecimiento de capital a corto, mediano o largo plazo. Invierte principalmente proyectos empresariales del sector privado industrial de naturaleza comercial y especulativa en Venezuela. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de las acciones que conforman el portafolio.
+                    </p></div>
                 <div class="text-center">
-                    <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
+                    <small align="center">
+                        Existen riesgos asociados a las inversiones y el valor de las inversiones y cualquier utilidad proveniente de ellas puede aumentar o disminuir
+                    </small>
                 </div>
 
             </div>
+
+            
+        <div class="row">
+            
             <div class="col-lg-6">
-                <div class="navy-line-2"></div>
                 <br>
                 <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h6 align="center" class="title-mine">PROYECTO AGLCA</h6>
 
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Fecha inicio
-                        <b-badge variant="dark">20 Dic 2019</b-badge>
+                        <b-badge variant="dark">XX.XX.XXXX</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Comparativo
 
-                        <b-badge variant="dark">Índice general BVC</b-badge>
+                        <b-badge variant="dark">IPC</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Sector de inversión
 
-                        <b-badge variant="dark">BVC</b-badge>
+                        <b-badge variant="dark">Bebidas alcohólicas</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha estimada de cierre
+
+                        <b-badge variant="dark">XX.XX.XXXX</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Pricing
 
-                        <b-badge variant="dark">14:00 diario</b-badge>
-                    </b-list-group-item>
-                    <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        V.U.I
-
-                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                        <b-badge variant="dark">10 am diario</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Inversión mínima
 
-                        <b-badge variant="dark">1 Unidad de Inversión</b-badge>
+                        <b-badge variant="dark">Bs 150.000,00</b-badge>
                     </b-list-group-item>
                 </b-list-group>
+
             </div>
+            <div class="col-lg-6">
+                <br>
+                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h6 align="center" class="title-mine">PROYECTO SIEMBRA LA PARAGUA</h6>
+
+                <b-list-group>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha inicio
+                        <b-badge variant="dark">XX.XX.XXXX</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Comparativo
+
+                        <b-badge variant="dark">IPC</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Sector de inversión
+
+                        <b-badge variant="dark">Agrícola</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Fecha estimada de cierre
+
+                        <b-badge variant="dark">XX.XX.XXXX</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Pricing
+
+                        <b-badge variant="dark">10 am diario</b-badge>
+                    </b-list-group-item>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        Inversión mínima
+
+                        <b-badge variant="dark">Bs 200.000,00</b-badge>
+                    </b-list-group-item>
+                </b-list-group>
+                <div class="text-center">
+                <small align="center">TODAS NUESTRAS INVERSIONES INMOBILIARIAS PASAN POR UN RIGUROSO PROCESO DE CUMPLIMIENTO.</small>
+                </div>
+            </div>
+        </div>
+
         </div>
     </div>
 
@@ -82,25 +132,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="bubble">
-                                La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la <a href="http://www.cajavenezolana.com">Caja Venezolana de Valores</a>
-                            </div>
-                            <div class="comments-avatar">
-                                <a href="" class="float-left">
-                                    <i class="fa fa-lock fa-3x">&nbsp;</i>
-                                </a>
-                                <div class="media-body">
-                                    <div class="commens-name">
-                                        Custodia
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row" id="bubbles-row-2">
-                        <div class="col-lg-6">
+                    <div class="col-lg-6">
                             <div class="bubble">
                                 El fondo está expuesto al riesgo de un único mercado y de una sola moneda.
                             </div>
@@ -116,6 +148,10 @@
                             </div>
                         </div>
 
+                    </div>
+
+                    <div class="row" id="bubbles-row-2">
+                        
                         <div class="col-lg-6">
                             <div class="bubble">
                                 El fondo tiene exposición a monedas extranjeras por lo que los cambios en las tasas de cambio pueden producir aumentos o disminución del valor de la inversión y las ganancias obtenidas.
@@ -131,9 +167,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row" id="bubbles-row-3">
                         <div class="col-lg-6">
                             <div class="bubble">
                                 El precio de la Unidad de Inversión del fondo puede variar debido al movimiento de precio de los activos que lo componen.
@@ -151,6 +185,7 @@
                         </div>
 
                     </div>
+
                 </div>
 
                 <!-- HOW TO INVEST -->
@@ -193,13 +228,14 @@
                                 <p class="text-justify invest-last invest-p text-dark">Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
                                 </p>
                                 <p class="text-center">
-                                    <b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link>
+                                    <b-link class="navy-link" href="/register" role="button">Haga click aquí &raquo;</b-link>
                                 </p>
                             </div>
                         </div>
                         <p class="text-justify invest-last invest-p text-dark">
                             También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada vía e mail en donde encontrará el procedimiento para empezar
                         </p>
+
                         <p class="text-jusitfy invest-last invest-p text-dark"> <strong>Contacto:</strong> solicitud@percapital.com</p>
 
                         <div class="container">

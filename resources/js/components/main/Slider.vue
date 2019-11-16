@@ -19,7 +19,7 @@
                 </div>
 
             </div>
-<!--
+            <!--
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-3.jpg)"> <br>
                 <b-col cols="7" md="7" class="mx-auto my-auto">
 
@@ -84,7 +84,7 @@
             </div>
 -->
 
-<!--
+            <!--
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-4.jpg)"> <h3 data-caption-animate="fadeInUp">Aviso legal</h3>
                 <h5>“No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente <br>
                     los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un <br>
@@ -105,22 +105,28 @@
 </template>
 
 <script>
+
+
 export default {
     methods: {
         faq() {
-        axios.get('/faq')
+            axios.get('/faq')
 
-            .then(res => {
-                window.location = "/faq";
-            })
+                .then(res => {
+                    window.location = "/faq";
+                })
         },
-        services(){
-        axios.get('/services')
+        services() {
+            axios.get('/services')
 
-            .then(res => {
-                window.location = "/services";
-            })
+                .then(res => {
+                    window.location = "/services";
+                })
         }
+    },
+
+    mounted() {
+        console.log('Slider');
     }
 }
 </script>

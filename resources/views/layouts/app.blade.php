@@ -84,14 +84,13 @@
             font-size:14px;
         }
 
-        .navbar .navbar-nav .navbar-nav-item-dropdown .lang-box{
-            width:50px;
+        .minw-none {
+         min-width: 0 !important;
         }
-
-        
-.mydropdown:hover .mydropdown-dropdown-item {
-  display: block;
-}
+       
+        .dropdown:hover>.dropdown-menu {
+        display: block;
+        }
 
     </style>
 
@@ -121,8 +120,8 @@
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="FONDOS" right>
                             <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/FI') }}" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/riskcapital') }}" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
                     <b-nav-item-dropdown text="REPORTES" right>
@@ -130,12 +129,12 @@
                             <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
                     </b-nav-item-dropdown>
                         <b-nav-item href="#contacto"  class="my-nav-link">CONTACTO</b-nav-item>
-                        <b-nav-item-dropdown text="IDIOMA" class="lang-box" right>
-                            <b-dropdown-item href="#"> <span class="flag-icon flag-icon-es align-middle"></span>&nbsp;Español</b-dropdown-item>
-                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span>&nbsp;English</b-dropdown-item>
+                        <b-nav-item-dropdown text="IDIOMA" menu-class="minw-none test" right>
+                            <b-dropdown-item href="#"> <span class="flag-icon flag-icon-es align-middle"></span></b-dropdown-item>
+                            <b-dropdown-item href="#"><span class="flag-icon flag-icon-us"></span></b-dropdown-item>
                         </b-nav-item-dropdown>
     
-                        <b-nav-item-dropdown id="mydropdown" right>
+                        <b-nav-item-dropdown right>
                         <template slot="button-content">
                             <i class="fa fa-user"></i>
                         </template>

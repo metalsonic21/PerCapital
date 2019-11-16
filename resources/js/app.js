@@ -33,6 +33,8 @@ Vue.component('Services', require('./views/Services.vue').default);
 Vue.component('Team', require('./views/Team.vue').default);
 Vue.component('Mutual', require('./views/Mutual.vue').default);
 Vue.component('About', require('./views/About.vue').default);
+Vue.component('FI', require('./views/FI.vue').default);
+Vue.component('RiskCapital', require('./views/RiskCapital.vue').default);
 
 
 const app = new Vue({

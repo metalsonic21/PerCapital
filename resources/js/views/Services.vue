@@ -117,8 +117,6 @@
                                         <li>(Re) Estructuración corporativa</li>
                                     </ul>
                                 </p>
-
-                                <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
                                 <b-img fluid class="vertical-date img-mine" src="/img/content/landing/services-8.png"></b-img>
 
                             </div>
