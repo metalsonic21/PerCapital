@@ -2292,6 +2292,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     showModal: function showModal() {
@@ -2309,6 +2315,211 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Ethics.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Ethics.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Footer.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Footer.vue?vue&type=script&lang=js& ***!
@@ -2318,6 +2529,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -3081,6 +3295,239 @@ function initSmoothScrolling(container, animation) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Corporate.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37005,7 +37452,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.modal-text {\r\n    font-size: 14px;\n}\r\n", ""]);
+exports.push([module.i, "\n.modal-text {\r\n    font-size: 13px;\n}\r\n", ""]);
 
 // exports
 
@@ -37024,7 +37471,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.page-footer {\r\n    background-color: #000030;\r\n    font-size: 14px;\n}\n.list-footer {\r\n    color: white;\n}\n.footer-social{\r\n    margin-top:5px;\r\n    margin: auto;\r\n    width: 50%;\n}\n.social-link{\r\n    color: #859da9;\r\n    text-decoration: none; \r\n    background-color: none;\n}\n.footer-copyright {\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\n@media screen and (max-width: 1200px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 16px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\n}\n@media screen and (max-width: 780px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 11px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\nfooter .float-left {\r\n        float: none !important;\n}\n}\n.row:before, .row:after {display: none !important;}\r\n", ""]);
+exports.push([module.i, "\n.page-footer {\r\n    background-color: #000030;\r\n    font-size: 14px;\n}\n.list-footer {\r\n    color: white;\n}\n.footer-social {\r\n    margin-top: 5px;\r\n    margin: auto;\r\n    width: 50%;\n}\n.social-link {\r\n    color: #859da9;\r\n    text-decoration: none;\r\n    background-color: none;\n}\n.footer-copyright {\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\n@media screen and (max-width: 1200px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 16px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\n}\n@media screen and (max-width: 780px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 11px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\nfooter .float-left {\r\n        float: none !important;\n}\n}\n.row:before,\r\n.row:after {\r\n    display: none !important;\n}\r\n", ""]);
 
 // exports
 
@@ -37126,6 +37573,25 @@ exports.push([module.i, "\n.about-mine {\r\n    margin-bottom: -1%;\r\n    margi
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.gov-text {\r\n    margin-bottom: -3px;\n}\n.gov-title {\r\n    margin-top: -15px;\r\n    margin-bottom: -8px;\n}\n@media (max-width: 990px) {\n.service-box-aux{\r\n        min-height:1850px;\n}\n.service-box-big{\r\n        min-height:1300px;\n}\n.service-box-md{\r\n        min-height:900px;\n}\n.service-box-sm{\r\n        min-height:700px;\n}\n.service-box-xs{\r\n        min-height:300px;\n}\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/FI.vue?vue&type=style&index=0&lang=css&":
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/FI.vue?vue&type=style&index=0&lang=css& ***!
@@ -37195,7 +37661,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.timeline-mine {\r\n    margin-top: 5px;\r\n    margin-bottom: -3%;\n}\n.img-mine {\r\n    margin-top: 8%;\n}\n.img-mine-2 {\r\n    margin-top: 6%\n}\n.title-placed {\r\n    margin-bottom: -5%;\n}\n.btn-title{\r\n    font-family:Gotham;\r\n    background-color:#859da9;\r\n    border-color:#859da9;\n}\n.navy-line-2 {\r\n    width: 60px;\r\n    height: 1px;\r\n    margin: 9px auto 0;\r\n    border-bottom: 2px solid#859da9;\n}\r\n", ""]);
+exports.push([module.i, "\n.timeline-mine {\r\n    margin-top: 5px;\r\n    margin-bottom: -3%;\n}\n.img-mine {\r\n    margin-top: 8%;\n}\n.img-mine-2 {\r\n    margin-top: 6%\n}\n.title-placed {\r\n    margin-bottom: -5%;\n}\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -68977,6 +69443,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Corporate.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/FI.vue?vue&type=style&index=0&lang=css&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/FI.vue?vue&type=style&index=0&lang=css& ***!
@@ -70820,6 +71316,20 @@ var render = function() {
               _vm._v(
                 "\r\n                El desempeño histórico no determina el desempeño a futuro."
               )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Fluctuaciones:")]),
+              _vm._v(
+                "\r\n                El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.\r\n            "
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Riesgos:")]),
+              _vm._v(
+                "\r\n                Existen riesgos asociados a las inversiones y la perdida de capital es posible.\r\n            "
+              )
             ])
           ])
         ]
@@ -70829,6 +71339,537 @@ var render = function() {
   )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-xs-12 col-sm-12 col-md-12 col-lg-12" }, [
+          _c("div", { staticClass: "navy-line" }),
+          _vm._v(" "),
+          _c("h1", { staticClass: "title-mine text-center" }, [
+            _vm._v("CÓDIGO DE CONDUCTA Y ÉTICA EMPRESARIAL")
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "clearfix service-box",
+                  staticStyle: { height: "350px" }
+                },
+                [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "box-content" }, [
+                    _c("h5", { staticClass: "gov-title" }, [
+                      _vm._v("Documentos")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "gov-text" }, [
+                      _vm._v("Guía de Gobierno Corporativo")
+                    ]),
+                    _vm._v(" "),
+                    _c("small", [
+                      _vm._v("Pautas de gobierno corporativo 2019")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "center" },
+                      [
+                        _c(
+                          "b-button",
+                          { staticClass: "btn-title", attrs: { size: "sm" } },
+                          [_vm._v("Descargar")]
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _vm._m(6),
+            _vm._v(" "),
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _vm._m(9),
+            _vm._v(" "),
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11)
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-content" }, [
+      _c("p", { staticClass: "text-justify" }, [
+        _vm._v(
+          '\n                        Este Código global de conducta y ética empresarial ("Código") rige el compromiso general de PER CAPITAL de llevar a cabo sus actividades comerciales de la manera más alta ética y profesional, poniendo los intereses del inversionista primero. La reputación de integridad de PER CAPITAL es uno de sus activos más importantes y es fundamental para el éxito de su negocio. Si bien este Código cubre una amplia gama de actividades, prácticas y procedimientos comerciales, no cubre todos los problemas que puedan surgir en el curso de las numerosas actividades comerciales de PER CAPITAL. Más bien, establece principios básicos diseñados para guiar a los empleados y directores de PER CAPITAL. Se espera que los consultores y los trabajadores eventuales, contractuales o temporales cumplan con los principios de este Código y las políticas aplicables a su ubicación, función y estado.\n'
+        ),
+        _c("br"),
+        _vm._v(
+          "\nCada empleado y director de PER CAPITAL, cualquiera que sea su posición, es responsable de mantener altos estándares éticos y profesionales y debe tratar de evitar incluso la apariencia de un comportamiento inapropiado. Cualquier violación de este Código puede dar lugar a medidas disciplinarias en la medida permitida por la ley aplicable. Cualquier empleado que tenga conocimiento de una violación real o potencial de este Código u otra política de PER CAPITAL debe informar inmediatamente cualquier conducta ilegal o poco éticas.\n\n                    "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-icon" }, [
+      _c("i", { staticClass: "fa fa-file" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "350px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-balance-scale" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Cumplimiento de leyes y reglamentos")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    \nLas actividades comerciales globales de PER CAPITAL están sujetas a una amplia regulación y supervisión gubernamental y es fundamental que PER CAPITAL y sus empleados cumplan con las leyes, normas y reglamentaciones aplicables, incluidas las relacionadas con el uso de información privilegiada. Se espera que los empleados consulten la guía contenida en el Manual de Cumplimiento y las diversas políticas y procedimientos contenidos en la Biblioteca de Políticas de conformidad con estas leyes y reglamentos, y que busquen el asesoramiento de los supervisores del departamento de Legal y Cumplimiento según sea necesario.\n\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-big",
+          staticStyle: { height: "830px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-users" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Conflictos de intereses")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    Pueden surgir conflictos de intereses cuando el interés privado de una persona interfiere, o parece interferir, con los intereses de PER CAPITAL, o cuando los intereses de un empleado o la empresa son inconsistentes con los de un cliente o cliente potencial, lo que resulta en el riesgo de daños a los intereses de PER CAPITAL o uno o más de sus clientes. Puede surgir un conflicto, por ejemplo, si un empleado o director, toma una acción o tiene un interés que dificulta que esa persona lleve a cabo sus responsabilidades con PER CAPITAL y / o el cliente de manera objetiva y efectiva, o si dicha persona recibe un beneficio personal indebido, como un préstamo o garantía, como resultado de la posición del individuo en PER CAPITAL. PER CAPITAL ha adoptado políticas, procedimientos y controles diseñados para gestionar conflictos de intereses. Se requiere que los empleados cumplan con estas y otras políticas, procedimientos y controles relacionados con el cumplimiento y que ayuden a mitigar posibles conflictos de intereses al cumplir con el siguiente estándar de conducta:\n"
+              ),
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "Actuar únicamente en el mejor interés de los clientes"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Mantener los altos estándares éticos y profesionales de PER CAPITAL"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Identificar, informar y gestionar conflictos de intereses reales, aparentes o potenciales"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Haga una divulgación completa y justa de cualquier conflicto de intereses, según sea necesario."
+                  )
+                ])
+              ]),
+              _vm._v(
+                "\t\nLos conflictos de intereses pueden no ser siempre claros y no es posible describir cada situación en la que pueda surgir un conflicto de intereses; cualquier pregunta con respecto a si existe un conflicto de intereses, junto con cualquier conflicto de intereses real o potencial, debe ser dirigido a gerentes de Legal y Cumplimiento.\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-big",
+          staticStyle: { height: "830px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-key" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Uso de información privilegiada y comercio personal")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                'Las calificaciones mínimas para servir como miembro de la Junta Directiva (cada miembro de la Junta, un "Director") de PER CAPITAL son que una persona demuestre, por logros significativos en su campo, la capacidad de hacer una contribución significativa a La supervisión de la Junta de los negocios y asuntos de PER CAPITAL y el hecho de que una persona tenga un historial impecable y una reputación de conducta honesta y ética tanto en sus actividades profesionales como personales.\n                                    Los empleados y directores que tienen acceso a información confidencial sobre PER CAPITAL, sus clientes o emisores en los que invierte activos de clientes, tienen prohibido usar o compartir esa información para fines de negociación de valores o para cualquier otro propósito, excepto en la conducta adecuada de nuestro negocio. Toda la información no pública sobre PER CAPITAL o cualquiera de nuestros clientes o emisores debe considerarse "información confidencial".\n '
+              ),
+              _c("br"),
+              _vm._v(
+                '\nEl uso de información material no pública en relación con cualquier decisión o recomendación de inversión o para "dar propina" a otros que puedan tomar una decisión de inversión sobre la base de esta información es poco ético e ilegal y podría dar lugar a sanciones civiles y / o penales. De acuerdo con la Política de comercio personal global, los empleados de PER CAPITAL deben realizar una compensación previa de todas las transacciones de valores (excepto ciertos valores exentos). \n\n                                '
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-md",
+          staticStyle: { height: "500px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-gift" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Regalos y entretenimiento")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    El propósito del entretenimiento y los obsequios en un entorno comercial es crear buena voluntad y buenas relaciones de trabajo, no obtener una ventaja injusta con los clientes o proveedores. Ningún regalo o entretenimiento debe ser ofrecido, dado, provisto o aceptado por ningún empleado de PER CAPITAL o sus familiares inmediatos que compartan el mismo hogar, a menos que:\n"
+              ),
+              _c("ul", [
+                _c("li", [_vm._v("No es solicitado")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("No es un regalo en efectivo")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Es consistente con las prácticas comerciales habituales"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("No tiene un valor excesivo")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("No puede interpretarse como un soborno o pago")
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Se entrega o acepta sin compromiso")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "No tiene la intención de solicitar o retener negocios o una ventaja en la conducción de los negocios"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("No viola las leyes o regulaciones aplicables")
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "500px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-archive" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Oportunidades corporativas")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    Empleados y directores:\n                                    "
+              ),
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "\nTienen prohibido aprovechar oportunidades personales para ellos que fueron descubiertas mediante el uso de propiedad corporativa, información o posición sin el consentimiento de Legal y Cumplimiento;\n                                        "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\nTienen prohibido usar propiedad corporativa, información o posición para obtener un beneficio personal indebido\t\n                                        "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\nNo puede competir con PER CAPITAL ni directa ni indirectamente; y debemos a PER CAPITAL el deber de promover sus intereses legítimos cuando surja la oportunidad de hacerlo.\n                                        "
+                  )
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-md",
+          staticStyle: { height: "550px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-users" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Competencia y trato justo")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    PER CAPITAL busca superar a su competencia de manera justa y honesta al buscar una ventaja competitiva a través de un rendimiento superior; PER CAPITAL no participa en prácticas comerciales ilegales o poco éticas. PER CAPITAL y sus empleados y directores deben esforzarse por respetar los derechos y tratar de manera justa con los clientes, proveedores y competidores de PER CAPITAL. Específicamente, se prohíbe la siguiente conducta:\n"
+              ),
+              _c("ul", [
+                _c("li", [
+                  _vm._v("Apropiación indebida de información propietaria")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Poseer información de secreto comercial obtenida sin el consentimiento del propietario"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Inducir la divulgación de información de propiedad o información de secreto comercial por parte de empleados pasados o presentes de otras compañías"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Aprovecharse injustamente de cualquier persona mediante la manipulación, ocultamiento, abuso de información privilegiada, tergiversación de hechos materiales o cualquier otra práctica intencional de trato injusto."
+                  )
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box",
+          staticStyle: { height: "550px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-edit" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Confidencialidad")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    Los empleados y directores de PER CAPITAL tienen la obligación de confidencialidad con PER CAPITAL y sus clientes. La información confidencial incluye información no pública que podría ser útil para los competidores o que podría dañar a PER CAPITAL o sus clientes, si se divulga, e información no pública que los clientes y otras partes han confiado a PER CAPITAL. La obligación de preservar la información confidencial continúa incluso después de que termine el empleo. Esta obligación no limita a los empleados de informar posibles violaciones de la ley o regulación a un regulador o de hacer divulgaciones bajo las disposiciones de los denunciantes.\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "440px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-check" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Informar cualquier comportamiento ilegal o poco ético")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    Se requiere que cada empleado informe cualquier conducta ilegal o poco ética de la que tenga conocimiento, incluidos los relacionados con asuntos de contabilidad o auditoría. Los empleados pueden informar sus inquietudes a Legal y Cumplimiento contactando a un Director Gerente en el departamento directamente. PER CAPITAL no tomará represalias ni discriminará a ningún empleado debido a un informe de buena fe. Los empleados tienen derecho a informar directamente a un regulador y pueden hacerlo de forma anónima; los empleados pueden proporcionar divulgaciones protegidas bajo las leyes de denuncia de irregularidades y cooperar voluntariamente con los reguladores, en cada caso sin temor a represalias por parte de PER CAPITAL. Consulte la Política global para informar conductas ilegales o poco éticas y los manuales de cumplimiento locales para obtener detalles adicionales.\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-xs",
+          staticStyle: { height: "440px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-money" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Protección y uso adecuado de los activos de PER CAPITAL")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\n                                    Los empleados y directores deben hacer todo lo posible para proteger los activos de PER CAPITAL y usarlos de manera eficiente. Esta obligación se extiende a la información de propiedad exclusiva de PER CAPITAL, incluida la propiedad intelectual, como secretos comerciales, patentes, marcas comerciales y derechos de autor, así como planes de negocios, marketing y servicios, ideas de ingeniería y fabricación, sistemas, programas de software, diseños, bases de datos, registros, salarios.\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c("div", { staticClass: "clearfix service-box" }, [
+        _c("div", { staticClass: "box-icon" }, [
+          _c("i", { staticClass: "fa fa-flag" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "box-content" }, [
+          _c("h5", { staticClass: "gov-title" }, [
+            _vm._v("Contribuciones políticas")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "gov-text text-justify" }, [
+            _vm._v(
+              "\n                                    Se requiere que los empleados realicen previamente las contribuciones políticas de acuerdo con la Política de Contribuciones Políticas del país.\n                                "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -70945,6 +71986,17 @@ var staticRenderFns = [
                 _c("li", [
                   _c(
                     "a",
+                    {
+                      staticClass: "list-footer",
+                      attrs: { href: "/corporate" }
+                    },
+                    [_vm._v("Gobierno Corporativo")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
                     { staticClass: "list-footer", attrs: { href: "/faq" } },
                     [_vm._v("FAQ")]
                   )
@@ -70976,7 +72028,7 @@ var staticRenderFns = [
                 _c("li", [
                   _c(
                     "a",
-                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    { staticClass: "list-footer", attrs: { href: "/FI" } },
                     [_vm._v("Fondo Inmobiliario")]
                   )
                 ]),
@@ -70984,7 +72036,10 @@ var staticRenderFns = [
                 _c("li", [
                   _c(
                     "a",
-                    { staticClass: "list-footer", attrs: { href: "#!" } },
+                    {
+                      staticClass: "list-footer",
+                      attrs: { href: "/riskcapital" }
+                    },
                     [_vm._v("Capital de Riesgo")]
                   )
                 ])
@@ -72229,6 +73284,584 @@ var staticRenderFns = [
           ])
         ]
       )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "animated fadeInRight" },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
+            [
+              _c("div", { staticClass: "navy-line-2" }),
+              _vm._v(" "),
+              _c("h1", { staticClass: "title-mine text-center" }, [
+                _vm._v("GOBIERNO CORPORATIVO")
+              ]),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "clearfix service-box",
+                      staticStyle: { height: "230px" }
+                    },
+                    [
+                      _vm._m(1),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "box-content" }, [
+                        _c("h5", { staticClass: "gov-title" }, [
+                          _vm._v("Documentos")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "gov-text" }, [
+                          _vm._v("Guía de Gobierno Corporativo")
+                        ]),
+                        _vm._v(" "),
+                        _c("small", [
+                          _vm._v("Pautas de gobierno corporativo 2019")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "center" },
+                          [
+                            _c(
+                              "b-button",
+                              {
+                                staticClass: "btn-title",
+                                attrs: { size: "sm" }
+                              },
+                              [_vm._v("Descargar")]
+                            )
+                          ],
+                          1
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
+                _vm._v(" "),
+                _vm._m(4),
+                _vm._v(" "),
+                _vm._m(5),
+                _vm._v(" "),
+                _vm._m(6),
+                _vm._v(" "),
+                _vm._m(7),
+                _vm._v(" "),
+                _vm._m(8),
+                _vm._v(" "),
+                _vm._m(9),
+                _vm._v(" "),
+                _vm._m(10),
+                _vm._v(" "),
+                _vm._m(11),
+                _vm._v(" "),
+                _vm._m(12),
+                _vm._v(" "),
+                _vm._m(13)
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("Ethics")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-content" }, [
+      _c("p", [
+        _vm._v(
+          "\r\n                        El marco del gobierno corporativo de PER CAPITAL es un conjunto de principios, guías y prácticas que apoyan la sustentabilidad del desempeño y la creación de valor para nuestros inversionistas en el largo plazo. Nuestro compromiso con el buen proceder, es integral para nuestro negocio y refleja no solo el apego a las regulaciones y los mejores estándares del mercado sino también, eficiencia en liderazgo de nuestra gerencia.\r\n                    "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-icon" }, [
+      _c("i", { staticClass: "fa fa-file" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-xs",
+          staticStyle: { height: "230px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-folder" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [_vm._v("Introducción")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                '\r\n                                    Estas pautas han sido adoptadas por la Junta Directiva (la "Junta") de PER CAPITAL (la "Compañía" o "PER CAPITAL") para proporcionar un marco para el gobierno de la compañía y ayudar a la Junta a cumplir con sus responsabilidades.\r\n                                '
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-big",
+          staticStyle: { height: "1130px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-users" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Rol y responsabilidades de la Junta")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Los negocios y asuntos de PER CAPITAL son conducidos por sus empleados, gerentes y oficiales. Los miembros de la Junta son elegidos por los accionistas de la Compañía y utilizan su criterio comercial para dirigir, asesorar y supervisar la gestión de la Compañía en interés y en beneficio de la Compañía, los inversionistas y sus accionistas.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Las responsabilidades de la Junta, actuando directamente o a través de sus comités, incluyen, entre otras, las siguientes:\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Supervisión de estrategia y desempeño. La Junta entabla un diálogo constructivo con los principales líderes de la Compañía sobre sus estrategias comerciales y financieras a corto y largo plazo, y revisa y evalúa el desempeño de la Compañía y el progreso de la administración para cumplir con el marco estratégico de PER CAPITAL para la creación de valor a largo plazo. Tanto la Junta como la gerencia de PER CAPITAL reconocen que la creación de valor a largo plazo para los accionistas e inversionistas de la Compañía requerirá la consideración de las preocupaciones de otras partes interesadas, incluidos clientes, empleados y las comunidades en las que opera PER CAPITAL.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Supervisión de riesgos. La Junta tiene la responsabilidad final de supervisar las actividades de gestión de riesgos de PER CAPITAL. Los comités de la Junta ayudan a la Junta a supervisar la evaluación de riesgos de la administración y las actividades de gestión de riesgos dentro de las áreas delegadas a dichos comités.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Desempeño gerencial, desarrollo de talento y sucesión. La Junta evalúa regularmente el desempeño y aprueba la compensación para el Director Ejecutivo de la Compañía y otros ejecutivos senior. Además, la Junta planea la sucesión del Director Ejecutivo y revisa el desarrollo del talento de la gerencia y la planificación de la sucesión para otros ejecutivos senior.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-aux",
+          staticStyle: { height: "1130px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-check" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Calificaciones del director")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                'Las calificaciones mínimas para servir como miembro de la Junta Directiva (cada miembro de la Junta, un "Director") de PER CAPITAL son que una persona demuestre, por logros significativos en su campo, la capacidad de hacer una contribución significativa a La supervisión de la Junta de los negocios y asuntos de PER CAPITAL y el hecho de que una persona tenga un historial impecable y una reputación de conducta honesta y ética tanto en sus actividades profesionales como personales.\r\n                                    '
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    La Junta cree que la diversidad en pensamiento, experiencia, antecedentes, habilidades y puntos de vista contribuye y mejora las capacidades de la Junta. Al identificar y recomendar candidatos a la Junta, el Comité de Nominación y Gobierno considerará una serie de factores, incluidas las calificaciones profesionales, la perspectiva, la demografía, el género, la raza, la nacionalidad y la edad del candidato.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    La Junta debe estar compuesta por una mayoría de Directores que cumplan con los criterios requeridos por la SUNAVAL. El Comité de Nominación y Gobierno es responsable de revisar con la Junta, anualmente, las habilidades y características requeridas de los nuevos miembros de la Junta, así como la composición de la Junta en su conjunto.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Los directores presentarán su renuncia a la Junta en caso de jubilación o cualquier cambio significativo en sus responsabilidades laborales principales. Los directores que también son empleados de la Compañía deberán presentar igualmente su renuncia a la Junta en el momento en que dejan el empleo en la Compañía. La Junta no cree que un Director en estas circunstancias necesariamente deba abandonar la Junta, pero que el servicio continuo del Director debe ser reevaluado. En consecuencia, el Comité de Nominación y Gobierno revisará la continuación del Director en la Junta a la luz de todas las circunstancias y recomendará a la Junta si la Junta debe aceptar dicha renuncia propuesta o solicitar que el Director continúe sirviendo en la Junta.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Ninguna persona que haya alcanzado la edad de 75 años será nombrada, reelegida o nominada para elección o reelección como Director de la Junta. Por recomendación del Comité de Nominación y Gobierno, la Junta puede hacer excepciones a esta política según lo considere apropiado.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    El Comité de Nominación y Gobierno y la Junta consideran la duración de cada mandato de un Director cuando consideran la composición de la Junta y buscan mantener un equilibrio general de experiencia y continuidad junto con nuevas perspectivas. Además, el Comité de Nominación y Gobierno y la Junta evalúan si un Director puede continuar dedicando el tiempo y el esfuerzo, y exhibir la independencia mental, necesaria para contribuir significativamente a la supervisión independiente del negocio y la gestión de PER CAPITAL.\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-md",
+          staticStyle: { height: "580px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-list" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Responsabilidades del director")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Se espera que un Director dedique el tiempo y el esfuerzo necesarios para cumplir adecuadamente con sus responsabilidades. En consecuencia, se espera que un Director asista regularmente a las reuniones de la Junta y los comités en los que se sienta dicho Director, y que revise antes de las reuniones el material distribuido por adelantado para dichas reuniones. Se espera que un Director que no pueda asistir a una reunión (que se entiende que ocurrirá ocasionalmente) notifique al Secretario de PER CAPITAL, quien luego notificará al Presidente de la Junta o al Presidente del comité correspondiente antes de dicha reunión.\r\n                                    La información y los datos que son importantes para la comprensión de la Junta de los negocios que se llevarán a cabo en una reunión de la Junta deben, en la medida de lo posible, distribuirse por escrito a la Junta antes de la reunión. Los directores deben revisar de antemano cualquier material que se les envíe antes de la reunión. En el caso de una necesidad apremiante de que la Junta se reúna a corto plazo o si dichos materiales contendrían información altamente confidencial o confidencial, se reconoce que los materiales escritos pueden no estar disponibles antes de la reunión.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-md",
+          staticStyle: { height: "580px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-archive" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Liderazgo de la Junta")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                '\r\n                                    La Junta ha seleccionado al Director Ejecutivo ("CEO") para servir como Presidente de la Junta. Cuando los cargos de Director Ejecutivo y Presidente se combinan, o el Presidente no es un Director independiente, los Directores independientes nombrarán a un Director independiente para servir como Director Independiente Principal y pueden alterar dicho nombramiento en cualquier momento.\r\n                                    '
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    El Director Independiente Principal tendrá la autoridad y las responsabilidades descritas en las Directrices del Director Independiente Principal y actuará como el enlace principal entre los Directores independientes y el Presidente de la Junta para optimizar la efectividad de la Junta.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Los Directores independientes considerarán todos y cada uno de los factores que consideren apropiados al seleccionar un Director independiente principal, incluida la comprensión de un Director de los negocios y asuntos de PER CAPITAL, la voluntad y la capacidad de un Director de dedicar una cantidad sustancial de tiempo al puesto, la experiencia de un Director Servir en los directorios de empresas públicas y / o en puestos de alta dirección y el juicio de un Director y habilidades de liderazgo.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-big",
+          staticStyle: { height: "780px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-bullhorn" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Comités de la Junta")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                '\r\n                                    La Junta tiene los siguientes comités permanentes: un Comité de Auditoría, un Comité de Desarrollo de Gestión y Compensación (el "Comité de Compensación"), un Comité de Nominación y Gobierno, un Comité de Riesgos y un Comité Ejecutivo. Según lo requerido por las reglas aplicables de la SUNAVAL, todos los miembros de estos comités, excepto los miembros del Comité de Riesgos y el Comité Ejecutivo, serán Directores independientes, y cada comité tendrá su propio estatuto. En la medida en que lo exijan las leyes aplicables, las leyes fiscales, los requisitos de cotización en bolsa u otras leyes o requisitos aplicables, los miembros de cada uno de estos comités deberán cumplir los criterios necesarios para llevar a cabo las funciones de cada uno de dichos comités. Los estatutos del comité establecerán los propósitos, objetivos y responsabilidades de los comités, así como las calificaciones para la membresía del comité, los procedimientos para la designación y remoción de los miembros del comité, la estructura y las operaciones del comité y los informes del comité a la Junta. Los estatutos también estipularán que cada comité evaluará anualmente su desempeño.\r\n                                    '
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    El Comité de Nombramientos y Gobernanza, en consulta con el Presidente de la Junta, revisará y recomendará las asignaciones de los comités y los puestos de presidente de la junta al menos una vez al año. El Comité de Nominación y Gobierno y la Junta creen que los miembros del comité deben ser rotados periódicamente en función de las necesidades del comité y que se debe considerar rotar a un presidente del comité después de aproximadamente cinco a siete años consecutivos de servicio como presidente.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n\r\n                                    La Junta puede, de vez en cuando, establecer o mantener comités adicionales según sea necesario o apropiado.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box",
+          staticStyle: { height: "780px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-edit" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v(
+                "Acceso del director a funcionarios, empleados y asesores independientes"
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Los directores tienen acceso total y gratuito a los funcionarios y empleados de PER CAPITAL. Cualquier reunión o contacto que un Director desee iniciar puede organizarse a través del Presidente (CEO) de PER CAPITAL o el Secretario o directamente por el Director. Los Directores utilizarán su criterio para garantizar que dicho contacto no sea perjudicial para las operaciones comerciales de PER CAPITAL.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    La Junta y el PRESIDENTE (CEO) han incorporado a la agenda anual de la Junta una serie de informes de los altos funcionarios de la Compañía, cada uno de los cuales aborda estrategias comerciales a corto y largo plazo, así como otros asuntos, según corresponda. El Director Independiente Principal revisa periódicamente el alcance de la agenda con el CEO.\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "440px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-user" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Compensación del director")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Un Director que también sea funcionario de PER CAPITAL no recibirá compensación adicional por el servicio como Director de PER CAPITAL.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    La forma y el monto de la compensación del Director serán determinados por el Comité de Compensación de acuerdo con las políticas y principios establecidos.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    El Comité de Compensación considerará que la independencia de los Directores puede verse comprometida si la compensación y los requisitos del Director exceden los niveles habituales, si PER CAPITAL realiza contribuciones caritativas sustanciales a organizaciones con las que un Director está afiliado, o si PER CAPITAL celebra contratos de consultoría (o proporciona otros formularios indirectos) de compensación a) un Director o una organización con la cual el Director está afiliado.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "440px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-edit" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v(
+                "Acceso del director a funcionarios, empleados y asesores independientes"
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Los directores tienen acceso total y gratuito a los funcionarios y empleados de PER CAPITAL. Cualquier reunión o contacto que un Director desee iniciar puede organizarse a través del Presidente (CEO) de PER CAPITAL o el Secretario o directamente por el Director. Los Directores utilizarán su criterio para garantizar que dicho contacto no sea perjudicial para las operaciones comerciales de PER CAPITAL.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    La Junta y el PRESIDENTE (CEO) han incorporado a la agenda anual de la Junta una serie de informes de los altos funcionarios de la Compañía, cada uno de los cuales aborda estrategias comerciales a corto y largo plazo, así como otros asuntos, según corresponda. El Director Independiente Principal revisa periódicamente el alcance de la agenda con el CEO.\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "500px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-folder-open" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Orientación del Director y Educación Continua")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    Todos los nuevos directores deben participar en un programa de orientación, que debe llevarse a cabo dentro de los tres meses posteriores a la fecha en que se eligen los nuevos directores. Esta orientación incluirá presentaciones por parte de la alta gerencia para familiarizar a los nuevos Directores con los planes estratégicos de PER CAPITAL, sus importantes problemas financieros, contables y de gestión de riesgos, sus programas de cumplimiento, sus políticas de conflictos, su código de ética y otros controles, sus principales funcionarios y sus funcionarios internos y auditores independientes Además, se alienta a los directores a asistir a programas educativos continuos ofrecidos por PER CAPITAL o patrocinados por universidades, bolsas de valores u otras organizaciones relacionadas con el desempeño de sus funciones como miembros de la Junta o el Comité. Una vez aprobado, PER CAPITAL reembolsará los costos y gastos razonables asociados con dichos programas.\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "clearfix service-box service-box-sm",
+          staticStyle: { height: "500px" }
+        },
+        [
+          _c("div", { staticClass: "box-icon" }, [
+            _c("i", { staticClass: "fa fa-paperclip" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "box-content" }, [
+            _c("h5", { staticClass: "gov-title" }, [
+              _vm._v("Evaluación del CEO y sucesión gerencial")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "gov-text text-justify" }, [
+              _vm._v(
+                "\r\n                                    El Comité de Compensación llevará a cabo una revisión anual del desempeño del Presidente (CEO) de PER CAPITAL, como se establece en este documento. La Junta revisará el informe del Comité de Compensación para asegurarse de que el Presidente (CEO) brinde el mejor liderazgo para PER CAPITAL a largo y corto plazo. Cuando sea apropiado o necesario, es responsabilidad de la Junta remover al Presidente (CEO) y seleccionar a su sucesor.\r\n                                    "
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                                    Toda la Junta trabajará con el Comité de Nominación y Gobierno para considerar posibles sucesores del Presidente (CEO) en caso de una emergencia o el retiro del mismo. El Presidente (CEO) debe en todo momento poner a disposición sus recomendaciones y evaluaciones de posibles sucesores, junto con una revisión de cualquier plan de desarrollo recomendado para tales individuos.\r\n\r\n                                "
+              )
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-xs-12 col-md-6 col-sm-12" }, [
+      _c("div", { staticClass: "clearfix service-box" }, [
+        _c("div", { staticClass: "box-icon" }, [
+          _c("i", { staticClass: "fa fa-paste" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "box-content" }, [
+          _c("h5", { staticClass: "gov-title" }, [
+            _vm._v("Evaluación anual de desempeño")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "gov-text text-justify" }, [
+            _vm._v(
+              "\r\n                                    La Junta y cada uno de sus comités llevarán a cabo una autoevaluación anual para determinar si él y sus comités están funcionando de manera efectiva. El Comité de Nominación y Gobierno recibirá comentarios de todos los Directores e informará anualmente a la Junta con una evaluación del desempeño de la Junta y de su liderazgo. La evaluación se centrará en la contribución de la Junta a PER CAPITAL y se centrará específicamente en identificar oportunidades para mejorar el rendimiento de la Junta y el comité.\r\n                                "
+            )
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -86982,6 +88615,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Values', __webpack_require
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Contact', __webpack_require__(/*! ./components/main/Contact.vue */ "./resources/js/components/main/Contact.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Numbers', __webpack_require__(/*! ./components/main/Numbers.vue */ "./resources/js/components/main/Numbers.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Logos', __webpack_require__(/*! ./components/main/Logos.vue */ "./resources/js/components/main/Logos.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Ethics', __webpack_require__(/*! ./components/main/Ethics.vue */ "./resources/js/components/main/Ethics.vue")["default"]);
 /* Faq components */
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Questions', __webpack_require__(/*! ./components/faq/Questions.vue */ "./resources/js/components/faq/Questions.vue")["default"]);
@@ -86995,6 +88629,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Mutual', __webpack_require
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('About', __webpack_require__(/*! ./views/About.vue */ "./resources/js/views/About.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('FI', __webpack_require__(/*! ./views/FI.vue */ "./resources/js/views/FI.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('RiskCapital', __webpack_require__(/*! ./views/RiskCapital.vue */ "./resources/js/views/RiskCapital.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Corporate', __webpack_require__(/*! ./views/Corporate.vue */ "./resources/js/views/Corporate.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'
 });
@@ -87355,6 +88990,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_template_id_3fa31854___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Disclaimer_vue_vue_type_template_id_3fa31854___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Ethics.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/main/Ethics.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Ethics.vue?vue&type=template&id=11b0179b& */ "./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b&");
+/* harmony import */ var _Ethics_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Ethics.vue?vue&type=script&lang=js& */ "./resources/js/components/main/Ethics.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Ethics_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/main/Ethics.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Ethics.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/main/Ethics.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Ethics_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Ethics.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Ethics.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Ethics_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Ethics.vue?vue&type=template&id=11b0179b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Ethics.vue?vue&type=template&id=11b0179b&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ethics_vue_vue_type_template_id_11b0179b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -87946,6 +89650,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/Corporate.vue":
+/*!******************************************!*\
+  !*** ./resources/js/views/Corporate.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Corporate.vue?vue&type=template&id=3d72dfd6& */ "./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6&");
+/* harmony import */ var _Corporate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Corporate.vue?vue&type=script&lang=js& */ "./resources/js/views/Corporate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Corporate.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Corporate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/Corporate.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/Corporate.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/views/Corporate.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Corporate.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Corporate.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Corporate.vue?vue&type=template&id=3d72dfd6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Corporate.vue?vue&type=template&id=3d72dfd6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Corporate_vue_vue_type_template_id_3d72dfd6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

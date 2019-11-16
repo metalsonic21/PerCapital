@@ -1760,7 +1760,7 @@
     background: #fff;
     text-align: center;
     margin-bottom: 30px;
-    padding: 50px 40px;
+    padding: 15px 40px;
     border: 1px solid #eee;
     -webkit-transition-duration: .3s;
     transition-duration: .3s
@@ -1771,7 +1771,7 @@
 }
 
 .service-box i {
-    color: #1d9bd4;
+    color: #859da9;
     font-size: 45px;
     margin-bottom: 30px;
     -webkit-transition-duration: 1s;
@@ -12325,3 +12325,17 @@ body.md-skin {
     background-color: #859da9;
 }
 
+
+.btn-title{
+    font-family:Gotham;
+    background-color:#859da9;
+    border-color:#859da9;
+}
+
+
+.navy-line-2 {
+    width: 60px;
+    height: 1px;
+    margin: 9px auto 0;
+    border-bottom: 2px solid#859da9;
+}

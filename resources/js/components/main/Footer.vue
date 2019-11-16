@@ -47,6 +47,9 @@
                             <a href="/team" class="list-footer">Equipo</a>
                         </li>
                         <li>
+                            <a href="/corporate" class="list-footer">Gobierno Corporativo</a>
+                        </li>
+                        <li>
                             <a href="/faq" class="list-footer">FAQ</a>
                         </li>
                     </ul>
@@ -194,15 +197,15 @@ export default {
     color: white;
 }
 
-.footer-social{
-    margin-top:5px;
+.footer-social {
+    margin-top: 5px;
     margin: auto;
     width: 50%;
 }
 
-.social-link{
+.social-link {
     color: #859da9;
-    text-decoration: none; 
+    text-decoration: none;
     background-color: none;
 }
 
@@ -240,5 +243,8 @@ export default {
     }
 }
 
-.row:before, .row:after {display: none !important;}
+.row:before,
+.row:after {
+    display: none !important;
+}
 </style>

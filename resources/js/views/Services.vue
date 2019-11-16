@@ -165,16 +165,5 @@ export default {
     margin-bottom: -5%;
 }
 
-.btn-title{
-    font-family:Gotham;
-    background-color:#859da9;
-    border-color:#859da9;
-}
 
-.navy-line-2 {
-    width: 60px;
-    height: 1px;
-    margin: 9px auto 0;
-    border-bottom: 2px solid#859da9;
-}
 </style>

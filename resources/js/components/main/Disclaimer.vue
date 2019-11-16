@@ -15,7 +15,13 @@
                 Nada en este sitio web debe ser considerado como asesoría financiera personal.</p>
             <p><b>Desempeño:</b>
                 El desempeño histórico no determina el desempeño a futuro.</p>
-            </div>
+            <p><b>Fluctuaciones:</b>
+                El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.
+            </p>
+            <p><b>Riesgos:</b>
+                Existen riesgos asociados a las inversiones y la perdida de capital es posible.
+            </p>
+        </div>
     </b-modal>
 </div>
 </template>
@@ -40,6 +46,6 @@ export default {
 
 <style>
 .modal-text {
-    font-size: 14px;
+    font-size: 13px;
 }
 </style>

@@ -25,3 +25,4 @@ Route::get('/FI', 'FIController@index')->name('FI');
 Route::get('/riskcapital', 'RiskCapitalController@index')->name('riskcapital');
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/about', 'AboutController@index')->name('about');
+Route::get('/corporate', 'CorporateGovController@index')->name('corporate');

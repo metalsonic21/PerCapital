@@ -116,6 +116,7 @@
                     <b-nav-item-dropdown text="LA EMPRESA" class="hoverli" right>
                             <b-dropdown-item href="{{ url('/about') }}" class="dropdown-mine">¿Por qué PER CAPITAL?</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/team') }}" class="dropdown-mine">Equipo</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/corporate') }}" class="dropdown-mine">Gobierno Corporativo</b-dropdown-item>
                             <b-dropdown-item href="{{ url('/faq') }}" class="dropdown-mine">FAQ</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="FONDOS" right>
