@@ -21,6 +21,7 @@ Vue.component('Contact', require('./components/main/Contact.vue').default);
 Vue.component('Numbers', require('./components/main/Numbers.vue').default);
 Vue.component('Logos', require('./components/main/Logos.vue').default);
 Vue.component('Ethics', require('./components/main/Ethics.vue').default);
+Vue.component('SlideContent', require('./components/main/SlideContent.vue').default);
 
 
 /* Faq components */

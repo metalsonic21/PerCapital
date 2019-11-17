@@ -3045,91 +3045,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     faq: function faq() {
@@ -37528,7 +37443,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.bg-secondary {\r\n    background-color: rgba(108, 117, 125, 0.6) !important;\n}\n.card {\r\n    background-color: rgba(255, 255, 255, 0.6) !important;\n}\n.card-block {\r\n    background-color: rgba(255, 255, 255, 0.6) !important;\n}\r\n", ""]);
+exports.push([module.i, "\n.bg-secondary {\r\n    background-color: rgba(108, 117, 125, 0.6) !important;\n}\n.card{\r\n    width:400px;\r\n    background-color: rgba(133,157,169,0.6) !important;\n}\n.card-header-mine{\r\n    height:50px !important;\n}\n@media (max-width: 767px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:0px;\r\n    margin-left:100px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n.list-group-item-card{\r\n    margin-left:100px;\n}\n.btn-text{\r\n    margin-left:100px;\n}\n}\n@media (min-width: 768px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:-50px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n}\n.list-group-item-card{\r\n    font-size:16px;\r\n    color:white;\n}\n.card-body{\r\n    margin-bottom:-4px !important;\n}\n.btn-per {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-per:hover,\r\n.btn-per:focus,\r\n.btn-per.focus {\r\n    background-color: rgb(108, 117,125);\r\n    border-color: #859da9;\r\n    color: #FFFFFF;\n}\n.btn-per:not(:disabled):not(.disabled):active,\r\n.btn-per:not(:disabled):not(.disabled).active,\r\n.show>.btn-per.dropdown-toggle {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-text{\r\n    font-size:18px;\r\n    color:white;\n}\r\n", ""]);
 
 // exports
 
@@ -72854,6 +72769,257 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-6 offset-md-1" }, [
+            _c("h4", { staticClass: "title-mine" }, [
+              _vm._v("FINANZAS INTELIGENTES")
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              { staticClass: "text-justify", staticStyle: { color: "white" } },
+              [
+                _vm._v(
+                  "Ofrecemos servicios de administración de E.I.C.,\r\n                    asesoría y consultoría en finanzas personales, corporativas e institucionales.\r\n                "
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c("small", { staticStyle: { color: "white" } }, [
+              _vm._v(
+                "Acceso a portafolios de inversión Premium para el pequeño y mediano inversionista."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm" }, [
+            _c(
+              "div",
+              {
+                staticClass: "accordion float-right mt-2",
+                attrs: { id: "accordionExample" }
+              },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "card-header card-header-mine",
+                      attrs: { id: "headingOne" }
+                    },
+                    [
+                      _c("h2", { staticClass: "mb-0" }, [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-link",
+                            attrs: {
+                              type: "button",
+                              "data-toggle": "collapse",
+                              "data-target": "#collapseOne",
+                              "aria-expanded": "true",
+                              "aria-controls": "collapseOne"
+                            }
+                          },
+                          [
+                            _c("h5", { staticClass: "card-title-mine" }, [
+                              _vm._v(" Explorar fondos")
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "collapse show",
+                      attrs: {
+                        id: "collapseOne",
+                        "aria-labelledby": "headingOne",
+                        "data-parent": "#accordionExample"
+                      }
+                    },
+                    [
+                      _c("ul", { staticClass: "list-unstyled" }, [
+                        _c("li", { staticClass: "list-group-item-card" }, [
+                          _c(
+                            "a",
+                            {
+                              staticStyle: { color: "white" },
+                              attrs: { href: "/mutual" }
+                            },
+                            [_vm._v("Fondos Mutual")]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("li", { staticClass: "list-group-item-card" }, [
+                          _c(
+                            "a",
+                            {
+                              staticStyle: { color: "white" },
+                              attrs: { href: "/FI" }
+                            },
+                            [_vm._v("Fondo Inmobiliario")]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("li", { staticClass: "list-group-item-card" }, [
+                          _c(
+                            "a",
+                            {
+                              staticStyle: { color: "white" },
+                              attrs: { href: "/riskcapital" }
+                            },
+                            [_vm._v("Capital de riesgo")]
+                          )
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "card-header card-header-mine",
+                      attrs: { id: "headingTwo" }
+                    },
+                    [
+                      _c("h2", { staticClass: "mb-0" }, [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-link collapsed",
+                            attrs: {
+                              type: "button",
+                              "data-toggle": "collapse",
+                              "data-target": "#collapseTwo",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseTwo"
+                            }
+                          },
+                          [
+                            _c("h5", { staticClass: "card-title-mine" }, [
+                              _vm._v("Explorar servicios")
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "collapse",
+                      attrs: {
+                        id: "collapseTwo",
+                        "aria-labelledby": "headingTwo",
+                        "data-parent": "#accordionExample"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("ul", { staticClass: "list-unstyled" }, [
+                          _c("li", { staticClass: "list-group-item-card" }, [
+                            _vm._v("Administración E.I.C")
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "list-group-item-card" }, [
+                            _vm._v("Asesoría financiera")
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "list-group-item-card" }, [
+                            _vm._v("Estructuración")
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "list-group-item-card" }, [
+                            _vm._v("Ingeniería financiera")
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "card-header card-header-mine",
+                      attrs: { id: "headingThree" }
+                    },
+                    [
+                      _c("h2", { staticClass: "mb-0" }, [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-link collapsed",
+                            attrs: {
+                              type: "button",
+                              "data-toggle": "collapse",
+                              "data-target": "#collapseThree",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseThree"
+                            }
+                          },
+                          [
+                            _c(
+                              "h5",
+                              { staticClass: "card-title-mine float-left" },
+                              [_vm._v("Preguntas frecuentes")]
+                            )
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("button", { staticClass: "btn btn-per btn-lg btn-block" }, [
+                  _c("h6", { staticClass: "btn-text" }, [_vm._v(" Suscríbete")])
+                ])
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Slider.vue?vue&type=template&id=2e4e6d9c&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Slider.vue?vue&type=template&id=2e4e6d9c& ***!
@@ -72886,58 +73052,20 @@ var render = function() {
                 "background-image": "url(img/content/landing/slide-1.jpg)"
               }
             },
-            [
-              _c("br"),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "container" },
-                [
-                  _c(
-                    "b-col",
-                    {
-                      staticClass: "float-right",
-                      attrs: { cols: "4", md: "4", sm: "3" }
-                    },
-                    [
-                      _c(
-                        "b-list-group",
-                        {
-                          staticClass: "text-light list-group-mine",
-                          staticStyle: { "background-color": "transparent" }
-                        },
-                        [
-                          _c(
-                            "b-list-group-item",
-                            {
-                              attrs: { align: "left" },
-                              on: { click: _vm.faq }
-                            },
-                            [_c("strong", [_vm._v(">")]), _vm._v(" FAQ")]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-list-group-item",
-                            {
-                              staticStyle: {
-                                "text-align": "left",
-                                color: "white"
-                              },
-                              attrs: { align: "left" },
-                              on: { click: _vm.services }
-                            },
-                            [_c("strong", [_vm._v(">")]), _vm._v(" Servicios")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ]
+            [_c("br"), _vm._v(" "), _c("slide-content")],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "swiper-slide",
+              staticStyle: {
+                "background-image": "url(img/content/landing/slide-2.jpg)"
+              }
+            },
+            [_c("br"), _vm._v(" "), _c("slide-content")],
+            1
           )
         ]
       ),
@@ -88616,6 +88744,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Contact', __webpack_requir
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Numbers', __webpack_require__(/*! ./components/main/Numbers.vue */ "./resources/js/components/main/Numbers.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Logos', __webpack_require__(/*! ./components/main/Logos.vue */ "./resources/js/components/main/Logos.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Ethics', __webpack_require__(/*! ./components/main/Ethics.vue */ "./resources/js/components/main/Ethics.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('SlideContent', __webpack_require__(/*! ./components/main/SlideContent.vue */ "./resources/js/components/main/SlideContent.vue")["default"]);
 /* Faq components */
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Questions', __webpack_require__(/*! ./components/faq/Questions.vue */ "./resources/js/components/faq/Questions.vue")["default"]);
@@ -89389,6 +89518,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Numbers_vue_vue_type_template_id_62d074c2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/main/SlideContent.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/main/SlideContent.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SlideContent.vue?vue&type=template&id=68277883& */ "./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/main/SlideContent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SlideContent.vue?vue&type=template&id=68277883& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/SlideContent.vue?vue&type=template&id=68277883&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SlideContent_vue_vue_type_template_id_68277883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
