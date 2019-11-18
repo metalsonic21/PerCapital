@@ -21,26 +21,6 @@
 
 <script>
 export default {
-    methods: {
-        faq() {
-            axios.get('/faq')
-
-                .then(res => {
-                    window.location = "/faq";
-                })
-        },
-        services() {
-            axios.get('/services')
-
-                .then(res => {
-                    window.location = "/services";
-                })
-        }
-    },
-
-    mounted() {
-        console.log('Slider');
-    }
 }
 </script>
 

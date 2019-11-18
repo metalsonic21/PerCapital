@@ -72992,9 +72992,18 @@ var staticRenderFns = [
                           },
                           [
                             _c(
-                              "h5",
-                              { staticClass: "card-title-mine float-left" },
-                              [_vm._v("Preguntas frecuentes")]
+                              "a",
+                              {
+                                staticStyle: { color: "white" },
+                                attrs: { href: "/faq" }
+                              },
+                              [
+                                _c(
+                                  "h5",
+                                  { staticClass: "card-title-mine float-left" },
+                                  [_vm._v("Preguntas frecuentes")]
+                                )
+                              ]
                             )
                           ]
                         )
@@ -73004,7 +73013,18 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("button", { staticClass: "btn btn-per btn-lg btn-block" }, [
-                  _c("h6", { staticClass: "btn-text" }, [_vm._v(" Suscríbete")])
+                  _c(
+                    "a",
+                    {
+                      staticStyle: { color: "white" },
+                      attrs: { href: "/register" }
+                    },
+                    [
+                      _c("h6", { staticClass: "btn-text" }, [
+                        _vm._v(" Suscríbete")
+                      ])
+                    ]
+                  )
                 ])
               ]
             )

@@ -51,13 +51,13 @@
                         <div class="card-header card-header-mine" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h5 class="card-title-mine float-left">Preguntas frecuentes</h5>
+                                <a href="/faq" style="color:white"><h5 class="card-title-mine float-left">Preguntas frecuentes</h5></a>
                                 </button>
                             </h2>
                         </div>
                     </div>
                     <button class="btn btn-per btn-lg btn-block">
-                        <h6 class="btn-text"> Suscríbete</h6>
+                       <a href="/register" style="color:white;"> <h6 class="btn-text"> Suscríbete</h6></a>
                     </button>
                 </div>
             </div>
