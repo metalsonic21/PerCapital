@@ -378,7 +378,8 @@
 }
 
 .top-bar-info {
-    padding: 0
+    padding: 0;
+    font-family:Gotham;
 }
 
 .top-bar-info li {
@@ -578,10 +579,11 @@
 .article-block {
     margin-top: 15px;
     text-align: center;
-    padding: 45px;
+    padding: 15px;
     border: 1px solid #ececec;
     border-radius: 10px;
-    transition-duration: .3s
+    transition-duration: .3s;
+    max-height:500px;
 }
 
 .article-block i {

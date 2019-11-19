@@ -46,6 +46,6 @@ export default {
 
 <style>
 .modal-text {
-    font-size: 13px;
+    font-size: 12px;
 }
 </style>

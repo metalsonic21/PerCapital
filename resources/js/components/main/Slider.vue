@@ -1,15 +1,20 @@
 <template>
 <div>
     <div class="swiper-container">
-        <div class="swiper-wrapper" data-swiper-autoplay="2000">
+                <div class="mytest">
+                </div>
+        <div class="swiper-wrapper" data-swiper-autoplay="3000">
 
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-1.jpg)"> <br>
-                <slide-content></slide-content>
+                                <slide-content></slide-content>
+
             </div>
             
             <div class="swiper-slide" style="background-image:url(img/content/landing/slide-2.jpg)"> <br>
-                <slide-content></slide-content>
+                                <slide-content></slide-content>
+
             </div>
+    
 
         </div>
         <div class="swiper-pagination"></div>
@@ -25,6 +30,12 @@ export default {
 </script>
 
 <style>
+.mytest {
+	position: absolute;
+    left: 130px;
+    top: 70px;
+	z-index: 2;
+}
 .bg-secondary {
     background-color: rgba(108, 117, 125, 0.6) !important;
 }

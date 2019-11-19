@@ -1,6 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.home')
 
 @section('content')
-    <disclaimer></disclaimer>
     <Home></Home>
 @endsection

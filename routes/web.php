@@ -18,11 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/faq', 'FAQController@index')->name('faq');
-Route::get('/team', 'TeamController@index')->name('team');
+//Route::get('/faq', 'FAQController@index')->name('faq');
+//Route::get('/team', 'TeamController@index')->name('team');
 Route::get('/mutual', 'MutualController@index')->name('mutual');
 Route::get('/FI', 'FIController@index')->name('FI');
 Route::get('/riskcapital', 'RiskCapitalController@index')->name('riskcapital');
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/about', 'AboutController@index')->name('about');
-Route::get('/corporate', 'CorporateGovController@index')->name('corporate');
+//Route::get('/corporate', 'CorporateGovController@index')->name('corporate');

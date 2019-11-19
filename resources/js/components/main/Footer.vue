@@ -9,19 +9,6 @@
             <div class="float-left">
                 <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" alt="LOGO" style="width:200px;height:50px;">
                 <br>
-                <div class="container footer-social">
-                    <div class="row">
-                        <div class="col-sm-1">
-                            <a href="#" class="social-link"><i class="fa fa-facebook"></i></a>
-                        </div>
-                        <div class="col-sm-1">
-                            <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
-                        </div>
-                        <div class="col-sm-1">
-                            <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Copyright -->
                 <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
@@ -129,6 +116,15 @@
             <!-- Grid row -->
 
         </div>
+
+        <div class="container footer-social">
+        <div class="d-flex flex-row-reverse">
+            <div class="p-2"><i class="fa fa-twitter fa-2x"></i></div>
+            <div class="p-2"><i class="fa fa-instagram fa-2x"></i></div>
+            <div class="p-2"><i class="fa fa-facebook fa-2x"></i></div>
+
+        </div>
+        </div>
         <!-- Footer Links -->
         <div class="container">
             <div class="text-center py-3" style="color:white">
@@ -198,9 +194,7 @@ export default {
 }
 
 .footer-social {
-    margin-top: 5px;
-    margin: auto;
-    width: 50%;
+    margin-top: -35px;
 }
 
 .social-link {

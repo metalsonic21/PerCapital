@@ -1,9 +1,9 @@
 <template>
-<div class="animated fadeInRight">
+<div class="animated fadeInRight" id="corporate">
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="navy-line-2"></div>
+                <div class="navy-line-2" style="margin-top:40px;"></div>
                 <h1 class="title-mine text-center">GOBIERNO CORPORATIVO</h1>
 
                 <div class=text-content>

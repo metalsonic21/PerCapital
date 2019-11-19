@@ -253,7 +253,7 @@
                             <div class="row justify-content-center">
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                     <button type="button" class="btn btn-secondary btn-title" style="margin-top:1px;">Prospecto</button>
-                                    <button type="button" class="btn btn-secondary ml-2 btn-title">Suscribirse</button>
+                                    <a href="/register" class="btn btn-secondary ml-2 btn-title">Suscribirse</a>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 <template>
-<div>    
+<div id="faq">
     <b-container>
         <div class="row">
             <div class="col-lg-12">
@@ -29,7 +29,6 @@
                                 <div id="faq1" class="panel-collapse collapse ">
                                     <div class="faq-answer">
                                         <p>
-
                                             Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.
                                         </p>
                                         <br>
@@ -106,16 +105,16 @@
                                         <p>
 
                                             Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.
-
                                         </p>
 
                                         <p>
                                             Pueden constituir patrimonio mediante fideicomiso.
                                         </p>
-                                        Inversionistas son personas naturales o jurídicas con unidades de inversión.
+                                        <p>
+                                            Inversionistas son personas naturales o jurídicas con unidades de inversión.
+                                        </p>
                                         <p>
                                             Unidades de Inversión son acciones, cuotas, participaciones u otro instrumento que emite la E.I.C.
-
                                         </p>
 
                                         <p> <strong>Características</strong> </p>
@@ -172,6 +171,7 @@
                                                 <li>Los que hayan sido emitidos o avalados por la República u otras instituciones de derecho público</li>
                                                 <li>Que hayan sido emitidos de conformidad con la Ley del Banco Central de Venezuela</li>
                                                 <li>Los que hayan sido emitidos por instituciones regidas por la Ley General de Bancos y otras Instituciones Financieras</li>
+                                                <li>Los emitidos de acuerdo a la Ley del Sistema Nacional de Ahorro y Préstamo</li>
                                             </ul>
                                         </p>
 
@@ -259,7 +259,6 @@
                                         </p>
                                         <p>
                                             Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.
-
                                         </p>
                                     </div>
                                 </div>
@@ -333,8 +332,9 @@
                                         <p>
                                             <strong>Inversionistas:</strong>
                                             <ul>
-                                                <li>Comisión: 8%</li>
+                                                <li>Comisión de entrada: 2.5% al suscribir</li>
                                                 <li>Comisión de salida: 0%</li>
+                                                <li>Comisión de administración 5.0% trimestral</li>
                                             </ul>
                                         </p>
 
@@ -376,6 +376,29 @@
                         </div>
                     </div>
 
+                    <div class="faq-item">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <a data-toggle="collapse" href="#faq11" class="faq-question">¿Qué requisitos debo presentar si soy un inversionista extranjero (no residente)?</a>
+                            </div>
+                            <div class="col-md-3 offset-md-2">
+                                <div class="tag-list">
+                                    <span class="tag-item">General</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="faq11" class="panel-collapse collapse">
+                                    <div class="faq-answer">
+                                        <p>
+                                            Todo inversionista extranjero, bien sea Persona Natural o Jurídica debe solicitar al SENIAT un “RIF de No Residente” al correo <strong>intriint@seniat.gob.ve</strong> y presentarlo adicional a los recaudos generales. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -391,7 +414,7 @@ export default {
 </script>
 
 <style>
-    .faq-item-mine{
-        margin-top: -50px;
-    }
+.faq-item-mine {
+    margin-top: -50px;
+}
 </style>

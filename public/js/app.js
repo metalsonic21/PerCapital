@@ -2257,6 +2257,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2708,10 +2731,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2952,65 +2971,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -3045,23 +3005,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({
-  methods: {
-    faq: function faq() {
-      axios.get('/faq').then(function (res) {
-        window.location = "/faq";
-      });
-    },
-    services: function services() {
-      axios.get('/services').then(function (res) {
-        window.location = "/services";
-      });
-    }
-  },
-  mounted: function mounted() {
-    console.log('Slider');
-  }
-});
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -3210,6 +3159,8 @@ function initSmoothScrolling(container, animation) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -4513,6 +4464,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37329,7 +37287,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.faq-item-mine{\n    margin-top: -50px;\n}\n", ""]);
+exports.push([module.i, "\n.faq-item-mine {\r\n    margin-top: -50px;\n}\r\n", ""]);
 
 // exports
 
@@ -37367,7 +37325,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.modal-text {\r\n    font-size: 13px;\n}\r\n", ""]);
+exports.push([module.i, "\n.modal-text {\r\n    font-size: 12px;\n}\r\n", ""]);
 
 // exports
 
@@ -37386,7 +37344,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.page-footer {\r\n    background-color: #000030;\r\n    font-size: 14px;\n}\n.list-footer {\r\n    color: white;\n}\n.footer-social {\r\n    margin-top: 5px;\r\n    margin: auto;\r\n    width: 50%;\n}\n.social-link {\r\n    color: #859da9;\r\n    text-decoration: none;\r\n    background-color: none;\n}\n.footer-copyright {\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\n@media screen and (max-width: 1200px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 16px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\n}\n@media screen and (max-width: 780px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 11px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\nfooter .float-left {\r\n        float: none !important;\n}\n}\n.row:before,\r\n.row:after {\r\n    display: none !important;\n}\r\n", ""]);
+exports.push([module.i, "\n.page-footer {\r\n    background-color: #000030;\r\n    font-size: 14px;\n}\n.list-footer {\r\n    color: white;\n}\n.footer-social {\r\n    margin-top: -35px;\n}\n.social-link {\r\n    color: #859da9;\r\n    text-decoration: none;\r\n    background-color: none;\n}\n.footer-copyright {\r\n    margin-top: -3%;\r\n    margin-bottom: -3%;\n}\n@media screen and (max-width: 1200px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 16px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\n}\n@media screen and (max-width: 780px) {\nfooter h5,\r\n    footer ul li a {\r\n        font-size: 11px;\n}\nfooter .row {\r\n        flex-wrap: unset;\n}\nfooter .float-left {\r\n        float: none !important;\n}\n}\n.row:before,\r\n.row:after {\r\n    display: none !important;\n}\r\n", ""]);
 
 // exports
 
@@ -37406,6 +37364,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "\n.myullandingp li {\r\n    color: #ffffff;\n}\r\n\r\n/*INDICATORS*/\n.list-group-mine .list-group-item {\r\n    background-color: transparent;\r\n    border-top-color: transparent;\r\n    border-bottom: 1px solid #859da9;\r\n    border-left-color: transparent;\r\n    border-right-color: transparent;\n}\n.list-group-mine .list-group-item:hover {\r\n    background-color: #859da9;\n}\n.fa-lock {\r\n    color: black;\n}\n.fa-money {\r\n    color: black;\n}\n.fa-bar-chart {\r\n    color: black;\n}\n.grey-section-mine{\r\n    margin-top: -175px;\n}\n.features-mine{\r\n    margin-top: -5%;\n}\n.row-team{\r\n    margin-top: -3%;\n}\n.comments-mine{\r\n    margin-top: -3%;\n}\n.row-team{\r\n    margin-bottom: -3%;\n}\n.article-landing{\r\n    height:450px;\n}\n.h4-mine {\r\n    font-size: 80%;\n}\n.h5-mine {\r\n    font-size: 80%;\r\n    color: black;\n}\r\n\r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\n.feature-cards{\r\n    margin-top: -7%;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n    \r\n/* Three image containers (use 25% for four, and 50% for two, etc) */\n.column {\r\n    float: left;\r\n    width: 25%;\r\n    padding: -100px;\n}\r\n\r\n/* Clear floats after image containers */\n.row::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\n}\n.logof-mine{\r\n    width:120px;\r\n    height:120px;\n}\r\n", ""]);
 
 // exports
 
@@ -37443,7 +37420,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.bg-secondary {\r\n    background-color: rgba(108, 117, 125, 0.6) !important;\n}\n.card{\r\n    width:400px;\r\n    background-color: rgba(133,157,169,0.6) !important;\n}\n.card-header-mine{\r\n    height:50px !important;\n}\n@media (max-width: 767px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:0px;\r\n    margin-left:100px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n.list-group-item-card{\r\n    margin-left:100px;\n}\n.btn-text{\r\n    margin-left:100px;\n}\n}\n@media (min-width: 768px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:-50px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n}\n.list-group-item-card{\r\n    font-size:16px;\r\n    color:white;\n}\n.card-body{\r\n    margin-bottom:-4px !important;\n}\n.btn-per {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-per:hover,\r\n.btn-per:focus,\r\n.btn-per.focus {\r\n    background-color: rgb(108, 117,125);\r\n    border-color: #859da9;\r\n    color: #FFFFFF;\n}\n.btn-per:not(:disabled):not(.disabled):active,\r\n.btn-per:not(:disabled):not(.disabled).active,\r\n.show>.btn-per.dropdown-toggle {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-text{\r\n    font-size:18px;\r\n    color:white;\n}\r\n", ""]);
+exports.push([module.i, "\n.mytest {\r\n\tposition: absolute;\r\n    left: 130px;\r\n    top: 70px;\r\n\tz-index: 2;\n}\n.bg-secondary {\r\n    background-color: rgba(108, 117, 125, 0.6) !important;\n}\n.card{\r\n    width:400px;\r\n    background-color: rgba(133,157,169,0.6) !important;\n}\n.card-header-mine{\r\n    height:50px !important;\n}\n@media (max-width: 767px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:0px;\r\n    margin-left:100px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n.list-group-item-card{\r\n    margin-left:100px;\n}\n.btn-text{\r\n    margin-left:100px;\n}\n}\n@media (min-width: 768px) {\n.card-title-mine{\r\n    color:white !important;\r\n    margin-top:-50px;\r\n    font-family: Gotham;\r\n    font-size:14px;\n}\n}\n.list-group-item-card{\r\n    font-size:16px;\r\n    color:white;\n}\n.card-body{\r\n    margin-bottom:-4px !important;\n}\n.btn-per {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-per:hover,\r\n.btn-per:focus,\r\n.btn-per.focus {\r\n    background-color: rgb(108, 117,125);\r\n    border-color: #859da9;\r\n    color: #FFFFFF;\n}\n.btn-per:not(:disabled):not(.disabled):active,\r\n.btn-per:not(:disabled):not(.disabled).active,\r\n.show>.btn-per.dropdown-toggle {\r\n    color: #fff;\r\n    background-color: #859da9;\r\n    border-color: #859da9;\n}\n.btn-text{\r\n    font-size:18px;\r\n    color:white;\n}\r\n", ""]);
 
 // exports
 
@@ -37481,7 +37458,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.about-mine {\r\n    margin-bottom: -1%;\r\n    margin-top: 5px;\n}\n.article-mine {\r\n    height: 650px;\n}\r\n", ""]);
+exports.push([module.i, "\n.about-mine {\r\n    margin-bottom: 2%;\r\n    margin-top: 5px;\n}\n.article-mine {\r\n    height: 650px;\n}\r\n", ""]);
 
 // exports
 
@@ -37595,7 +37572,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.features{\n    margin-top:-4%;\n}\n", ""]);
+exports.push([module.i, "\n.features {\r\n    margin-top: -4%;\n}\r\n", ""]);
 
 // exports
 
@@ -69238,6 +69215,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Logos.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Numbers.vue?vue&type=style&index=0&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/main/Numbers.vue?vue&type=style&index=0&lang=css& ***!
@@ -70202,6 +70209,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { attrs: { id: "faq" } },
     [
       _c("b-container", [
         _c("div", { staticClass: "row" }, [
@@ -70259,7 +70267,7 @@ var render = function() {
                         _c("div", { staticClass: "faq-answer" }, [
                           _c("p", [
                             _vm._v(
-                              "\r\n\r\n                                            Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.\r\n                                        "
+                              "\r\n                                            Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.\r\n                                        "
                             )
                           ]),
                           _vm._v(" "),
@@ -70463,7 +70471,7 @@ var render = function() {
                         _c("div", { staticClass: "faq-answer" }, [
                           _c("p", [
                             _vm._v(
-                              "\r\n\r\n                                            Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.\r\n\r\n                                        "
+                              "\r\n\r\n                                            Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.\r\n                                        "
                             )
                           ]),
                           _vm._v(" "),
@@ -70472,12 +70480,16 @@ var render = function() {
                               "\r\n                                            Pueden constituir patrimonio mediante fideicomiso.\r\n                                        "
                             )
                           ]),
-                          _vm._v(
-                            "\r\n                                        Inversionistas son personas naturales o jurídicas con unidades de inversión.\r\n                                        "
-                          ),
+                          _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "\r\n                                            Unidades de Inversión son acciones, cuotas, participaciones u otro instrumento que emite la E.I.C.\r\n\r\n                                        "
+                              "\r\n                                            Inversionistas son personas naturales o jurídicas con unidades de inversión.\r\n                                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Unidades de Inversión son acciones, cuotas, participaciones u otro instrumento que emite la E.I.C.\r\n                                        "
                             )
                           ]),
                           _vm._v(" "),
@@ -70628,6 +70640,12 @@ var render = function() {
                               _c("li", [
                                 _vm._v(
                                   "Los que hayan sido emitidos por instituciones regidas por la Ley General de Bancos y otras Instituciones Financieras"
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Los emitidos de acuerdo a la Ley del Sistema Nacional de Ahorro y Préstamo"
                                 )
                               ])
                             ])
@@ -70807,7 +70825,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "\r\n                                            Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.\r\n\r\n                                        "
+                              "\r\n                                            Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.\r\n                                        "
                             )
                           ])
                         ])
@@ -70941,9 +70959,17 @@ var render = function() {
                             _c("strong", [_vm._v("Inversionistas:")]),
                             _vm._v(" "),
                             _c("ul", [
-                              _c("li", [_vm._v("Comisión: 8%")]),
+                              _c("li", [
+                                _vm._v("Comisión de entrada: 2.5% al suscribir")
+                              ]),
                               _vm._v(" "),
-                              _c("li", [_vm._v("Comisión de salida: 0%")])
+                              _c("li", [_vm._v("Comisión de salida: 0%")]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Comisión de administración 5.0% trimestral"
+                                )
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -71016,6 +71042,58 @@ var render = function() {
                           _c("p", [
                             _vm._v(
                               "\r\n                                            El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.\r\n                                        "
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "faq-item" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-7" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "faq-question",
+                        attrs: { "data-toggle": "collapse", href: "#faq11" }
+                      },
+                      [
+                        _vm._v(
+                          "¿Qué requisitos debo presentar si soy un inversionista extranjero (no residente)?"
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3 offset-md-2" }, [
+                    _c("div", { staticClass: "tag-list" }, [
+                      _c("span", { staticClass: "tag-item" }, [
+                        _vm._v("General")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-12" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "panel-collapse collapse",
+                        attrs: { id: "faq11" }
+                      },
+                      [
+                        _c("div", { staticClass: "faq-answer" }, [
+                          _c("p", [
+                            _vm._v(
+                              "\r\n                                            Todo inversionista extranjero, bien sea Persona Natural o Jurídica debe solicitar al SENIAT un “RIF de No Residente” al correo "
+                            ),
+                            _c("strong", [_vm._v("intriint@seniat.gob.ve")]),
+                            _vm._v(
+                              " y presentarlo adicional a los recaudos generales. "
                             )
                           ])
                         ])
@@ -71279,7 +71357,10 @@ var render = function() {
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-xs-12 col-sm-12 col-md-12 col-lg-12" }, [
-          _c("div", { staticClass: "navy-line" }),
+          _c("div", {
+            staticClass: "navy-line",
+            staticStyle: { "margin-top": "-1px" }
+          }),
           _vm._v(" "),
           _c("h1", { staticClass: "title-mine text-center" }, [
             _vm._v("CÓDIGO DE CONDUCTA Y ÉTICA EMPRESARIAL")
@@ -71361,11 +71442,11 @@ var staticRenderFns = [
     return _c("div", { staticClass: "text-content" }, [
       _c("p", { staticClass: "text-justify" }, [
         _vm._v(
-          '\n                        Este Código global de conducta y ética empresarial ("Código") rige el compromiso general de PER CAPITAL de llevar a cabo sus actividades comerciales de la manera más alta ética y profesional, poniendo los intereses del inversionista primero. La reputación de integridad de PER CAPITAL es uno de sus activos más importantes y es fundamental para el éxito de su negocio. Si bien este Código cubre una amplia gama de actividades, prácticas y procedimientos comerciales, no cubre todos los problemas que puedan surgir en el curso de las numerosas actividades comerciales de PER CAPITAL. Más bien, establece principios básicos diseñados para guiar a los empleados y directores de PER CAPITAL. Se espera que los consultores y los trabajadores eventuales, contractuales o temporales cumplan con los principios de este Código y las políticas aplicables a su ubicación, función y estado.\n'
+          '\r\n                        Este Código global de conducta y ética empresarial ("Código") rige el compromiso general de PER CAPITAL de llevar a cabo sus actividades comerciales de la manera más alta ética y profesional, poniendo los intereses del inversionista primero. La reputación de integridad de PER CAPITAL es uno de sus activos más importantes y es fundamental para el éxito de su negocio. Si bien este Código cubre una amplia gama de actividades, prácticas y procedimientos comerciales, no cubre todos los problemas que puedan surgir en el curso de las numerosas actividades comerciales de PER CAPITAL. Más bien, establece principios básicos diseñados para guiar a los empleados y directores de PER CAPITAL. Se espera que los consultores y los trabajadores eventuales, contractuales o temporales cumplan con los principios de este Código y las políticas aplicables a su ubicación, función y estado.\r\n                        '
         ),
         _c("br"),
         _vm._v(
-          "\nCada empleado y director de PER CAPITAL, cualquiera que sea su posición, es responsable de mantener altos estándares éticos y profesionales y debe tratar de evitar incluso la apariencia de un comportamiento inapropiado. Cualquier violación de este Código puede dar lugar a medidas disciplinarias en la medida permitida por la ley aplicable. Cualquier empleado que tenga conocimiento de una violación real o potencial de este Código u otra política de PER CAPITAL debe informar inmediatamente cualquier conducta ilegal o poco éticas.\n\n                    "
+          "\r\n                        Cada empleado y director de PER CAPITAL, cualquiera que sea su posición, es responsable de mantener altos estándares éticos y profesionales y debe tratar de evitar incluso la apariencia de un comportamiento inapropiado. Cualquier violación de este Código puede dar lugar a medidas disciplinarias en la medida permitida por la ley aplicable. Cualquier empleado que tenga conocimiento de una violación real o potencial de este Código u otra política de PER CAPITAL debe informar inmediatamente cualquier conducta ilegal o poco éticas.\r\n\r\n                    "
         )
       ])
     ])
@@ -71401,7 +71482,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    \nLas actividades comerciales globales de PER CAPITAL están sujetas a una amplia regulación y supervisión gubernamental y es fundamental que PER CAPITAL y sus empleados cumplan con las leyes, normas y reglamentaciones aplicables, incluidas las relacionadas con el uso de información privilegiada. Se espera que los empleados consulten la guía contenida en el Manual de Cumplimiento y las diversas políticas y procedimientos contenidos en la Biblioteca de Políticas de conformidad con estas leyes y reglamentos, y que busquen el asesoramiento de los supervisores del departamento de Legal y Cumplimiento según sea necesario.\n\n                                "
+                "\r\n\r\n                                    Las actividades comerciales globales de PER CAPITAL están sujetas a una amplia regulación y supervisión gubernamental y es fundamental que PER CAPITAL y sus empleados cumplan con las leyes, normas y reglamentaciones aplicables, incluidas las relacionadas con el uso de información privilegiada. Se espera que los empleados consulten la guía contenida en el Manual de Cumplimiento y las diversas políticas y procedimientos contenidos en la Biblioteca de Políticas de conformidad con estas leyes y reglamentos, y que busquen el asesoramiento de los supervisores del departamento de Legal y Cumplimiento según sea necesario.\r\n\r\n                                "
               )
             ])
           ])
@@ -71432,7 +71513,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    Pueden surgir conflictos de intereses cuando el interés privado de una persona interfiere, o parece interferir, con los intereses de PER CAPITAL, o cuando los intereses de un empleado o la empresa son inconsistentes con los de un cliente o cliente potencial, lo que resulta en el riesgo de daños a los intereses de PER CAPITAL o uno o más de sus clientes. Puede surgir un conflicto, por ejemplo, si un empleado o director, toma una acción o tiene un interés que dificulta que esa persona lleve a cabo sus responsabilidades con PER CAPITAL y / o el cliente de manera objetiva y efectiva, o si dicha persona recibe un beneficio personal indebido, como un préstamo o garantía, como resultado de la posición del individuo en PER CAPITAL. PER CAPITAL ha adoptado políticas, procedimientos y controles diseñados para gestionar conflictos de intereses. Se requiere que los empleados cumplan con estas y otras políticas, procedimientos y controles relacionados con el cumplimiento y que ayuden a mitigar posibles conflictos de intereses al cumplir con el siguiente estándar de conducta:\n"
+                "\r\n                                    Pueden surgir conflictos de intereses cuando el interés privado de una persona interfiere, o parece interferir, con los intereses de PER CAPITAL, o cuando los intereses de un empleado o la empresa son inconsistentes con los de un cliente o cliente potencial, lo que resulta en el riesgo de daños a los intereses de PER CAPITAL o uno o más de sus clientes. Puede surgir un conflicto, por ejemplo, si un empleado o director, toma una acción o tiene un interés que dificulta que esa persona lleve a cabo sus responsabilidades con PER CAPITAL y / o el cliente de manera objetiva y efectiva, o si dicha persona recibe un beneficio personal indebido, como un préstamo o garantía, como resultado de la posición del individuo en PER CAPITAL. PER CAPITAL ha adoptado políticas, procedimientos y controles diseñados para gestionar conflictos de intereses. Se requiere que los empleados cumplan con estas y otras políticas, procedimientos y controles relacionados con el cumplimiento y que ayuden a mitigar posibles conflictos de intereses al cumplir con el siguiente estándar de conducta:\r\n                                    "
               ),
               _c("ul", [
                 _c("li", [
@@ -71460,7 +71541,7 @@ var staticRenderFns = [
                 ])
               ]),
               _vm._v(
-                "\t\nLos conflictos de intereses pueden no ser siempre claros y no es posible describir cada situación en la que pueda surgir un conflicto de intereses; cualquier pregunta con respecto a si existe un conflicto de intereses, junto con cualquier conflicto de intereses real o potencial, debe ser dirigido a gerentes de Legal y Cumplimiento.\n                                "
+                "\r\n                                    Los conflictos de intereses pueden no ser siempre claros y no es posible describir cada situación en la que pueda surgir un conflicto de intereses; cualquier pregunta con respecto a si existe un conflicto de intereses, junto con cualquier conflicto de intereses real o potencial, debe ser dirigido a gerentes de Legal y Cumplimiento.\r\n                                "
               )
             ])
           ])
@@ -71491,11 +71572,11 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                'Las calificaciones mínimas para servir como miembro de la Junta Directiva (cada miembro de la Junta, un "Director") de PER CAPITAL son que una persona demuestre, por logros significativos en su campo, la capacidad de hacer una contribución significativa a La supervisión de la Junta de los negocios y asuntos de PER CAPITAL y el hecho de que una persona tenga un historial impecable y una reputación de conducta honesta y ética tanto en sus actividades profesionales como personales.\n                                    Los empleados y directores que tienen acceso a información confidencial sobre PER CAPITAL, sus clientes o emisores en los que invierte activos de clientes, tienen prohibido usar o compartir esa información para fines de negociación de valores o para cualquier otro propósito, excepto en la conducta adecuada de nuestro negocio. Toda la información no pública sobre PER CAPITAL o cualquiera de nuestros clientes o emisores debe considerarse "información confidencial".\n '
+                'Las calificaciones mínimas para servir como miembro de la Junta Directiva (cada miembro de la Junta, un "Director") de PER CAPITAL son que una persona demuestre, por logros significativos en su campo, la capacidad de hacer una contribución significativa a La supervisión de la Junta de los negocios y asuntos de PER CAPITAL y el hecho de que una persona tenga un historial impecable y una reputación de conducta honesta y ética tanto en sus actividades profesionales como personales.\r\n                                    Los empleados y directores que tienen acceso a información confidencial sobre PER CAPITAL, sus clientes o emisores en los que invierte activos de clientes, tienen prohibido usar o compartir esa información para fines de negociación de valores o para cualquier otro propósito, excepto en la conducta adecuada de nuestro negocio. Toda la información no pública sobre PER CAPITAL o cualquiera de nuestros clientes o emisores debe considerarse "información confidencial".\r\n                                    '
               ),
               _c("br"),
               _vm._v(
-                '\nEl uso de información material no pública en relación con cualquier decisión o recomendación de inversión o para "dar propina" a otros que puedan tomar una decisión de inversión sobre la base de esta información es poco ético e ilegal y podría dar lugar a sanciones civiles y / o penales. De acuerdo con la Política de comercio personal global, los empleados de PER CAPITAL deben realizar una compensación previa de todas las transacciones de valores (excepto ciertos valores exentos). \n\n                                '
+                '\r\n                                    El uso de información material no pública en relación con cualquier decisión o recomendación de inversión o para "dar propina" a otros que puedan tomar una decisión de inversión sobre la base de esta información es poco ético e ilegal y podría dar lugar a sanciones civiles y / o penales. De acuerdo con la Política de comercio personal global, los empleados de PER CAPITAL deben realizar una compensación previa de todas las transacciones de valores (excepto ciertos valores exentos).\r\n\r\n                                '
               )
             ])
           ])
@@ -71526,7 +71607,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    El propósito del entretenimiento y los obsequios en un entorno comercial es crear buena voluntad y buenas relaciones de trabajo, no obtener una ventaja injusta con los clientes o proveedores. Ningún regalo o entretenimiento debe ser ofrecido, dado, provisto o aceptado por ningún empleado de PER CAPITAL o sus familiares inmediatos que compartan el mismo hogar, a menos que:\n"
+                "\r\n                                    El propósito del entretenimiento y los obsequios en un entorno comercial es crear buena voluntad y buenas relaciones de trabajo, no obtener una ventaja injusta con los clientes o proveedores. Ningún regalo o entretenimiento debe ser ofrecido, dado, provisto o aceptado por ningún empleado de PER CAPITAL o sus familiares inmediatos que compartan el mismo hogar, a menos que:\r\n                                    "
               ),
               _c("ul", [
                 _c("li", [_vm._v("No es solicitado")]),
@@ -71586,24 +71667,24 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    Empleados y directores:\n                                    "
+                "\r\n                                    Empleados y directores:\r\n                                    "
               ),
               _c("ul", [
                 _c("li", [
                   _vm._v(
-                    "\nTienen prohibido aprovechar oportunidades personales para ellos que fueron descubiertas mediante el uso de propiedad corporativa, información o posición sin el consentimiento de Legal y Cumplimiento;\n                                        "
+                    "\r\n                                            Tienen prohibido aprovechar oportunidades personales para ellos que fueron descubiertas mediante el uso de propiedad corporativa, información o posición sin el consentimiento de Legal y Cumplimiento;\r\n                                        "
                   )
                 ]),
                 _vm._v(" "),
                 _c("li", [
                   _vm._v(
-                    "\nTienen prohibido usar propiedad corporativa, información o posición para obtener un beneficio personal indebido\t\n                                        "
+                    "\r\n                                            Tienen prohibido usar propiedad corporativa, información o posición para obtener un beneficio personal indebido\r\n                                        "
                   )
                 ]),
                 _vm._v(" "),
                 _c("li", [
                   _vm._v(
-                    "\nNo puede competir con PER CAPITAL ni directa ni indirectamente; y debemos a PER CAPITAL el deber de promover sus intereses legítimos cuando surja la oportunidad de hacerlo.\n                                        "
+                    "\r\n                                            No puede competir con PER CAPITAL ni directa ni indirectamente; y debemos a PER CAPITAL el deber de promover sus intereses legítimos cuando surja la oportunidad de hacerlo.\r\n                                        "
                   )
                 ])
               ])
@@ -71636,7 +71717,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    PER CAPITAL busca superar a su competencia de manera justa y honesta al buscar una ventaja competitiva a través de un rendimiento superior; PER CAPITAL no participa en prácticas comerciales ilegales o poco éticas. PER CAPITAL y sus empleados y directores deben esforzarse por respetar los derechos y tratar de manera justa con los clientes, proveedores y competidores de PER CAPITAL. Específicamente, se prohíbe la siguiente conducta:\n"
+                "\r\n                                    PER CAPITAL busca superar a su competencia de manera justa y honesta al buscar una ventaja competitiva a través de un rendimiento superior; PER CAPITAL no participa en prácticas comerciales ilegales o poco éticas. PER CAPITAL y sus empleados y directores deben esforzarse por respetar los derechos y tratar de manera justa con los clientes, proveedores y competidores de PER CAPITAL. Específicamente, se prohíbe la siguiente conducta:\r\n                                    "
               ),
               _c("ul", [
                 _c("li", [
@@ -71690,7 +71771,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    Los empleados y directores de PER CAPITAL tienen la obligación de confidencialidad con PER CAPITAL y sus clientes. La información confidencial incluye información no pública que podría ser útil para los competidores o que podría dañar a PER CAPITAL o sus clientes, si se divulga, e información no pública que los clientes y otras partes han confiado a PER CAPITAL. La obligación de preservar la información confidencial continúa incluso después de que termine el empleo. Esta obligación no limita a los empleados de informar posibles violaciones de la ley o regulación a un regulador o de hacer divulgaciones bajo las disposiciones de los denunciantes.\n                                "
+                "\r\n                                    Los empleados y directores de PER CAPITAL tienen la obligación de confidencialidad con PER CAPITAL y sus clientes. La información confidencial incluye información no pública que podría ser útil para los competidores o que podría dañar a PER CAPITAL o sus clientes, si se divulga, e información no pública que los clientes y otras partes han confiado a PER CAPITAL. La obligación de preservar la información confidencial continúa incluso después de que termine el empleo. Esta obligación no limita a los empleados de informar posibles violaciones de la ley o regulación a un regulador o de hacer divulgaciones bajo las disposiciones de los denunciantes.\r\n                                "
               )
             ])
           ])
@@ -71721,7 +71802,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    Se requiere que cada empleado informe cualquier conducta ilegal o poco ética de la que tenga conocimiento, incluidos los relacionados con asuntos de contabilidad o auditoría. Los empleados pueden informar sus inquietudes a Legal y Cumplimiento contactando a un Director Gerente en el departamento directamente. PER CAPITAL no tomará represalias ni discriminará a ningún empleado debido a un informe de buena fe. Los empleados tienen derecho a informar directamente a un regulador y pueden hacerlo de forma anónima; los empleados pueden proporcionar divulgaciones protegidas bajo las leyes de denuncia de irregularidades y cooperar voluntariamente con los reguladores, en cada caso sin temor a represalias por parte de PER CAPITAL. Consulte la Política global para informar conductas ilegales o poco éticas y los manuales de cumplimiento locales para obtener detalles adicionales.\n                                "
+                "\r\n                                    Se requiere que cada empleado informe cualquier conducta ilegal o poco ética de la que tenga conocimiento, incluidos los relacionados con asuntos de contabilidad o auditoría. Los empleados pueden informar sus inquietudes a Legal y Cumplimiento contactando a un Director Gerente en el departamento directamente. PER CAPITAL no tomará represalias ni discriminará a ningún empleado debido a un informe de buena fe. Los empleados tienen derecho a informar directamente a un regulador y pueden hacerlo de forma anónima; los empleados pueden proporcionar divulgaciones protegidas bajo las leyes de denuncia de irregularidades y cooperar voluntariamente con los reguladores, en cada caso sin temor a represalias por parte de PER CAPITAL. Consulte la Política global para informar conductas ilegales o poco éticas y los manuales de cumplimiento locales para obtener detalles adicionales.\r\n                                "
               )
             ])
           ])
@@ -71752,7 +71833,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "gov-text text-justify" }, [
               _vm._v(
-                "\n                                    Los empleados y directores deben hacer todo lo posible para proteger los activos de PER CAPITAL y usarlos de manera eficiente. Esta obligación se extiende a la información de propiedad exclusiva de PER CAPITAL, incluida la propiedad intelectual, como secretos comerciales, patentes, marcas comerciales y derechos de autor, así como planes de negocios, marketing y servicios, ideas de ingeniería y fabricación, sistemas, programas de software, diseños, bases de datos, registros, salarios.\n                                "
+                "\r\n                                    Los empleados y directores deben hacer todo lo posible para proteger los activos de PER CAPITAL y usarlos de manera eficiente. Esta obligación se extiende a la información de propiedad exclusiva de PER CAPITAL, incluida la propiedad intelectual, como secretos comerciales, patentes, marcas comerciales y derechos de autor, así como planes de negocios, marketing y servicios, ideas de ingeniería y fabricación, sistemas, programas de software, diseños, bases de datos, registros, salarios.\r\n                                "
               )
             ])
           ])
@@ -71777,7 +71858,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "gov-text text-justify" }, [
             _vm._v(
-              "\n                                    Se requiere que los empleados realicen previamente las contribuciones políticas de acuerdo con la Política de Contribuciones Políticas del país.\n                                "
+              "\r\n                                    Se requiere que los empleados realicen previamente las contribuciones políticas de acuerdo con la Política de Contribuciones Políticas del país.\r\n                                "
             )
           ])
         ])
@@ -71826,34 +71907,6 @@ var staticRenderFns = [
             }),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "container footer-social" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-sm-1" }, [
-                  _c(
-                    "a",
-                    { staticClass: "social-link", attrs: { href: "#" } },
-                    [_c("i", { staticClass: "fa fa-facebook" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-sm-1" }, [
-                  _c(
-                    "a",
-                    { staticClass: "social-link", attrs: { href: "#" } },
-                    [_c("i", { staticClass: "fa fa-twitter" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-sm-1" }, [
-                  _c(
-                    "a",
-                    { staticClass: "social-link", attrs: { href: "#" } },
-                    [_c("i", { staticClass: "fa fa-instagram" })]
-                  )
-                ])
-              ])
-            ]),
             _vm._v(" "),
             _c(
               "div",
@@ -72037,6 +72090,22 @@ var staticRenderFns = [
                   )
                 ])
               ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "container footer-social" }, [
+          _c("div", { staticClass: "d-flex flex-row-reverse" }, [
+            _c("div", { staticClass: "p-2" }, [
+              _c("i", { staticClass: "fa fa-twitter fa-2x" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("i", { staticClass: "fa fa-instagram fa-2x" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("i", { staticClass: "fa fa-facebook fa-2x" })
             ])
           ])
         ]),
@@ -72330,17 +72399,17 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "column" }, [
+        _c("div", { staticClass: "row row-logos" }, [
+          _c("div", { staticClass: "column col-sm-3" }, [
             _c("a", { attrs: { href: "http://www.bcv.org.ve" } }, [
               _c("img", {
-                staticStyle: { width: "75%" },
+                staticClass: "logof-mine",
                 attrs: { src: "/img/content/landing/bcv.png", alt: "BCV" }
               })
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
+          _c("div", { staticClass: "column col-sm-3" }, [
             _c(
               "a",
               {
@@ -72348,15 +72417,17 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
+                  staticClass: "logof-mine",
                   attrs: { src: "/img/content/landing/bdv.png", alt: "BDV" }
                 })
               ]
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
+          _c("div", { staticClass: "column col-sm-3" }, [
             _c("a", { attrs: { href: "http://www.sunaval.gob.ve" } }, [
               _c("img", {
+                staticClass: "logof-mine",
                 attrs: {
                   src: "/img/content/landing/sunaval.png",
                   alt: "Sunaval"
@@ -72365,7 +72436,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
+          _c("div", { staticClass: "column col-sm-3" }, [
             _c(
               "a",
               {
@@ -72373,6 +72444,7 @@ var staticRenderFns = [
               },
               [
                 _c("img", {
+                  staticClass: "logof-mine",
                   attrs: { src: "/img/content/landing/cvv.png", alt: "CVV" }
                 })
               ]
@@ -72449,29 +72521,8 @@ var render = function() {
         _vm._v(" "),
         _vm._m(2),
         _vm._v(" "),
-        _vm._m(3),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-2" }, [
-          _c("div", { staticClass: "ibox " }, [
-            _c(
-              "div",
-              { staticClass: "ibox-title" },
-              [
-                _c("b-link", { attrs: { href: "http://www.bcv.org.ve" } }, [
-                  _c("h5", { staticClass: "text-center" }, [
-                    _c("strong", [_vm._v(" Tasa de cambio")])
-                  ])
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _vm._m(4)
-          ])
-        ])
+        _vm._m(3)
       ]),
-      _vm._v(" "),
-      _vm._m(5),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-lg-2" }, [
@@ -72480,103 +72531,24 @@ var render = function() {
               "div",
               { staticClass: "ibox-title" },
               [
-                _c(
-                  "b-link",
-                  { attrs: { href: "https://www.imf.org/en/Countries/VEN" } },
-                  [
-                    _c("h5", { staticClass: "text-center" }, [
-                      _c("strong", [_vm._v(" Población")])
-                    ])
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _vm._m(6)
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-2" }, [
-          _c("div", { staticClass: "ibox " }, [
-            _c(
-              "div",
-              { staticClass: "ibox-title" },
-              [
-                _c(
-                  "b-link",
-                  { attrs: { href: "https://www.imf.org/en/Countries/VEN" } },
-                  [
-                    _c("h5", { staticClass: "text-center" }, [
-                      _c("strong", [_vm._v(" INPC")])
-                    ])
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _vm._m(7)
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-3" }, [
-          _c("div", { staticClass: "ibox " }, [
-            _c(
-              "div",
-              { staticClass: "ibox-title" },
-              [
                 _c("b-link", { attrs: { href: "http://www.bcv.org.ve" } }, [
                   _c("h5", { staticClass: "text-center" }, [
-                    _c("strong", [_vm._v(" Reservas internacionales")])
+                    _c("strong", [_vm._v(" Tasa de cambio Bs/€")])
                   ])
                 ])
               ],
               1
             ),
             _vm._v(" "),
-            _vm._m(8)
+            _vm._m(4)
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-5" }, [
-          _c("div", { staticClass: "ibox " }, [
-            _c("div", { staticClass: "ibox-title" }, [
-              _c(
-                "h5",
-                { staticClass: "text-center" },
-                [
-                  _c(
-                    "b-link",
-                    {
-                      staticStyle: { color: "#2d2a2a" },
-                      attrs: {
-                        href: "http://www.bolsadecaracas.com/esp/indexF.jsp"
-                      }
-                    },
-                    [_c("strong", [_vm._v("Servicio de la bolsa de valores")])]
-                  ),
-                  _vm._v(" "),
-                  _c("strong", [_vm._v("o ")]),
-                  _vm._v(" "),
-                  _c(
-                    "b-link",
-                    {
-                      staticStyle: { color: "#2d2a2a" },
-                      attrs: {
-                        href: "http://www.bolsadecaracas.com/esp/indexF.jsp"
-                      }
-                    },
-                    [_c("strong", [_vm._v("Variación IBC")])]
-                  )
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _vm._m(9)
-          ])
-        ])
+        _vm._m(5),
+        _vm._v(" "),
+        _vm._m(6),
+        _vm._v(" "),
+        _vm._m(7)
       ])
     ])
   ])
@@ -72598,7 +72570,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "ibox " }, [
         _c("div", { staticClass: "ibox-title" }, [
           _c("h5", { staticClass: "text-center" }, [
-            _c("strong", [_vm._v(" Inflación")])
+            _c("strong", [_vm._v(" Población")])
           ])
         ]),
         _vm._v(" "),
@@ -72614,11 +72586,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-2" }, [
+    return _c("div", { staticClass: "col-lg-4" }, [
       _c("div", { staticClass: "ibox " }, [
         _c("div", { staticClass: "ibox-title" }, [
           _c("h5", { staticClass: "text-center" }, [
-            _c("strong", [_vm._v(" Reservas")])
+            _c("strong", [_vm._v(" Reservas Internacionales")])
           ])
         ]),
         _vm._v(" "),
@@ -72638,7 +72610,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "ibox " }, [
         _c("div", { staticClass: "ibox-title" }, [
           _c("h5", { staticClass: "text-center" }, [
-            _c("strong", [_vm._v(" Masa monetaria")])
+            _c("strong", [_vm._v(" Tasa de cambio Bs/$")])
           ])
         ]),
         _vm._v(" "),
@@ -72662,67 +72634,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-lg-2" }, [
-        _c("div", { staticClass: "ibox " }, [
-          _c("div", { staticClass: "ibox-title" }, [
-            _c("h5", { staticClass: "text-center" }, [
-              _c("strong", [_vm._v(" IBC")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ibox-content" }, [
-            _c("h5", { staticClass: "no-margins text-center" }, [
-              _vm._v("45.502")
-            ])
+    return _c("div", { staticClass: "col-lg-2" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" IBC")])
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-4" }, [
-        _c("div", { staticClass: "ibox " }, [
-          _c("div", { staticClass: "ibox-title" }, [
-            _c("h5", { staticClass: "text-center" }, [
-              _c("strong", [_vm._v(" Deuda interna")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ibox-content" }, [
-            _c("h5", { staticClass: "no-margins text-center" }, [
-              _vm._v("$3.876.000.987")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-4" }, [
-        _c("div", { staticClass: "ibox " }, [
-          _c("div", { staticClass: "ibox-title" }, [
-            _c("h5", { staticClass: "text-center" }, [
-              _c("strong", [_vm._v(" Deuda externa")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ibox-content" }, [
-            _c("h5", { staticClass: "no-margins text-center" }, [
-              _vm._v("$208.765.345.000")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-2" }, [
-        _c("div", { staticClass: "ibox " }, [
-          _c("div", { staticClass: "ibox-title" }, [
-            _c("h5", { staticClass: "text-center" }, [
-              _c("strong", [_vm._v(" Valoración BVC")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ibox-content" }, [
-            _c("h5", { staticClass: "no-margins text-center" }, [
-              _vm._v("+ 4 %")
-            ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("45.502")
           ])
         ])
       ])
@@ -72732,9 +72654,19 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ibox-content" }, [
-      _c("h5", { staticClass: "no-margins text-center" }, [
-        _vm._v("28.067.000")
+    return _c("div", { staticClass: "col-lg-4" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" Cesta OPEP")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("$3.876.000.987")
+          ])
+        ])
       ])
     ])
   },
@@ -72742,24 +72674,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ibox-content" }, [
-      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("4.679,5%")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ibox-content" }, [
-      _c("h5", { staticClass: "no-margins text-center" }, [_vm._v("7.975 mm")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ibox-content" }, [
-      _c("h5", { staticClass: "no-margins text-center" })
+    return _c("div", { staticClass: "col-lg-4" }, [
+      _c("div", { staticClass: "ibox " }, [
+        _c("div", { staticClass: "ibox-title" }, [
+          _c("h5", { staticClass: "text-center" }, [
+            _c("strong", [_vm._v(" Cesta venezolana")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ibox-content" }, [
+          _c("h5", { staticClass: "no-margins text-center" }, [
+            _vm._v("$208.765.345.000")
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -72982,13 +72910,7 @@ var staticRenderFns = [
                           "button",
                           {
                             staticClass: "btn btn-link collapsed",
-                            attrs: {
-                              type: "button",
-                              "data-toggle": "collapse",
-                              "data-target": "#collapseThree",
-                              "aria-expanded": "false",
-                              "aria-controls": "collapseThree"
-                            }
+                            attrs: { type: "button", "aria-expanded": "false" }
                           },
                           [
                             _c(
@@ -73057,11 +72979,13 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "swiper-container" }, [
+      _c("div", { staticClass: "mytest" }),
+      _vm._v(" "),
       _c(
         "div",
         {
           staticClass: "swiper-wrapper",
-          attrs: { "data-swiper-autoplay": "2000" }
+          attrs: { "data-swiper-autoplay": "3000" }
         },
         [
           _c(
@@ -73301,138 +73225,146 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("Team"),
+      _vm._v(" "),
+      _c("Corporate"),
+      _vm._v(" "),
+      _c("Faq")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "about-mine animated fadeInRight",
-          attrs: { id: "empresa" }
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "row" }, [
+    return _c(
+      "div",
+      {
+        staticClass: "about-mine animated fadeInRight",
+        attrs: { id: "empresa" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
+              [
+                _c("div", { staticClass: "main-heading" }, [
+                  _c(
+                    "h3",
+                    {
+                      staticClass: "title-mine",
+                      staticStyle: { "margin-top": "20px" }
+                    },
+                    [_vm._v("¿POR QUÉ PER CAPITAL?")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mt-20 text-content" }, [
+                  _c("p", { staticClass: "text-justify text-secondary" }, [
+                    _vm._v(
+                      "\r\n                            Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor.\r\n                        "
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
               _c(
-                "div",
-                { staticClass: "col-xs-12 col-md-3 col-sm-3 about-section" },
+                "article",
+                { staticClass: "hover-shadow article-block article-mine" },
                 [
-                  _c("div", { staticClass: "main-heading" }, [
-                    _c(
-                      "h3",
-                      {
-                        staticClass: "title-mine",
-                        staticStyle: { "margin-top": "20px" }
-                      },
-                      [_vm._v("¿POR QUÉ PER CAPITAL?")]
+                  _c("h5", { staticClass: "title-mine" }, [
+                    _vm._v(
+                      "ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA"
                     )
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "mt-20 text-content" }, [
-                    _c("p", { staticClass: "text-justify" }, [
-                      _vm._v(
-                        "\r\n                            Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor.\r\n                        "
-                      )
-                    ])
+                  _c("p", { staticClass: "text-justify text-secondary" }, [
+                    _vm._v(
+                      "\r\n                            Desde los Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para su presentación al público.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n\r\n                        "
+                    )
                   ])
                 ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                _c(
-                  "article",
-                  { staticClass: "hover-shadow article-block article-mine" },
-                  [
-                    _c("h5", { staticClass: "title-mine" }, [
-                      _vm._v(
-                        "ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA"
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", { staticClass: "text-justify" }, [
-                      _vm._v(
-                        "\r\n                            Desde los Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para su presentación al público.\r\n                            "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes.\r\n\r\n                        "
-                      )
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                _c(
-                  "article",
-                  { staticClass: "hover-shadow article-block article-mine" },
-                  [
-                    _c("h5", { staticClass: "title-mine" }, [
-                      _vm._v("SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA")
-                    ]),
-                    _vm._v(" "),
-                    _c("p", { staticClass: "text-justify" }, [
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Mantenemos evaluación continua de los activos representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n                            "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n                            "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n\r\n                        "
-                      )
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
-                _c(
-                  "article",
-                  { staticClass: "hover-shadow article-block article-mine" },
-                  [
-                    _c("br"),
-                    _vm._v(" "),
-                    _c(
-                      "h5",
-                      {
-                        staticClass: "title-mine",
-                        staticStyle: { "margin-bottom": "25px" }
-                      },
-                      [_vm._v("EXPERIENCIA Y CONOCIMIENTO")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+              _c(
+                "article",
+                { staticClass: "hover-shadow article-block article-mine" },
+                [
+                  _c("h5", { staticClass: "title-mine" }, [
+                    _vm._v("SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-justify text-secondary" }, [
+                    _vm._v(
+                      "\r\n                            Mantenemos evaluación continua de los activos representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.\r\n                            "
                     ),
-                    _vm._v(" "),
                     _c("br"),
-                    _vm._v(" "),
-                    _c("p", { staticClass: "text-justify" }, [
-                      _vm._v(
-                        "\r\n\r\n                            Nuestro equipo tiene una amplia y exitosa experiencia en las inversiones.\r\n                            "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.\r\n                            "
-                      ),
-                      _c("br"),
-                      _vm._v(
-                        "\r\n                            Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando las disminuciones abruptas de capital.\r\n\r\n                        "
-                      )
-                    ])
-                  ]
-                )
-              ])
+                    _vm._v(
+                      "\r\n                            Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Reportes periódicos son emitidos para mantener informados a nuestros clientes.\r\n\r\n                        "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-xs-12 col-md-3 col-sm-2" }, [
+              _c(
+                "article",
+                { staticClass: "hover-shadow article-block article-mine" },
+                [
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "h5",
+                    {
+                      staticClass: "title-mine",
+                      staticStyle: { "margin-bottom": "25px" }
+                    },
+                    [_vm._v("EXPERIENCIA Y CONOCIMIENTO")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-justify text-secondary" }, [
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Nuestro equipo tiene una amplia y exitosa experiencia en las inversiones.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.\r\n                            "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                            Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando las disminuciones abruptas de capital.\r\n\r\n                        "
+                    )
+                  ])
+                ]
+              )
             ])
           ])
-        ]
-      )
-    ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -73458,7 +73390,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "animated fadeInRight" },
+    { staticClass: "animated fadeInRight", attrs: { id: "corporate" } },
     [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
@@ -73466,7 +73398,10 @@ var render = function() {
             "div",
             { staticClass: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
             [
-              _c("div", { staticClass: "navy-line-2" }),
+              _c("div", {
+                staticClass: "navy-line-2",
+                staticStyle: { "margin-top": "40px" }
+              }),
               _vm._v(" "),
               _c("h1", { staticClass: "title-mine text-center" }, [
                 _vm._v("GOBIERNO CORPORATIVO")
@@ -74704,10 +74639,10 @@ var staticRenderFns = [
             ),
             _vm._v(" "),
             _c(
-              "button",
+              "a",
               {
                 staticClass: "btn btn-secondary ml-2 btn-title",
-                attrs: { type: "button" }
+                attrs: { href: "/register" }
               },
               [_vm._v("Suscribirse")]
             )
@@ -75311,10 +75246,10 @@ var staticRenderFns = [
             ),
             _vm._v(" "),
             _c(
-              "button",
+              "a",
               {
                 staticClass: "btn btn-secondary ml-2 btn-title",
-                attrs: { type: "button" }
+                attrs: { href: "/register" }
               },
               [_vm._v("Suscribirse")]
             )
@@ -75991,10 +75926,10 @@ var staticRenderFns = [
             ),
             _vm._v(" "),
             _c(
-              "button",
+              "a",
               {
                 staticClass: "btn btn-secondary ml-2 btn-title",
-                attrs: { type: "button" }
+                attrs: { href: "/register" }
               },
               [_vm._v("Suscribirse")]
             )
@@ -76188,6 +76123,10 @@ var render = function() {
             ])
           ])
         ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _c("br"),
         _vm._v(" "),
         _vm._m(10)
       ]
@@ -76394,7 +76333,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { attrs: { id: "team" } }, [
     _vm._m(0),
     _vm._v(" "),
     _c(
@@ -76415,9 +76354,15 @@ var render = function() {
                   "b-col",
                   {
                     staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "8", lg: "8", md: "8" }
+                    attrs: { cols: "12", lg: "12", md: "12" }
                   },
                   [
+                    _c("p", { staticClass: "text-justify text-secondary" }, [
+                      _vm._v(
+                        "\r\n                            Nuestra experiencia colectiva de más de 40 años, así como el amplio conocimiento en finanzas, mercados, ingeniería financiera y desarrollo de negocios, te da una ventaja a la hora de elegir la inversión más idónea para ti con el fin de maximizar el potencial de tu capital controlando y minimizando los riesgos asociados.\r\n                        "
+                      )
+                    ]),
+                    _vm._v(" "),
                     _c("h2", { staticClass: "title-mine" }, [
                       _vm._v("GERENTE GENERAL")
                     ]),
@@ -76445,7 +76390,7 @@ var render = function() {
                   "b-col",
                   {
                     staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "8", lg: "8", md: "8" }
+                    attrs: { cols: "12", lg: "12", md: "12" }
                   },
                   [
                     _c("h2", { staticClass: "title-mine" }, [
@@ -76456,7 +76401,7 @@ var render = function() {
                       staticClass: "fa fa-bar-chart big-icon float-right"
                     }),
                     _vm._v(" "),
-                    _c("p", [
+                    _c("p", { staticClass: "text-secondary" }, [
                       _vm._v(
                         "Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo."
                       )
@@ -76475,7 +76420,7 @@ var render = function() {
                   "b-col",
                   {
                     staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "8", lg: "8", md: "8" }
+                    attrs: { cols: "12", lg: "12", md: "12" }
                   },
                   [
                     _c("h2", { staticClass: "title-mine" }, [
@@ -76486,7 +76431,7 @@ var render = function() {
                       staticClass: "fa fa-clock-o big-icon float-right"
                     }),
                     _vm._v(" "),
-                    _c("p", [
+                    _c("p", { staticClass: "text-secondary" }, [
                       _vm._v(
                         "C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros."
                       )
@@ -76505,7 +76450,7 @@ var render = function() {
                   "b-col",
                   {
                     staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "8", lg: "8", md: "8" }
+                    attrs: { cols: "12", lg: "12", md: "12" }
                   },
                   [
                     _c("h2", { staticClass: "title-mine" }, [
@@ -76516,7 +76461,7 @@ var render = function() {
                       staticClass: "fa fa-money big-icon float-right"
                     }),
                     _vm._v(" "),
-                    _c("p", [
+                    _c("p", { staticClass: "text-secondary" }, [
                       _vm._v(
                         "Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital."
                       )
@@ -76535,7 +76480,7 @@ var render = function() {
                   "b-col",
                   {
                     staticClass: "col-lg-offset-1 features-text",
-                    attrs: { cols: "8", lg: "8", md: "8" }
+                    attrs: { cols: "12", lg: "12", md: "12" }
                   },
                   [
                     _c("h2", { staticClass: "title-mine" }, [_vm._v("LEGAL")]),
@@ -76544,7 +76489,7 @@ var render = function() {
                       staticClass: "fa fa-balance-scale big-icon float-right"
                     }),
                     _vm._v(" "),
-                    _c("p", [
+                    _c("p", { staticClass: "text-secondary" }, [
                       _vm._v(
                         "Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos."
                       )
@@ -89398,7 +89343,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Logos.vue?vue&type=template&id=698853bd& */ "./resources/js/components/main/Logos.vue?vue&type=template&id=698853bd&");
 /* harmony import */ var _Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Logos.vue?vue&type=script&lang=js& */ "./resources/js/components/main/Logos.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Logos.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -89406,7 +89353,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Logos_vue_vue_type_template_id_698853bd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -89435,6 +89382,22 @@ component.options.__file = "resources/js/components/main/Logos.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Logos.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Logos.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/main/Logos.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Logos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 

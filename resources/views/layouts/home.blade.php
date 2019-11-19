@@ -98,6 +98,7 @@
 <body class="landing-page">
     <div id="app">
     <header id="header-mine">
+        <disclaimer></disclaimer>
         <Values></Values>
             <div class="my-bg">
             <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
@@ -114,38 +115,39 @@
     
                     <b-navbar-nav class="ml-auto nav-items-mine">
                         <b-nav-item-dropdown text="EMPRESA" class="hoverli" right>
-                                <b-dropdown-item href="/about" class="dropdown-mine">¿Por qué PER CAPITAL?</b-dropdown-item>
-                                <b-dropdown-item href="/about#team" class="dropdown-mine">Equipo</b-dropdown-item>
-                                <b-dropdown-item href="/about#corporate" class="dropdown-mine">Gobierno Corporativo</b-dropdown-item>
-                                <b-dropdown-item href="/#contacto" class="dropdown-mine">Contacto</b-dropdown-item>
-                                <b-dropdown-item href="/about#faq" class="dropdown-mine">FAQ</b-dropdown-item>
+                            <b-dropdown-item href="/about" class="dropdown-mine">¿Por qué PER CAPITAL?</b-dropdown-item>
+                            <b-dropdown-item href="/about#team" class="dropdown-mine">Equipo</b-dropdown-item>
+                            <b-dropdown-item href="/about#corporate" class="dropdown-mine">Gobierno Corporativo</b-dropdown-item>
+                            <b-dropdown-item href="/#contacto" class="dropdown-mine">Contacto</b-dropdown-item>
+                            <b-dropdown-item href="/about#faq" class="dropdown-mine">FAQ</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="FONDOS" right>
+                            <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/FI') }}" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
+                            <b-dropdown-item href="{{ url('/riskcapital') }}" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
+                    <b-nav-item-dropdown text="REPORTES" right>
+                            <b-dropdown-item href="#" class="dropdown-mine">Trimestral</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="HERRAMIENTAS" right>
+                        <b-dropdown-item href="#" class="dropdown-mine">Calculadoras</b-dropdown-item>
+                        <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
+                        <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
+                        <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                        <b-nav-item-dropdown right>
+                        <template slot="button-content">
+                            <i class="fa fa-user"></i>
+                        </template>
+                            <b-dropdown-item href="#" class="dropdown-mine">Institucional</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Privado</b-dropdown-item>
                         </b-nav-item-dropdown>
-                        <b-nav-item-dropdown text="FONDOS" right>
-                                <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
-                                <b-dropdown-item href="{{ url('/FI') }}" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
-                                <b-dropdown-item href="{{ url('/riskcapital') }}" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
-                        </b-nav-item-dropdown>
-                        <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
-                        <b-nav-item-dropdown text="REPORTES" right>
-                                <b-dropdown-item href="#" class="dropdown-mine">Trimestral</b-dropdown-item>
-                                <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
-                        </b-nav-item-dropdown>
-                        <b-nav-item-dropdown text="HERRAMIENTAS" right>
-                            <b-dropdown-item href="#" class="dropdown-mine">Calculadoras</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
-                        </b-nav-item-dropdown>
-                            <b-nav-item-dropdown right>
-                            <template slot="button-content">
-                                <i class="fa fa-user"></i>
-                            </template>
-                                <b-dropdown-item href="#" class="dropdown-mine">Institucional</b-dropdown-item>
-                                <b-dropdown-item href="#" class="dropdown-mine">Privado</b-dropdown-item>
-                            </b-nav-item-dropdown>
-    
-                            <b-nav-item right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
-                            <b-nav-item right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
+
+                        <b-nav-item right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
+                        <b-nav-item right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
+
 
                         <!-- Authentication Links 
                         @guest
