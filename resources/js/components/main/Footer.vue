@@ -31,13 +31,13 @@
                             <a href="/about" class="list-footer">Por qué PER CAPITAL</a>
                         </li>
                         <li>
-                            <a href="/team" class="list-footer">Equipo</a>
+                            <a href="/about#team" class="list-footer">Equipo</a>
                         </li>
                         <li>
-                            <a href="/corporate" class="list-footer">Gobierno Corporativo</a>
+                            <a href="/about#corporate" class="list-footer">Gobierno Corporativo</a>
                         </li>
                         <li>
-                            <a href="/faq" class="list-footer">FAQ</a>
+                            <a href="/about#faq" class="list-footer">FAQ</a>
                         </li>
                     </ul>
 

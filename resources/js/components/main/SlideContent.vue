@@ -51,7 +51,7 @@
                         <div class="card-header card-header-mine" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" aria-expanded="false">
-                                <a href="/faq" style="color:white"><h5 class="card-title-mine float-left">Preguntas frecuentes</h5></a>
+                                <a href="/about#faq" style="color:white"><h5 class="card-title-mine float-left">Preguntas frecuentes</h5></a>
                                 </button>
                             </h2>
                         </div>
