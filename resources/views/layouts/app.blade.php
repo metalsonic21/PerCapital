@@ -32,6 +32,9 @@
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
 
+
+    <!-- Stats -->
+    <link href="{{ asset('/css/chartist.min.css') }}" rel="stylesheet">
     
     <style>
         .navbar-toggler {
@@ -181,11 +184,10 @@
         <div class="footer-mine">
             <footeralt></footeralt>
         </div>
-
-        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
+        <script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
         <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
 
-        <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/wow.min.js') }}" defer></script>
@@ -197,6 +199,14 @@
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/pace.min.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/inspinia.js') }}" defer></script>
+
+
+        <!-- Stats scripts -->
+        <script type="application/javascript" src="{{ asset('js/chartist.min.js') }}" defer></script>
+
+
     </div>
 
 </body>

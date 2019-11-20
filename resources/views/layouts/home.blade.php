@@ -95,6 +95,7 @@
     </style>
 
 </head>
+
 <body class="landing-page">
     <div id="app">
     <header id="header-mine">
@@ -199,7 +200,9 @@
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
+
     </div>
 
 </body>
+
 </html>

@@ -6,20 +6,23 @@
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
 
-            <div class="float-left">
-                <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" alt="LOGO" style="width:200px;height:50px;">
-                <br>
-
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
-                    info@percapital.com
-                    <p>Caracas-Venezuela</p>
-                </div>
-
-            </div>
-
             <!-- Grid row -->
             <div class="row">
+
+                <div class="col-md-3 mx-auto">
+
+                    <div class="float-left">
+                        <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" class="footer-img" alt="LOGO" style="width:200px;height:50px;">
+                        <br>
+
+                        <!-- Copyright -->
+                        <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
+                            info@percapital.com
+                            <p>Caracas-Venezuela</p>
+                        </div>
+
+                    </div>
+                </div>
 
                 <!-- Grid column -->
                 <div class="col-md-3 mx-auto">
@@ -47,7 +50,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
+                <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Fondos</h5>
@@ -69,7 +72,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
+                <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Servicios</h5>
@@ -94,7 +97,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
+                <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Reportes</h5>
@@ -118,12 +121,12 @@
         </div>
 
         <div class="container footer-social">
-        <div class="d-flex flex-row-reverse">
-            <div class="p-2"><i class="fa fa-twitter fa-2x"></i></div>
-            <div class="p-2"><i class="fa fa-instagram fa-2x"></i></div>
-            <div class="p-2"><i class="fa fa-facebook fa-2x"></i></div>
+            <div class="d-flex flex-row-reverse">
+                <div class="p-2"><i class="fa fa-twitter fa-2x"></i></div>
+                <div class="p-2"><i class="fa fa-instagram fa-2x"></i></div>
+                <div class="p-2"><i class="fa fa-facebook fa-2x"></i></div>
 
-        </div>
+            </div>
         </div>
         <!-- Footer Links -->
         <div class="container">
@@ -186,7 +189,7 @@ export default {
 <style>
 .page-footer {
     background-color: #000030;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .list-footer {
@@ -225,7 +228,7 @@ export default {
 
     footer h5,
     footer ul li a {
-        font-size: 11px;
+        font-size: 9px;
     }
 
     footer .row {
@@ -234,6 +237,15 @@ export default {
 
     footer .float-left {
         float: none !important;
+    }
+
+    .footer-img{
+        width: 50px;
+        height:10px;
+    }
+
+    .footer-copyright{
+        font-size:9px;
     }
 }
 

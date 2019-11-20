@@ -24,7 +24,7 @@
         
                     <h2 class="title-mine">GERENTE GENERAL</h2>
                     <i class="fa fa-users big-icon float-right"></i>
-                    <p>Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
+                    <p class="text-secondary">Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.</p>
                 </b-col>
             </div>
 

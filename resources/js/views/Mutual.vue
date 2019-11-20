@@ -193,7 +193,7 @@
                                 <p class="text-justify invest-last invest-p text-dark">Adquiera las unidades de inversión deseadas del fondo seleccionado completando el proceso de cumplimiento y envío de fondos para la adquisición.
                                 </p>
                                 <p class="text-center">
-                                    <b-link class="navy-link" @click="register" role="button">Haga click aquí &raquo;</b-link>
+                                    <a class="navy-link" href="/register">Haga click aquí &raquo;</a>
                                 </p>
                             </div>
                         </div>
@@ -215,6 +215,8 @@
                 </div>
             </div>
         </div>
+
+        <Graph></Graph>
     </section>
 
     <br><br><br>
@@ -223,12 +225,14 @@
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style>
+.ct-label {
+    display: none;
+}
+
 .fondos-mine {
     margin-top: -3%;
     margin-bottom: 3%;

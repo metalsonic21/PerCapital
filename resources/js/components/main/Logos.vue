@@ -42,8 +42,18 @@ export default {
     display: table;
 }
 
+@media (max-width:797px) {
+    .logof-mine{
+        width:120px;
+        height:60px;
+    }
+}
+
+@media (min-width:798px) {
 .logof-mine{
     width:120px;
     height:120px;
+}    
 }
+
 </style>
