@@ -12,13 +12,11 @@
     <script type="application/javascript" src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Favico -->
     <link rel="shortcut icon" href="{{ asset('img/logo/Simbolo-Per-Capital-blanco.png') }}">
     <title>Per Capital</title>
-
-    <!-- Bootstrap CDN -->
 
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -184,9 +182,10 @@
         <div class="footer-mine">
             <footeralt></footeralt>
         </div>
-        <script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
-        <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+        
+        <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
         <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
+        <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
 
         <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
@@ -199,8 +198,6 @@
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/pace.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/inspinia.js') }}" defer></script>
 
 
         <!-- Stats scripts -->

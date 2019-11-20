@@ -111,6 +111,6 @@ export default {
 
 <style>
     .ibox-mine{
-        height:450px;
+        height:480px;
     }
 </style>
