@@ -225,27 +225,22 @@
 </template>
 
 <script>
-
 </script>
 
 <style>
 .ct-label {
     display: none;
 }
-
 .fondos-mine {
     margin-top: -3%;
     margin-bottom: 3%;
 }
-
 .invest {
     margin-top: 40%;
 }
-
 .invest-title {
     color: black;
 }
-
 .invest-items-bg {
     position: relative;
     padding: 20px;
@@ -256,23 +251,19 @@
     font-size: 14px;
     /*height: 475px;*/
 }
-
 .invest-p {
     font-style: italic;
 }
-
 .invest-last {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .navy-line-2 {
     width: 60px;
     height: 1px;
     margin: 9px auto 0;
     border-bottom: 2px solid#859da9;
 }
-
 .navy-line-3 {
     width: 60px;
     height: 1px;

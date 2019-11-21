@@ -30,9 +30,6 @@
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
 
-
-    <!-- Stats -->
-    <link href="{{ asset('/css/chartist.min.css') }}" rel="stylesheet">
     
     <style>
         .navbar-toggler {
@@ -71,9 +68,6 @@
             margin-top: -25px;
         }
 
-        .navbar .navbar-toggle {
-        background-color:#FF0000 !important;
-        }
 
         .navbar-mine{
             font-family:Gotham;
@@ -83,6 +77,18 @@
         .dropdown-mine{
             font-family:Gotham;
             font-size:14px;
+        }
+
+        .dropdown-item:hover{
+            background-color:#859da9 !important;
+        }
+
+        .dropdown-item:focus{
+            background-color:#859da9 !important;
+        }
+
+        .dropdown-item:active{
+            background-color:#859da9 !important; 
         }
 
         .minw-none {
@@ -198,12 +204,6 @@
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
-
-
-        <!-- Stats scripts -->
-        <script type="application/javascript" src="{{ asset('js/chartist.min.js') }}" defer></script>
-
-
     </div>
 
 </body>

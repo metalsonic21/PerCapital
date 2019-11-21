@@ -11,7 +11,7 @@
                             <h5 class="title-mine" align="center"> <strong>Distribución por sector</strong></h5>
                         </div>
                         <div class="ibox-content ibox-mine">
-                            <div id="ct-chart5" class="ct-perfect-fourth"></div>
+                            <img src="/img/content/landing/graph.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -86,24 +86,8 @@
 </template>
 
 <script>
-import Chartist from '../../../../public/js/chartist.min.js';
 export default {
     mounted() {
-        // Simple pie chart
-
-        var data = {
-            series: [1, 1, 3, 1, 3]
-        };
-
-        var sum = function (a, b) {
-            return a + b
-        };
-
-        new Chartist.Pie('#ct-chart5', data, {
-            labelInterpolationFnc: function (value) {
-                return Math.round(value / data.series.reduce(sum) * 100) + '%';
-            }
-        });
 
     }
 }

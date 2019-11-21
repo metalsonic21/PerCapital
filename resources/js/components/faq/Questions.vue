@@ -16,7 +16,7 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq1" class="faq-question">¿Qué es una Sociedad Administradora de E.I.C?</a>
+                                <b-link v-b-toggle.faq-1 class="faq-question">¿Qué es una Sociedad Administradora de E.I.C?</b-link>
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -26,7 +26,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq1" class="panel-collapse collapse ">
+                                <b-collapse id="faq-1" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.
@@ -82,7 +82,7 @@
                                             </ul>
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq2" class="faq-question">¿Qué es una E.I.C?</a>
+                                <b-link v-b-toggle.faq-2 class="faq-question">¿Qué es una E.I.C?</b-link>
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -100,7 +100,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq2" class="panel-collapse collapse">
+                                <b-collapse id="faq-2" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
 
@@ -130,14 +130,15 @@
                                             </ul>
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
+
                             </div>
                         </div>
                     </div>
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq3" class="faq-question">¿Qué es un Fondo Mutual de Capital Abierto?</a>
+                                <b-link v-b-toggle.faq-3 class="faq-question">¿Qué es un Fondo Mutual de Capital Abierto?</b-link>
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -147,7 +148,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq3" class="panel-collapse collapse">
+                                <b-collapse id="faq-3" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Es una E.I.C. que tiene por objeto la inversión en títulos valores, con arreglo al principio de distribución de riesgos.
@@ -179,14 +180,14 @@
                                             Quedan <strong>exentos del impuesto sobre la renta los enriquecimientos netos obtenidos por las entidades de inversión colectiva y del impuesto causado</strong> de acuerdo a lo previsto en la Ley del Impuesto al Activo Empresarial.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq4" class="faq-question">¿Qué es un Fondo Inmobiliario?</a>
+                                <b-link v-b-toggle.faq-4 class="faq-question">¿Qué es un Fondo Inmobiliario?</b-link>
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -196,13 +197,13 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq4" class="panel-collapse collapse">
+                                <b-collapse id="faq-4" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Son aquellos cuyo objeto sea la canalización de recursos hacia proyectos del sector inmobiliario y de bienes raíces.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -210,7 +211,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq5" class="faq-question">¿Por que debería invertir en PER CAPITAL?</a>
+                                <b-link v-b-toggle.faq-5 class="faq-question">¿Por que debería invertir en PER CAPITAL?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -221,7 +223,8 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq5" class="panel-collapse collapse">
+
+                                <b-collapse id="faq-5" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             <ul>
@@ -231,7 +234,7 @@
                                             </ul>
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -239,7 +242,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq6" class="faq-question">¿Cuáles son los riesgos?</a>
+                                <b-link v-b-toggle.faq-6 class="faq-question">¿Cuáles son los riesgos?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -249,7 +253,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq6" class="panel-collapse collapse">
+                                <b-collapse id="faq-6" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Cualquier inversión conlleva riesgos asociados al mercado en el que se desarrolla. Esto se debe a fluctuaciones en el mercado, variables que no pueden ser controladas o faltas en el cumplimiento de planes de negocio.
@@ -261,7 +265,7 @@
                                             Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -269,7 +273,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq7" class="faq-question"> ¿Cuál es la inversión ideal para mi? </a>
+                                <b-link v-b-toggle.faq-7 class="faq-question">¿Cuál es la inversión ideal para mi?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -279,13 +284,13 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq7" class="panel-collapse collapse">
+                                <b-collapse id="faq-7" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Los inversionistas pueden elegir de la cartera de productos de PER CAPITAL el fondo o inversión que más se ajuste a sus metas financieras. Además, PER CAPITAL cuenta con el servicio de sus expertos para orientarte en el producto que más se adecue a tus objetivos de inversión.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -293,7 +298,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq8" class="faq-question">¿Cuál es la inversión mínima?</a>
+                                <b-link v-b-toggle.faq-8 class="faq-question">¿Cuál es la inversión mínima?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -303,13 +309,15 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq8" class="panel-collapse collapse">
+
+                                <b-collapse id="faq-8" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             La inversión mínima dependerá del Fondo que el cliente escoja.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
+
                             </div>
                         </div>
                     </div>
@@ -317,7 +325,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq9" class="faq-question">¿Cuáles son las comisiones?</a>
+                                <b-link v-b-toggle.faq-9 class="faq-question">¿Cuáles son las comisiones?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -327,7 +336,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq9" class="panel-collapse collapse">
+                                <b-collapse id="faq-9" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             <strong>Inversionistas:</strong>
@@ -347,7 +356,7 @@
                                             </ul>
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -355,7 +364,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq10" class="faq-question">¿Una vez colocada mi inversión como puedo verla?</a>
+                                <b-link v-b-toggle.faq-10 class="faq-question">¿Una vez colocada mi inversión como puedo verla?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -365,13 +375,13 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq10" class="panel-collapse collapse">
+                                <b-collapse id="faq-10" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.
                                         </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>
@@ -379,7 +389,8 @@
                     <div class="faq-item">
                         <div class="row">
                             <div class="col-md-7">
-                                <a data-toggle="collapse" href="#faq11" class="faq-question">¿Qué requisitos debo presentar si soy un inversionista extranjero (no residente)?</a>
+                                <b-link v-b-toggle.faq-11 class="faq-question">¿Qué requisitos debo presentar si soy un inversionista extranjero (no residente)?</b-link>
+
                             </div>
                             <div class="col-md-3 offset-md-2">
                                 <div class="tag-list">
@@ -389,12 +400,12 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div id="faq11" class="panel-collapse collapse">
+                                <b-collapse id="faq-11" class="panel-collapse">
                                     <div class="faq-answer">
                                         <p>
                                             Todo inversionista extranjero, bien sea Persona Natural o Jurídica debe solicitar al SENIAT un “RIF de No Residente” al correo <strong>intriint@seniat.gob.ve</strong> y presentarlo adicional a los recaudos generales. </p>
                                     </div>
-                                </div>
+                                </b-collapse>
                             </div>
                         </div>
                     </div>

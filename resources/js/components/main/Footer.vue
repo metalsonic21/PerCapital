@@ -20,6 +20,7 @@
                             info@percapital.com
                             <p>Caracas-Venezuela</p>
                         </div>
+                        
 
                     </div>
                 </div>
@@ -240,12 +241,12 @@ export default {
     }
 
     .footer-img{
-        width: 50px;
-        height:10px;
+        width: 50px !important;
+        height:20px !important;
     }
 
     .footer-copyright{
-        font-size:9px;
+        font-size:8px;
     }
 }
 
