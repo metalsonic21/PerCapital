@@ -4,7 +4,7 @@
         <div class=row>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="navy-line-2" style="margin-top:40px;"></div>
-                <h1 class="title-mine text-center">GOBIERNO CORPORATIVO</h1>
+                <h1 class="title-mine text-center section-title-per">GOBIERNO CORPORATIVO</h1>
 
                 <div class=text-content>
                     <p>

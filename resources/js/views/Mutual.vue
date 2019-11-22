@@ -7,7 +7,7 @@
                 <div class="center-holder main-heading text-justify">
                     <div class="navy-line-2"></div>
                     <br>
-                    <h4 align="center" class="title-mine">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
+                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
                     <p> <strong>Objetivo:</strong> El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
                 </div>
                 <div class="text-center">
@@ -18,7 +18,7 @@
             <div class="col-lg-6">
                 <div class="navy-line-2"></div>
                 <br>
-                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
 
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
@@ -62,7 +62,7 @@
                 <div class="col-lg-6" id="risks-col">
                     <div class="text-center">
                         <div class="navy-line-3"></div>
-                        <h1 class="title-mine">RIESGOS</h1>
+                        <h1 class="title-mine section-title-per">RIESGOS</h1>
                     </div>
 
                     <div class="row" id="bubbles-row">
@@ -157,7 +157,7 @@
                 <div class="col-lg-6" id="invest-col">
                     <div class="text-center">
                         <div class="navy-line-3"></div>
-                        <h1 class="title-mine">¿CÓMO INVERTIR?</h1>
+                        <h1 class="title-mine section-title-per">¿CÓMO INVERTIR?</h1>
                     </div>
 
                     <div class="invest-items-bg">

@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1 class="title-mine">EQUIPO</h1>
+                    <h1 class="title-mine section-title-per">EQUIPO</h1>
 
                 </div>
             </div>

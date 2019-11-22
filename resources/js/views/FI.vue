@@ -7,7 +7,7 @@
                 <div class="center-holder main-heading text-justify">
                     <div class="navy-line-2"></div>
                     <br>
-                    <h4 align="center" class="title-mine">PER CAPITAL FONDO INMOBILIARIO VE</h4>
+                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL FONDO INMOBILIARIO VE</h4>
                     <p> <strong>Objetivo:</strong> El fondo PER CAPITAL Fondo Inmobiliario VE tiene como objetivo producir un crecimiento de capital a largo plazo. Invierte principalmente proyectos inmobiliarios Premium del sector privado de naturaleza comercial y de vivienda domiciliados en Venezuela. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de las acciones que conforman el portafolio. </p></div>
                 <div class="text-center">
                     <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
@@ -20,7 +20,7 @@
             
             <div class="col-lg-6">
                 <br>
-                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
                 <h6 align="center" class="title-mine">PROYECTO POSADA TURÍSTICA LA PARAGUA</h6>
 
                 <b-list-group>
@@ -58,7 +58,7 @@
             </div>
             <div class="col-lg-6">
                 <br>
-                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
                 <h6 align="center" class="title-mine">PROYECTO SENDERO HATILLANO</h6>
 
                 <b-list-group>

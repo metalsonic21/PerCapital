@@ -7,7 +7,7 @@
                 <div class="center-holder main-heading text-justify">
                     <div class="navy-line-2"></div>
                     <br>
-                    <h4 align="center" class="title-mine">PER CAPITAL CAPITAL DE RIESGO VE</h4>
+                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL CAPITAL DE RIESGO VE</h4>
                     <p> <strong>Objetivo:</strong> 
                         El fondo PER CAPITAL Capital de Riesgo VE tiene como objetivo producir un crecimiento de capital a corto, mediano o largo plazo. Invierte principalmente proyectos empresariales del sector privado industrial de naturaleza comercial y especulativa en Venezuela. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de las acciones que conforman el portafolio.
                     </p></div>
@@ -19,12 +19,12 @@
 
             </div>
 
-            
+        <div class="container">
         <div class="row">
             
             <div class="col-lg-6">
                 <br>
-                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
                 <h6 align="center" class="title-mine">PROYECTO AGLCA</h6>
 
                 <b-list-group>
@@ -62,7 +62,7 @@
             </div>
             <div class="col-lg-6">
                 <br>
-                <h4 align="center" class="title-mine">INFORMACIÓN DE INTERÉS</h4>
+                <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
                 <h6 align="center" class="title-mine">PROYECTO SIEMBRA LA PARAGUA</h6>
 
                 <b-list-group>
@@ -100,6 +100,7 @@
                 <small align="center">TODAS NUESTRAS INVERSIONES INMOBILIARIAS PASAN POR UN RIGUROSO PROCESO DE CUMPLIMIENTO.</small>
                 </div>
             </div>
+            </div>
         </div>
 
         </div>
@@ -112,7 +113,7 @@
                 <div class="col-lg-6" id="risks-col">
                     <div class="text-center">
                         <div class="navy-line-3"></div>
-                        <h1 class="title-mine">RIESGOS</h1>
+                        <h1 class="title-mine section-title-per">RIESGOS</h1>
                     </div>
 
                     <div class="row" id="bubbles-row">
@@ -192,7 +193,7 @@
                 <div class="col-lg-6" id="invest-col">
                     <div class="text-center">
                         <div class="navy-line-3"></div>
-                        <h1 class="title-mine">¿CÓMO INVERTIR?</h1>
+                        <h1 class="title-mine section-title-per">¿CÓMO INVERTIR?</h1>
                     </div>
 
                     <div class="invest-items-bg">

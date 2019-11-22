@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line-2"></div>
-                    <h1 class="title-mine title-placed">SERVICIOS</h1>
+                    <h1 class="title-mine title-placed section-title-per">SERVICIOS</h1>
                 </div>
             </div>
             <div class="row features-block">
@@ -133,7 +133,7 @@
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-secondary btn-lg btn-title" style="margin-top:1px;">Prospecto</button>
                     <button type="button" class="btn btn-secondary btn-lg ml-2 btn-title">Reportes</button>
-                    <button type="button" class="btn btn-secondary btn-lg ml-2 btn-title">Suscribirse</button>
+                    <a href="/register" class="btn btn-secondary btn-lg ml-2 btn-title">Suscribirse</a>
                 </div>
             </div>
         </div>

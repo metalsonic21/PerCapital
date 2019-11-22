@@ -30,6 +30,10 @@
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
 
+
+    <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
+    <link href="{{ asset('/css/Chart.min.css') }}" rel="stylesheet">
+
     
     <style>
         .navbar-toggler {
@@ -204,6 +208,10 @@
         <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
+
+            
+        <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
+        <script type="application/javascript" src="{{ asset('js/Chart.min.js') }}" defer></script>
     </div>
 
 </body>

@@ -4,7 +4,7 @@
         <div class="container">
 
             <div class="navy-line"></div>
-            <h1 align="center" class="title-mine">CONTACTO</h1>
+            <h1 align="center" class="title-mine section-title-per">CONTACTO</h1>
 
             <br>
             <div class="row">

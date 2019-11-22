@@ -29,7 +29,7 @@
                 <div class="col-md-3 mx-auto">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">La empresa</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine title-mine-mine list-footer">La empresa</h5>
                     <ul class="list-unstyled text-center">
                         <li>
                             <a href="/about" class="list-footer">Por qué PER CAPITAL</a>
@@ -54,7 +54,7 @@
                 <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Fondos</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine-mine title-mine list-footer">Fondos</h5>
                     <ul class="list-unstyled text-center">
                         <li>
                             <a href="/mutual" class="list-footer">Fondo Mutual</a>
@@ -76,7 +76,7 @@
                 <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Servicios</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine title-mine-mine list-footer">Servicios</h5>
                     <ul class="list-unstyled text-center">
                         <li>
                             <a href="#!" class="list-footer">Administración E.I.C</a>
@@ -101,7 +101,7 @@
                 <div class="col-md-2 mx-auto">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine list-footer">Reportes</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center title-mine title-mine-mine list-footer">Reportes</h5>
 
                     <ul class="list-unstyled text-center">
 
@@ -190,7 +190,7 @@ export default {
 <style>
 .page-footer {
     background-color: #000030;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .list-footer {
@@ -212,11 +212,15 @@ export default {
     margin-bottom: -3%;
 }
 
+.title-mine-mine{
+    font-size:13px;
+}
+
 @media screen and (max-width: 1200px) {
 
     footer h5,
     footer ul li a {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     footer .row {
@@ -229,11 +233,11 @@ export default {
 
     footer h5,
     footer ul li a {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     footer .row {
-        flex-wrap: unset;
+        flex-wrap: wrap;
     }
 
     footer .float-left {
@@ -241,12 +245,16 @@ export default {
     }
 
     .footer-img{
-        width: 50px !important;
-        height:20px !important;
+        width: 200px !important;
+        height:50px !important;
     }
 
     .footer-copyright{
-        font-size:8px;
+        font-size:10px;
+    }
+
+    .page-footer{
+        font-size:14px;
     }
 }
 

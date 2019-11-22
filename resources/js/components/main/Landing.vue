@@ -5,7 +5,7 @@
         <div class="block-section">
             <div class="container">
                 <div class="center-holder main-heading">
-                    <h3 class="title-mine">FINALMENTE PUEDES EMPEZAR</h3>
+                    <h3 class="title-mine section-title-per">FINALMENTE PUEDES EMPEZAR</h3>
                     <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de
                         inversión Premium
                         <br>
