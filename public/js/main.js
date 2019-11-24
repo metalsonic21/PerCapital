@@ -49,153 +49,6 @@ $(document).ready(function() {
       autoplay: 4000,
   });
 
-
-/*------------------------------------
-    2. Owl Carousel
---------------------------------------*/  
-
-
-/*---------------------
-Our Services carousel
------------------------*/
-
-  $('#our-services-carousel').owlCarousel({
-    loop: false,
-    nav: false,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-        margin: 15,
-      },
-      600: {
-        items: 2,
-        margin: 0,
-      },
-      1000: {
-        items: 3,
-        margin: 0,
-      }
-    }
-  })
-
-
-
-
-/*---------------------
-Project carousel
------------------------*/
-
-  $('#project-carousel').owlCarousel({
-    loop: true,
-    nav: false,
-    responsiveClass: true,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 2500,
-    autoplayHoverPause: false,
-    responsive: {
-      0: {
-        items: 1,
-        margin: 15,
-      },
-      600: {
-        items: 2,
-        margin: 15,
-      },
-      1000: {
-        items: 4,
-        margin: 30,
-      }
-    }
-  })
-
-
-/*---------------------
-Testmonials carousel
------------------------*/
-
-  $('#testmonials-carousel').owlCarousel({
-    loop: false,
-    nav: false,    
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-        margin: 15,
-      },
-      600: {
-        items: 1,
-        margin: 0,
-      },
-      1000: {
-        items: 2,
-        margin: 0,
-      }
-    }
-  })
-
-
-/*---------------------
-Team members carousel
------------------------*/
-
-  $('#team-members-carousel').owlCarousel({
-    loop: false,
-    nav: false,   
-    margin: 90, 
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 1,
-      },
-      1000: {
-        items: 4,
-      }
-    }
-  })
-
-
-/*---------------------
-Partners carousel
------------------------*/
-
-  $('#our-partners').owlCarousel({
-    loop: true,
-    nav: false,   
-    dots: false,
-    responsiveClass: true,
-    // margin: 100,
-    responsive: {
-      0: {
-        items: 2,
-        margin: 15,
-      },
-      600: {
-        items: 3,
-        margin: 15
-      },
-      1000: {
-        items: 5,
-        margin: 15
-      }
-    }
-  })
-
-
-/*------------------------------------
-    3. CountUp
---------------------------------------*/  
-
-    $('.countup').counterUp({
-        delay: 5,
-        time: 2000
-    });
-
-
 /*------------------------------------
     4. Hover Drop Down
 --------------------------------------*/    
@@ -207,18 +60,6 @@ if ($(window).width() > 767) {
       $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(300);
   });
 }
-
-
-/*------------------------------------
-    5. Tabs
---------------------------------------*/    
-
-  $('.tabs_animate').tabslet({
-    mouseevent: 'click',
-    attribute: 'href',
-    animation: true
-  });
-
 
 /*------------------------------------
     6. Video Modal
@@ -323,36 +164,6 @@ $('.latest-projects').each( function( i, buttonGroup ) {
 
 
 
-
-/*------------------------------------
-    10. Typed Text
---------------------------------------*/ 
-document.addEventListener('DOMContentLoaded', function(){
-
-    Typed.new("#typed", {
-        stringsElement: document.getElementById('typed-strings'),
-        typeSpeed: 30,
-        backDelay: 500,
-        loop: false,
-        contentType: 'html', // or text
-        // defaults to null for infinite loop
-        loopCount: null,
-        callback: function(){ foo(); },
-        resetCallback: function() { newTyped(); }
-    });
-
-    var resetElement = document.querySelector('.reset');
-    if(resetElement) {
-        resetElement.addEventListener('click', function() {
-            document.getElementById('typed')._typed.reset();
-        });
-    }
-
-});
-
-function newTyped(){ /* A new typed object */ }
-
-function foo(){ console.log("Callback"); }
 
 
 
@@ -470,8 +281,3 @@ function initMap() {
 }
 
 
-
-/*------------------------------------
-    12. WOW
---------------------------------------*/ 
-new WOW().init();

@@ -51,7 +51,6 @@
 
     <Numbers></Numbers>
     <Contact></Contact>
-    <Logos></Logos>
     <br>
 </div>
 </template>

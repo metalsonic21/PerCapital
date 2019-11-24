@@ -11,9 +11,9 @@
     <!-- Scripts -->
     <script type="application/javascript" src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
     <!-- Favico -->
     <link rel="shortcut icon" href="{{ asset('img/logo/Simbolo-Per-Capital-blanco.png') }}">
     <title>Per Capital</title>
@@ -23,9 +23,6 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ asset('/css/icons.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/swiper.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/swiper-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
@@ -142,7 +139,7 @@
                                 <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
                         </b-nav-item-dropdown>
                         <b-nav-item-dropdown text="HERRAMIENTAS" right>
-                            <b-dropdown-item href="#" class="dropdown-mine">Calculadoras</b-dropdown-item>
+                            <b-dropdown-item href="/calculators" class="dropdown-mine">Calculadoras</b-dropdown-item>
                             <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
                             <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
                             <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
@@ -194,20 +191,11 @@
         </div>
         
         <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
-        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
-        <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+        <script type="application/javascript" src="{{ asset('js/popper.min.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/bootstrap.min.js') }}" defer></script>
 
-        <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/wow.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.counterup.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.metisMenu.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/tabs.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
 
             
         <!-- Charts, uncomment this line if you want to make changes to the main page chart -->

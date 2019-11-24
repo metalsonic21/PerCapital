@@ -20,10 +20,8 @@ Vue.component('Values', require('./components/main/Values.vue').default);
 Vue.component('Contact', require('./components/main/Contact.vue').default);
 Vue.component('Numbers', require('./components/main/Numbers.vue').default);
 Vue.component('Logos', require('./components/main/Logos.vue').default);
-Vue.component('Ethics', require('./components/main/Ethics.vue').default);
 Vue.component('SlideContent', require('./components/main/SlideContent.vue').default);
 Vue.component('Graph', require('./components/main/Graph.vue').default);
-
 
 /* Faq components */
 Vue.component('Questions', require('./components/faq/Questions.vue').default);
@@ -39,7 +37,7 @@ Vue.component('About', require('./views/About.vue').default);
 Vue.component('FI', require('./views/FI.vue').default);
 Vue.component('RiskCapital', require('./views/RiskCapital.vue').default);
 Vue.component('Corporate', require('./views/Corporate.vue').default);
-
+Vue.component('Calculator', require('./views/Calculator.vue').default);
 
 const app = new Vue({
     el: '#app',

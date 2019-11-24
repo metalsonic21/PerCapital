@@ -2,13 +2,14 @@
 <div class="animated fadeInRight">
 
     <div class="container">
+        <div class="navy-line-2"></div>
+        <h1 align="center" class="title-mine section-title-per">PER CAPITAL FONDO MUTUAL DE CAPITAL ABIERTO</h1>
         <div class="row">
             <div class="col-lg-6">
                 <div class="center-holder main-heading text-justify">
-                    <div class="navy-line-2"></div>
                     <br>
-                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h4>
-                    <p> <strong>Objetivo:</strong> El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
+                    <h4 align="center" class="title-mine section-title-per">OBJETIVO</h4>
+                    <p>El fondo PER CAPITAL Fondo Mutual de Inversión de Capital Abierto tiene como objetivo producir un crecimiento de capital a mediano y largo plazo. Invierte principalmente en acciones de compañías que cotizan, se negocian e incorporan a la Bolsa de Valores de Caracas, hacen negocio y se domicilian en Venezuela así como en títulos de deuda corporativos. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de los títulos que conforman el portafolio.</p>
                 </div>
                 <div class="text-center">
                     <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>
@@ -16,7 +17,6 @@
 
             </div>
             <div class="col-lg-6">
-                <div class="navy-line-2"></div>
                 <br>
                 <h4 align="center" class="title-mine section-title-per">INFORMACIÓN DE INTERÉS</h4>
 

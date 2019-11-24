@@ -39,7 +39,7 @@
 <style>
     .contact-mine{
         margin-top:-10%;
-        margin-bottom: -5%;
+        margin-bottom: -10%;
     }
 
     .contact-title{

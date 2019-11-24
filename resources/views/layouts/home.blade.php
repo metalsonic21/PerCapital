@@ -27,7 +27,6 @@
     <link href="{{ asset('/css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/swiper.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/swiper-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
@@ -70,9 +69,6 @@
             margin-top: -25px;
         }
 
-        .navbar .navbar-toggle {
-        background-color:#FF0000 !important;
-        }
 
         .navbar-mine{
             font-family:Gotham;
@@ -84,6 +80,18 @@
             font-size:14px;
         }
 
+        .dropdown-item:hover{
+            background-color:#859da9 !important;
+        }
+
+        .dropdown-item:focus{
+            background-color:#859da9 !important;
+        }
+
+        .dropdown-item:active{
+            background-color:#859da9 !important; 
+        }
+
         .minw-none {
          min-width: 0 !important;
         }
@@ -91,6 +99,11 @@
         .dropdown:hover>.dropdown-menu {
         display: block;
         }
+
+        .bg-separator{
+            background-color:#fafcfc;
+        }
+
 
     </style>
 
@@ -133,7 +146,7 @@
                             <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="HERRAMIENTAS" right>
-                        <b-dropdown-item href="#" class="dropdown-mine">Calculadoras</b-dropdown-item>
+                        <b-dropdown-item href="/calculators" class="dropdown-mine">Calculadoras</b-dropdown-item>
                         <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
                         <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
                         <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
@@ -182,22 +195,31 @@
         </main>
 
         <div class="footer-mine">
+            <div class="container">
+                <div class="navy-line"></div>
+                    <h1 class="title-mine" style="color:#000032" align="center">RSS</h1>
+                        <div class="row">
+                            <div class="col-lg-4 bg-separator">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Ffetchrss.com%2Frss%2F5dd9c51e8a93f8625e8b45675dd9c5068a93f83c5e8b4567.xml&limit=3&showtitle=false&type=js"></script>                
+                            </div>
+                            <div class="col-lg-4 bg-separator-2">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=5&showtitle=false&type=js"></script>                
+                            </div>
+                            <div class="col-lg-4 bg-separator">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=5&showtitle=false&type=js"></script>                
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+            <Logos></Logos>
+            <br>
             <footeralt></footeralt>
         </div>
-
-        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
-        <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
-
         <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/popper.min.js') }}" defer></script>
+        <script type="application/javascript" src="{{ asset('js/bootstrap.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/owl.carousel.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/wow.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.counterup.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.metisMenu.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/tabs.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/typed.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
 
