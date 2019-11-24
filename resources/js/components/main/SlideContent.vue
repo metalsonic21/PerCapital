@@ -14,29 +14,29 @@
                     <div class="card">
                         <div class="card-header card-header-mine" id="headingOne">
                             <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h5 class="card-title-mine"> Explorar fondos</h5>
-                                </button>
+                                <b-link v-b-toggle.menu-1 class="btn btn-link">
+                                    <h5 class="card-title-mine">Explorar fondos</h5>
+                                </b-link>
+
                             </h2>
                         </div>
-
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <b-collapse id="menu-1">
                             <ul class="list-unstyled">
                                 <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondos Mutual</a></li>
                                 <li class="list-group-item-card"> <a href="/FI" style="color:white">Fondo Inmobiliario</a></li>
                                 <li class="list-group-item-card"> <a href="/riskcapital" style="color:white">Capital de riesgo</a> </li>
                             </ul>
-                        </div>
+                        </b-collapse>
                     </div>
                     <div class="card">
                         <div class="card-header card-header-mine" id="headingTwo">
                             <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <b-link v-b-toggle.menu-2 class="btn btn-link">
                                     <h5 class="card-title-mine">Explorar servicios</h5>
-                                </button>
+                                </b-link>
                             </h2>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <b-collapse id="menu-2">
                             <div class="card-body">
                                 <ul class="list-unstyled">
                                     <li class="list-group-item-card">Administración E.I.C</li>
@@ -45,19 +45,23 @@
                                     <li class="list-group-item-card">Ingeniería financiera</li>
                                 </ul>
                             </div>
-                        </div>
+                        </b-collapse>
                     </div>
                     <div class="card">
                         <div class="card-header card-header-mine" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" aria-expanded="false">
-                                <a href="/about#faq" style="color:white"><h5 class="card-title-mine float-left">Preguntas frecuentes</h5></a>
+                                    <a href="/about#faq" style="color:white">
+                                        <h5 class="card-title-mine float-left">Preguntas frecuentes</h5>
+                                    </a>
                                 </button>
                             </h2>
                         </div>
                     </div>
                     <button class="btn btn-per btn-lg btn-block">
-                       <a href="/register" style="color:white;"> <h6 class="btn-text"> Suscríbete</h6></a>
+                        <a href="/register" style="color:white;">
+                            <h6 class="btn-text"> Suscríbete</h6>
+                        </a>
                     </button>
                 </div>
             </div>
