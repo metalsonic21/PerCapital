@@ -7,7 +7,7 @@
         <b-form>
             <b-form-group>
                 <b-row>
-                    <b-col cols="4">
+                    <b-col cols="5">
                         <label>Inversión inicial</label>
                         <b-form-input type="text" v-model="initial" :state="validation"></b-form-input>
                         <small>Tip: Los decimales deben ir con punto</small>
@@ -21,7 +21,7 @@
 
                     </b-col>
 
-                    <b-col cols="4">
+                    <b-col cols="3">
                         <label>Años</label>
                         <b-form-input type="text" v-model="years" :state="validationY"></b-form-input>
                         <b-form-invalid-feedback :state="validationY">El dato ingresado debe ser numérico, entero, mayor a cero</b-form-invalid-feedback>
@@ -78,6 +78,7 @@ export default {
             let pot = 1 / years;
             let base = final / initial;
             this.roi = Math.pow(base, pot) + 1;
+            this.roi = Math.round(this.roi*100)/100;
             return this.roi;
         }
     }

@@ -50,7 +50,7 @@
     </div>
 
     <Numbers></Numbers>
-    <Contact></Contact>
+    <Calculator></Calculator>
     <br>
 </div>
 </template>

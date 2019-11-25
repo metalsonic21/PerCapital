@@ -122,7 +122,7 @@ export default {
 <style>
 .numbers-mine{
     margin-top: -8%;
-    margin-bottom: -8%;
+    margin-bottom: -1%;
 }
 
 .numbers-title{

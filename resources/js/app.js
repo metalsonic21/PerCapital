@@ -11,7 +11,6 @@ window.Vue = require('vue');
 Vue.config.productionTip = false
 
 /* Main page coponents */
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('disclaimer', require('./components/main/Disclaimer.vue').default);
 Vue.component('slider', require('./components/main/Slider.vue').default);
 Vue.component('landing', require('./components/main/Landing.vue').default);
@@ -20,7 +19,6 @@ Vue.component('Values', require('./components/main/Values.vue').default);
 Vue.component('Contact', require('./components/main/Contact.vue').default);
 Vue.component('Numbers', require('./components/main/Numbers.vue').default);
 Vue.component('Logos', require('./components/main/Logos.vue').default);
-Vue.component('SlideContent', require('./components/main/SlideContent.vue').default);
 Vue.component('Graph', require('./components/main/Graph.vue').default);
 
 /* Faq components */

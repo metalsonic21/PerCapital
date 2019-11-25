@@ -5,9 +5,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="center-holder main-heading text-justify">
-                    <div class="navy-line-2"></div>
-                    <br>
-                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL CAPITAL DE RIESGO VE</h4>
+                    <h1 align="right" class="title-mine section-title-per">PER CAPITAL</h1>
+                    <h1 align="right" class="title-mine section-title-per">CAPITAL DE RIESGO VE</h1>
                     <p> <strong>Objetivo:</strong> 
                         El fondo PER CAPITAL Capital de Riesgo VE tiene como objetivo producir un crecimiento de capital a corto, mediano o largo plazo. Invierte principalmente proyectos empresariales del sector privado industrial de naturaleza comercial y especulativa en Venezuela. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de las acciones que conforman el portafolio.
                     </p></div>

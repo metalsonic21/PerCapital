@@ -38,8 +38,8 @@
 
 <style>
     .contact-mine{
-        margin-top:-10%;
-        margin-bottom: -10%;
+        margin-top:-7%;
+        margin-bottom: -7%;
     }
 
     .contact-title{

@@ -2,8 +2,8 @@
 <div class="animated fadeInRight">
 
     <div class="container">
-        <div class="navy-line-2"></div>
-        <h1 align="center" class="title-mine section-title-per">PER CAPITAL FONDO MUTUAL DE CAPITAL ABIERTO</h1>
+        <h1 align="right" class="title-mine section-title-per">PER CAPITAL </h1>
+        <h1 align="right" class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
         <div class="row">
             <div class="col-lg-6">
                 <div class="center-holder main-heading text-justify">

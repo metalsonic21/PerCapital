@@ -5,9 +5,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="center-holder main-heading text-justify">
-                    <div class="navy-line-2"></div>
-                    <br>
-                    <h4 align="center" class="title-mine section-title-per">PER CAPITAL FONDO INMOBILIARIO VE</h4>
+                    <h1 align="right" class="title-mine section-title-per">PER CAPITAL </h1>
+                    <h1 align="right" class="title-mine section-title-per">FONDO INMOBILIARIO VE</h1>
                     <p> <strong>Objetivo:</strong> El fondo PER CAPITAL Fondo Inmobiliario VE tiene como objetivo producir un crecimiento de capital a largo plazo. Invierte principalmente proyectos inmobiliarios Premium del sector privado de naturaleza comercial y de vivienda domiciliados en Venezuela. Las inversiones pueden ser directas o indirectas y el precio de las unidades de Inversión puede variar debido a los movimientos de precio de las acciones que conforman el portafolio. </p></div>
                 <div class="text-center">
                     <small align="center">Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican.</small>

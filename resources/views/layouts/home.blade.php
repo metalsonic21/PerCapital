@@ -104,6 +104,16 @@
             background-color:#fafcfc;
         }
 
+        .feed-item-title a{
+            font-family: Gotham;
+            font-size: 16px;
+            color: #000032;
+        }
+
+        .feed-item-desc{
+            font-family: Gotham;
+            font-size: 14px;
+        }
 
     </style>
 
@@ -111,8 +121,17 @@
 
 <body class="landing-page">
     <div id="app">
+            <div id="preloader">
+                <div class="row loader">
+                    <div class="loader-icon">
+                    </div>
+                </div>
+            </div>
+        
     <header id="header-mine">
+        <div id="disclaimer">
         <disclaimer></disclaimer>
+        </div>
         <Values></Values>
             <div class="my-bg">
             <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
@@ -194,14 +213,13 @@
             @yield('content')
         </main>
 
-        <div class="footer-mine">
-            <div class="container">
+        
+            <div class="container" style="margin-top:-6%">
                 <div class="navy-line"></div>
                     <h1 class="title-mine" style="color:#000032" align="center">RSS</h1>
                         <div class="row">
                             <div class="col-lg-4 bg-separator">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Ffetchrss.com%2Frss%2F5dd9c51e8a93f8625e8b45675dd9c5068a93f83c5e8b4567.xml&limit=3&showtitle=false&type=js"></script>                
-                            </div>
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Felpais.com%2Ftag%2Frss%2Flatinoamerica%2Fa%2F&limit=5&showtitle=false&type=js"></script>                            </div>
                             <div class="col-lg-4 bg-separator-2">
                                 <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=5&showtitle=false&type=js"></script>                
                             </div>
@@ -212,9 +230,12 @@
                     </div>
                     <br>
             <Logos></Logos>
+            <Contact></Contact>
             <br>
+        <div class="footer-mine">
             <footeralt></footeralt>
         </div>
+
         <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/popper.min.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/bootstrap.min.js') }}" defer></script>
@@ -223,6 +244,16 @@
         <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
         <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
 
+        <script type="application/javascript">
+            $(document).ready(function () {
+            if (localStorage.getItem('wasVisited') !== undefined) {
+                $("#disclaimer").hide();
+            } else {
+                localStorage.setItem('wasVisited', 1);
+                $("#disclaimer").delay(5000).fadeOut(500);
+            }
+            });
+        </script>
     </div>
 
 </body>
