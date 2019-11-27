@@ -19,8 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/mutual', 'MutualController@index')->name('mutual');
-Route::get('/FI', 'FIController@index')->name('FI');
-Route::get('/riskcapital', 'RiskCapitalController@index')->name('riskcapital');
+//Route::get('/FI', 'FIController@index')->name('FI');
+//Route::get('/riskcapital', 'RiskCapitalController@index')->name('riskcapital');
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/calculators', 'CalculatorsController@index')->name('calculators');

@@ -1,6 +1,6 @@
 <!-- TEAM -->
 <template>
-<div id="team">
+<div id="team" class="gray-section">
     <div>
         <h6 style="opacity:1;font-size:1px;">hi</h6>
     </div>

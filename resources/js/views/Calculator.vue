@@ -36,7 +36,7 @@
                     <b-button class="float-right" @click="ROI(initial,final,years)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2" v-if="roi>0">Resultado: {{roi}}</h6>
+                    <h6 class="mt-2" v-if="roi>0">ROI: {{roi*100}}%</h6>
 
                 </div>
             </div>
@@ -77,8 +77,9 @@ export default {
             let roival = 0;
             let pot = 1 / years;
             let base = final / initial;
-            this.roi = Math.pow(base, pot) + 1;
-            this.roi = Math.round(this.roi*100)/100;
+            this.roi = Math.pow(base, pot);
+            this.roi = this.roi-1;
+            this.roi = Math.round(this.roi*10000)/10000;
             return this.roi;
         }
     }

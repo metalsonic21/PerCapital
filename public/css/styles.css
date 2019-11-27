@@ -8239,7 +8239,7 @@ dd.project-people {
 .faq-item {
     padding: 20px;
     margin-bottom: 2px;
-    background: #fff;
+    background: #f4f4f4;
 }
 
 .faq-question {
@@ -8255,7 +8255,7 @@ dd.project-people {
 
 .faq-answer {
     margin-top: 10px;
-    background: #f3f3f4;
+    background: #ffffff;
     border: 1px solid #e7eaec;
     border-radius: 3px;
     padding: 15px;
@@ -12341,6 +12341,7 @@ body.md-skin {
     margin: 9px auto 0;
     border-bottom: 2px solid#859da9;
 }
+
 
 .section-title-per{
     color:#000032;

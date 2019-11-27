@@ -1,9 +1,9 @@
 <template>
-<div id="faq">
+<div id="faq" class="gray-section animated fadeInRight faq-mine">
     <b-container>
         <div class="row">
             <div class="col-lg-12">
-                <div class="animated fadeInRight">
+                <div>
 
                     <div class="row faq-item-mine">
                         <div class="col-lg-12 text-center">
@@ -427,5 +427,17 @@ export default {
 <style>
 .faq-item-mine {
     margin-top: -50px;
+}
+
+@media (min-width:781px){
+.faq-mine{
+    margin-bottom:-20px;
+}
+}
+
+@media (max-width:780px) {
+    .faq-mine{
+        margin-bottom: 0px;
+    }
 }
 </style>

@@ -8,28 +8,26 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Per Capital</title>
 
-    <!-- Scripts -->
-    <script type="application/javascript" src="{{ asset('js/app.js') }}" defer></script>
+    <!-- VUE -->
+    <script type="application/javascript" src="./js/app.js" defer></script>
 
     <!-- Bootstrap -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favico -->
-    <link rel="shortcut icon" href="{{ asset('img/logo/Simbolo-Per-Capital-blanco.png') }}">
+    <link rel="shortcut icon" href="./img/logo/Simbolo-Per-Capital-blanco.png">
     <title>Per Capital</title>
 
-
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ asset('/css/icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
+    <link href="./css/icons.css" rel="stylesheet">
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/default.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/flag-icon.css" rel="stylesheet">
 
-
-    <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
-    <link href="{{ asset('/css/Chart.min.css') }}" rel="stylesheet">
+    <!-- Charts, uncomment this line if you want to make changes to the main page chart 
+    <link href="{{ asset('/css/Chart.min.css') }}" rel="stylesheet">-->
 
     
     <style>
@@ -130,8 +128,8 @@
                         </b-nav-item-dropdown>
                         <b-nav-item-dropdown text="FONDOS" right>
                                 <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
-                                <b-dropdown-item href="{{ url('/FI') }}" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
-                                <b-dropdown-item href="{{ url('/riskcapital') }}" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
+                                <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
+                                <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                         </b-nav-item-dropdown>
                         <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
                         <b-nav-item-dropdown text="REPORTES" right>
@@ -189,17 +187,15 @@
         <div class="footer-mine">
             <footeralt></footeralt>
         </div>
+
         
-        <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/popper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/bootstrap.min.js') }}" defer></script>
-
-        <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
-
-            
-        <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
-        <script type="application/javascript" src="{{ asset('js/Chart.min.js') }}" defer></script>
+        <script type="application/javascript" src="./js/jquery.min.js"></script>
+        <script type="application/javascript" src="./js/popper.min.js"></script>
+        <script type="application/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="application/javascript" src="./js/isotope.pkgd.min.js"></script>
+        <script type="application/javascript" src="./js/modernizr.js"></script>        
+        <!-- Charts, uncomment this line if you want to make changes to the main page chart 
+        <script type="application/javascript" src="{{ asset('js/Chart.min.js') }}" defer></script>-->
     </div>
 
 </body>

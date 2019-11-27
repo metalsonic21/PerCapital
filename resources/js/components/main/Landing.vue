@@ -50,7 +50,9 @@
     </div>
 
     <Numbers></Numbers>
+    <div class="calculator-home">
     <Calculator></Calculator>
+    </div>
     <br>
 </div>
 </template>
@@ -68,6 +70,10 @@ export default {
 <style>
 .myullandingp li {
     color: #ffffff;
+}
+
+.calculator-home{
+    margin-bottom: 50px;
 }
 
 /*INDICATORS*/
@@ -145,5 +151,6 @@ export default {
 
 .feature-cards{
     margin-top: -7%;
+    height:550px;
 }
 </style>

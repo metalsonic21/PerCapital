@@ -8,28 +8,27 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Per Capital</title>
 
-    <!-- Scripts -->
-    <script type="application/javascript" src="{{ asset('js/app.js') }}" defer></script>
+    <!-- VUE -->
+    <script type="application/javascript" src="./js/app.js" defer></script>
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Styles -->
-    <link rel="shortcut icon" href="{{ asset('img/logo/Simbolo-Per-Capital-blanco.png') }}">
+    <!-- Favico -->
+    <link rel="shortcut icon" href="./img/logo/Simbolo-Per-Capital-blanco.png">
     <title>Per Capital</title>
 
-    <!-- Bootstrap CDN -->
+    <!-- Custom Styles -->
 
-
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ asset('/css/icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/swiper.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/swiper-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/default.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/flag-icon.css') }}" rel="stylesheet">
+    <link href="./css/icons.css" rel="stylesheet">
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/swiper.min.css" rel="stylesheet">
+    <link href="./css/swiper-slider.css" rel="stylesheet">
+    <link href="./css/default.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/flag-icon.css" rel="stylesheet">
 
     
     <style>
@@ -129,9 +128,7 @@
             </div>
         
     <header id="header-mine">
-        <div id="disclaimer">
         <disclaimer></disclaimer>
-        </div>
         <Values></Values>
             <div class="my-bg">
             <b-navbar toggleable="lg" fixed class="mx-5 navbar-mine">
@@ -156,8 +153,8 @@
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="FONDOS" right>
                             <b-dropdown-item href="{{ url('/mutual') }}" class="dropdown-mine">Fondo Mutual</b-dropdown-item>
-                            <b-dropdown-item href="{{ url('/FI') }}" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
-                            <b-dropdown-item href="{{ url('/riskcapital') }}" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
+                            <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
                     <b-nav-item-dropdown text="REPORTES" right>
@@ -213,47 +210,37 @@
             @yield('content')
         </main>
 
-        
+        <section id="news" style="background-color:#f4f4f4;">
             <div class="container" style="margin-top:-6%">
-                <div class="navy-line"></div>
-                    <h1 class="title-mine" style="color:#000032" align="center">RSS</h1>
+                <div class="navy-line-2"></div>
+                    <h1 class="title-mine" style="color:#000032" align="center">NOTICIAS</h1>
                         <div class="row">
-                            <div class="col-lg-4 bg-separator">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Felpais.com%2Ftag%2Frss%2Flatinoamerica%2Fa%2F&limit=5&showtitle=false&type=js"></script>                            </div>
-                            <div class="col-lg-4 bg-separator-2">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=5&showtitle=false&type=js"></script>                
+                            <div class="col-lg-4">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Felpais.com%2Ftag%2Frss%2Flatinoamerica%2Fa%2F&limit=3&showtitle=false&type=js"></script>
                             </div>
-                            <div class="col-lg-4 bg-separator">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=5&showtitle=false&type=js"></script>                
+                            <div class="col-lg-4">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=3&showtitle=false&type=js"></script>
+                            </div>
+                            <div class="col-lg-4">
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=3&showtitle=false&type=js"></script>
                             </div>
                         </div>
                     </div>
                     <br>
+        </section>
             <Logos></Logos>
             <Contact></Contact>
             <br>
         <div class="footer-mine">
             <footeralt></footeralt>
         </div>
-
-        <script type="application/javascript" src="{{ asset('js/jquery.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/popper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/bootstrap.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/swiper.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/modernizr.js') }}" defer></script>
-        <script type="application/javascript" src="{{ asset('js/main.js') }}" defer></script>
-
-        <script type="application/javascript">
-            $(document).ready(function () {
-            if (localStorage.getItem('wasVisited') !== undefined) {
-                $("#disclaimer").hide();
-            } else {
-                localStorage.setItem('wasVisited', 1);
-                $("#disclaimer").delay(5000).fadeOut(500);
-            }
-            });
-        </script>
+        <script type="application/javascript" src="./js/jquery.min.js"></script>
+        <script type="application/javascript" src="./js/popper.min.js"></script>
+        <script type="application/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="application/javascript" src="./js/swiper.min.js"></script>
+        <script type="application/javascript" src="./js/isotope.pkgd.min.js"></script>
+        <script type="application/javascript" src="./js/modernizr.js"></script>
+        <script type="application/javascript" src="./js/main.js"></script>
     </div>
 
 </body>
