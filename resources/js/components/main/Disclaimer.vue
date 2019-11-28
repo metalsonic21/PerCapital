@@ -1,4 +1,4 @@
-<template v-if="localStorage.getItem('wasVisited') === null">
+<template>
 <div>
     <b-modal ref="disc" title="INFORMACIÓN IMPORTANTE" ok-only ok-variant="light" size="lg" body-bg-variant="dark" header-bg-variant="dark" header-text-variant="light" body-text-variant="light" footer-bg-variant="dark" footer-text-variant="light" title-class="text-light">
         <div class="text-justify modal-text">
@@ -35,9 +35,11 @@ export default {
     },
 
     mounted() {
-        console.log('Modal mounted.');
-        this.showModal();
-        //localStorage.setItem('wasVisited', '1');
+        if(localStorage.getItem('wasVisited') === null) {
+            this.showModal();
+            console.log('Modal mounted.');
+            localStorage.setItem('wasVisited', '1');
+        }
     }
 }
 </script>

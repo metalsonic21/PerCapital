@@ -36,6 +36,14 @@ Vue.component('FI', require('./views/FI.vue').default);
 Vue.component('RiskCapital', require('./views/RiskCapital.vue').default);
 Vue.component('Corporate', require('./views/Corporate.vue').default);
 Vue.component('Calculator', require('./views/Calculator.vue').default);
+Vue.component('Strats', require('./views/Strats.vue').default);
+Vue.component('Calendar', require('./views/Calendar.vue').default);
+
+/* Calculators */
+
+Vue.component('Roi', require('./components/calculators/ROI.vue').default);
+Vue.component('saving-objective', require('./components/calculators/SavingObjective.vue').default);
+
 
 const app = new Vue({
     el: '#app',

@@ -24,3 +24,5 @@ Route::get('/mutual', 'MutualController@index')->name('mutual');
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/calculators', 'CalculatorsController@index')->name('calculators');
+Route::get('/strategies', 'StratsController@index')->name('riskcapital');
+Route::get('/calendar', 'CalendarController@index')->name('calendar');

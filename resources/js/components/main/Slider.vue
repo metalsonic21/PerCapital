@@ -20,7 +20,7 @@
                                     <div class="card-header card-header-mine" id="headingOne">
                                         <h2 class="mb-0">
                                             <b-link v-b-toggle.menu-1 class="btn btn-link">
-                                                <h5 class="card-title-mine">Explorar fondos</h5>
+                                                <h5 class="card-title-mine">Explorar Fondos</h5>
                                             </b-link>
 
                                         </h2>
@@ -29,7 +29,7 @@
                                         <ul class="list-unstyled">
                                             <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondos Mutual</a></li>
                                             <li class="list-group-item-card"> <a href="/FI" style="color:white">Fondo Inmobiliario</a></li>
-                                            <li class="list-group-item-card"> <a href="/riskcapital" style="color:white">Capital de riesgo</a> </li>
+                                            <li class="list-group-item-card"> <a href="/riskcapital" style="color:white">Capital De Riesgo</a> </li>
                                         </ul>
                                     </b-collapse>
                                 </div>
@@ -37,7 +37,7 @@
                                     <div class="card-header card-header-mine" id="headingTwo">
                                         <h2 class="mb-0">
                                             <b-link v-b-toggle.menu-2 class="btn btn-link">
-                                                <h5 class="card-title-mine">Explorar servicios</h5>
+                                                <h5 class="card-title-mine">Explorar Servicios</h5>
                                             </b-link>
                                         </h2>
                                     </div>
@@ -45,9 +45,9 @@
                                         <div class="card-body">
                                             <ul class="list-unstyled">
                                                 <li class="list-group-item-card">Administración E.I.C</li>
-                                                <li class="list-group-item-card">Asesoría financiera</li>
+                                                <li class="list-group-item-card">Asesoría Financiera</li>
                                                 <li class="list-group-item-card">Estructuración</li>
-                                                <li class="list-group-item-card">Ingeniería financiera</li>
+                                                <li class="list-group-item-card">Ingeniería Financiera</li>
                                             </ul>
                                         </div>
                                     </b-collapse>
@@ -57,7 +57,7 @@
                                         <h2 class="mb-0">
                                             <button class="btn btn-link collapsed" type="button" aria-expanded="false">
                                                 <a href="/about#faq" style="color:white">
-                                                    <h5 class="card-title-mine float-left">Preguntas frecuentes</h5>
+                                                    <h5 class="card-title-mine float-left">Preguntas Frecuentes</h5>
                                                 </a>
                                             </button>
                                         </h2>

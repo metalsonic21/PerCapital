@@ -79,15 +79,15 @@
         }
 
         .dropdown-item:hover{
-            background-color:#859da9 !important;
+            background-color:#495057 !important;
         }
 
         .dropdown-item:focus{
-            background-color:#859da9 !important;
+            background-color:#495057 !important;
         }
 
         .dropdown-item:active{
-            background-color:#859da9 !important; 
+            background-color:#495057 !important; 
         }
 
         .minw-none {
@@ -138,9 +138,9 @@
                         </b-nav-item-dropdown>
                         <b-nav-item-dropdown text="HERRAMIENTAS" right>
                             <b-dropdown-item href="/calculators" class="dropdown-mine">Calculadoras</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
-                            <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
+                            <b-dropdown-item href="/strategies" class="dropdown-mine">Estrategias</b-dropdown-item>
+                            <b-dropdown-item href="/#news" class="dropdown-mine">Noticias</b-dropdown-item>
+                            <b-dropdown-item href="/calendar" class="dropdown-mine">Calendario bancario</b-dropdown-item>
                         </b-nav-item-dropdown>
                             <b-nav-item-dropdown right>
                             <template slot="button-content">

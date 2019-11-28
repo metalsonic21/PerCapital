@@ -116,7 +116,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
+                <div class="col col-md-2 mx-auto">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4 justify-content-left title-mine title-mine-mine list-footer">Herramientas</h5>
@@ -125,13 +125,13 @@
                             <a href="/calculators" class="list-footer">Calculadoras</a>
                         </li>
                         <li>
-                            <a href="#" class="list-footer">Estrategias</a>
+                            <a href="/strategies" class="list-footer">Estrategias</a>
                         </li>
                         <li>
                             <a href="/#news" class="list-footer">Noticias</a>
                         </li>
                         <li>
-                            <a href="#" class="list-footer">Calendario bancario</a>
+                            <a href="/calendar" class="list-footer">Calendario bancario</a>
                         </li>
                     </ul>
 
@@ -238,6 +238,13 @@ export default {
 
 .footer-disclaimer{
     font-size:14px;
+}
+
+@media screen and (min-width:1200px) {
+    footer .col{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {

@@ -80,15 +80,15 @@
         }
 
         .dropdown-item:hover{
-            background-color:#859da9 !important;
+            background-color:#495057 !important;
         }
 
         .dropdown-item:focus{
-            background-color:#859da9 !important;
+            background-color:#495057 !important;
         }
 
         .dropdown-item:active{
-            background-color:#859da9 !important; 
+            background-color:#495057 !important; 
         }
 
         .minw-none {
@@ -163,7 +163,7 @@
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="HERRAMIENTAS" right>
                         <b-dropdown-item href="/calculators" class="dropdown-mine">Calculadoras</b-dropdown-item>
-                        <b-dropdown-item href="#" class="dropdown-mine">Estrategias</b-dropdown-item>
+                        <b-dropdown-item href="/strategies" class="dropdown-mine">Estrategias</b-dropdown-item>
                         <b-dropdown-item href="#" class="dropdown-mine">Noticias</b-dropdown-item>
                         <b-dropdown-item href="#" class="dropdown-mine">Calendario bancario</b-dropdown-item>
                     </b-nav-item-dropdown>
@@ -216,8 +216,7 @@
                     <h1 class="title-mine" style="color:#000032" align="center">NOTICIAS</h1>
                         <div class="row">
                             <div class="col-lg-4">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Felpais.com%2Ftag%2Frss%2Flatinoamerica%2Fa%2F&limit=3&showtitle=false&type=js"></script>
-                            </div>
+                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=3&showtitle=false&type=js"></script>                          </div>
                             <div class="col-lg-4">
                                 <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=3&showtitle=false&type=js"></script>
                             </div>
