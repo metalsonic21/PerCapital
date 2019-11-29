@@ -2,8 +2,24 @@
 <div class="animated fadeInRight">
 
     <div class="container">
-        <h1 align="right" class="title-mine section-title-per">PER CAPITAL </h1>
-        <h1 align="right" class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
+        <div class="row">
+            <div class="col-lg-10">
+                <h1 class="title-mine section-title-per">PER CAPITAL </h1>
+            </div>
+            <div class="col-lg-2">
+                <b-list-group>
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        V.U.I
+                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                    </b-list-group-item>
+                </b-list-group>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="center-holder main-heading text-justify">
@@ -206,7 +222,8 @@
                             <div class="row justify-content-center">
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                     <button type="button" class="btn btn-secondary btn-title" style="margin-top:1px;">Prospecto</button>
-                                    <a href="/register" class="btn btn-secondary ml-2 btn-title">Suscribirse</a>
+                                    <a href="#" class="btn btn-secondary ml-2 btn-title">Reportes</a>
+                                    <a href="#" class="btn btn-secondary ml-2 btn-title">Suscribirse</a>
                                 </div>
                             </div>
                         </div>
@@ -228,19 +245,24 @@
 </script>
 
 <style>
+
 .ct-label {
     display: none;
 }
+
 .fondos-mine {
     margin-top: -3%;
     margin-bottom: 3%;
 }
+
 .invest {
     margin-top: 40%;
 }
+
 .invest-title {
     color: black;
 }
+
 .invest-items-bg {
     position: relative;
     padding: 20px;
@@ -251,19 +273,23 @@
     font-size: 14px;
     /*height: 475px;*/
 }
+
 .invest-p {
     font-style: italic;
 }
+
 .invest-last {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .navy-line-2 {
     width: 60px;
     height: 1px;
     margin: 9px auto 0;
     border-bottom: 2px solid#859da9;
 }
+
 .navy-line-3 {
     width: 60px;
     height: 1px;

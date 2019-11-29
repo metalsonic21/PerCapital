@@ -36,7 +36,7 @@
                     <b-button class="float-right" @click="ROI(initial,final,years)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2" v-if="roi>0">ROI: {{roi*100}}%</h6>
+                    <h6 class="mt-2" v-if="validation && validationF && validationY">ROI: {{roi*100}}%</h6>
 
                 </div>
             </div>

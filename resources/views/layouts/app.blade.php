@@ -77,17 +77,20 @@
             font-family:Gotham;
             font-size:14px;
         }
-
+        
         .dropdown-item:hover{
-            background-color:#495057 !important;
+            background-color:#868e96 !important;
+            color: white !important;
         }
 
         .dropdown-item:focus{
-            background-color:#495057 !important;
+            background-color:#868e96 !important;
+            color: white !important;
         }
 
         .dropdown-item:active{
-            background-color:#495057 !important; 
+            background-color:#868e96 !important; 
+            color: white !important;
         }
 
         .minw-none {

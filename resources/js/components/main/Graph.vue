@@ -15,9 +15,11 @@
             <div class="container">
                 <div class="row align-items-start ibox-content">
                     <div class="col-md-6">
-                        <img src="/img/content/landing/graph.png" alt="" class="graph-img" style="width:370px;height:370px;">
+                        <img src="/img/content/landing/graph.png" alt="" class="graph-img" style="width:310px;height:310px;">
                     </div>
                     <div class="col-md-6">
+                        <img src="/img/content/landing/graphdesc.png" alt="leyenda" class="mt-2" style="width:320px;height:270px;">
+                        <!--
                         <table class="table">
                             <thead>
                                 <tr>
@@ -70,6 +72,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        -->
                     </div>
                 </div>
 
@@ -108,7 +111,7 @@ export default {
 <style>
 @media (min-width: 1200px) {
     .graph-img {
-        margin-left: 70px;
+        margin-left: 230px;
     }
 
     .desc-col {
@@ -124,7 +127,7 @@ export default {
 
 @media (min-width: 330px) and (max-width: 412px) {
     .graph-img {
-        height: 250px !important;
+        height: 280px !important;
     }
 }
 

@@ -80,15 +80,18 @@
         }
 
         .dropdown-item:hover{
-            background-color:#495057 !important;
+            background-color:#868e96 !important;
+            color: white !important;
         }
 
         .dropdown-item:focus{
-            background-color:#495057 !important;
+            background-color:#868e96 !important;
+            color: white !important;
         }
 
         .dropdown-item:active{
-            background-color:#495057 !important; 
+            background-color:#868e96 !important; 
+            color: white !important;
         }
 
         .minw-none {
@@ -216,12 +219,12 @@
                     <h1 class="title-mine" style="color:#000032" align="center">NOTICIAS</h1>
                         <div class="row">
                             <div class="col-lg-4">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=3&showtitle=false&type=js"></script>                          </div>
+                                <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.economist.com%2Fthe-americas%2Frss.xml&limit=3&showtitle=false&type=js"></script>                          </div>
                             <div class="col-lg-4">
                                 <script src="//rss.bloople.net/?url=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Ftemas%2Famerica_latina%2Findex.xml&limit=3&showtitle=false&type=js"></script>
                             </div>
                             <div class="col-lg-4">
-                                <script src="//rss.bloople.net/?url=http%3A%2F%2Fep00.epimg.net%2Frss%2Ftags%2Fnoticias_mas_vistas.xml&limit=3&showtitle=false&type=js"></script>
+                                    <script src="//rss.bloople.net/?url=https%3A%2F%2Ffeeds.a.dj.com%2Frss%2FRSSWorldNews.xml&limit=3&showtitle=false&type=js"></script>
                             </div>
                         </div>
                     </div>
