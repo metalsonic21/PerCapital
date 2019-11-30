@@ -13,13 +13,15 @@
             </div>
 
             <div class="container">
-                <div class="row align-items-start ibox-content">
+                <div class="row align-items-start ibox-content ibox-mine">
+                    <canvas id="myChart"></canvas>
+                    
                     <div class="col-md-6">
-                        <img src="/img/content/landing/graph.png" alt="" class="graph-img" style="width:310px;height:310px;">
+                        <img src="/img/content/landing/graph.png" alt="" class="graph-img" style="width:440px;height:340px;">
                     </div>
-                    <div class="col-md-6">
+                    <!--<div class="col-md-6">
                         <img src="/img/content/landing/graphdesc.png" alt="leyenda" class="mt-2" style="width:320px;height:270px;">
-                        <!--
+                        
                         <table class="table">
                             <thead>
                                 <tr>
@@ -84,7 +86,7 @@
 </div>
 </template>
 
-<!--
+
 
 <script>
 import Chart from '../../../../public/js/Chart.min.js'
@@ -95,9 +97,12 @@ export default {
             type: 'doughnut',
             data: {
                 datasets: [{
-                    data: [10, 40, 30, 10, 10],
+                    //data: [10, 40, 30, 10, 10],
+                    data: [0, 0, 0, 0, 0],
                     backgroundColor: ['#9e480e', '#ed7d31', '#BABABA', '#ffc000', '#5b9bd5'],
                 }],
+                    labels: ['Mixtas', 'Industrial', 'Alimentos y bebidas', 'Financiero', 'Inmobiliario'],
+
             },
             options: {
                 responsive: true
@@ -106,12 +111,13 @@ export default {
     }
 }
 </script>
--->
+
 
 <style>
 @media (min-width: 1200px) {
     .graph-img {
-        margin-left: 230px;
+        margin-left: 300px;
+        margin-top: -640px;
     }
 
     .desc-col {
@@ -127,18 +133,27 @@ export default {
 
 @media (min-width: 330px) and (max-width: 412px) {
     .graph-img {
-        height: 280px !important;
+        height: 240px !important;
+        margin-top:-70px !important;
     }
 }
 
 @media (min-width:458px) and (max-width: 744px) {
     .graph-img {
-        margin-left: 40px;
+        margin-top: -170px !important;
+    }
+}
+
+@media screen and (min-width: 745px) and (max-width:1199px){
+    .graph-img{
+        margin-top: -280px !important;
+        margin-left: 160px !important;
+        height: 240px !important; 
     }
 }
 
 .ibox-mine {
-    height: 480px;
+    height: 450px;
 }
 
 .ibox-title-mine {

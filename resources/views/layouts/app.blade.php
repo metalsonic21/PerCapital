@@ -26,8 +26,8 @@
     <link href="./css/styles.css" rel="stylesheet">
     <link href="./css/flag-icon.css" rel="stylesheet">
 
-    <!-- Charts, uncomment this line if you want to make changes to the main page chart 
-    <link href="{{ asset('/css/Chart.min.css') }}" rel="stylesheet">-->
+    <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
+    <link href="{{ asset('/css/Chart.min.css') }}" rel="stylesheet">
 
     
     <style>
@@ -197,8 +197,8 @@
         <script type="application/javascript" src="./js/bootstrap.min.js"></script>
         <script type="application/javascript" src="./js/isotope.pkgd.min.js"></script>
         <script type="application/javascript" src="./js/modernizr.js"></script>        
-        <!-- Charts, uncomment this line if you want to make changes to the main page chart 
-        <script type="application/javascript" src="{{ asset('js/Chart.min.js') }}" defer></script>-->
+        <!-- Charts, uncomment this line if you want to make changes to the main page chart -->
+        <script type="application/javascript" src="{{ asset('js/Chart.min.js') }}" defer></script>
     </div>
 
 </body>

@@ -4,20 +4,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10">
-                <h1 class="title-mine section-title-per">PER CAPITAL </h1>
+                <div class="row">
+
+                    <h1 class="title-mine section-title-per">PER CAPITAL </h1>
+                </div>
+                <div class="row">
+
+                    <h1 class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
+                </div>
+
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 mt-4">
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         V.U.I
                         <b-badge variant="dark">Bs 55.000,00</b-badge>
                     </b-list-group-item>
                 </b-list-group>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8">
-                <h1 class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
             </div>
         </div>
         <div class="row">
@@ -245,7 +248,6 @@
 </script>
 
 <style>
-
 .ct-label {
     display: none;
 }
