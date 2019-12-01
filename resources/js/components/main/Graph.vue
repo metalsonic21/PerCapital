@@ -14,14 +14,27 @@
 
             <div class="container">
                 <div class="row align-items-start ibox-content ibox-mine">
-                    <canvas id="myChart"></canvas>
-                    
-                    <div class="col-md-6">
-                        <img src="/img/content/landing/graph.png" alt="" class="graph-img" style="width:440px;height:340px;">
+                    <div class="col-lg-6">
+                        <canvas id="myChart"></canvas>
+                        <img src="/img/content/landing/graph.png" class="thegraph">
                     </div>
+
+                    <div class="col-lg-6">
+                        <h5 class="text-center">¿Por qué un fondo mutual?</h5>
+                        <ul>
+                            <li>Acceso a beneficios de portafolio Premium
+                                con baja inversión.</li>
+                            <li>Ganancias exentas de ISLR</li>
+                            <li>Analistas especializados dedicado a gestión
+                                del portafolio.</li>
+                            <li>Portafolio diversificado para mitigar riesgos.</li>
+                            <li>Acceso a precios de economías de escala</li>
+                        </ul>
+                    </div>
+
                     <!--<div class="col-md-6">
                         <img src="/img/content/landing/graphdesc.png" alt="leyenda" class="mt-2" style="width:320px;height:270px;">
-                        
+
                         <table class="table">
                             <thead>
                                 <tr>
@@ -75,18 +88,16 @@
                             </tbody>
                         </table>
                         -->
-                    </div>
                 </div>
-
             </div>
 
         </div>
+
     </div>
+</div>
 
 </div>
 </template>
-
-
 
 <script>
 import Chart from '../../../../public/js/Chart.min.js'
@@ -101,7 +112,7 @@ export default {
                     data: [0, 0, 0, 0, 0],
                     backgroundColor: ['#9e480e', '#ed7d31', '#BABABA', '#ffc000', '#5b9bd5'],
                 }],
-                    labels: ['Mixtas', 'Industrial', 'Alimentos y bebidas', 'Financiero', 'Inmobiliario'],
+                labels: ['Mixtas', 'Industrial', 'Alimentos y bebidas', 'Financiero', 'Inmobiliario'],
 
             },
             options: {
@@ -112,12 +123,14 @@ export default {
 }
 </script>
 
-
 <style>
 @media (min-width: 1200px) {
-    .graph-img {
-        margin-left: 300px;
-        margin-top: -640px;
+    .thegraph {
+        margin-top: -200px;
+    }
+
+    .ibox-mine {
+        height: 450px;
     }
 
     .desc-col {
@@ -125,35 +138,34 @@ export default {
     }
 }
 
-@media (max-width: 400px) {
-    .graph-img {
-        height: 310px !important;
-    }
-}
-
 @media (min-width: 330px) and (max-width: 412px) {
-    .graph-img {
-        height: 240px !important;
-        margin-top:-70px !important;
+    .thegraph {
+        margin-top: -20px;
+    }
+
+    .ibox-mine {
+        height: 750px !important;
     }
 }
 
-@media (min-width:458px) and (max-width: 744px) {
-    .graph-img {
-        margin-top: -170px !important;
+@media (min-width: 450px) and (max-width: 504px) {
+    .thegraph {
+        margin-top: -80px;
+    }
+
+    .ibox-mine {
+        height: 750px !important;
     }
 }
 
-@media screen and (min-width: 745px) and (max-width:1199px){
-    .graph-img{
-        margin-top: -280px !important;
-        margin-left: 160px !important;
-        height: 240px !important; 
+@media (min-width: 505px) and (max-width: 754px) {
+    .thegraph {
+        margin-top: -120px;
     }
-}
 
-.ibox-mine {
-    height: 450px;
+    .ibox-mine {
+        height: 750px !important;
+    }
 }
 
 .ibox-title-mine {
