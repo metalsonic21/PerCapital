@@ -6,12 +6,8 @@
             <div class="container">
                 <div class="center-holder main-heading">
                     <h3 class="title-mine section-title-per">FINALMENTE PUEDES EMPEZAR</h3>
-                    <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de
-                        inversión Premium
-                        <br>
-                        en el mercado de Capitales, Inmobiliario y
-                        de Capital de Riesgo, previamente <br>
-                        evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.</p>
+                    <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de inversión Premium
+                    <br>en el mercado de Capitales, Inmobiliario y de Capital de Riesgo, previamente <br>evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.</p>
                 </div>
                 <div class="container-fluid feature-cards">
                     <div class="mt-70">

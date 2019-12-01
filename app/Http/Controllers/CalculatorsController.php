@@ -9,4 +9,8 @@ class CalculatorsController extends Controller
     public function index(){
         return view ('main.calculators');
     }
+    
+    public function indexEN(){
+        return view ('en.main.calculators');
+    }
 }

@@ -178,8 +178,8 @@
                             <b-dropdown-item href="#" class="dropdown-mine">Privado</b-dropdown-item>
                         </b-nav-item-dropdown>
 
-                        <b-nav-item right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
-                        <b-nav-item right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
+                        <b-nav-item href="/" right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
+                        <b-nav-item href="/en" right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
 
 
                         <!-- Authentication Links 

@@ -18,8 +18,7 @@
 
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                 
-                        <p class="text-justify text-secondary">
-                            Nuestra experiencia colectiva de más de 40 años, así como el amplio conocimiento en finanzas, mercados, ingeniería financiera y desarrollo de negocios, te da una ventaja a la hora de elegir la inversión más idónea para ti con el fin de maximizar el potencial de tu capital controlando y minimizando los riesgos asociados.
+                        <p class="text-justify text-secondary">Nuestra experiencia colectiva de más de 40 años, así como el amplio conocimiento en finanzas, mercados, ingeniería financiera y desarrollo de negocios, te da una ventaja a la hora de elegir la inversión más idónea para ti con el fin de maximizar el potencial de tu capital controlando y minimizando los riesgos asociados.
                         </p>
         
                     <h2 class="title-mine">GERENTE GENERAL</h2>

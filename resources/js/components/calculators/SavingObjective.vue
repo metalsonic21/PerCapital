@@ -59,7 +59,7 @@ export default {
             s: 1,
             i: 1,
             n: 1,
-            p: null, //Yearly, Monthly, Every 3 months
+            p: 12, //Yearly, Monthly, Every 3 months
             options: [
                 {
                     value: 12,

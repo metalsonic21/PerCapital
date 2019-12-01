@@ -17,11 +17,10 @@
 
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                 
-                        <p class="text-justify text-secondary">
-La estrategia de inversión es el plan que guía la toma de decisiones de un inversionista y depende de varios factores como la edad, objetivo, plazo, aversión al riesgo, capital entre otros. Sin embargo, existen puntos clave para trazar una estrategia de inversión.                        </p>
+                        <p class="text-justify text-secondary">La estrategia de inversión es el plan que guía la toma de decisiones de un inversionista y depende de varios factores como la edad, objetivo, plazo, aversión al riesgo, capital entre otros. Sin embargo, existen puntos clave para trazar una estrategia de inversión.                        </p>
         
                     <h2 class="title-mine">DIVERSIFICACIÓN</h2>
-                    <i class="fa fa-users big-icon float-right"></i>
+                    <i class="fa fa-calculator big-icon float-right"></i>
                     <p class="text-secondary">Consiste en no concentrar el capital en un activo o grupo de activos en particular, esto con el objetivo de disminuir el riesgo. Los Fondos Mutuales, así como las E.I.C. se especializan en buscar la disminución del riesgo mediante la diversificación de los activos que componen su portafolio.</p>
                 </b-col>
             </div>
@@ -29,7 +28,7 @@ La estrategia de inversión es el plan que guía la toma de decisiones de un inv
             <b-row class="justify-content-center row-team">
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                     <h2 class="title-mine">PLAZOS</h2>
-                    <i class="fa fa-bar-chart big-icon float-right"></i>
+                    <i class="fa fa-clock-o big-icon float-right"></i>
                     <p class="text-secondary">Una inversión puede ser a corto, mediano o largo plazo y el mismo esta atado al riesgo y rendimiento. En este sentido los Fondos suelen ser inversiones a mediano y largo plazo que basan su estrategia en la Inversión en Valor, reduciendo así el riesgo del portafolio.</p>
                 </b-col>
             </b-row>
@@ -37,7 +36,7 @@ La estrategia de inversión es el plan que guía la toma de decisiones de un inv
             <b-row class="justify-content-center row-team">
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                     <h2 class="title-mine">PLANIFICACIÓN FISCAL</h2>
-                    <i class="fa fa-clock-o big-icon float-right"></i>
+                    <i class="fa fa-clipboard big-icon float-right"></i>
                     <p class="text-secondary">
                         Una manera de maximizar tu potencial rendimiento es minimizando impuestos. Al hacer inversiones fiscalmente inteligentes, puedes reducir el monto perdido ante el fisco cada año manteniendo así mayor cantidad de tus ganancias para cubrir necesidades presentes o futuras.
                         <br>

@@ -158,8 +158,7 @@
             <div class="text-center py-3" style="color:white">
                 <div class="text-justify footer-disclaimer">
                     <small>
-                        <p>
-                            PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.
+                        <p>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.
                             <br>
                             PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX
                             <br>

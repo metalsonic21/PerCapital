@@ -134,7 +134,7 @@
                                 <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                         </b-nav-item-dropdown>
-                        <b-nav-item href="{{ url('/services') }}">SERVICIOS</b-nav-item>
+                        <b-nav-item href="/en/services">SERVICIOS</b-nav-item>
                         <b-nav-item-dropdown text="REPORTES" right>
                                 <b-dropdown-item href="#" class="dropdown-mine">Trimestral</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>
@@ -153,8 +153,8 @@
                                 <b-dropdown-item href="#" class="dropdown-mine">Privado</b-dropdown-item>
                             </b-nav-item-dropdown>
     
-                            <b-nav-item right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
-                            <b-nav-item right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
+                            <b-nav-item href="/" right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
+                            <b-nav-item href="/en" right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>
 
                         <!-- Authentication Links 
                         @guest

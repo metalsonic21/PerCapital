@@ -45,6 +45,38 @@ Vue.component('Roi', require('./components/calculators/ROI.vue').default);
 Vue.component('saving-objective', require('./components/calculators/SavingObjective.vue').default);
 
 
+
+/* ENGLISH */
+
+//Views
+Vue.component('MutualEn', require('./en/views/Mutual.vue').default);
+Vue.component('ServicesEn', require('./en/views/Services.vue').default);
+Vue.component('AboutEn', require('./en/views/About.vue').default);
+Vue.component('HomeEn', require('./en/views/Home.vue').default);
+Vue.component('CalculatorEn', require('./en/views/Calculators.vue').default);
+Vue.component('StratsEn', require('./en/views/Strategies.vue').default);
+
+//Components
+//Mutual
+Vue.component('GraphEn', require('./en/components/mutual/Graph.vue').default);
+
+//About
+Vue.component('TeamEn', require('./en/components/about/Team.vue').default);
+Vue.component('CorporateEn', require('./en/components/about/Corporate.vue').default);
+Vue.component('FaqEn', require('./en/components/about/Faq.vue').default);
+
+//Main
+Vue.component('SliderEn', require('./en/components/main/Slider.vue').default);
+Vue.component('CardsEn', require('./en/components/main/Cards.vue').default);
+Vue.component('NumbersEn', require('./en/components/main/Numbers.vue').default);
+Vue.component('ContactEn', require('./en/components/main/Contact.vue').default);
+Vue.component('FooterEn', require('./en/components/main/Footer.vue').default);
+
+//Calculators
+Vue.component('RoiEn', require('./en/components/calculators/ROI.vue').default);
+Vue.component('SavingEn', require('./en/components/calculators/SavingObjective.vue').default);
+
+
 const app = new Vue({
     el: '#app',
 });

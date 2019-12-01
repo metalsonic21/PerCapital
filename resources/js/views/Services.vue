@@ -33,8 +33,7 @@
                                     </ul>
                                 </p>
 
-                                <p>
-                                    Estructuramos, administramos y colocamos E.I.C., cubriendo riesgos, velando por la custodia y titularidad de los activos relacionados, generando valor para nuestros clientes.
+                                <p>Estructuramos, administramos y colocamos E.I.C., cubriendo riesgos, velando por la custodia y titularidad de los activos relacionados, generando valor para nuestros clientes.
                                 </p>
 
                                 <b-img fluid class="vertical-date img-mine" src="/img/content/landing/money-5.png"></b-img>
@@ -50,8 +49,7 @@
                             <div class="vertical-timeline-content">
                                 <h2 class="title-mine">ASESORÍA FINANCIERA</h2>
                                 <p>Somos una institución regulada y autorizada para prestar servicios de Asesoría; contamos con profesionales de comprobada experiencia, certificados como Asesores de Inversión y dispuestos a brindar el mejor servicio.</p>
-                                <p>
-                                    Nuestro equipo se enfoca en ser guía en el proceso de evaluación y asesoramiento para el manejo patrimonial a nivel:
+                                <p>Nuestro equipo se enfoca en ser guía en el proceso de evaluación y asesoramiento para el manejo patrimonial a nivel:
                                     <ul>
                                         <li>Financiero</li>
                                         <li>Fiscal</li>
@@ -60,8 +58,7 @@
                                     </ul>
                                 </p>
 
-                                <p>
-                                    Enfocados en la obtención de resultados con riesgos controlados.
+                                <p>Enfocados en la obtención de resultados con riesgos controlados.
 
                                     Ayudamos a nuestros clientes a lograr sus metas financiera
 
@@ -85,8 +82,7 @@
                                     </ul>
                                 </p>
 
-                                <p>
-                                    Nuestra metodología de trabajo consta de 4 pasos:
+                                <p>Nuestra metodología de trabajo consta de 4 pasos:
                                     <ul>
                                         <li>Información, diagnóstico y evaluación</li>
                                         <li>Autorización de organismos competentes</li>
@@ -108,8 +104,7 @@
 
                             <div class="vertical-timeline-content">
                                 <h2 class="title-mine">INGENIERÍA FINANCIERA</h2>
-                                <p>
-                                    Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como:
+                                <p>Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como:
 
                                     <ul>
                                         <li>Fusiones y Adquisidores (compra, venta, división y combinación de empresas)</li>

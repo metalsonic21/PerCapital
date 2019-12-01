@@ -60,11 +60,6 @@
                         <b-badge variant="dark">14:00 diario</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        V.U.I
-
-                        <b-badge variant="dark">Bs 55.000,00</b-badge>
-                    </b-list-group-item>
-                    <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Inversión mínima
 
                         <b-badge variant="dark">1 Unidad de Inversión</b-badge>

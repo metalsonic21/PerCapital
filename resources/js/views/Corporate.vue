@@ -7,8 +7,7 @@
                 <h1 class="title-mine text-center section-title-per">GOBIERNO CORPORATIVO</h1>
 
                 <div class=text-content>
-                    <p>
-                        El marco del gobierno corporativo de PER CAPITAL es un conjunto de principios, guías y prácticas que apoyan la sustentabilidad del desempeño y la creación de valor para nuestros inversionistas en el largo plazo. Nuestro compromiso con el buen proceder, es integral para nuestro negocio y refleja no solo el apego a las regulaciones y los mejores estándares del mercado sino también, eficiencia en liderazgo de nuestra gerencia.
+                    <p>El marco del gobierno corporativo de PER CAPITAL es un conjunto de principios, guías y prácticas que apoyan la sustentabilidad del desempeño y la creación de valor para nuestros inversionistas en el largo plazo. Nuestro compromiso con el buen proceder, es integral para nuestro negocio y refleja no solo el apego a las regulaciones y los mejores estándares del mercado sino también, eficiencia en liderazgo de nuestra gerencia.
                     </p>
                 </div>
                 <div class=row>

@@ -28,11 +28,10 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-1" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.
+                                        <p>Son empresas autorizadas por la SUNAVAL que tienen por objeto administrar el patrimonio de las entidades de inversión colectiva, cualquiera sea su tipo, y representar a los mismos de acuerdo con los términos del contrato de administración que celebren al efecto.
                                         </p>
                                         <br>
-                                        <p> <strong>Características</strong> </p>
+                                        <p><strong>Características</strong> </p>
                                         <p>
                                             <ul>
                                                 <li>No pueden administrar a dos E.I.C. iguales</li>
