@@ -57,7 +57,7 @@
                                         <h2 class="mb-0">
                                             <button class="btn btn-link collapsed" type="button" aria-expanded="false">
                                                 <a href="/about#faq" style="color:white">
-                                                    <h5 class="card-title-mine float-left">Preguntas Frecuentes</h5>
+                                                    <h5 class="card-title-mine float-left" style="color:white;">Preguntas Frecuentes</h5>
                                                 </a>
                                             </button>
                                         </h2>

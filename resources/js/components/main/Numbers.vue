@@ -8,7 +8,7 @@
         <br>
         <div class="row">
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.imf.org/en/Countries/VEN">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.imf.org/en/Countries/VEN">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="http://www.bcv.org.ve/estadisticas/reservas-internacionales">
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.reuters.com/quote/USDEUR">
@@ -69,7 +69,7 @@
 
         <div class="row">
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.reuters.com/quote/USDEUR">
@@ -84,7 +84,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.reuters.com/quote/USDEUR">
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="https://www.opec.org/opec_web/en/data_graphs/40.htm">
@@ -114,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <b-link href="http://www.minpet.gob.ve/index.php/es-es/">

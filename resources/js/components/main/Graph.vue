@@ -13,13 +13,13 @@
             </div>
 
             <div class="container">
-                <div class="row align-items-start ibox-content ibox-mine">
-                    <div class="col-lg-6">
+                <div class="row align-items-start ">
+                    <div class="col-lg-6 col-md-6 col-sm-5 ibox-content ibox-mine">
                         <canvas id="myChart"></canvas>
                         <img src="/img/content/landing/graph.png" class="thegraph">
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-5 col-md-6 col-sm-6 ibox-content col-two ibox-mine">
                         <h5 class="text-center">¿Por qué un fondo mutual?</h5>
                         <ul>
                             <li>Acceso a beneficios de portafolio Premium
@@ -112,7 +112,7 @@ export default {
                     data: [0, 0, 0, 0, 0],
                     backgroundColor: ['#9e480e', '#ed7d31', '#BABABA', '#ffc000', '#5b9bd5'],
                 }],
-                labels: ['Mixtas', 'Industrial', 'Alimentos y bebidas', 'Financiero', 'Inmobiliario'],
+                labels: ['Mixtas 10%', 'Industrial 40%', 'Alimentos y bebidas 30%', 'Financiero 10%', 'Inmobiliario 10%'],
 
             },
             options: {
@@ -130,11 +130,15 @@ export default {
     }
 
     .ibox-mine {
-        height: 450px;
+        height: 480px !important;
     }
 
     .desc-col {
         margin-left: -100px;
+    }
+
+    .col-two{
+        margin-left: 15px;
     }
 }
 
@@ -144,7 +148,7 @@ export default {
     }
 
     .ibox-mine {
-        height: 750px !important;
+        height: 450px !important;
     }
 }
 
@@ -154,7 +158,7 @@ export default {
     }
 
     .ibox-mine {
-        height: 750px !important;
+        height: 450px !important;
     }
 }
 
@@ -164,7 +168,7 @@ export default {
     }
 
     .ibox-mine {
-        height: 750px !important;
+        height: 450px !important;
     }
 }
 
@@ -172,4 +176,6 @@ export default {
     background-color: transparent !important;
     border-top: none !important;
 }
+
+.row:before, .row:after {display: none !important;}
 </style>

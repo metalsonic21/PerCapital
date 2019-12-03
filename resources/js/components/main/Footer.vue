@@ -158,13 +158,8 @@
             <div class="text-center py-3" style="color:white">
                 <div class="text-justify footer-disclaimer">
                     <small>
-                        <p>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.
-                            <br>
-                            PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX
-                            <br>
-                            PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL
-                            <br><br>
-                            PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad
+                        <p>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.<br>PER CAPITAL Fondo Mutual de Capital Abierto, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX<br>PER CAPITAL Asesora de Inversión, RIF J-XXXXXX es una empresa autorizada y regulada por la SUNAVAL
+                            <br><br>PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad
                             y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.
                             Si usted es un inversionista Privado no <strong>debe</strong> tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión.
                             Nada en este sitio web debe ser tomado como una asesoría o consejo financiero. Cada inversionista debe informarse del prospecto, estados financieros y política de inversión

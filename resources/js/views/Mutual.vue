@@ -3,7 +3,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-10 col-md-8">
                 <div class="row">
 
                     <h1 class="title-mine section-title-per">PER CAPITAL </h1>
@@ -14,7 +14,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-2 mt-4">
+            <div class="col-lg-2 col-md-4 mt-4">
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         V.U.I
