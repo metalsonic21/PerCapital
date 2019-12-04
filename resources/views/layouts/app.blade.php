@@ -134,7 +134,7 @@
                                 <b-dropdown-item href="#" class="dropdown-mine">Fondo Inmobiliario</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Capital de riesgo</b-dropdown-item>
                         </b-nav-item-dropdown>
-                        <b-nav-item href="/en/services">SERVICIOS</b-nav-item>
+                        <b-nav-item href="/services">SERVICIOS</b-nav-item>
                         <b-nav-item-dropdown text="REPORTES" right>
                                 <b-dropdown-item href="#" class="dropdown-mine">Trimestral</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Anual</b-dropdown-item>

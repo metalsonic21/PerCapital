@@ -101,9 +101,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-2" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-
-                                            Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.
+                                        <p>Son entidades autorizadas por la SUNAVAL que canalizan los aportes de inversionistas destinados a constituir un capital común, integrado por una cartera de títulos valores u otros activos.
                                         </p>
 
                                         <p>
@@ -149,8 +147,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-3" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Es una E.I.C. que tiene por objeto la inversión en títulos valores, con arreglo al principio de distribución de riesgos.
+                                        <p>Es una E.I.C. que tiene por objeto la inversión en títulos valores, con arreglo al principio de distribución de riesgos.
                                         </p>
 
                                         <p> <strong>Características</strong> </p>
@@ -198,8 +195,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-4" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Son aquellos cuyo objeto sea la canalización de recursos hacia proyectos del sector inmobiliario y de bienes raíces.
+                                        <p>Son aquellos cuyo objeto sea la canalización de recursos hacia proyectos del sector inmobiliario y de bienes raíces.
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -225,9 +221,7 @@
 
                                 <b-collapse id="faq-5" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            <ul>
-                                                <li>Acceso a oportunidades de inversión que antes eran solo para inversionistas calificados de alto patrimonio.</li>
+                                        <p><ul><li>Acceso a oportunidades de inversión que antes eran solo para inversionistas calificados de alto patrimonio.</li>
                                                 <li>Beneficio de la experiencia y conocimiento de nuestros analistas y equipo de expertos.</li>
                                                 <li>Puedes empezar tu inversión con el mínimo requerido.</li>
                                             </ul>
@@ -254,14 +248,11 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-6" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Cualquier inversión conlleva riesgos asociados al mercado en el que se desarrolla. Esto se debe a fluctuaciones en el mercado, variables que no pueden ser controladas o faltas en el cumplimiento de planes de negocio.
+                                        <p>Cualquier inversión conlleva riesgos asociados al mercado en el que se desarrolla. Esto se debe a fluctuaciones en el mercado, variables que no pueden ser controladas o faltas en el cumplimiento de planes de negocio.
                                         </p>
-                                        <p>
-                                            PER CAPITAL evalúa con anticipación los posibles escenarios para tratar de mitigar la mayor cantidad de riesgos posibles y así evitar pérdidas.
+                                        <p>PER CAPITAL evalúa con anticipación los posibles escenarios para tratar de mitigar la mayor cantidad de riesgos posibles y así evitar pérdidas.
                                         </p>
-                                        <p>
-                                            Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.
+                                        <p>Sin embargo, es posible que los riesgos superen las medidas de contingencia tomadas y la perdida de capital es probable.
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -285,8 +276,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-7" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Los inversionistas pueden elegir de la cartera de productos de PER CAPITAL el fondo o inversión que más se ajuste a sus metas financieras. Además, PER CAPITAL cuenta con el servicio de sus expertos para orientarte en el producto que más se adecue a tus objetivos de inversión.
+                                        <p>Los inversionistas pueden elegir de la cartera de productos de PER CAPITAL el fondo o inversión que más se ajuste a sus metas financieras. Además, PER CAPITAL cuenta con el servicio de sus expertos para orientarte en el producto que más se adecue a tus objetivos de inversión.
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -311,8 +301,7 @@
 
                                 <b-collapse id="faq-8" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            La inversión mínima dependerá del Fondo que el cliente escoja.
+                                        <p>La inversión mínima dependerá del Fondo que el cliente escoja.
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -337,8 +326,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-9" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            <strong>Inversionistas:</strong>
+                                        <p><strong>Inversionistas:</strong>
                                             <ul>
                                                 <li>Comisión de entrada: 2.5% al suscribir</li>
                                                 <li>Comisión de salida: 0%</li>
@@ -376,8 +364,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-10" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.
+                                        <p>El cliente obtendrá un certificado por sus Unidades de Inversión y podrá ver el detalle a través de nuestra página web.
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -401,8 +388,7 @@
                             <div class="col-lg-12">
                                 <b-collapse id="faq-11" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>
-                                            Todo inversionista extranjero, bien sea Persona Natural o Jurídica debe solicitar al SENIAT un “RIF de No Residente” al correo <strong>intriint@seniat.gob.ve</strong> y presentarlo adicional a los recaudos generales. </p>
+                                        <p>Todo inversionista extranjero, bien sea Persona Natural o Jurídica debe solicitar al SENIAT un “RIF de No Residente” al correo <strong>intriint@seniat.gob.ve</strong> y presentarlo adicional a los recaudos generales. </p>
                                     </div>
                                 </b-collapse>
                             </div>

@@ -6584,6 +6584,11 @@ code {
     min-height: 48px;
     position: relative;
     clear: both;
+    
+    border-radius: 10px;
+    border: 1px solid #eee;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
 }
 
 .ibox-content {
@@ -6594,6 +6599,11 @@ code {
     border-image: none;
     border-style: solid solid none;
     border-width: 1px 0;
+    
+    border-radius: 10px;
+    border: 1px solid #eee;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
 }
 
 .ibox-footer {

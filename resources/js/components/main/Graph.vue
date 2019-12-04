@@ -16,20 +16,27 @@
                 <div class="row align-items-start ">
                     <div class="col-lg-6 col-md-6 col-sm-5 ibox-content ibox-mine">
                         <canvas id="myChart"></canvas>
+                        <div class="row">
                         <img src="/img/content/landing/graph.png" class="thegraph">
+                        </div>
                     </div>
 
                     <div class="col-lg-5 col-md-6 col-sm-6 ibox-content col-two ibox-mine">
-                        <h5 class="text-center">¿Por qué un fondo mutual?</h5>
+                        <h5 class="text-center"> <strong>¿Por qué un fondo mutual?</strong></h5>
+                        <br>
                         <ul>
                             <li>Acceso a beneficios de portafolio Premium
                                 con baja inversión.</li>
-                            <li>Ganancias exentas de ISLR</li>
+                            <li>Ganancias exentas de ISLR.</li>
                             <li>Analistas especializados dedicado a gestión
                                 del portafolio.</li>
                             <li>Portafolio diversificado para mitigar riesgos.</li>
-                            <li>Acceso a precios de economías de escala</li>
+                            <li>Acceso a precios de economías de escala.</li>
                         </ul>
+
+                        <div class="text-center">
+                            <i class="fa fa-bar-chart fa-5x"></i>
+                        </div>
                     </div>
 
                     <!--<div class="col-md-6">
@@ -127,10 +134,13 @@ export default {
 @media (min-width: 1200px) {
     .thegraph {
         margin-top: -200px;
+        margin-left: 100px;
+        height: 280px !important;
+        width: 360px !important;
     }
 
     .ibox-mine {
-        height: 480px !important;
+        height: 400px !important;
     }
 
     .desc-col {
@@ -140,15 +150,32 @@ export default {
     .col-two{
         margin-left: 15px;
     }
+
+    .filler-img{
+        width:200px;
+        height: 200px;
+    }
 }
 
-@media (min-width: 330px) and (max-width: 412px) {
+@media screen and (min-width:755px) and (max-width:1199px){
+    .filler-img{
+        width:150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 449px) {
     .thegraph {
         margin-top: -20px;
     }
 
     .ibox-mine {
         height: 450px !important;
+    }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
     }
 }
 
@@ -160,6 +187,11 @@ export default {
     .ibox-mine {
         height: 450px !important;
     }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
+    }
 }
 
 @media (min-width: 505px) and (max-width: 754px) {
@@ -169,6 +201,11 @@ export default {
 
     .ibox-mine {
         height: 450px !important;
+    }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
     }
 }
 

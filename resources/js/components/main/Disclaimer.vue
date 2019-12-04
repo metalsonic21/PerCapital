@@ -35,10 +35,10 @@ export default {
     },
 
     mounted() {
-        if(localStorage.getItem('wasVisited') === null) {
+        if(sessionStorage.getItem('wasVisited') === null) {
             this.showModal();
             console.log('Modal mounted.');
-            localStorage.setItem('wasVisited', '1');
+            sessionStorage.setItem('wasVisited', '1');
         }
     }
 }
