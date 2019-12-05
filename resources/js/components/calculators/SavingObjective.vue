@@ -1,24 +1,18 @@
 <template>
 <div>
     <div class="container">
-        <h5 class="title-mine">Formula Objetivo de Ahorro</h5>
+        <h5 class="title-mine">Objetivo de Ahorro</h5>
         <b-form>
             <b-form-group>
                 <b-row>
                     <b-col cols="6">
-                        <label>Capital final</label>
-                        <b-form-input type="text" v-model="s" :state="validation"></b-form-input>
-                        <small>Tip: Los decimales deben ir con punto</small>
-                        <b-form-invalid-feedback :state="validation">El dato ingresado debe ser numérico mayor a cero</b-form-invalid-feedback>
-                  
+                        <label>Objetivo de Ahorro</label>
+                        <b-form-input type="text" id="my-input-3" v-model="s" ></b-form-input>
                     </b-col>
 
                     <b-col cols="6">
-                        <label>Tasa de interés (%)</label>
-                        <b-form-input type="text" v-model="i" :state="validationI"></b-form-input>
-                        <b-form-invalid-feedback :state="validationI">El dato ingresado debe ser numérico positivo</b-form-invalid-feedback>
-                  
-
+                        <label>Interés Anual (%)</label>
+                        <b-form-input type="text" id="my-input-4" v-model="i"></b-form-input>                  
                     </b-col>
                 </b-row>
                 <b-row>
@@ -31,7 +25,7 @@
                     <b-col cols="6">
                         <label>Años</label>
                         <b-form-input type="text" v-model="n" :state="validationn"></b-form-input>
-                        <b-form-invalid-feedback :state="validationn">El dato ingresado debe ser numérico mayor a cero</b-form-invalid-feedback>
+                        <b-form-invalid-feedback :state="validationn">El dato ingresado debe ser entero numérico mayor a cero</b-form-invalid-feedback>
                   
                     </b-col>
                 </b-row>
@@ -43,7 +37,7 @@
                     <b-button class="float-right" @click="calculationR(i,p,s,n)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2">R: {{r}}</h6>
+                    <h6 class="mt-2 calculator-result"><strong>Para conseguir el objetivo de ahorro cada mes debes invertir: {{r}}</strong></h6>
 
                 </div>
             </div>
@@ -53,6 +47,7 @@
 </template>
 
 <script>
+import AutoNumeric from 'autonumeric';
 export default {
     data() {
         return {
@@ -78,18 +73,8 @@ export default {
         }
     },
     computed: {
-        validation() {
-            if (this.s < 0 || isNaN(this.s) || this.s == '')
-                return false;
-            else return true;
-        },
-        validationI() {
-            if (this.i < 0 || isNaN(this.i) || this.i == '')
-                return false;
-            else return true;
-        },
         validationn() {
-            if (this.n <= 0 || isNaN(this.n) || this.n == '')
+            if (this.n <= 0 || isNaN(this.n) || this.n == '' || !(this.n == parseInt(this.n, 10)))
                 return false;
             else return true;
         },
@@ -101,14 +86,33 @@ export default {
     },
     methods: {
         calculationR(i,p,s,n){
+            s = s.toString().replace(/\./g, '');
+            s = s.toString().replace(",", ".");
+            i = i.toString().replace(/\./g, '');
+            i = i.toString().replace(",", ".");
+            s = parseFloat(s);
+            i = parseFloat(i);
             let num = s*((i/100)/p);
             let den = (1+((i/100)/p));
             den = Math.pow(den,n*p);
             den = den-1;
             this.r = num/den;
             this.r =Math.round(this.r*100)/100;
+            this.r = this.r.toString().replace('.', ',');
+            this.r = this.r.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.');
             return this.r;
         }
+    },
+    mounted(){
+        new AutoNumeric('#my-input-3', {
+            decimalCharacter: ",",
+            digitGroupSeparator: "."
+        });
+
+        new AutoNumeric('#my-input-4', {
+            decimalCharacter: ",",
+            digitGroupSeparator: "."
+        });
     }
 }
 </script>

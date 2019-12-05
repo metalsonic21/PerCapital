@@ -10,7 +10,7 @@
                 </div>
                 <div class="row">
 
-                    <h1 class="title-mine section-title-per">FONDO MUTUAL DE CAPITAL ABIERTO</h1>
+                    <h1 class="title-mine section-title-per">FONDO MUTUAL DE INVERSIÓN DE CAPITAL ABIERTO</h1>
                 </div>
 
             </div>

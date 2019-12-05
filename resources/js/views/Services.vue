@@ -18,22 +18,22 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">ADMINISTRACIÓN DE E.I.C</h2>
-                                <p>Las Entidades de Inversión Colectiva (E.I.C) o Fondos son una manera de canalizar el capital de inversionistas como un patrimonio común para el desarrollo de distintos proyectos con el objetivo de obtener rendimiento.
+                                <h2 class="title-mine services-title">ADMINISTRACIÓN DE E.I.C</h2>
+                                <p class="services-text text-justify">Las Entidades de Inversión Colectiva (E.I.C) o Fondos son una manera de canalizar el capital de inversionistas como un patrimonio común para el desarrollo de distintos proyectos con el objetivo de obtener rendimiento.
                                 </p>
 
-                                <p>
+                                <p class="services-text text-justify">
                                     PER CAPITAL cuenta con la autorización del regulador para la administración de E.I.C. y pone a su disposición su experiencia y equipo especializado para:
                                 </p>
 
-                                <p>
+                                <p class="services-text text-justify">
                                     <ul>
                                         <li>Estructuración de Fondos y E.I.C.</li>
                                         <li>Administración de Fondos y E.I.C.</li>
                                     </ul>
                                 </p>
 
-                                <p>Estructuramos, administramos y colocamos E.I.C., cubriendo riesgos, velando por la custodia y titularidad de los activos relacionados, generando valor para nuestros clientes.
+                                <p class="services-text text-justify">Estructuramos, administramos y colocamos E.I.C., cubriendo riesgos, velando por la custodia y titularidad de los activos relacionados, generando valor para nuestros clientes.
                                 </p>
 
                                 <b-img fluid class="vertical-date img-mine" src="/img/content/landing/money-5.png"></b-img>
@@ -47,9 +47,9 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">ASESORÍA FINANCIERA</h2>
-                                <p>Somos una institución regulada y autorizada para prestar servicios de Asesoría; contamos con profesionales de comprobada experiencia, certificados como Asesores de Inversión y dispuestos a brindar el mejor servicio.</p>
-                                <p>Nuestro equipo se enfoca en ser guía en el proceso de evaluación y asesoramiento para el manejo patrimonial a nivel:
+                                <h2 class="title-mine services-title">ASESORÍA FINANCIERA</h2>
+                                <p class="services-text text-justify">Somos una institución regulada y autorizada para prestar servicios de Asesoría; contamos con profesionales de comprobada experiencia, certificados como Asesores de Inversión y dispuestos a brindar el mejor servicio.</p>
+                                <p class="services-text text-justify">Nuestro equipo se enfoca en ser guía en el proceso de evaluación y asesoramiento para el manejo patrimonial a nivel:
                                     <ul>
                                         <li>Financiero</li>
                                         <li>Fiscal</li>
@@ -58,7 +58,7 @@
                                     </ul>
                                 </p>
 
-                                <p>Enfocados en la obtención de resultados con riesgos controlados.
+                                <p class="services-text text-justify">Enfocados en la obtención de resultados con riesgos controlados.
 
                                     Ayudamos a nuestros clientes a lograr sus metas financiera
 
@@ -74,15 +74,15 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">ESTRUCTURACIÓN</h2>
-                                <p>Realizamos proyectos de (re) estructuración, emisión y colocación de:
+                                <h2 class="title-mine services-title">ESTRUCTURACIÓN</h2>
+                                <p class="services-text text-justify">Realizamos proyectos de (re) estructuración, emisión y colocación de:
                                     <ul>
                                         <li>Renta fija</li>
                                         <li>Renta variable</li>
                                     </ul>
                                 </p>
 
-                                <p>Nuestra metodología de trabajo consta de 4 pasos:
+                                <p class="services-text text-justify">Nuestra metodología de trabajo consta de 4 pasos:
                                     <ul>
                                         <li>Información, diagnóstico y evaluación</li>
                                         <li>Autorización de organismos competentes</li>
@@ -91,7 +91,7 @@
                                     </ul>
                                 </p>
 
-                                <p>Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
+                                <p class="services-text text-justify">Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
                                 <b-img fluid class="vertical-date img-mine-2" src="/img/content/landing/services-2.jpg"></b-img>
 
                             </div>
@@ -103,8 +103,8 @@
                             </div>
 
                             <div class="vertical-timeline-content">
-                                <h2 class="title-mine">INGENIERÍA FINANCIERA</h2>
-                                <p>Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como:
+                                <h2 class="title-mine services-title">INGENIERÍA FINANCIERA</h2>
+                                <p class="services-text text-justify">Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como:
 
                                     <ul>
                                         <li>Fusiones y Adquisidores (compra, venta, división y combinación de empresas)</li>

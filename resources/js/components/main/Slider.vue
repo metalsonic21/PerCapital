@@ -27,9 +27,9 @@
                                     </div>
                                     <b-collapse id="menu-1">
                                         <ul class="list-unstyled">
-                                            <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondos Mutual</a></li>
-                                            <li class="list-group-item-card"> <a href="/FI" style="color:white">Fondo Inmobiliario</a></li>
-                                            <li class="list-group-item-card"> <a href="/riskcapital" style="color:white">Capital De Riesgo</a> </li>
+                                            <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondo Mutual</a></li>
+                                            <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondo Inmobiliario</a></li>
+                                            <li class="list-group-item-card"> <a href="/mutual" style="color:white">Capital De Riesgo</a> </li>
                                         </ul>
                                     </b-collapse>
                                 </div>
@@ -44,10 +44,10 @@
                                     <b-collapse id="menu-2">
                                         <div class="card-body">
                                             <ul class="list-unstyled">
-                                                <li class="list-group-item-card">Administración E.I.C</li>
-                                                <li class="list-group-item-card">Asesoría Financiera</li>
-                                                <li class="list-group-item-card">Estructuración</li>
-                                                <li class="list-group-item-card">Ingeniería Financiera</li>
+                                                <li class="list-group-item-card"> <a href="/services">Administración E.I.C</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Asesoría Financiera</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Estructuración</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Ingeniería Financiera</a></li>
                                             </ul>
                                         </div>
                                     </b-collapse>
@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <button class="btn btn-per btn-lg btn-block">
-                                    <a href="/register" style="color:white;">
+                                    <a href="#" style="color:white;">
                                         <h6 class="btn-text"> Suscríbete</h6>
                                     </a>
                                 </button>

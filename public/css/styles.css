@@ -12355,3 +12355,15 @@ body.md-skin {
 .section-title-per{
     color:#000032;
 }
+
+.calculator-result{
+    color: #000032;
+}
+
+.services-text{
+    font-size:16px !important;
+}
+
+.services-title{
+    font-size: 20px !important;
+}

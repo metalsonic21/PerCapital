@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="container">
+<div>
+    <div class="container">
         <div class="navy-line-2"></div>
         <h1 class="title-mine section-title-per" align="center">CALCULADORAS</h1>
         <h5 class="title-mine">Rentabilidad de inversión</h5>
@@ -9,16 +9,12 @@
                 <b-row>
                     <b-col cols="5">
                         <label>Inversión inicial</label>
-                        <b-form-input type="text" v-model="initial" :state="validation"></b-form-input>
-                        <small>Tip: Los decimales deben ir con punto</small>
-                        <b-form-invalid-feedback :state="validation">El dato ingresado debe ser numérico mayor a cero</b-form-invalid-feedback>
-                    </b-col>
+                        <b-form-input type="text" v-model="initial" class="my-input" id="my-input"></b-form-input>
+                     </b-col>
 
                     <b-col cols="4">
                         <label>Valor final</label>
-                        <b-form-input type="text" v-model="final" :state="validationF"></b-form-input>
-                        <b-form-invalid-feedback :state="validationF">El dato ingresado debe ser numérico</b-form-invalid-feedback>
-
+                        <b-form-input type="text" v-model="final" class="my-input-2" id="my-input-2"></b-form-input>
                     </b-col>
 
                     <b-col cols="3">
@@ -36,16 +32,17 @@
                     <b-button class="float-right" @click="ROI(initial,final,years)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2" v-if="validation && validationF && validationY">ROI: {{roi*100}}%</h6>
+                    <h6 class="mt-2 calculator-result" v-if="validationY"><strong>EL ROI de la inversión es: {{roi*100}}%</strong></h6>
 
                 </div>
             </div>
         </b-form>
     </div>
-    </div>
+</div>
 </template>
 
 <script>
+import AutoNumeric from 'autonumeric';
 export default {
     data() {
         return {
@@ -56,16 +53,6 @@ export default {
         }
     },
     computed: {
-        validation: function () {
-            if (isNaN(this.initial) || this.initial == '' || this.initial <= 0)
-                return false;
-            else return true;
-        },
-        validationF() {
-            if (isNaN(this.final) || this.final == '' || this.final < 0)
-                return false;
-            else return true;
-        },
         validationY() {
             if (isNaN(this.years) || this.years == '' || this.years <= 0 || !(this.years == parseInt(this.years, 10)))
                 return false;
@@ -74,18 +61,35 @@ export default {
     },
     methods: {
         ROI(initial, final, years) {
+            initial = initial.toString().replace(/\./g, '');
+            initial = initial.toString().replace(",", ".");
+            final = final.toString().replace(/\./g, '');
+            final = final.toString().replace(",", ".");
+            initial = parseFloat(initial);
+            final = parseFloat(final);
             let roival = 0;
             let pot = 1 / years;
             let base = final / initial;
             this.roi = Math.pow(base, pot);
-            this.roi = this.roi-1;
-            this.roi = Math.round(this.roi*10000)/10000;
+            this.roi = this.roi - 1;
+            this.roi = Math.round(this.roi * 10000) / 10000;
             return this.roi;
         }
+    },
+    mounted() {
+        new AutoNumeric('#my-input', {
+            decimalCharacter: ",",
+            digitGroupSeparator: "."
+        });
+
+        new AutoNumeric('#my-input-2', {
+            decimalCharacter: ",",
+            digitGroupSeparator: "."
+        });
     }
 }
 </script>
 
 <style>
-    
+
 </style>
