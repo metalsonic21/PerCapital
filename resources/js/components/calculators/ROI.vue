@@ -32,7 +32,7 @@
                     <b-button class="float-right" @click="ROI(initial,final,years)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2 calculator-result" v-if="validationY"><strong>EL ROI de la inversión es: {{roi*100}}%</strong></h6>
+                    <h6 class="mt-2 calculator-result" v-if="validationY"><strong>EL ROI de la inversión es: {{roi}}%</strong></h6>
 
                 </div>
             </div>
@@ -73,6 +73,8 @@ export default {
             this.roi = Math.pow(base, pot);
             this.roi = this.roi - 1;
             this.roi = Math.round(this.roi * 10000) / 10000;
+            this.roi = this.roi*100;
+            this.roi = this.roi.toString().replace('.', ',');
             return this.roi;
         }
     },
