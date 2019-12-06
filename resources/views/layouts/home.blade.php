@@ -125,6 +125,8 @@
     <div id="app">
             <div id="preloader">
                 <div class="row loader">
+                    <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" alt="logo" width="220" height="110">
+                    <br><br>
                     <div class="loader-icon">
                     </div>
                 </div>

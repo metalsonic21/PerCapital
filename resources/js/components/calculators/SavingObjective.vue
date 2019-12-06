@@ -57,15 +57,19 @@ export default {
             p: 12, //Yearly, Monthly, Every 3 months
             options: [
                 {
-                    value: 12,
+                    value: 1,
                     text: 'Mensual'
                 },
                 {
-                    value: 4,
+                    value: 6,
+                    text: 'Semestral'
+                },
+                {
+                    value: 3,
                     text: 'Trimestral'
                 },
                 {
-                    value: 1,
+                    value: 12,
                     text: 'Anual',
                 }
             ],
@@ -98,6 +102,7 @@ export default {
             den = den-1;
             this.r = num/den;
             this.r =Math.round(this.r*100)/100;
+            this.r = this.r.toFixed(2);
             this.r = this.r.toString().replace('.', ',');
             this.r = this.r.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.');
             return this.r;

@@ -217,7 +217,7 @@
                             También puede solicitar el Prospecto y la Información de Interés para Inversionistas la cual le será enviada vía e mail en donde encontrará el procedimiento para empezar
                         </p>
                         <br>
-                        <p class="text-jusitfy invest-last invest-p text-dark"> <strong>Contacto:</strong> solicitud@percapital.com</p>
+                        <p class="text-jusitfy invest-last invest-p text-dark"> <strong>Contacto:</strong> info@percapital.com</p>
                         <br>
                         <div class="container">
                             <div class="row justify-content-center">

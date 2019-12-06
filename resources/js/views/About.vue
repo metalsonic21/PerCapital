@@ -27,7 +27,7 @@
                     <article class="hover-shadow article-block article-mine">
                         <h5 class="title-mine">SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA</h5>
 
-                        <p class="text-justify text-secondary">Mantenemos evaluación continua de los activos representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.<br>Los fondos mutuales son monitoreados diariamente en para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.<br>Reportes periódicos son emitidos para mantener informados a nuestros clientes.
+                        <p class="text-justify text-secondary">Mantenemos evaluación continua de los activos representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.<br>Los fondos mutuales son monitoreados diariamente para tomar las decisiones que mitiguen riesgos y rentabilicen el capital.<br>Reportes periódicos son emitidos para mantener informados a nuestros clientes.
                         </p>
                     </article>
                 </div>
