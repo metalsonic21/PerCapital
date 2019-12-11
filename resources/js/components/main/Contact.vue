@@ -18,7 +18,7 @@
                 <div class="col-xs-12 col-md-4 col-sx-4">
                     <div class="contact-box"><i class="fa fa-phone"></i>
                         <h4 class="contact-title">TELÉFONO</h4>
-                        <p>0800-CAPITAL</p>
+                        <p></p>
                         <br><br>
                     </div>
                 </div>
