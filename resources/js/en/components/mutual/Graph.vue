@@ -13,15 +13,33 @@
             </div>
 
             <div class="container">
-                <div class="row align-items-start ibox-content ibox-mine">
-                    <canvas id="myChart"></canvas>
-                    
-                    <div class="col-md-6">
-                        <img src="../../../../../public/img/content/landing/graph.png" alt="" class="graph-img" style="width:440px;height:340px;">
+                <div class="row align-items-start ">
+                    <div class="col-lg-6 col-md-6 col-sm-5 ibox-content ibox-mine">
+                        <canvas id="myChart"></canvas>
+                        <div class="row">
+                        <img src="/img/content/landing/graph.png" class="thegraph">
+                        </div>
                     </div>
+
+                    <div class="col-lg-5 col-md-6 col-sm-6 ibox-content col-two ibox-mine">
+                        <h5 class="text-center"> <strong>Why a mutual fund?</strong></h5>
+                        <br>
+                        <ul>
+                            <li>Access to Premium portfolios' benefits with low investment.</li>
+                            <li>Tax free earnings.</li>
+                            <li>Specialized analists dedicated to portfolio's management.</li>
+                            <li>Diversified portfolio to ease risks.</li>
+                            <li>Access to prices of scale economies.</li>
+                        </ul>
+
+                        <div class="text-center">
+                            <i class="fa fa-bar-chart fa-5x"></i>
+                        </div>
+                    </div>
+
                     <!--<div class="col-md-6">
                         <img src="/img/content/landing/graphdesc.png" alt="leyenda" class="mt-2" style="width:320px;height:270px;">
-                        
+
                         <table class="table">
                             <thead>
                                 <tr>
@@ -75,18 +93,16 @@
                             </tbody>
                         </table>
                         -->
-                    </div>
                 </div>
-
             </div>
 
         </div>
+
     </div>
+</div>
 
 </div>
 </template>
-
-
 
 <script>
 import Chart from '../../../../../public/js/Chart.min.js'
@@ -101,7 +117,7 @@ export default {
                     data: [0, 0, 0, 0, 0],
                     backgroundColor: ['#9e480e', '#ed7d31', '#BABABA', '#ffc000', '#5b9bd5'],
                 }],
-                    labels: ['Mixed', 'Industrial', 'Food and Beverages', 'Financial', 'Real State'],
+                labels: ['Mixed 10%', 'Industrial 40%', 'Food and Beverages 30%', 'Financial 10%', 'Real State 10%'],
 
             },
             options: {
@@ -112,52 +128,89 @@ export default {
 }
 </script>
 
-
 <style>
 @media (min-width: 1200px) {
-    .graph-img {
-        margin-left: 300px;
-        margin-top: -640px;
+    .thegraph {
+        margin-top: -200px;
+        margin-left: 100px;
+        height: 280px !important;
+        width: 360px !important;
+    }
+
+    .ibox-mine {
+        height: 400px !important;
     }
 
     .desc-col {
         margin-left: -100px;
     }
-}
 
-@media (max-width: 400px) {
-    .graph-img {
-        height: 310px !important;
+    .col-two{
+        margin-left: 15px;
+    }
+
+    .filler-img{
+        width:200px;
+        height: 200px;
     }
 }
 
-@media (min-width: 330px) and (max-width: 412px) {
-    .graph-img {
-        height: 240px !important;
-        margin-top:-70px !important;
+@media screen and (min-width:755px) and (max-width:1199px){
+    .filler-img{
+        width:150px;
+        height: 150px;
     }
 }
 
-@media (min-width:458px) and (max-width: 744px) {
-    .graph-img {
-        margin-top: -170px !important;
+@media (min-width: 330px) and (max-width: 449px) {
+    .thegraph {
+        margin-top: -20px;
+    }
+
+    .ibox-mine {
+        height: 450px !important;
+    }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
     }
 }
 
-@media screen and (min-width: 745px) and (max-width:1199px){
-    .graph-img{
-        margin-top: -280px !important;
-        margin-left: 160px !important;
-        height: 240px !important; 
+@media (min-width: 450px) and (max-width: 504px) {
+    .thegraph {
+        margin-top: -80px;
+    }
+
+    .ibox-mine {
+        height: 450px !important;
+    }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
     }
 }
 
-.ibox-mine {
-    height: 450px;
+@media (min-width: 505px) and (max-width: 754px) {
+    .thegraph {
+        margin-top: -120px;
+    }
+
+    .ibox-mine {
+        height: 450px !important;
+    }
+
+    .filler-img{
+        width:100px;
+        height: 100px;
+    }
 }
 
 .ibox-title-mine {
     background-color: transparent !important;
     border-top: none !important;
 }
+
+.row:before, .row:after {display: none !important;}
 </style>

@@ -145,13 +145,15 @@
                             <b-dropdown-item href="/en/#news" class="dropdown-mine">News</b-dropdown-item>
                             <b-dropdown-item href="#" class="dropdown-mine">Calendar</b-dropdown-item>
                         </b-nav-item-dropdown>
+                        <!--
                             <b-nav-item-dropdown right>
                             <template slot="button-content">
                                 <i class="fa fa-user"></i>
                             </template>
                                 <b-dropdown-item href="#" class="dropdown-mine">Institutional</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Private</b-dropdown-item>
-                            </b-nav-item-dropdown>
+                            </b-nav-item-dropdown>-->
+                        
     
                             <b-nav-item href="/" right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
                             <b-nav-item hreft="/en" right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>

@@ -4,7 +4,7 @@
         <h6 style="opacity:1;font-size:1px;">hi</h6>
     </div>
 
-    <section class="features animated fadeInRight" id="equipo">
+    <section class="features animated fadeInRight" id="strats">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -13,7 +13,7 @@
 
                 </div>
             </div>
-            <div class="row justify-content-center row-team">
+            <div class="row justify-content-center row-team row">
 
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                 
@@ -21,7 +21,7 @@
         
                     <h2 class="title-mine">DIVERSIFICACIÓN</h2>
                     <i class="fa fa-calculator big-icon float-right"></i>
-                    <p class="text-secondary">Consiste en no concentrar el capital en un activo o grupo de activos en particular, esto con el objetivo de disminuir el riesgo. Los Fondos Mutuales, así como las E.I.C. se especializan en buscar la disminución del riesgo mediante la diversificación de los activos que componen su portafolio.</p>
+                    <p class="text-secondary text-justify">Consiste en no concentrar el capital en un activo o grupo de activos en particular, esto con el objetivo de disminuir el riesgo. Los Fondos Mutuales, así como las E.I.C. se especializan en buscar la disminución del riesgo mediante la diversificación de los activos que componen su portafolio.</p>
                 </b-col>
             </div>
 
@@ -29,7 +29,7 @@
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                     <h2 class="title-mine">PLAZOS</h2>
                     <i class="fa fa-clock-o big-icon float-right"></i>
-                    <p class="text-secondary">Una inversión puede ser a corto, mediano o largo plazo y el mismo esta atado al riesgo y rendimiento. En este sentido los Fondos suelen ser inversiones a mediano y largo plazo que basan su estrategia en la Inversión en Valor, reduciendo así el riesgo del portafolio.</p>
+                    <p class="text-secondary text-justify">Una inversión puede ser a corto, mediano o largo plazo y el mismo esta atado al riesgo y rendimiento. En este sentido los Fondos suelen ser inversiones a mediano y largo plazo que basan su estrategia en la Inversión en Valor, reduciendo así el riesgo del portafolio.</p>
                 </b-col>
             </b-row>
 
@@ -37,7 +37,7 @@
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                     <h2 class="title-mine">PLANIFICACIÓN FISCAL</h2>
                     <i class="fa fa-clipboard big-icon float-right"></i>
-                    <p class="text-secondary">
+                    <p class="text-secondary text-justify">
                         Una manera de maximizar tu potencial rendimiento es minimizando impuestos. Al hacer inversiones fiscalmente inteligentes, puedes reducir el monto perdido ante el fisco cada año manteniendo así mayor cantidad de tus ganancias para cubrir necesidades presentes o futuras.
                         <br>
                         Las ganancias netas de las Entidades de Inversión Colectiva están exentas de ISLR, así como también los rendimientos provenientes de inversiones en Fondos Mutuales o de inversión de oferta publica, por eso este tipo de inversión es considerada una inversión fiscalmente inteligente.
@@ -49,7 +49,7 @@
                 <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
                     <h2 class="title-mine">CAPITAL </h2>
                     <i class="fa fa-money big-icon float-right"></i>
-                    <p class="text-secondary">
+                    <p class="text-secondary text-justify">
                         El monto del capital a invertir dependerá de la condición de cada inversionista y debería ser proporcional a los ingresos y gastos del mismo. En este sentido es recomendable que cada inversionista mida primero sus ingresos y egresos totales para destinar así un porcentaje de su patrimonio a la inversión y creación de valor.
                     </p>
                 </b-col>
@@ -73,3 +73,9 @@ export default {
     
 }
 </script>
+
+<style>
+    .row-team{
+        font-size: 14px;
+    }
+</style>

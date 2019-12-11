@@ -16,7 +16,7 @@
                         <br>
 
                         <!-- Copyright -->
-                        <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
+                        <div class="footer-copyright text-center py-3" style="color:white">
                             info@percapital.com
                             <p>Caracas-Venezuela</p>
                         </div>
@@ -158,7 +158,7 @@
             <div class="text-center py-3" style="color:white">
                 <div class="text-justify footer-disclaimer">
                     <small>
-                        <p>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva C.A., RIF J-41280239-9 es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX.<br>PER CAPITAL Fondo Mutual de Capital Abierto C.A., es una empresa autorizada y regulada por la SUNAVAL bajo la Providencia Nº XXXXX<br>PER CAPITAL Asesora de Inversión, RIF J-41296024-5 es una empresa autorizada y regulada por la SUNAVAL
+                        <p>PER CAPITAL Sociedad Administradora de Entidades de Inversión Colectiva C.A., RIF J-41280239-9 es una empresa autorizada y regulada por la SUNAVAL<br>PER CAPITAL Fondo Mutual de Capital Abierto C.A., es una empresa autorizada y regulada por la SUNAVAL<br>PER CAPITAL Asesora de Inversión, RIF J-41296024-5 es una empresa autorizada y regulada por la SUNAVAL
                             <br><br>PER CAPITAL sociedad Administradora de E.I.C. C.A. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad
                             y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.
                             Si usted es un inversionista Privado no <strong>debe</strong> tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión.

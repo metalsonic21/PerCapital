@@ -123,12 +123,14 @@
 
 <body class="landing-page">
     <div id="app">
-            <div id="preloader">
-                <div class="row loader">
-                    <div class="loader-icon">
-                    </div>
+        <div id="preloader">
+            <div class="row loader">
+                <img src="/img/logo/Logo-Per-Capital-horizontal-original.png" alt="logo" width="220" height="110">
+                <br><br>
+                <div class="loader-icon">
                 </div>
             </div>
+        </div>
         
     <header id="header-mine">
         <Values></Values>
@@ -168,14 +170,16 @@
                             <b-dropdown-item href="/en/strategies" class="dropdown-mine">Strategies</b-dropdown-item>
                             <b-dropdown-item href="/en/#news" class="dropdown-mine">News</b-dropdown-item>
                             <b-dropdown-item href="#" class="dropdown-mine">Calendar</b-dropdown-item>
+                        
                         </b-nav-item-dropdown>
-                            <b-nav-item-dropdown right>
+                        <!--    <b-nav-item-dropdown right>
                             <template slot="button-content">
                                 <i class="fa fa-user"></i>
                             </template>
                                 <b-dropdown-item href="#" class="dropdown-mine">Institutional</b-dropdown-item>
                                 <b-dropdown-item href="#" class="dropdown-mine">Private</b-dropdown-item>
                             </b-nav-item-dropdown>
+                        -->
     
                             <b-nav-item href="/" right> <span class="flag-icon flag-icon-es align-middle"></span> </b-nav-item>
                             <b-nav-item href="/en" right> <span class="flag-icon flag-icon-gb align-middle"></span> </b-nav-item>

@@ -13,7 +13,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> <strong> PIB (%)</strong></h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">-25</h5>
+                        <h5 class="no-margins text-center number-val">-25.4</h5>
 
                     </div>
                 </div>
@@ -21,18 +21,18 @@
             <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h4 class="text-center numbers-title"> <strong> Población</strong></h4>
+                        <h4 class="text-center numbers-title"> <strong> Población (MM)</strong></h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">28.067.000</h5>
+                        <h5 class="no-margins text-center number-val">28,067</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h4 class="text-center numbers-title"> <strong> Reservas Internacionales</strong></h4>
+                        <h4 class="text-center numbers-title"> <strong> Reservas Internacionales (MM)</strong></h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">8.052.000</h5>
+                        <h5 class="no-margins text-center number-val">$ 7,555</h5>
 
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> <strong> Tasa de cambio Bs/$</strong></h4>
                 <hr>
-                        <h5 class="no-margins text-center number-val">28.954,71</h5>
+                        <h5 class="no-margins text-center number-val">39,947.60</h5>
 
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> <strong> Tasa de cambio Bs/€</strong></h4>
                         <hr>
-                        <h5 class="no-margins text-center number-val">32.055,47</h5>
+                        <h5 class="no-margins text-center number-val">44,291.90</h5>
 
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> <strong> IBC</strong></h4>
                         <hr>
-                        <h5 class="no-margins text-center number-val">0,9029 <em style="color:red;font-style:normal">-0,2100%</em></h5>
+                        <h5 class="no-margins text-center number-val">71,167.77</h5>
 
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> <strong> Cesta OPEP</strong></h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">60.337,76 <em style="color:green;font-style:normal">1,93%</em></h5>
+                        <h5 class="no-margins text-center number-val">$ 63.39</h5>
 
                     </div>
                 </div>

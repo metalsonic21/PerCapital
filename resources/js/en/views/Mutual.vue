@@ -17,8 +17,8 @@
             <div class="col-lg-2 mt-4">
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        V.U.I
-                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                        I.U.V
+                        <b-badge variant="dark">Bs 55.000</b-badge>
                     </b-list-group-item>
                 </b-list-group>
             </div>
@@ -39,17 +39,12 @@
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Launch Date
-                        <b-badge variant="dark">Dec 20 2019</b-badge>
+                        <b-badge variant="dark">2020</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Benchmark Index
 
                         <b-badge variant="dark">Índice general BVC</b-badge>
-                    </b-list-group-item>
-                    <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        Asset class
-
-                        <b-badge variant="dark">Multi Asset</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Sector
@@ -61,12 +56,6 @@
 
                         <b-badge variant="dark">Bs</b-badge>
                     </b-list-group-item>
-                    
-                    <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        Size of Fund
-
-                        <b-badge variant="dark">Bs. 1.000,00 MM</b-badge>
-                    </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Pricing
 
@@ -76,11 +65,6 @@
                         Minimum Investment
 
                         <b-badge variant="dark">1 Investment Unit (IU)</b-badge>
-                    </b-list-group-item>
-                    <b-list-group-item class="d-flex justify-content-between align-items-center">
-                        IUV
-
-                        <b-badge variant="dark">BS. 50.000,00</b-badge>
                     </b-list-group-item>
                 </b-list-group>
             </div>
@@ -194,11 +178,10 @@
 
                     <div class="invest-items-bg">
 
-                        <p class="text-justify invest-last invest-p text-dark">Investing is easy with PER CAPITAL, just follow the steps below and start sowing your future now.
-                        </p>
+                        <p class="text-justify invest-last invest-p text-dark">Investing is easy with PER CAPITAL, just follow the steps below and start sowing your future now.</p>
                         <div class="row" style="margin-top:1px;">
                             <div class="col-lg-12">
-                                <h6 class="text-center invest-title"> <b> Investor profile</b></h6>
+                                <h6 class="text-center invest-title"> <b> Investor Profile</b></h6>
                                 <p class="text-justify invest-last invest-p text-dark">Determine your investor profile taking into account if you are a Natural or Legal Person, age, professional, non-professional and your risk aversion (low, medium, high)</p>
 
                             </div>
@@ -221,17 +204,18 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <h6 class="text-center invest-title"> <b> Subscribe</b></h6>
-                                <p class="text-justify invest-last invest-p text-dark">Acquire the desired investment units of the selected fund by completing the compliance process and sending funds for the acquisition.
+                                <p class="text-justify invest-last invest-p text-dark">Acquire the desired investment units of the selected fund by completing the compliance process and sending funds for the acquisition. 
                                 </p>
                                 <p class="text-center">
-                                    <a class="navy-link" href="/register">Haga click aquí &raquo;</a>
+                                    <a class="navy-link" style="font-size:16px;" href="/register">Click here &raquo;</a>
                                 </p>
+                                <br>
                             </div>
                         </div>
-                        <p class="text-justify invest-last invest-p text-dark">You can also request the Prospectus and the Fact Sheets which will be sent to you via email where you will find the procedure to start.
-                        </p>
-                        <p class="text-jusitfy invest-last invest-p text-dark"> <strong>Contacto:</strong> solicitud@percapital.com</p>
-
+                        <p class="text-justify invest-last invest-p text-dark">You can also request the Prospectus and the Fact Sheets which will be sent to you via email where you will find the procedure to start. </p>
+                        <br><br>
+                        <p class="text-jusitfy invest-last invest-p text-dark"> <strong>Contact:</strong> info@percapital.com</p>
+                        <br><br>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="btn-group" role="group" aria-label="Basic example">
@@ -240,6 +224,7 @@
                                     <a href="#" class="btn btn-secondary ml-2 btn-title">Subscribe</a>
                                 </div>
                             </div>
+                            <br>
                         </div>
                     </div>
 

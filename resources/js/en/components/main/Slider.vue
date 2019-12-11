@@ -27,8 +27,8 @@
                                     <b-collapse id="menu-1">
                                         <ul class="list-unstyled">
                                             <li class="list-group-item-card"> <a href="/en/mutual" style="color:white">Mutual Fund</a></li>
-                                            <li class="list-group-item-card"> <a href="#" style="color:white">Real State Fund</a></li>
-                                            <li class="list-group-item-card"> <a href="#" style="color:white">Venture Capital</a> </li>
+                                            <li class="list-group-item-card"> <a href="/en/mutual" style="color:white">Real State Fund</a></li>
+                                            <li class="list-group-item-card"> <a href="/en/mutual" style="color:white">Venture Capital</a> </li>
                                         </ul>
                                     </b-collapse>
                                 </div>
@@ -43,10 +43,10 @@
                                     <b-collapse id="menu-2">
                                         <div class="card-body">
                                             <ul class="list-unstyled">
-                                                <li class="list-group-item-card">Asset Management</li>
-                                                <li class="list-group-item-card">Financial Advisory</li>
-                                                <li class="list-group-item-card">Structuring</li>
-                                                <li class="list-group-item-card">Financial Engineering</li>
+                                                <li class="list-group-item-card"> <a href="/services">Asset Management</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Financial Advisory</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Structuring</a></li>
+                                                <li class="list-group-item-card"> <a href="/services">Financial Engineering</a></li>
                                             </ul>
                                         </div>
                                     </b-collapse>
@@ -54,16 +54,14 @@
                                 <div class="card">
                                     <div class="card-header card-header-mine" id="headingThree">
                                         <h2 class="mb-0">
-                                            <button class="btn btn-link collapsed" type="button" aria-expanded="false">
-                                                <a href="/about#faq" style="color:white">
-                                                    <h5 class="card-title-mine float-left">FAQ</h5>
-                                                </a>
-                                            </button>
+                                            <b-link href="/en/about#faq" class="btn btn-link">
+                                                <h5 class="card-title-mine">FAQ</h5>
+                                            </b-link>
                                         </h2>
                                     </div>
                                 </div>
                                 <button class="btn btn-per btn-lg btn-block">
-                                    <a href="/register" style="color:white;">
+                                    <a href="#" style="color:white;">
                                         <h6 class="btn-text"> Susbcribe</h6>
                                     </a>
                                 </button>

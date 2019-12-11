@@ -61,16 +61,20 @@ export default {
             p: 12, //Yearly, Monthly, Every 3 months
             options: [
                 {
-                    value: 12,
+                    value: 1,
                     text: 'Mensual'
                 },
                 {
-                    value: 4,
-                    text: 'Trimestral'
+                    value: 6,
+                    text: 'Biannual'
                 },
                 {
-                    value: 1,
-                    text: 'Anual',
+                    value:3,
+                    text: 'Quarterly'
+                },
+                {
+                    value: 12,
+                    text: 'Annual',
                 }
             ],
             r: 0,

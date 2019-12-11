@@ -19,7 +19,7 @@
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         V.U.I
                         <b-row>
-                        <b-badge variant="dark">Bs 55.000,00</b-badge>
+                        <b-badge variant="dark">Bs 50.000</b-badge>
                         </b-row>
                     </b-list-group-item>
                 </b-list-group>
@@ -44,7 +44,7 @@
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Fecha inicio
-                        <b-badge variant="dark">20 Dic 2019</b-badge>
+                        <b-badge variant="dark">2020</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
                         Comparativo

@@ -301,7 +301,7 @@
 
                                 <b-collapse id="faq-8" class="panel-collapse">
                                     <div class="faq-answer">
-                                        <p>La inversión mínima dependerá del Fondo que el cliente escoja.
+                                        <p>La inversión mínima dependerá del Fondo que el cliente escoja. Normalmente la inversión mínima es de 1 Unidad de Inversión
                                         </p>
                                     </div>
                                 </b-collapse>
@@ -330,16 +330,15 @@
                                             <ul>
                                                 <li>Comisión de entrada: 2.5% al suscribir</li>
                                                 <li>Comisión de salida: 0%</li>
-                                                <li>Comisión de administración 5.0% trimestral</li>
                                             </ul>
                                         </p>
 
                                         <p>
                                             <strong>E.I.C.</strong>
                                             <ul>
-                                                <li>Comisión de Administración Fondo Mutual: 5% del valor promedio del activo neto al cierre</li>
-                                                <li>Comisión Administración E.I.C. Inmobiliario: 5% del valor promedio del activo neto al cierre</li>
-                                                <li>Comisión Administración E.I.C. Capital de Riesgo: 10% del valor promedio del activo neto al cierre</li>
+                                                <li>Comisión de Administración Fondo Mutual: max 5% del valor promedio del activo neto al cierro</li>
+                                                <li>Comisión Administración E.I.C. Inmobiliario: max 5% del valor promedio del activo neto al cierre</li>
+                                                <li>Comisión Administración E.I.C. Capital de Riesgo: max 10% del valor promedio del activo neto al cierre</li>
                                             </ul>
                                         </p>
                                     </div>

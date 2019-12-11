@@ -32,7 +32,7 @@
                     <b-button class="float-right" @click="ROI(initial,final,years)">Calcular</b-button>
                 </div>
                 <div class="p-2 bd-highlight">
-                    <h6 class="mt-2 calculator-result" v-if="validationY"><strong>EL ROi de la inversión es: {{roi}}%</strong></h6>
+                    <h6 class="mt-2 calculator-result" v-if="validationY"><strong>EL ROI de la inversión es: {{roi}}%</strong></h6>
 
                 </div>
             </div>

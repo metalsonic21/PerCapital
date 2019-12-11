@@ -16,7 +16,7 @@
                         <br>
 
                         <!-- Copyright -->
-                        <div class="footer-copyright text-center py-3" style="color:white">0800-CAPITAL
+                        <div class="footer-copyright text-center py-3" style="color:white">
                             info@percapital.com
                             <p>Caracas-Venezuela</p>
                         </div>
@@ -158,11 +158,11 @@
             <div class="text-center py-3" style="color:white">
                 <div class="text-justify footer-disclaimer">
                     <small>
-                        <p>PER CAPITAL Sociedad Administradora de Entidadesde Inversión Colectiva C.A., RIF J-412802399 is a company regulated and authorized by SUNAVAL
+                        <p>PER CAPITAL Sociedad Administradora de Entidadesde Inversión Colectiva C.A., RIF J-41280239-9 is a company regulated and authorized by SUNAVAL
                             <br>
-                            PER CAPITAL Fondo Mutual de Inversion de Capital Abierto C.A., RIF J-XXXXXXX is a company regulated and authorized by SUNAVAL
+                            PER CAPITAL Fondo Mutual de Inversion de Capital Abierto C.A., RIF is a company regulated and authorized by SUNAVAL
                             <br>
-                            PER CAPITAL Asesora de Inversión C.A., RIF J-412960245 is a company regulated and authorized by SUNAVAL
+                            PER CAPITAL Asesora de Inversión C.A., RIF J-41296024-5 is a company regulated and authorized by SUNAVAL
                             <br><br>
                             PER CAPITAL Asset Management and the Funds it offers are regulated and have been authorized by the SUNAVAL. Prospects, key information, accounting and periodic reports, as well as other company documents and the funds it manages can be obtained at the distributor's offices, via e mail or this website.
 If you are a Private Investor you should not take the information contained in this website as a recommendation or suggestion that affects your investment decision. Nothing on this website should be taken as a financial advice or advice.
