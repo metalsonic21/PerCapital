@@ -7,47 +7,45 @@
                 <div class="center-holder main-heading">
                     <h3 class="title-mine section-title-per">FINALMENTE PUEDES EMPEZAR</h3>
                     <p class="text-center">PER CAPITAL ofrece fácil acceso a oportunidades de inversión Premium
-                    <br>en el mercado de Capitales, Inmobiliario y de Capital de Riesgo, previamente <br>evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.</p>
+                        <br>en el mercado de Capitales, Inmobiliario y de Capital de Riesgo, previamente <br>evaluadas y aprobadas por nuestros expertos, para inversionistas institucionales y público en general.</p>
                 </div>
-                <div class="container-fluid feature-cards">
-                    <div class="mt-70">
-                        <div class="row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3 col-lg-3 col-md-3">
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON01.png" alt="Icono 1" width="75" height="75">
+                                <h4>TRANSPARENCIA</h4>
+                                <p>Somos una empresa regulada y cumplimos con los mayores estándares de cumplimiento para garantizar la tranquilidad a nuestros clientes. <br> <br> <br> </p>
 
-                            <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-check" aria-hidden=true></i>
-                                    <h4>TRANSPARENCIA</h4>
-                                    <p>Somos una empresa regulada y cumplimos con los mayores estándares de cumplimiento para garantizar la tranquilidad a nuestros clientes. <br> <br> <br> </p>
-
-                                </article>
-                            </div>
-                            <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-compass" aria-hidden=true></i>
-                                    <h4>ANÁLISIS RIGUROSO</h4>
-                                    <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> </p>
-                                </article>
-                            </div>
-                            <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-bank" aria-hidden=true></i>
-                                    <h4>FINANZAS INTELIGENTES</h4>
-                                    <p>Estudiamos a fondo los proyectos y mercados buscando solvencia financiera, reputacional y excelencia en gestión empresarial con el objetivo de generar valor. </p>
-                                </article>
-                            </div>
-                            <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-money" aria-hidden=true></i>
-                                    <h4>COMUNIDAD INVERSIONISTA</h4>
-                                    <p>Construimos una comunidad de inversionistas institucionales y no institucionales que ofrece una alternativa de financiamiento. <br> <br> </p>
-                                </article>
-                            </div>
+                            </article>
+                        </div>
+                        <div class="col-sm-3 col-lg-3 col-md-3">
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON02.png" alt="Icono 2" width="75" height="75">
+                                <h4>ANÁLISIS RIGUROSO</h4>
+                                <p>Nuestro equipo investiga y analiza para ti, hasta el más mínimo detalle de cada proyecto de inversión que ofrecemos. <br> <br> <br> <br> </p>
+                            </article>
+                        </div>
+                        <div class="col-sm-3 col-lg-3 col-md-3">
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON03.png" alt="Icono 3" width="75" height="75">
+                                <h4>FINANZAS INTELIGENTES</h4>
+                                <p>Estudiamos a fondo los proyectos y mercados buscando solvencia financiera, reputacional y excelencia en gestión empresarial con el objetivo de generar valor. </p>
+                            </article>
+                        </div>
+                        <div class="col-sm-3 col-lg-3 col-md-3">
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON04.png" alt="Icono 4" width="75" height="75">
+                                <h4>COMUNIDAD INVERSIONISTA</h4>
+                                <p>Construimos una comunidad de inversionistas institucionales y no institucionales que ofrece una alternativa de financiamiento. <br> <br> </p>
+                            </article>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
-
+<br><br>
     <Numbers></Numbers>
     <div class="calculator-home">
-    <Calculator></Calculator>
+        <Calculator></Calculator>
     </div>
     <br>
 </div>
@@ -56,7 +54,7 @@
 <script>
 export default {
     methods: {
-        register(){
+        register() {
             window.location = "/register"
         },
     }
@@ -68,7 +66,7 @@ export default {
     color: #ffffff;
 }
 
-.calculator-home{
+.calculator-home {
     margin-bottom: 50px;
 }
 
@@ -98,28 +96,28 @@ export default {
     color: black;
 }
 
-.grey-section-mine{
+.grey-section-mine {
     margin-top: -175px;
 }
 
-.features-mine{
+.features-mine {
     margin-top: -5%;
 }
 
-.row-team{
+.row-team {
     margin-top: -3%;
 }
 
-.comments-mine{
+.comments-mine {
     margin-top: -3%;
 }
 
-.row-team{
+.row-team {
     margin-bottom: -3%;
 }
 
-.article-landing{
-    height:450px;
+.article-landing {
+    height: 450px;
 }
 
 .h4-mine {
@@ -145,8 +143,8 @@ export default {
     display: table;
 }
 
-.feature-cards{
+.feature-cards {
     margin-top: -7%;
-    height:550px;
+    height: 550px;
 }
 </style>
