@@ -5,15 +5,9 @@
         </div>
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-1.jpg)" data-swiper-autoplay="9000"> <br>
+            <div class="swiper-slide" style="background-image:url(img/content/landing/ns-1.jpg);background-repeat:no-repeat;background-position:0px -100px;background-size:1750px 800px" data-swiper-autoplay="9000"> <br>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 offset-md-1">
-                            <h4 class="title-mine">FINANZAS INTELIGENTES</h4>
-                            <p class="text-justify" style="color:white">Ofrecemos servicios de administración de E.I.C.,
-                                asesoría y consultoría en finanzas personales, corporativas e institucionales.
-                            </p>
-                        </div>
                         <div class="col-sm">
                             <div class="accordion float-right mt-2" id="accordionExample">
                                 <div class="card">
@@ -44,10 +38,10 @@
                                     <b-collapse id="menu-2">
                                         <div class="card-body">
                                             <ul class="list-unstyled">
-                                                <li class="list-group-item-card"> <a href="/services">Administración E.I.C</a></li>
-                                                <li class="list-group-item-card"> <a href="/services">Asesoría Financiera</a></li>
-                                                <li class="list-group-item-card"> <a href="/services">Estructuración</a></li>
-                                                <li class="list-group-item-card"> <a href="/services">Ingeniería Financiera</a></li>
+                                                <li class="list-group-item-card"> <a href="/services" style="color:white">Administración E.I.C</a></li>
+                                                <li class="list-group-item-card"> <a href="/services" style="color:white">Asesoría Financiera</a></li>
+                                                <li class="list-group-item-card"> <a href="/services" style="color:white">Estructuración</a></li>
+                                                <li class="list-group-item-card"> <a href="/services" style="color:white">Ingeniería Financiera</a></li>
                                             </ul>
                                         </div>
                                     </b-collapse>
@@ -72,15 +66,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide" style="background-image:url(img/content/landing/slide-3.jpg)" data-swiper-autoplay="9000"> <br>
-                <div class="container">
-                    <div class="row mx-auto my-auto rowmine">
-                        <div class="col-lg-10">
-                            <h4 class="title-mine">ACCESO A PORTAFOLIOS DE INVERSIÓN PREMIUM PARA EL PEQUEÑO Y MEDIANO INVERSIONISTA</h4>
-                        </div>
-                    </div>
-                </div>
-                        
+            <div class="swiper-slide bg-one" style="background-image:url(img/content/landing/ns-2.jpg);" data-swiper-autoplay="9000"> <br>
             </div>
 
         </div>
@@ -96,6 +82,36 @@ export default {}
 </script>
 
 <style>
+/* Slider backgrounds */
+.bg-one {
+    background-position: 0px -150px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:456px) {
+ .bg-one {
+    background-position: -450px -100px;
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+}   
+}
+
+@media screen and (min-width:1209px) and (max-width: 1300px) {
+ .bg-one {
+    background-position: 0px -100px;
+    background-size: 1300px 700px;
+    background-repeat: no-repeat;
+}   
+}
+
+@media screen and (min-width:1114px) and (max-width: 1208px) {
+ .bg-one {
+    background-position: -100px -150px;
+    background-size: 1300px 800px;
+    background-repeat: no-repeat;
+}   
+}
+
 .mytest {
     position: absolute;
     left: 130px;
@@ -180,10 +196,9 @@ export default {}
 }
 
 @media screen and (min-width: 1150px) {
-.rowmine{
-    margin-left:220px !important;
-    margin-top: 10px !important;
-}    
+    .rowmine {
+        margin-left: 220px !important;
+        margin-top: 10px !important;
+    }
 }
-
 </style>
