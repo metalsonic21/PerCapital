@@ -5,14 +5,9 @@
         </div>
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide" style="background-image:url(img/content/landing/ns-1.jpg)" data-swiper-autoplay="9000"> <br>
+            <div class="swiper-slide bg-two" style="background-image:url(img/content/landing/ns-1.jpg);" data-swiper-autoplay="9000"> <br>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 offset-md-1">
-                            <h4 class="title-mine">SMART FINANCE</h4>
-                            <p class="text-justify" style="color:white">We offer asset management and administration services, advice and consulting in personal and corporate finance.
-                            </p>
-                        </div>
                         <div class="col-sm">
                             <div class="accordion float-right mt-2" id="accordionExample">
                                 <div class="card">
@@ -70,16 +65,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="swiper-slide" style="background-image:url(img/content/landing/ns-2.jpg)" data-swiper-autoplay="9000"> <br>
-                <div class="container">
-                    <div class="row mx-auto my-auto rowmine">
-                        <div class="col-lg-10">
-                            <h4 class="title-mine">ACCESS TO PREMIUM INVESTMENT OPPORTUNITIES FOR SMALL AND MEDIUM INVESTORS</h4>
-                        </div>
-                    </div>
-                </div>
-                        
+            <div class="swiper-slide bg-one" style="background-image:url(img/content/landing/ns-2.jpg);" data-swiper-autoplay="9000"> <br>
             </div>
 
         </div>
@@ -101,11 +87,22 @@ export default {}
     background-repeat: no-repeat;
 }
 
+.bg-two{
+    background-repeat:no-repeat;
+    background-position:0px -100px;
+    background-size:1750px 800px;
+}
+
 @media screen and (max-width:456px) {
  .bg-one {
     background-position: -450px -100px;
     background-repeat: no-repeat;
     background-size: 900px 700px;
+}   
+ .bg-two {
+    background-position: -600px -100px;
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
 }   
 }
 
@@ -209,10 +206,9 @@ export default {}
 }
 
 @media screen and (min-width: 1150px) {
-.rowmine{
-    margin-left:220px !important;
-    margin-top: 10px !important;
-}    
+    .rowmine {
+        margin-left: 220px !important;
+        margin-top: 10px !important;
+    }
 }
-
 </style>

@@ -5,7 +5,7 @@
         </div>
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide" style="background-image:url(img/content/landing/ns-1.jpg);background-repeat:no-repeat;background-position:0px -100px;background-size:1750px 800px" data-swiper-autoplay="9000"> <br>
+            <div class="swiper-slide bg-two" style="background-image:url(img/content/landing/ns-1.jpg);" data-swiper-autoplay="9000"> <br>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
@@ -51,7 +51,7 @@
                                         <h2 class="mb-0">
                                             <b-link href="about/#faq" class="btn btn-link">
                                                 <h5 class="card-title-mine">Preguntas Frecuentes</h5>
-                                            </b-link>
+                                              </b-link>
                                         </h2>
                                     </div>
                                 </div>
@@ -88,11 +88,22 @@ export default {}
     background-repeat: no-repeat;
 }
 
+.bg-two{
+    background-repeat:no-repeat;
+    background-position:0px -100px;
+    background-size:1750px 800px;
+}
+
 @media screen and (max-width:456px) {
  .bg-one {
     background-position: -450px -100px;
     background-repeat: no-repeat;
     background-size: 900px 700px;
+}   
+ .bg-two {
+    background-position: -600px -100px;
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
 }   
 }
 

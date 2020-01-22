@@ -14,26 +14,26 @@
                         <div class="row">
 
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-check" aria-hidden=true></i>
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON01.png" alt="Icono 1" width="75" height="75">
                                     <h4>TRANSPARENCY</h4>
                                     <p>We are a regulated company and we meet the highest compliance and management standards to ensure peace of mind for our customers. <br> <br> <br> </p>
 
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-compass" aria-hidden=true></i>
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON02.png" alt="Icono 2" width="75" height="75">
                                     <h4>RIGUROUS ANALYSIS</h4>
                                     <p>Our team investigates and analyzes for you, even the smallest detail of each investment project we offer. <br> <br> <br> <br> </p>
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-bank" aria-hidden=true></i>
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON03.png" alt="Icono 3" width="75" height="75">
                                     <h4>SMART FINANCE</h4>
                                     <p>We study in depth the projects and markets seeking financial solvency, reputation and excellence in business management with the objective of generating value.</p>
                                 </article>
                             </div>
                             <div class="col-md-3">
-                                <article class="hover-shadow article-block article-landing"><i class="fa fa-money" aria-hidden=true></i>
+                            <article class="hover-shadow article-block article-landing"><img src="/img/content/icons/ICON04.png" alt="Icono 4" width="75" height="75">
                                     <h4>INVESTOR COMMUNITY</h4>
                                     <p>We build a community of institutional and non-institutional investors that offers a financing alternative. <br> <br> </p>
                                 </article>
