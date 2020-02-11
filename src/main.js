@@ -23,11 +23,11 @@ library.add(fas)
 
 
 /* CSS */
-//require('../public/css/styles.css')
 require('../public/css/default.css')
 require('../public/css/animate.css')
 require('../public/css/percapital.css')
 require('../public/css/swiper.min.css')
+require('../public/css/Chart.min.css')
 require('../public/css/swiper-slider.css')
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

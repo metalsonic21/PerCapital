@@ -3,7 +3,7 @@
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="navy-line-2" style="margin-top:40px;"></div>
+                <div class="navy-line-2" style="margin-top:20px;"></div>
                 <h1 class="title-mine text-center section-title-per">{{$t('corporate')}}</h1>
 
                 <div class=text-content>

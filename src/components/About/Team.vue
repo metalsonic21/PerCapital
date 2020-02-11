@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
+                    <div class="navy-line-3"></div>
                     <h1 class="title-mine section-title-per">{{$t('team')}}</h1>
 
                 </div>
