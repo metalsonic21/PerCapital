@@ -12,7 +12,6 @@
     <Logos></Logos>
     <Contact></Contact>
     <br>
-    <MyFooter></MyFooter>
   </div>
 </template>
 
@@ -21,12 +20,11 @@
 import Slide from '@/components/Home/Slide.vue'
 import Start from '@/components/Home/Start.vue'
 import Numbers from '@/components/Home/Numbers.vue'
-import ROI from '@/components/calculators/ROI.vue'
-import SO from '@/components/calculators/SO.vue'
+import ROI from '@/components/Calculators/ROI.vue'
+import SO from '@/components/Calculators/SO.vue'
 import RSS from '@/components/Home/News.vue'
 import Logos from '@/components/Home/Logos.vue'
 import Contact from '@/components/Home/Contact.vue'
-import MyFooter from '@/components/Home/Footer.vue'
 
 export default {
   name: 'Home',
@@ -39,7 +37,6 @@ export default {
     RSS,
     Logos,
     Contact,
-    MyFooter,
   }
 }
 </script>

@@ -811,6 +811,142 @@ h1 {
     display: none !important;
 }
 
+/* About */
+
+.about-mine {
+    margin-bottom: 2%;
+    margin-top: 5px;
+}
+
+.article-mine {
+    height: 650px;
+}
+
+/* Team */
+.features {
+    margin-top: -4%;
+}
+
+.gray-section {
+    background: #f4f4f4;
+    margin-top: 5px;
+}
+
+.features-block {
+    margin-top: 40px;
+}
+
+.features-text {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.features small {
+    color: #859da9;
+}
+
+.features h2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.features-text-alone {
+    margin: 40px 0;
+}
+
+.features-text-alone h1 {
+    font-weight: 200;
+}
+
+.features-icon {
+    color: #859da9;
+    font-size: 40px;
+}
+
+/* Corporate */
+.gov-text {
+    margin-bottom: -3px;
+}
+
+.gov-title {
+    margin-top: -15px;
+    margin-bottom: -8px;
+}
+
+@media (max-width: 990px) {
+    .service-box-aux {
+        min-height: 1850px;
+    }
+
+    .service-box-big {
+        min-height: 1300px;
+    }
+
+    .service-box-md {
+        min-height: 900px;
+    }
+
+    .service-box-sm {
+        min-height: 700px;
+    }
+
+    .service-box-xs {
+        min-height: 300px;
+    }
+}
+
+.service-box,
+.services-img {
+    border-radius: 10px
+}
+
+.service-box {
+    background: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px 40px;
+    border: 1px solid #eee;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.service-box:hover {
+    box-shadow: 10px 5px 90px 0 rgba(26, 38, 74, .13)
+}
+
+.service-box i {
+    color: #859da9;
+    font-size: 45px;
+    margin-bottom: 30px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s
+}
+
+.service-box:hover i {
+    color: #333
+}
+
+.service-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #424040;
+    margin-top: 20px
+}
+
+.service-box p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #979797;
+    line-height: 170%;
+    margin-top: 15px
+}
+
+.btn-title{
+    font-family:Gotham;
+    background-color:#859da9;
+    border-color:#859da9;
+}
+
 
 /* Body 
 body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover>.nav-second-level,

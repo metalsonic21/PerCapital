@@ -100,6 +100,44 @@ export const i18n = new Vuel18n({
             f15: 'No debe suponerse ni debe asegurarse que las operaciones recomendadas producirán efectivamente los beneficios actualmente estimados, ni que los respectivos valores tendrán en el futuro un comportamiento similar a aquel que fundamento la presente recomendación',
             f16: 'Normas Relativas a la Autorización y Registro de los Corredores Públicos de Valores y Asesores de Inversión. Sección V, Articulo 28.',
             f17: 'Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican. ',
+        
+            /* Why */
+            why: '¿POR QUÉ PER CAPITAL?',
+            whydesc: 'Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor. ',
+            w1: 'ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA',
+            w1d: 'Desde los Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para su presentación al público.',
+            w1d1: 'Nuestro objetivo es lograr dar facilidades de entrada y salida de las inversiones a nuestros clientes. ',
+            w2: 'SUPERVISIÓN, CONTROL Y TRANSPARENCIA FINANCIERA',
+            w2d: 'Mantenemos evaluación continua de los activos representados en la cartera de inversiones, para asegurar que estén apegadas al plan de negocio.',
+            w2d1: 'Los fondos mutuales son monitoreados diariamente para tomar las decisiones que mitiguen riesgos y rentabilicen el capital. Reportes periódicos son emitidos para mantener informados a nuestros clientes. ',
+            w3: 'EXPERIENCIA Y CONOCIMIENTO',
+            w3d1: 'Nuestro equipo tiene una amplia y exitosa experiencia en las inversiones.',
+            w3d2: 'Desarrollamos estrategias de cobertura de riesgo para protegernos de crisis financieras, políticas y naturales.',
+            w3d3: 'Sabemos dónde invertir, como maximizar ganancias y minimizar los riesgos, evitando las disminuciones abruptas de capital. ',
+        
+        
+            /* Team */
+            teamdesc: 'Nuestra experiencia colectiva de más de 40 años, así como el amplio conocimiento en finanzas, mercados, ingeniería financiera y desarrollo de negocios, te da una ventaja a la hora de elegir la inversión más idónea para ti con el fin de maximizar el potencial de tu capital controlando y minimizando los riesgos asociados. ',
+            gg: 'GERENTE GENERAL',
+            ggd: 'Administrador Mención Banca y Finanzas y Asesor de Inversión autorizado con más de 17 años de experiencia en finanzas, ingeniería financiera, desarrollo de negocios y estructuración en mercado local e internacional.',
+            f: 'FINANZAS ',
+            fd: 'Administrador y Asesor de Inversión autorizado con más de 17 años de experiencia en banca y finanzas, mercado de capitales, trading, manejo de portafolio y cobertura de riesgo.',
+            ac: 'ADMINISTRACIÓN Y CONTROL ',
+            acd: 'C.P.C. y Asesor de Inversión autorizado con más de 15 años de experiencia en auditoría contable y financiera, proyección de estados financieros, valoración de empresas y administración de activos financieros.',
+            fc: 'FINANZAS CORPORATIVAS ',
+            fcd: 'Economista, Corredor Publico de títulos Valores y Asesor de Inversión autorizado por la SUNAVAL con más de 30 años de experiencia en gestión de portafolio, evaluación de proyectos, estructuración de deuda y capital.',
+            l: 'LEGAL',
+            ld: 'Abogado con más de 20 años de experiencia en control y regulación, gestiones públicas y desarrollo de proyectos.',
+            team: 'EQUIPO',
+
+            /* Corporate */
+            corporate:'GOBIERNO CORPORATIVO',
+            corporatedesc: 'El marco del gobierno corporativo de PER CAPITAL es un conjunto de principios, guías y prácticas que apoyan la sustentabilidad del desempeño y la creación de valor para nuestros inversionistas en el largo plazo. Nuestro compromiso con el buen proceder, es integral para nuestro negocio y refleja no solo el apego a las regulaciones y los mejores estándares del mercado sino también, eficiencia en liderazgo de nuestra gerencia. ',
+            g1: 'Guía de Gobierno Corporativo',
+            g1d: 'Pautas de gobierno corporativo 2019',
+            g2: 'Código de conducta y ética empresarial',
+            g2d: 'Pautas de gobierno corporativo 2019',
+            btndownload: 'Descargar',
         },
         en:{
             navB: 'ABOUT US',
@@ -196,7 +234,44 @@ export const i18n = new Vuel18n({
             f15: 'It should not be assumed nor should it be ensured that the recommended operations will effectively produce the benefits currently estimated, nor that the respective values will in the future behave similarly to the one that underlies this recommendation',
             f16: 'Rules Relating to the Authorization and Registration of Public Brokers of Securities and Investment Advisors. Section V, Article 28.',
             f17: 'There are risks associated with investments, the loss of principal of capital is possible. Some restrictions apply.',
-        
+            
+            
+            /* Why */
+            why: 'WHY PER CAPITAL',
+            whydesc: 'We are a team with proven investment and business development experience in the search to grow capital using value investing as strategy. ',
+            w1: 'CHOOSE BETWEEN INVESTMENTS DESIGNED FOR EASY EXIT',
+            w1d: 'From Mutual Funds to Real Estate Funds, our team of experts thoroughly reviews every detail and makes due diligence for presentation to the public. ',
+            w1d1: 'Our goal is to provide our clients with entry and exit facilities for investments. ',
+            w2: 'SUPERVISION, CONTROL AND FINANCIAL TRANSPARENCY',
+            w2d: 'We maintain continuous evaluation of the assets represented in the investment portfolio, to ensure that they are attached to the business plan. ',
+            w2d1: 'Mutual funds are monitored daily to make decisions that mitigate risks and capitalize on capital. Periodic reports are issued to keep our customers informed. ',
+            w3: 'EXPERIENCE AND KNOWLEDGE',
+            w3d1: 'Our team has extensive and successful investment experience. ',
+            w3d2: 'We develop risk coverage strategies to protect us from financial, political and natural crises. ',
+            w3d3: 'We know where to invest, how to maximize profits and minimize risks, avoiding abrupt capital decreases. ',
+
+            /* Team */  
+            teamdesc: 'Our collective experience of over 40 years, as well as the extensive knowledge in finance, local markets, financial engineering and business development, gives you an advantage when choosing the most suitable investment for you in order to maximize the potential of your capital controlling and minimizing the associated risks.',
+            gg: 'GENERAL MANAGER',
+            ggd: 'Bank and Finance Administrator and Authorized Investment Advisor with more than 17 years of experience in finance, financial engineering, business development and structuring in local and international markets.',
+            f: 'FINANCES',
+            fd: 'Business Administrator and Authorized Investment Advisor with more than 17 years of experience in banking and finance, capital markets, trading, portfolio management and risk coverage.',
+            ac: 'ADMINISTRATION AND CONTROL ',
+            acd: 'C.P.A. and Authorized Investment Advisor with more than 15 years of experience in accounting and financial auditing, projection of financial statements, valuation of companies and administration of financial assets.',
+            fc: 'CORPORATE FINANCE',
+            fcd: 'Economist, authorized Securities Broker and Investment Advisor with more than 30 years of experience in portfolio management, project evaluation and debt and capital structuring.',
+            l: 'LEGAL',
+            ld: 'Lawyer with more than 20 years of experience in control and regulation, public management and project development.',
+            team: 'TEAM',
+
+            /* Corporate */
+            corporate:'CORPORATE GOVERNANCE',
+            corporatedesc: 'The PER CAPITAL corporate governance framework is a set of principles, guidelines and practices that support the sustainability of performance and the creation of value for our investors in the long term. Our commitment to good behavior is integral to our business and reflects not only the adherence to regulations and the best standards of the market but also, leadership efficiency of our management.',
+            g1: 'Corporate Governance Guide',
+            g1d: 'Corporate Governance Guide 2019',
+            g2: 'Code of Conduct and Business Ethics',
+            g2d: 'Corporate Governance Guide 2019',
+            btndownload: 'Download',
         },
 
     }
