@@ -1,6 +1,7 @@
 <template>
   <div>
       <Description></Description>
+      <br><br><br><br>
       <Graph></Graph>
       <br>
   </div>

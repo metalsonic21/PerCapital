@@ -1218,10 +1218,17 @@ a.navy-link:hover {
 /* Graph */
 @media (min-width: 1200px) {
     .thegraph {
-        margin-top: -200px;
+        margin-top: -90px;
         margin-left: 100px;
         height: 280px !important;
         width: 360px !important;
+    }
+
+    .thegraph-desc{
+        margin-top: -160px;
+        height:70px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .ibox-mine {
@@ -1254,6 +1261,14 @@ a.navy-link:hover {
         margin-top: -20px;
     }
 
+    .thegraph-desc{
+        margin-top: -160px;
+        height:100px;
+        width:100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .ibox-mine {
         height: 450px !important;
     }
@@ -1269,6 +1284,14 @@ a.navy-link:hover {
         margin-top: -80px;
     }
 
+    .thegraph-desc{
+        margin-top: -160px;
+        height:100px;
+        width:100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .ibox-mine {
         height: 450px !important;
     }
@@ -1281,7 +1304,18 @@ a.navy-link:hover {
 
 @media (min-width: 505px) and (max-width: 754px) {
     .thegraph {
-        margin-top: -120px;
+        margin-top: -80px;
+        margin-left:50px;
+        width: 75%;
+        height: 75%;
+    }
+
+    .thegraph-desc{
+        margin-top: -160px;
+        height:80px;
+        width:80%;
+        padding-left: 100px;
+        padding-right: 30px;
     }
 
     .ibox-mine {
@@ -1642,5 +1676,5 @@ section.timeline {
 }
 
 body{
-    font-family: Arial-Rounded-MT;
+    font-family: Arial-Rounded-MT !important;
 }

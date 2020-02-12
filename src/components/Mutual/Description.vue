@@ -234,12 +234,7 @@
                 </div>
             </div>
         </div>
-
-        <Graph></Graph>
     </section>
-
-    <br><br><br>
-
 </div>
 </template>
 

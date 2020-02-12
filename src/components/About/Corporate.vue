@@ -21,7 +21,7 @@
                                 <p class="gov-text">{{$t('g1d')}}</p>
                                 <small>177 KB</small>
                                 <div class="center">
-                                    <a href="/docs/Guia.pdf" download="Guía de Gobierno Corporativo">
+                                    <a :href="require('../../../public/docs/Guia.pdf')" download>
                                         <b-button class="btn-title" size="sm">{{$t('btndownload')}}</b-button>
                                     </a>
 
@@ -41,9 +41,10 @@
                                 <p class="gov-text">{{$t('g1d')}}</p>
                                 <small>173 KB</small>
                                 <div class="center">
-                                    <a href="/docs/Conducta.pdf" download="Código de Conducta y Ética Empresarial">
-                                        <b-button class="btn-title" size="sm">Descargar</b-button>
-                                    </a> </div>
+                                    <a :href="require('../../../public/docs/Conducta.pdf')" download>
+                                        <b-button class="btn-title" size="sm">{{$t('btndownload')}}</b-button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
