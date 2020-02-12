@@ -318,6 +318,26 @@ export const i18n = new Vuel18n({
             /* Calendar */
             cal1: 'CALENDARIO BANCARIO 2020',
             cal2: 'CALENDARIO BANCARIO 2019',
+
+
+            /* Disclaimer */
+            dp1: 'Por favor lea cuidadosamente esta información antes de entrar a la página web. Contiene información legal y regulatoria relevante en cuanto a la información contenida en esta página web.',
+            dp2: 'PER CAPITAL sociedad Administradora de E.I.C. y los Fondos que ofrece son regulados y han sido autorizados por la SUNAVAL. Los prospectos, información clave, contabilidad y reportes periódicos, así como otros documentos de la sociedad y los fondos que administra pueden ser obtenidos en las oficinas del distribuidor.',
+            dp3: 'Si usted es un inversionista Privado ',
+            dp4: 'no debe',
+            dp5: ' tomar la información contenida en este sitio web como una recomendación o sugerencia que afecte su decisión de inversión. Nada en este sitio web debe ser tomado como una asesoría o consejo financiero.',
+            dp6: 'Cada inversionista debe informarse del prospecto, estados financieros y política de inversión antes de invertir.',
+            dp7: 'El contenido de este sitio web ha sido preparado basándose en los resultados del análisis de información cuidadosamente levantada, con la opinión de que es confiable para el momento que fue publicada. Las opiniones y visiones presentadas son de PER CAPITAL y pueden cambiar.',
+            dp8: 'PER CAPITAL hace uso de las técnicas más adecuadas para asegurar que la información presentada es precisa. Sin embargo, pueden ocurrir errores u omisiones fuera de nuestro control.',
+            dp9: 'Bajo ninguna circunstancia se permite la copia o distribución de la información aquí presentada.',
+            dp10: 'Asesoría:',
+            dp11: 'Nada en este sitio web debe ser considerado como asesoría financiera personal.',
+            dp12: 'Desempeño:',
+            dp13: 'El desempeño histórico no determina el desempeño a futuro.',
+            dp14: 'Fluctuaciones:',
+            dp15: 'El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.',
+            dp16: 'Riesgos:',
+            dp17: 'Existen riesgos asociados a las inversiones y la perdida de capital es posible.',
         },
         en:{
             navB: 'ABOUT US',
@@ -632,6 +652,25 @@ export const i18n = new Vuel18n({
             /* Calendar */
             cal1: 'BANK CALENDAR 2020',
             cal2: 'BANK CALENDAR 2019',
+
+            /* Disclaimer */
+            dp1: 'Please read this information before entering the website. It contains relevant legal and regulatory information regarding the information contained.',
+            dp2: "PER CAPITAL Asset Management and the Funds it offers are regulated and have been authorized by the SUNAVAL. Prospects, key information, accounting and periodic reports, as well as other company documents and the funds it manages can be obtained at the distributor's offices, via e mail or this website.",
+            dp3: 'If you are a Private Investor you',
+            dp4: 'should not',
+            dp5: 'take the information contained in this website as a recommendation or suggestion that affects your investment decision. Nothing on this website should be taken as a financial advice or advice.',
+            dp6: 'Each investor should be informed of the prospectus, financial statements and investment policy before investing.',
+            dp7: 'The content of this website has been prepared based on the results of the carefully collected information analysis, with the opinion that it is reliable for the moment it was published. The opinions and visions presented are of PER CAPITAL and may change.',
+            dp8: 'PER CAPITAL makes use of the most appropriate techniques to ensure that the information presented is accurate. However, errors or omissions may occur beyond our control.',
+            dp9: 'Under no circumstances is the copy or distribution of the information presented here allowed.',
+            dp10: 'Advisory:',
+            dp11: 'Nothing on this website should be considered personal financial advice.',
+            dp12: 'Performance:',
+            dp13: 'Historical performance does not determine future performance.',
+            dp14: 'Fluctuations:',
+            dp15: 'The value of the assets belonging to the funds may rise or fall causing fluctuations in the value of the investment unit.',
+            dp16: 'Risks:',
+            dp17: 'There are risks associated with investments and the loss of capital is possible.',
         },
 
     }

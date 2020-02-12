@@ -1,11 +1,11 @@
 <template>
 <div class="landing-page">
 
-    <div id="caracteristicas">
+    <div id="caracteristicas" style="margin-top:-100px">
         <div class="block-section">
             <div class="container">
                 <div class="center-holder main-heading">
-                    <h3 class="title-mine section-title-per">{{$t('start')}}</h3>
+                    <h1 class="title-mine section-title-per">{{$t('start')}}</h1>
                     <p class="text-center mr-5 ml-5">
                         {{$t('startdesc')}}
                         </p>
