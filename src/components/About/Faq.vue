@@ -1,12 +1,12 @@
 <template>
-<div id="faq" class="gray-section animated fadeInRight faq-mine">
+<div id="faq" class="light-section animated fadeInRight faq-mine">
     <b-container>
         <div class="row">
             <div class="col-lg-12">
                 <div>
                     <div class="row faq-item-mine">
                         <div class="col-lg-12 text-center">
-                            <div class="navy-line"></div>
+                            <div class="navy-line" style="opacity:0"></div>
                             <h1 align="center" class="title-mine section-title-per">{{$t('faqtit')}}</h1>
                             <small align="center">{{$t('faqhelp')}}</small>
                         </div>

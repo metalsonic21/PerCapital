@@ -3,7 +3,7 @@
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="navy-line-2" style="margin-top:20px;"></div>
+                <div class="navy-line-2" style="margin-top:20px;opacity:0"></div>
                 <h1 class="title-mine text-center section-title-per">{{$t('corporate')}}</h1>
 
                 <div class=text-content>
@@ -13,7 +13,7 @@
                     <div class="col-xs-12 col-md-6 col-sm-12">
                         <div class="clearfix service-box" style="height:230px;">
                             <div class=box-icon>
-                                <font-awesome-icon icon="file" size="3x" style="color:grey"></font-awesome-icon>
+                                <font-awesome-icon icon="file" size="3x" style="color:#baccd3"></font-awesome-icon>
                             </div>
                             <div class=box-content>
                                 <br>
@@ -33,7 +33,7 @@
                     <div class="col-xs-12 col-md-6 col-sm-12">
                         <div class="clearfix service-box" style="height:230px;">
                             <div class=box-icon>                                
-                                <font-awesome-icon icon="file" size="3x" style="color:grey"></font-awesome-icon>
+                                <font-awesome-icon icon="file" size="3x" style="color:#baccd3"></font-awesome-icon>
                             </div>
                             <div class=box-content>
                                 <br>

@@ -1,10 +1,10 @@
 <template>
   <div class="about">
+    <br>
     <Why></Why>
     <Team></Team>
     <Corporate></Corporate>
-    <Faq></Faq>
-    <br>
+    <Faq style="margin-bottom:1px"></Faq>
   </div>
 </template>
 

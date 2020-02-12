@@ -108,7 +108,7 @@ export const i18n = new Vuel18n({
             f17: 'Existen riesgos asociados con las inversiones, la pérdida del principal del capital es posible. Algunas restricciones aplican. ',
         
             /* Why */
-            why: '¿POR QUÉ PER CAPITAL?',
+            why: '¿POR QUÉ',
             whydesc: 'Somos un equipo de trabajo de comprobada experiencia en inversiones y desarrollo de negocios en la búsqueda de hacer crecer el patrimonio mediante la creación de valor. ',
             w1: 'ESCOGE ENTRE INVERSIONES DISEÑADAS PARA FÁCIL SALIDA',
             w1d: 'Desde los Fondos Mutuales hasta Fondos Inmobiliarios, nuestro equipo de expertos revisa a profundidad cada detalle y hace la debida diligencia para su presentación al público.',
@@ -449,7 +449,7 @@ export const i18n = new Vuel18n({
             
             
             /* Why */
-            why: 'WHY PER CAPITAL',
+            why: 'WHY',
             whydesc: 'We are a team with proven investment and business development experience in the search to grow capital using value investing as strategy. ',
             w1: 'CHOOSE BETWEEN INVESTMENTS DESIGNED FOR EASY EXIT',
             w1d: 'From Mutual Funds to Real Estate Funds, our team of experts thoroughly reviews every detail and makes due diligence for presentation to the public. ',
