@@ -90,9 +90,9 @@ export default {
     methods: {
         imgPath(index) {
             if (index == 0) {
-                return require('../../../public/img/content/landing/nsmall1.jpg');
+                return require('../../../public/img/content/landing/'+this.slides.slide_one);
             } else if (index == 1) {
-                return require('../../../public/img/content/landing/nsmall2.jpg');
+                return require('../../../public/img/content/landing/'+this.slides.slide_two);
             }
         },
         onSlideStart() {

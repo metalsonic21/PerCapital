@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from "vuex";
 import Ticker from '@/components/Home/Ticker.vue'
 import Navigation from '@/components/Home/Navbar.vue'
 import MyFooter from '@/components/Home/Footer.vue'
@@ -27,6 +28,15 @@ export default {
     Ticker,
     Navigation,
     MyFooter,
+  },
+    computed:{
+    ...mapState(["slides"])
+  },
+  methods:{
+    ...mapMutations(['modify']),
+    },
+  created(){
+    this.$store.commit('modify','en');
   },
   mounted(){
     this.isLoaded = true;

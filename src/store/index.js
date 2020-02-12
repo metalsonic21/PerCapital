@@ -5,8 +5,28 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    slides:{
+      width: window.innerWidth,
+      height: window.innerHeight,
+      slide_one:'nsmall1.jpg',
+      slide_two:'nsmall2.jpg',
+    }
   },
   mutations: {
+    modify(state,locale){
+      if (locale=='es'){
+        if (state.slides.width<958){
+          state.slides.slide_two='nsphone1.jpg';
+          state.slides.slide_one='nsphone2.jpg';
+        }
+      }
+      else if (locale=='en'){
+        if (state.slides.width<958){
+          state.slides.slide_two='nsphone1.jpg';
+          state.slides.slide_one='nsphone2.jpg';
+        }
+      }
+    }
   },
   actions: {
   },
