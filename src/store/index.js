@@ -16,14 +16,14 @@ export default new Vuex.Store({
     modify(state,locale){
       if (locale=='es'){
         if (state.slides.width<958){
-          state.slides.slide_two='nsphone1.jpg';
-          state.slides.slide_one='nsphone2.jpg';
+          state.slides.slide_two='nsphone2.jpg';
+          state.slides.slide_one='nsphone1.jpg';
         }
       }
       else if (locale=='en'){
         if (state.slides.width<958){
-          state.slides.slide_two='nsphone1.jpg';
-          state.slides.slide_one='nsphone2.jpg';
+          state.slides.slide_two='nsphone2.jpg';
+          state.slides.slide_one='nsphone1.jpg';
         }
       }
     }

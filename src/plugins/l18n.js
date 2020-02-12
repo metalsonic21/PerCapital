@@ -8,6 +8,12 @@ export const i18n = new Vuel18n({
     fallbackLocale: 'en',
     messages:{
         es:{
+            /* Hotlinks */
+            expf: 'Explorar Fondos',
+            exps: 'Explorar Servicios',
+            expp: 'Preguntas Frecuentes',
+            subsbtn: 'Suscríbete',
+
             navB: 'EMPRESA',
             navBD1: '¿Por qué PER CAPITAL?',
             navBD2: 'Equipo',
@@ -340,6 +346,12 @@ export const i18n = new Vuel18n({
             dp17: 'Existen riesgos asociados a las inversiones y la perdida de capital es posible.',
         },
         en:{
+            /* Hotlinks */
+            expf: 'Explore Funds',
+            exps: 'Explore Services',
+            expp: 'FAQ',
+            subsbtn: 'Subscribe',
+
             navB: 'ABOUT US',
             navBD1: 'Why PER CAPITAL?',
             navBD2: 'Team',

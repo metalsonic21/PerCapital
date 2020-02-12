@@ -38,7 +38,7 @@
                                     {{$t('a12')}}
                                 </p>
 
-                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/money-5.png"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoA01.jpg"></b-img>
 
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                 <p class="services-text text-justify">{{$t('a22')}}
 
                                 </p>
-                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/services-1.jpg"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoA02.jpg"></b-img>
 
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                                 </p>
 
                                 <p class="services-text text-justify">Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.</p>
-                                <b-img fluid class="vertical-date img-mine-2" src="/img/content/landing/services-2.jpg"></b-img>
+                                <b-img fluid class="vertical-date img-mine-2" src="/img/content/landing/fondoA03.jpg"></b-img>
 
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                         <li>{{$t('a4l3')}}</li>
                                     </ul>
                                 </p>
-                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/services-8.png"></b-img>
+                                <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoA04.jpg"></b-img>
 
                             </div>
                         </div>

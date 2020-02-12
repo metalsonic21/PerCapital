@@ -32,8 +32,7 @@
 
                 <b-col cols="2">
                     <br><br>
-                    <font-awesome-icon icon="users" size="4x" style="color:grey" class="float-right"></font-awesome-icon>
-                </b-col>
+                    <img src="/img/content/icons/icon04.png" alt="Icono 3" width="75" height="75"> </b-col>
             </div>
 
             <b-row class="justify-content-center row-team">
@@ -45,8 +44,7 @@
 
                 <b-col cols="2">
                     <br><br>
-                    <font-awesome-icon icon="money-check" size="4x" style="color:grey" class="float-right"></font-awesome-icon>
-                </b-col>
+                    <img src="/img/content/icons/icon05.png" alt="Icono 3" width="75" height="75"> </b-col>
             </b-row>
 
             <b-row class="justify-content-center row-team">
@@ -57,8 +55,7 @@
 
                 <b-col cols="2">
                     <br><br>
-                    <font-awesome-icon icon="book" size="4x" style="color:grey" class="float-right"></font-awesome-icon>
-                </b-col>
+                    <img src="/img/content/icons/icon06.png" alt="Icono 3" width="75" height="75"> </b-col>
             </b-row>
 
             <b-row class="justify-content-center row-team">
@@ -69,8 +66,7 @@
 
                 <b-col cols="2">
                     <br><br>
-                    <font-awesome-icon icon="clock" size="4x" style="color:grey" class="float-right"></font-awesome-icon>
-                </b-col>
+                    <img src="/img/content/icons/icon07.png" alt="Icono 3" width="75" height="75"> </b-col>
             </b-row>
 
             <b-row class="row justify-content-center">
@@ -81,8 +77,7 @@
 
                 <b-col cols="2" sm="2">
                     <br><br>
-                    <font-awesome-icon icon="balance-scale" size="4x" style="color:grey" class="float-right"></font-awesome-icon>
-                </b-col>
+                    <img src="/img/content/icons/icon08.png" alt="Icono 3" width="75" height="75"> </b-col>
             </b-row>
         </div>
 

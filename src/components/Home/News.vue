@@ -5,7 +5,11 @@
         <div class="container">
             <div class="navy-line-2"></div>
             <h1 class="title-mine" style="color:#000032" align="center">{{$t('news')}}</h1>
-            
+            <div class="row">
+                <div class="col-lg-4">
+
+                </div>
+            </div>
         </div>
         <br>
     </section>

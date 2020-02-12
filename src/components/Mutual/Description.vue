@@ -88,7 +88,7 @@
                             </div>
                             <div class="comments-avatar">
                                 <a href="" class="float-left">
-                                    <img alt="image" src="img/content/landing/warning.png">
+                                    <img alt="image" src="img/content/icons/icon09.png">
                                 </a>
                                 <div class="media-body">
                                     <div class="commens-name">
@@ -104,7 +104,7 @@
                             </div>
                             <div class="comments-avatar">
                                 <a href="" class="float-left">
-                                    <font-awesome-icon icon="lock" size="2x"></font-awesome-icon>
+                                    <img alt="image" src="img/content/icons/icon10.png">
                                 </a>
                                 <div class="media-body">
                                     <div class="commens-name" style="margin-left:10px">
@@ -122,7 +122,7 @@
                                 </div>
                             <div class="comments-avatar">
                                 <a href="" class="float-left">
-                                    <img alt="image" src="img/content/landing/globe.png">
+                                    <img alt="image" src="img/content/icons/icon11.png">
                                 </a>
                                 <div class="media-body">
                                     <div class="commens-name">
@@ -138,7 +138,7 @@
                                 </div>
                             <div class="comments-avatar">
                                 <a href="" class="float-left">
-                                    <font-awesome-icon icon="money-bill" size="2x" style="color:black"></font-awesome-icon>
+                                    <img alt="image" src="img/content/icons/icon12.png">
                                 </a>
                                 <div class="media-body">
                                     <div class="commens-name" style="margin-left:10px">
@@ -156,10 +156,10 @@
                                </div>
                             <div class="comments-avatar">
                                 <a href="" class="float-left">
-                                    <font-awesome-icon icon="chart-bar" size="3x" style="color:black"></font-awesome-icon>
+                                    <img alt="image" src="img/content/icons/icon13.png">
                                 </a>
                                 <div class="media-body">
-                                    <div class="commens-name" style="margin-top:10px;margin-left:10px">
+                                    <div class="commens-name" style="margin-left:10px">
                                         {{$t('volatil')}}
                                     </div>
                                 </div>

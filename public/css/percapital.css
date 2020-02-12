@@ -36,8 +36,12 @@
     src: url("../fonts/GothaProReg.otf");
 }
 
+@font-face{
+    font-family: "Arial-Rounded-MT";
+    src: url("../fonts/arial-rounded-mt.ttf");
+}
 .title-mine {
-    font-family: Gotham
+    font-family: Arial-Rounded-MT
 }
 
 .main-heading h2,
@@ -161,12 +165,12 @@ h6 {
 
 
 .navbar-mine {
-    font-family: Gotham;
+    font-family: Arial-Rounded-MT;
     font-size: 12px;
 }
 
 .dropdown-mine {
-    font-family: Gotham;
+    font-family: Arial-Rounded-MT;
     font-size: 14px;
 }
 
@@ -297,16 +301,13 @@ h6 {
     color:white !important;
 }
 
-#hotlinks{
-    margin-top: -550px;
-}
 
 @media (max-width: 767px) {
     .card-title-mine {
         color: white !important;
         margin-top: 0px;
         margin-left: 100px;
-        font-family: Gotham;
+        font-family: Arial-Rounded-MT;
         font-size: 14px;
     }
 
@@ -317,13 +318,35 @@ h6 {
     .btn-text {
         margin-left: 100px;
     }
+    #hotlinks{
+        margin-top: -380px;
+        margin-left:270px;
+        width: inherit;
+    }
+    .card-list{
+        width:300px;
+    }
+    .card-title-mine{
+        margin-left:-10px;
+    }
+    .btn-text{
+        margin-left:-10px;
+    }
+    .list-unstyled,
+    .list-group-item-card{
+        margin-left:-10px;
+    }
 }
 
 @media (min-width: 768px) {
     .card-title-mine {
         color: white !important;
-        font-family: Gotham;
+        font-family: Arial-Rounded-MT;
         font-size: 14px;
+    }
+    
+    #hotlinks{
+        margin-top: -550px;
     }
 }
 
@@ -419,6 +442,10 @@ h6 {
 
 .comments-mine {
     margin-top: -3%;
+}
+
+.commens-name{
+    margin-top:10px;
 }
 
 .row-team {
@@ -1021,7 +1048,7 @@ h1 {
 }
 
 .btn-title {
-    font-family: Gotham;
+    font-family: Arial-Rounded-MT;
     background-color: #859da9;
     border-color: #859da9;
 }
@@ -1140,7 +1167,7 @@ h1 {
 .comments-avatar .commens-name {
     font-weight: 600;
     font-size: 14px;
-    font-family:Gotham;
+    font-family:Arial-Rounded-MT;
     color:black;
 }
 
@@ -1612,4 +1639,8 @@ section.timeline {
         width:500px;
         height: 50px;
     }
+}
+
+body{
+    font-family: Arial-Rounded-MT;
 }

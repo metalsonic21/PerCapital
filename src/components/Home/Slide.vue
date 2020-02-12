@@ -9,54 +9,54 @@
                 <div class="row">
                     <div class="col-sm">
                         <div class="accordion float-right mt-2" id="accordionExample">
-                            <div class="card">
+                            <div class="card card-list">
                                 <div class="card-header card-header-mine" id="headingOne">
                                     <h2 class="mb-0">
                                         <b-link v-b-toggle.menu-1 class="btn btn-link">
-                                            <h5 class="card-title-mine" style="">Explorar Fondos</h5>
+                                            <h5 class="card-title-mine" style="">{{$t('expf')}}</h5>
                                         </b-link>
 
                                     </h2>
                                 </div>
                                 <b-collapse id="menu-1">
                                     <ul class="list-unstyled">
-                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondo Mutual</a></li>
-                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">Fondo Inmobiliario</a></li>
-                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">Capital De Riesgo</a> </li>
+                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">{{$t('navFD1')}}</a></li>
+                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">{{$t('navFD2')}}</a></li>
+                                        <li class="list-group-item-card"> <a href="/mutual" style="color:white">{{$t('navFD3')}}</a> </li>
                                     </ul>
                                 </b-collapse>
                             </div>
-                            <div class="card">
+                            <div class="card card-list">
                                 <div class="card-header card-header-mine" id="headingTwo">
                                     <h2 class="mb-0">
                                         <b-link v-b-toggle.menu-2 class="btn btn-link">
-                                            <h5 class="card-title-mine">Explorar Servicios</h5>
+                                            <h5 class="card-title-mine">{{$t('exps')}}</h5>
                                         </b-link>
                                     </h2>
                                 </div>
                                 <b-collapse id="menu-2">
                                     <div class="card-body">
                                         <ul class="list-unstyled">
-                                            <li class="list-group-item-card"> <a href="/services" style="color:white">Administración E.I.C</a></li>
-                                            <li class="list-group-item-card"> <a href="/services" style="color:white">Asesoría Financiera</a></li>
-                                            <li class="list-group-item-card"> <a href="/services" style="color:white">Estructuración</a></li>
-                                            <li class="list-group-item-card"> <a href="/services" style="color:white">Ingeniería Financiera</a></li>
+                                            <li class="list-group-item-card"> <a href="/services" style="color:white">{{$t('fservicesd1')}}</a></li>
+                                            <li class="list-group-item-card"> <a href="/services" style="color:white">{{$t('fservicesd2')}}</a></li>
+                                            <li class="list-group-item-card"> <a href="/services" style="color:white">{{$t('fservicesd3')}}</a></li>
+                                            <li class="list-group-item-card"> <a href="/services" style="color:white">{{$t('fservicesd4')}}</a></li>
                                         </ul>
                                     </div>
                                 </b-collapse>
                             </div>
-                            <div class="card">
+                            <div class="card card-list">
                                 <div class="card-header card-header-mine" id="headingThree">
                                     <h2 class="mb-0">
                                         <b-link href="about/#faq" class="btn btn-link">
-                                            <h5 class="card-title-mine">Preguntas Frecuentes</h5>
+                                            <h5 class="card-title-mine">{{$t('expp')}}</h5>
                                         </b-link>
                                     </h2>
                                 </div>
                             </div>
                             <button class="btn btn-per btn-lg btn-block">
                                 <a href="#" style="color:white;">
-                                    <h6 class="btn-text"> Suscríbete</h6>
+                                    <h6 class="btn-text"> {{$t('btnsubscribe')}}</h6>
                                 </a>
                             </button>
                         </div>

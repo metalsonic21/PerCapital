@@ -3,6 +3,20 @@
     <div>
         <h6 style="opacity:1;font-size:1px;">hi</h6>
     </div>
+    <section class="features animated fadeInRight" id="strats">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line-3"></div>
+                    <h1 class="title-mine section-title-per">{{$t('strats')}}</h1>
+                    <p class="text-center mx-5">
+                        {{$t('stratsdesc')}}                        
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
 
     <section class="features animated fadeInRight" id="strats">
         <div class="container">
