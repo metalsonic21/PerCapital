@@ -1,12 +1,11 @@
 <template>
 <div>
 
-    <div class="container" style="margin-top:-4%;">
+    <div class="container" style="margin-top:-6%;">
         <div class="wrapper wrapper-content animated fadeInRight">
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="navy-line"></div>
                     <h1 class="title-mine section-title-per" align="center"> <strong>DISTRIBUCIÓN POR SECTOR</strong></h1>
 
                 </div>
@@ -23,8 +22,9 @@
                     </div>
 
                     <div class="col-lg-5 col-md-6 col-sm-6 ibox-content col-two ibox-mine">
-                        <h1 class="text-center" style="font-size:25px!important"> <strong> <b> ¿Por qué un fondo mutual?</b></strong></h1>
                         <b-img src="/img/content/icons/icon14.png" center height="75" width="75"></b-img>
+                        <h1 class="text-center" style="font-size:25px!important"> <strong> <b> ¿Por qué un fondo mutual?</b></strong></h1>
+
                         <br>
                         <ul>
                             <li>Acceso a beneficios de portafolio Premium

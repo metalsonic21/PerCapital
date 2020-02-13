@@ -148,6 +148,8 @@ h6 {
     .navbar .navbar-brand {
         min-height: 100px;
     }
+    
+
 }
 
 @media (min-width: 991px) {
@@ -1071,6 +1073,7 @@ h1 {
     font-family: Arial-Rounded-MT;
     background-color: #859da9;
     border-color: #859da9;
+    color:#000032;
 }
 
 /* Faq */
@@ -1123,6 +1126,12 @@ h1 {
     text-transform: uppercase;
 }
 
+.tag-item {
+    background: #000032;
+    color:#fff;
+    padding: 2px 6px;
+    text-transform: uppercase;
+}
 /* Mutual */
 .ct-label {
     display: none;
@@ -1213,14 +1222,14 @@ a.navy-link:hover {
 
 .bubble {
     position: relative;
-    height: 200px;
+    height: 250px;
     padding: 20px;
     background: #FFFFFF;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    font-style: italic;
-    font-size: 14px;
+    font-size: 13px;
+    text-align: justify;
 }
 
 .bubble:after {
@@ -1744,4 +1753,45 @@ body{
     #legalimg{
         margin-top:-100px;
     }
+
+    .bubble {
+        margin-left:-70px;
+        height: 140px;
+    }
+
+    .risk-title{
+        margin-left:-150px;
+    }
+    
+}
+
+.mutual-title{
+    font-size:35px !important;
+}
+
+.mutual-subtitle{
+    font-size:25px !important;
+}
+
+.steps{
+    color: #baccd3;
+    font-size: 76px !important;
+}
+
+.invest-title{
+    font-size: 26px !important;
+}
+
+.text-invest{
+    font-size: 18px !important;
+}
+
+
+.article-steps {
+    height: 350px;
+}
+
+.btn-sub{
+    background-color: #000032 !important;
+    color: #ffffff !important;
 }
