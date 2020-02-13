@@ -346,6 +346,16 @@ export const i18n = new Vuel18n({
             dp15: 'El valor de los activos pertenecientes a los fondos puede subir o bajar ocasionando fluctuaciones en el valor de la unidad de inversión.',
             dp16: 'Riesgos:',
             dp17: 'Existen riesgos asociados a las inversiones y la perdida de capital es posible.',
+
+            
+            /* GRAPH */
+            dist: 'DISTRIBUCIÓN POR SECTOR',
+            distwhy: '¿Por qué un fondo mutual?',
+            distl1: "Acceso a beneficios de portafolio Premium con baja inversión.",
+            distl2: 'Ganancias exentas de ISLR.',
+            distl3: "Analistas especializados dedicado a gestión del portafolio.",
+            distl4: 'Portafolio diversificado para mitigar riesgos.',
+            distl5: 'Acceso a precios de economías de escala.',
         },
         en:{
             /* Hotlinks */
@@ -687,6 +697,15 @@ export const i18n = new Vuel18n({
             dp15: 'The value of the assets belonging to the funds may rise or fall causing fluctuations in the value of the investment unit.',
             dp16: 'Risks:',
             dp17: 'There are risks associated with investments and the loss of capital is possible.',
+
+            /* GRAPH */
+            dist: 'DISTRIBUTION BY SECTOR',
+            distwhy: 'Why a mutual fund?',
+            distl1: "Access to Premium portfolios' benefits with low investment.",
+            distl2: 'Tax free earnings.',
+            distl3: "Specialized analists dedicated to portfolio's management.",
+            distl4: 'Diversified portfolio to ease risks.',
+            distl5: 'Access to prices of scale economies.',
         },
 
     }

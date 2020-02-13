@@ -6,7 +6,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="title-mine section-title-per" align="center"> <strong>DISTRIBUCIÓN POR SECTOR</strong></h1>
+                    <h1 class="title-mine section-title-per" align="center"> <strong>{{$t('dist')}}</strong></h1>
 
                 </div>
             </div>
@@ -23,17 +23,15 @@
 
                     <div class="col-lg-5 col-md-6 col-sm-6 ibox-content col-two ibox-mine">
                         <b-img src="/img/content/icons/icon14.png" center height="75" width="75"></b-img>
-                        <h1 class="text-center" style="font-size:25px!important"> <strong> <b> ¿Por qué un fondo mutual?</b></strong></h1>
+                        <h1 class="text-center" style="font-size:25px!important"> <strong> <b> {{$t('distwhy')}}</b></strong></h1>
 
                         <br>
                         <ul>
-                            <li>Acceso a beneficios de portafolio Premium
-                                con baja inversión.</li>
-                            <li>Ganancias exentas de ISLR.</li>
-                            <li>Analistas especializados dedicado a gestión
-                                del portafolio.</li>
-                            <li>Portafolio diversificado para mitigar riesgos.</li>
-                            <li>Acceso a precios de economías de escala.</li>
+                            <li>{{$t('distl1')}}</li>
+                            <li>{{$t('distl2')}}</li>
+                            <li>{{$t('distl3')}}</li>
+                            <li>{{$t('distl4')}}</li>
+                            <li>{{$t('distl5')}}</li>
                         </ul>
 
                         <div class="text-center">
