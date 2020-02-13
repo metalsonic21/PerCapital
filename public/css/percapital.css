@@ -1030,13 +1030,15 @@ h1 {
 
 .gray-section-2{
     background-color: #f1f1f1;
-    margin-top: 5px;
 
+}
+
+.light-section-3{
+    background-color: #B9C6CE;
 }
 
 .light-section-2{
     background-color: #c0cdd4;
-    margin-top: 5px;
 
 }
 

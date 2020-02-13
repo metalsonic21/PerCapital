@@ -3,7 +3,7 @@
     <div class="block-section">
         <div class="container">
 
-            <div class="navy-line"></div>
+            <div class="navy-line" style="opacity:0"></div>
             <h1 align="center" class="title-mine section-title-per">{{$t('contact')}}</h1>
 
             <br>

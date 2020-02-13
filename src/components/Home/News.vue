@@ -3,7 +3,7 @@
     <section id="news" style="background-color:#f4f4f4;">
         <br>
         <div class="container">
-            <div class="navy-line-2"></div>
+            <div class="navy-line-2" style="opacity:0"></div>
             <h1 class="title-mine" style="color:#000032" align="center">{{$t('news')}}</h1>
             <div class="row">
                 <div class="col-lg-4">

@@ -2,7 +2,7 @@
 <div class="numbers-mine" style="background-color:#f4f4f4; ">
     <div class="container">
         <br>
-        <div class="navy-line-2" ></div>
+        <div class="navy-line-2" style="opacity:0"></div>
         <h1 align="center" class="title-mine section-title-per">{{$t('numbers')}}</h1>
         <h6 align="center">{{$t('indicators')}}</h6>
         <br>

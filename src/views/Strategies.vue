@@ -1,94 +1,105 @@
 <template>
 <div id="strats">
-    <div>
-        <h6 style="opacity:1;font-size:1px;">hi</h6>
-    </div>
-    <section class="features animated fadeInRight" id="strats">
+    <section class="animated fadeInRight">
+        <h1 class="title-mine section-title-per text-center mutual-title">{{$t('strats')}}</h1>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line-3"></div>
-                    <h1 class="title-mine section-title-per">{{$t('strats')}}</h1>
-                    <p class="text-center mx-5">
-                        {{$t('stratsdesc')}}                        
-                    </p>
-                </div>
-            </div>
-            
+            <p class="text-center mx-5">
+                {{$t('stratsdesc')}}
+            </p>
         </div>
-    </section>
-
-    <section class="features animated fadeInRight" id="strats">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line-3"></div>
-                    <h1 class="title-mine section-title-per">{{$t('strats')}}</h1>
-
-                </div>
-            </div>
-            <div class="row justify-content-center row-team row">
-
-                <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
-                
-                        <p class="text-justify text-secondary">{{$t('stratsdesc')}}</p>
-        
-                    <h2 class="title-mine">{{$t('s1')}}</h2>
-                    <font-awesome-icon icon="calculator" size="4x" class="float-right" style="color:grey"></font-awesome-icon>
-                    <p class="text-secondary text-justify">{{$t('s1d')}}</p>
-                </b-col>
-            </div>
-
-            <b-row class="justify-content-center row-team">
-                <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
-                    <h2 class="title-mine">{{$t('s2')}}</h2>
-                    <font-awesome-icon icon="clock" size="4x" class="float-right" style="color:grey"></font-awesome-icon>
-                    <p class="text-secondary text-justify">{{$t('s2d')}}</p>
-                </b-col>
-            </b-row>
-
-            <b-row class="justify-content-center row-team">
-                <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
-                    <h2 class="title-mine">{{$t('s3')}}</h2>
-                    <font-awesome-icon icon="clipboard" size="4x" class="float-right" style="color:grey"></font-awesome-icon>
-                    <p class="text-secondary text-justify">
-                        {{$t('s3d')}}
-                        <br>
-                        {{$t('s3d2')}}
+        <br>
+        <div class="light-section-2">
+            <div class="container">
+                <div class="row">
+                    <b-col sm="12" md="8" lg="8">
+                        <br><br><br><br>
+                        <h2 class="title-mine services-title">{{$t('s1')}}</h2>
+                        <p class="services-text text-justify">
+                            {{$t('s1d')}}
                         </p>
-                </b-col>
-            </b-row>
 
-            <b-row class="justify-content-center row-team">
-                <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
-                    <h2 class="title-mine">CAPITAL </h2>
-                    <font-awesome-icon icon="money-bill" size="4x" class="float-right" style="color:grey"></font-awesome-icon>
-                    <p class="text-secondary text-justify">
-                        {{$t('s4d')}}</p>
-                </b-col>
-            </b-row>
+                    </b-col>
 
-            <b-row class="row justify-content-center" style="opacity:0;">
-                <b-col cols="12" lg="12" md="12" class="col-lg-offset-1 features-text">
-                    <h2 class="title-mine"></h2>
-                    <p class="text-secondary"></p>
-                </b-col>
-            </b-row>
+                    <b-col sm="12" md="4" lg="4">
+                        <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoB01SM.jpg"></b-img>
+
+                    </b-col>
+                </div>
+            </div>
         </div>
 
-    </section>
-</div>
+        <div class="gray-section-2">
+            <div class="container">
+                <div class="row">
+                    <b-col sm="12" md="8" lg="8">
+                        <br><br><br><br>
+                        <h2 class="title-mine services-title">{{$t('s2')}}</h2>
+                        <p class="services-text text-justify">
+                            {{$t('s2d')}}
+                        </p>
 
+                    </b-col>
+
+                    <b-col sm="12" md="4" lg="4">
+                        <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoB02SM.jpg"></b-img>
+
+                    </b-col>
+                </div>
+            </div>
+        </div>
+
+        <div class="light-section-3">
+            <div class="container">
+                <div class="row">
+                    <b-col sm="12" md="8" lg="8">
+                        <br><br><br><br>
+                        <h2 class="title-mine services-title">{{$t('s3')}}</h2>
+                        <p class="services-text text-justify">
+                            {{$t('s3d')}}
+                        </p>
+
+                    </b-col>
+
+                    <b-col sm="12" md="4" lg="4">
+                        <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoB03SM.jpg"></b-img>
+
+                    </b-col>
+                </div>
+            </div>
+        </div>
+
+        <div class="gray-section-2">
+            <div class="container">
+                <div class="row">
+                    <b-col sm="12" md="8" lg="8">
+                        <br><br><br><br>
+                        <h2 class="title-mine services-title">{{$t('s4')}}</h2>
+                        <p class="services-text text-justify">
+                            {{$t('s4d')}}
+                        </p>
+
+                    </b-col>
+
+                    <b-col sm="12" md="4" lg="4">
+                        <b-img fluid class="vertical-date img-mine" src="/img/content/landing/fondoB04SM.jpg"></b-img>
+
+                    </b-col>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
 </template>
 
 <script>
 export default {
-    
+
 }
 </script>
 
 <style>
-    .row-team{
-        font-size: 14px;
-    }
+.row-team {
+    font-size: 14px;
+}
 </style>

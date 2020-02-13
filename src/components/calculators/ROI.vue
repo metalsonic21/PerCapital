@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="container">
-        <div class="navy-line-2"></div>
+        <div class="navy-line-2" style="opacity:0"></div>
         <h1 class="title-mine section-title-per" align="center">{{$t('calculators')}}</h1>
         <h5 class="title-mine">{{$t('roi')}}</h5>
         <b-form>
