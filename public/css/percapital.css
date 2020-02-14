@@ -150,13 +150,20 @@ h6 {
     }
     
 
+    iframe{
+        height:600px;
+    }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 990px) {
     .my-bg {
         background-color: #000032;
         min-height: 50px;
         max-height: 60px;
+    }
+    
+    iframe{
+        height:500px
     }
 }
 
@@ -1809,3 +1816,4 @@ body{
     background-color: #000032 !important;
     color: #ffffff !important;
 }
+

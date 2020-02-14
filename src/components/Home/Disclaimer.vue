@@ -35,7 +35,6 @@ export default {
     },
 
     mounted() {
-        this.showModal();
         if(sessionStorage.getItem('wasVisited') === null) {
             this.showModal();
             console.log('Modal mounted.');
