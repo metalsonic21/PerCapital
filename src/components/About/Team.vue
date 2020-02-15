@@ -19,36 +19,34 @@
             <div class="row justify-content-center">
                 <b-col sm="12" md="2" lg="2">
                     <h2 class="title-mine text-center team-title">{{$t('gg')}}</h2>
-                    <p class="text-justify text-secondary features-text team-text">{{$t('ggd')}}</p>
+                    <p class="text-justify text-secondary features-text team-text team-block">{{$t('ggd')}}</p>
                     <b-img src="/img/content/icons/icon04.png" center alt="Icono 3" width="75" height="75" />
                 </b-col>
 
                 <b-col sm="12" md="2" lg="2">
                     <h2 class="title-mine text-center team-title">{{$t('f')}}</h2>
                     <br>
-                    <p class="text-secondary text-justify features-text team-text">{{$t('fd')}}</p>
-                    <br>
+                    <p class="text-secondary text-justify features-text team-text team-block">{{$t('fd')}}</p>
                     <b-img src="/img/content/icons/icon05.png" center alt="Icono 3" width="75" height="75" />
                 </b-col>
 
                 <b-col sm="12" md="2" lg="2">
                     <h2 class="title-mine text-center team-title">{{$t('ac')}}</h2>
-                    <p class="text-secondary text-justify features-text team-text">{{$t('acd')}}</p>
+                    <p class="text-secondary text-justify features-text team-text team-block">{{$t('acd')}}</p>
                     <b-img src="/img/content/icons/icon06.png" center alt="Icono 3" width="75" height="75" />
                 </b-col>
 
                 <b-col sm="12" md="2" lg="2">
                     <h2 class="title-mine text-center team-title">{{$t('fc')}}</h2>
-                    <p class="text-secondary text-justify features-text team-text">{{$t('fcd')}}</p>
+                    <p class="text-secondary text-justify features-text team-text team-block">{{$t('fcd')}}</p>
                     <b-img src="/img/content/icons/icon07.png" center alt="Icono 3" width="75" height="75" />
                 </b-col>
 
                 <b-col sm="12" md="2" lg="2">
                     <h2 class="title-mine text-center team-title">LEGAL</h2>
                     <br>
-                    <p class="text-secondary text-justify features-text team-text">{{$t('ld')}}</p>
-                    <br><br><br><br>
-                    <b-img src="/img/content/icons/icon08.png" center alt="Icono 3" width="75" height="75" id="legalimg" />
+                    <p class="text-secondary text-justify features-text team-text team-block">{{$t('ld')}}</p>
+                    <b-img src="/img/content/icons/icon08.png" center alt="Icono 3" width="75" height="75" />
                 </b-col>
             </div>
 

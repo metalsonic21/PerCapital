@@ -57,7 +57,7 @@
             <div class="row ml-5">
                 <b-col md="2" lg="2" sm="12">
                     <img alt="image" class="ml-4" src="img/content/icons/icon09.png" width="75" height="75">
-                    <h4 class="title-mine section-title-per">{{$t('rg')}}</h4>
+                    <h4 class="title-mine section-title-per ml-4">{{$t('rg')}}</h4>
                     <div class="row" id="bubbles-row">
                         <div class="bubble">
                             {{$t('risk1')}}

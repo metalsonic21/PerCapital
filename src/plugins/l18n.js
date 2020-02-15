@@ -250,7 +250,7 @@ export const i18n = new Vuel18n({
             info4pill: '14:00 diario',
             risks: 'RIESGOS',
             risk1: 'Los mercados objeto de inversión pueden subir o bajar de precio y las condiciones del mercado pueden cambiar rápidamente. Debido a esto el valor de las Unidades de Inversión de un fondo pueden variar de la misma manera. ',
-            rg: 'RIESGO GENERAL',
+            rg: 'GENERAL',
             risk2: 'La custodia de instrumentos financieros involucra riesgo de pérdida en caso de que el custodio se vuelva insolvente o incumpla sus deberes formales. El custodio de las Unidades de Inversión es la',
             risk2a: 'Caja Venezolana de Valores',
             custody: 'CUSTODIA',
@@ -400,7 +400,7 @@ export const i18n = new Vuel18n({
             scomunidadd: 'We build a community of institutional and non-institutional investors that offers a financing alternative. ',
     
             /* Numbers */
-            numbers: 'THE NUMBERS COUNT',
+            numbers: 'NUMBERS MATTER',
             indicators: 'Indicators',
             pib: 'GDP (%)',
             pob: 'Population (MM)',
@@ -602,7 +602,7 @@ export const i18n = new Vuel18n({
             info4pill: '14:00 daily',
             risks: 'RISKS',
             risk1: 'The markets subject to investment may rise or fall in price and market conditions may change rapidly. Due to this the value of the Investment Units of a fund may vary in the same way. ',
-            rg: 'GENERAL RISK',
+            rg: 'GENERAL',
             risk2: 'The custody of financial instruments involves risk of loss if the custodian becomes insolvent or fails to comply with his formal duties. The custodian of the Investment Units is the',
             risk2a: 'Caja Venezolana de Valores',
             custody: 'CUSTODY',

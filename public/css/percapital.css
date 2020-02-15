@@ -360,9 +360,40 @@ h6 {
         font-family: Arial-Rounded-MT;
         font-size: 14px;
     }
-    
+}
+
+
+
+
+@media (min-width: 1366px) {
     #hotlinks{
         margin-top: -550px;
+    }
+
+    .team-block {
+        margin-top: 15px;
+        text-align: center;
+        padding: 15px;
+        border: 0px solid #ececec;
+        border-radius: 0px;
+        transition-duration: .3s;
+        height: 250px;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1366px){
+    #hotlinks{
+        margin-top: -400px;
+    }
+
+    .team-block {
+        margin-top: 15px;
+        text-align: center;
+        padding: 15px;
+        border: 0px solid #ececec;
+        border-radius: 0px;
+        transition-duration: .3s;
+        height: 340px;
     }
 }
 
