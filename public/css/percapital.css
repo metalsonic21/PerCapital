@@ -379,6 +379,10 @@ h6 {
         transition-duration: .3s;
         height: 250px;
     }
+
+    .row-logos{
+        margin-left:70px;
+    }
 }
 
 @media (min-width:1024px) and (max-width: 1366px){
@@ -394,6 +398,17 @@ h6 {
         border-radius: 0px;
         transition-duration: .3s;
         height: 340px;
+    }
+    .row-logos{
+        margin-left:50px;
+    }
+
+    .row-risks{
+        margin-left: 80px !important;
+    }
+
+    .bubble{
+        height: 280px !important;   
     }
 }
 
@@ -1846,5 +1861,29 @@ body{
 .btn-sub{
     background-color: #000032 !important;
     color: #ffffff !important;
+}
+
+.btn-services{
+    color: #000032;
+    background-color: #f1f1f1;
+    font-family: Arial-Rounded-MT-Bold;
+}
+
+.btn-services-2{
+    color: #000032;
+    background-color: #c0cdd4;
+    font-family: Arial-Rounded-MT-Bold;
+}
+
+.btn-services:hover{
+    color: #f1f1f1;
+    background-color: #000032;
+    font-family: Arial-Rounded-MT-Bold;
+}
+
+.btn-services-2:hover{
+    color: #c0cdd4;
+    background-color: #000032;
+    font-family: Arial-Rounded-MT-Bold;
 }
 

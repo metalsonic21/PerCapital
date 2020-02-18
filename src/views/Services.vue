@@ -13,6 +13,24 @@
                             {{$t('a1')}}
                         </p>
 
+                        <!-- Element to collapse -->
+                        <b-collapse id="info1">
+                            <p class="services-text text-justify">
+                                {{$t('a11')}}
+                            </p>
+
+                            <p class="services-text text-justify">
+                                <ul>
+                                    <li>{{$t('a1l1')}}</li>
+                                    <li>{{$t('a1l2')}}</li>
+                                </ul>
+                            </p>
+
+                            <p class="services-text text-justify">
+                                {{$t('a12')}}
+                            </p>
+                        </b-collapse>
+                        <b-button class="btn-services" v-b-toggle.info1>&nbsp;{{$t('readmore')}}</b-button>
                     </b-col>
 
                     <b-col sm="12" md="6" lg="6">
@@ -31,6 +49,22 @@
                         <h2 class="title-mine services-title">{{$t('a2tit')}}</h2>
                         <p class="services-text text-justify">{{$t('a2')}}</p>
 
+                        <!-- Element to collapse -->
+                        <b-collapse id="info2">
+                            <p class="services-text text-justify">{{$t('a21')}}
+                                <ul>
+                                    <li>{{$t('a2l1')}}</li>
+                                    <li>{{$t('a2l2')}}</li>
+                                    <li>{{$t('a2l3')}}</li>
+                                    <li>{{$t('a2l4')}}</li>
+                                </ul>
+                            </p>
+
+                            <p class="services-text text-justify">{{$t('a22')}}
+
+                            </p>
+                        </b-collapse>
+                        <b-button class="btn-services-2" v-b-toggle.info2>&nbsp;{{$t('readmore')}}</b-button>
                     </b-col>
 
                     <b-col sm="12" md="6" lg="6">
@@ -51,6 +85,22 @@
                             <li>{{$t('a3l1')}}</li>
                             <li>{{$t('a3l2')}}</li>
                         </ul>
+                        <!-- Element to collapse -->
+                        <b-collapse id="info3">
+                            <p class="services-text text-justify">{{$t('a3l3')}}
+                                <ul>
+                                    <li>{{$t('a3l4')}}</li>
+                                    <li>{{$t('a3l5')}}</li>
+                                    <li>{{$t('a3l6')}}</li>
+                                    <li>{{$t('a3l7')}}</li>
+                                </ul>
+                            </p>
+
+                        </b-collapse>
+
+                        <b-button class="btn-services" v-b-toggle.info3>&nbsp;{{$t('readmore')}}</b-button>
+
+
                     </b-col>
 
                     <b-col sm="12" md="6" lg="6">
@@ -67,6 +117,18 @@
                         <br><br><br><br><br>
                         <h2 class="title-mine services-title">{{$t('a4tit')}}</h2>
                         <p class="services-text text-justify">{{$t('a4')}} {{$t('a4l1')}}</p>
+                        <!-- Element to collapse -->
+                        <b-collapse id="info4">
+                            <p class="services-text text-justify">{{$t('a4rep')}}
+
+                                <ul>
+                                    <li>{{$t('a4l2')}}</li>
+                                    <li>{{$t('a4l3')}}</li>
+                                </ul>
+                            </p>
+                        </b-collapse>
+                        <b-button class="btn-services-2" v-b-toggle.info4>&nbsp;{{$t('readmore')}}</b-button>
+
                     </b-col>
 
                     <b-col sm="12" md="6" lg="6">

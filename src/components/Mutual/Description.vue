@@ -23,6 +23,10 @@
 
                 <b-list-group>
                     <b-list-group-item class="d-flex justify-content-between align-items-center">
+                        {{$t('mutuall')}}
+                        <b-badge class="tag-item">Bs 50.000</b-badge>
+                    </b-list-group-item>                    
+                    <b-list-group-item class="d-flex justify-content-between align-items-center">
                         {{$t('info1')}}
                         <b-badge class="tag-item">2020</b-badge>
                     </b-list-group-item>
@@ -54,7 +58,7 @@
     <h1 class="title-mine section-title-per text-center">{{$t('risks')}}</h1>
     <section class="light-section">
         <div class="container">
-            <div class="row ml-5">
+            <div class="row ml-5 row-risks">
                 <b-col md="2" lg="2" sm="12">
                     <img alt="image" class="ml-4" src="img/content/icons/icon09.png" width="75" height="75">
                     <h4 class="title-mine section-title-per ml-4">{{$t('rg')}}</h4>

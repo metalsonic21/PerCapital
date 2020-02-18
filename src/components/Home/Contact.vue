@@ -23,8 +23,7 @@
                         <font-awesome-icon icon="phone" size="3x" style="color:grey;-webkit-transform: scaleX(-1);transform: scaleX(-1);"></font-awesome-icon>
                         <br><br>
                         <h4 class="contact-title">{{$t('phone')}}</h4>
-                        <p>0212-7501010 <br>
-                        0212-7500150</p>
+                        <p>0212-7501010<br>0212-7500150</p>
                         <br><br>
                     </div>
                 </div>

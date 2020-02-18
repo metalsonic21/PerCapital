@@ -279,6 +279,7 @@ export const i18n = new Vuel18n({
             btnsubscribe2: 'SUSCRÍBETE',
 
             /* Services */
+            readmore: 'LEER MÁS',
             a1tit: 'ADMINISTRACIÓN DE E.I.C.',
             a1: 'Las Entidades de Inversión Colectiva (E.I.C) o Fondos son una manera de canalizar el capital de inversionistas como un patrimonio común para el desarrollo de distintos proyectos con el objetivo de obtener rendimiento. ',
             a11: 'PER CAPITAL cuenta con la autorización del regulador para la administración de E.I.C. y pone a su disposición su experiencia y equipo especializado para: ',
@@ -305,6 +306,7 @@ export const i18n = new Vuel18n({
             a32: 'Nos apoyamos en nuestra red de aliados en el mercado de capitales local e internacional.',
             a4tit: 'INGENIERÍA FINANCIERA',
             a4: 'Ofrecemos soluciones financieras para clientes corporativos, institucionales e individuos de alta renta como: ',
+            a4rep: 'Otras soluciones que ofrecemos:',
             a4l1: 'Fusiones y Adquisidores (compra, venta, división y combinación de empresas)',
             a4l2: 'Diseño y colocación de productos estructurados',
             a4l3: '(Re) Estructuración corporativa',
@@ -587,7 +589,7 @@ export const i18n = new Vuel18n({
 
             
             /* Mutual */
-            mutual: 'OPEN CAPITAL INVESTMENT',
+            mutual: 'PER CAPITAL MUTUAL FUND (Open Capital Investmenet)',
             mutuall: 'I.U.V',
             goal: 'OVERVIEW',
             goaldesc: 'The PER CAPITAL fund Mutual Fund for Open Capital Investment aims to produce medium and long-term capital growth. It mainly invests in shares of companies that are listed, traded and incorporated into the Caracas Stock Exchange, do business and are domiciled',
@@ -631,6 +633,7 @@ export const i18n = new Vuel18n({
             btnsubscribe2: 'SUBSCRIBE',
 
             /* Services */
+            readmore: 'READ MORE',
             a1tit: 'ASSET MANAGEMENT',
             a1: 'Collective Investment Entities (E.I.C) or Funds are a way of channeling the capital of investors as a common asset for the development of different projects with the objective of obtaining a return.',
             a11: 'PER CAPITAL has authorization of the regulator for the administration of Funds and E.I.C. and puts at your disposal our experience and specialized team to: ',
@@ -657,6 +660,7 @@ export const i18n = new Vuel18n({
             a32: 'We rely on our network in the local and international capital markets.',
             a4tit: 'FINANCIAL ENGINEERING',
             a4: 'We offer financial solutions for corporate clients, institutional and high-income individuals such as: ',
+            a4rep: 'Other solutions that we offer:',
             a4l1: 'Mergers and Acquirers (purchase, sale, division and combination of companies)',
             a4l2: 'Design and placement of structured products',
             a4l3: '(Re) Corporate structuring',

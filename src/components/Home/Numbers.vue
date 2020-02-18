@@ -13,7 +13,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title">  {{$t('pib')}}</h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">-25.4</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title">  {{$t('pob')}}</h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">28,067</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> {{$t('ri')}}</h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">$ 7,555</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> {{$t('tc')}}</h4>
                 <hr>
-                        <h5 class="no-margins text-center number-val">39,947.60</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> {{$t('te')}}</h4>
                         <hr>
-                        <h5 class="no-margins text-center number-val">44,291.90</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> IBC</h4>
                         <hr>
-                        <h5 class="no-margins text-center number-val">71,167.77</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> {{$t('co')}}</h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">$ 63.39</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                     <div class="ibox-title">
                         <h4 class="text-center numbers-title"> {{$t('cv')}}</h4>
                     <hr>
-                        <h5 class="no-margins text-center number-val">357,40 $50,87</h5>
+                        <h5 class="no-margins text-center number-val">─</h5>
 
                     </div>
                 </div>
